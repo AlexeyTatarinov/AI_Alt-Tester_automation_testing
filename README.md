@@ -53,3 +53,7 @@ Unity 6000.3 with the Chop Chop project, AltTester Desktop 2.4.x with the Unity 
 
 - Mouse control of the Unity window is deliberately not used; everything is done through the SDK, files and keyboard events.
 - The AltTester Pro trial was used for the CLI; the SDK scripts are the main tool.
+
+## License
+
+MIT, see `LICENSE`. This covers the test scripts, reports and documents in this repository only; the Chop Chop game and the AltTester software have their own licenses.
