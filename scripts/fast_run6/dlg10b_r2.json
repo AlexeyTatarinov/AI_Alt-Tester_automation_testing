@@ -1,0 +1,137 @@
+{
+ "res": {
+  "round": "2",
+  "opened_s": 0.17,
+  "step1_moved": 0.37,
+  "found_at_press": null,
+  "last_line_change_t": 20.1,
+  "t_found": null,
+  "pause_no_buttons_s": null
+ },
+ "log": [
+  [
+   1,
+   1.3,
+   true,
+   false,
+   false,
+   "You made it! Welcome to Yolk island!"
+  ],
+  [
+   2,
+   2.7,
+   true,
+   false,
+   false,
+   "It's been a while! Did you come for the cooking festival?"
+  ],
+  [
+   3,
+   4.2,
+   true,
+   false,
+   false,
+   "Yes, I've heard great things about the local chef. Comb, I t"
+  ],
+  [
+   4,
+   5.5,
+   true,
+   false,
+   false,
+   "Oh yes, he's a legend around here. He's very hard to impress"
+  ],
+  [
+   5,
+   6.8,
+   true,
+   false,
+   false,
+   "You'll have to prepare something very special to win the con"
+  ],
+  [
+   6,
+   8.1,
+   true,
+   false,
+   false,
+   "Oh yeah! Thanks! I love them so much."
+  ],
+  [
+   7,
+   9.5,
+   true,
+   false,
+   false,
+   "You cook too?"
+  ],
+  [
+   8,
+   10.9,
+   true,
+   false,
+   false,
+   "It's been our family's treasure for generations."
+  ],
+  [
+   9,
+   12.2,
+   true,
+   false,
+   false,
+   "Wow, you're really a natural at cooking! The recipe came out"
+  ],
+  [
+   10,
+   13.5,
+   true,
+   false,
+   false,
+   "Wow, you're really a natural at cooking! The recipe came out"
+  ],
+  [
+   11,
+   14.9,
+   true,
+   false,
+   false,
+   "Wow, you're really a natural at cooking! The recipe came out"
+  ],
+  [
+   12,
+   16.2,
+   true,
+   false,
+   false,
+   "Wow, you're really a natural at cooking! The recipe came out"
+  ],
+  [
+   13,
+   17.5,
+   true,
+   false,
+   false,
+   "Now, if you want to go and check out the festival, just head"
+  ],
+  [
+   14,
+   18.8,
+   true,
+   false,
+   false,
+   "Now, if you want to go and check out the festival, just head"
+  ],
+  [
+   15,
+   20.1,
+   false,
+   false,
+   false,
+   ""
+  ],
+  [
+   16,
+   "dialog closed before choices"
+  ]
+ ]
+}

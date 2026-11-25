@@ -1,0 +1,196 @@
+{
+ "opened_s": 0.16,
+ "step_moved": 0.35,
+ "approach": 0.35,
+ "talk": {
+  "closed": true,
+  "used": "Space",
+  "per_method": {
+   "Space": {
+    "presses": 18,
+    "changed": true
+   }
+  },
+  "elapsed": 11.2
+ },
+ "N": 18,
+ "hint_back": null,
+ "after_step": 0.73,
+ "save_before": {
+  "hash": "628fab9eef30a455",
+  "finished": [],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "save_after": {
+  "hash": "8d5f8004fba94efd",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "log": [
+  [
+   "Space",
+   1,
+   "Hey Hamlet!",
+   "You made it! Welcome to Yolk island!",
+   true,
+   0.6
+  ],
+  [
+   "Space",
+   2,
+   "You made it! Welcome to Yolk island!",
+   "It's been a while! Did you come for the cooking festival?",
+   true,
+   1.2
+  ],
+  [
+   "Space",
+   3,
+   "It's been a while! Did you come for the cooking festival?",
+   "Yes, I've heard great things about the local chef. Comb, I think he's called?",
+   true,
+   1.9
+  ],
+  [
+   "Space",
+   4,
+   "Yes, I've heard great things about the local chef. Comb, I think he's called?",
+   "Oh yes, he's a legend around here. He's very hard to impress.",
+   true,
+   2.5
+  ],
+  [
+   "Space",
+   5,
+   "Oh yes, he's a legend around here. He's very hard to impress.",
+   "You'll have to prepare something very special to win the contest!",
+   true,
+   3.1
+  ],
+  [
+   "Space",
+   6,
+   "You'll have to prepare something very special to win the contest!",
+   "I wasn't necessarily planning to take part in it, but...",
+   true,
+   3.7
+  ],
+  [
+   "Space",
+   7,
+   "I wasn't necessarily planning to take part in it, but...",
+   "You have to! I'm curious to see what you come up with.",
+   true,
+   4.3
+  ],
+  [
+   "Space",
+   8,
+   "You have to! I'm curious to see what you come up with.",
+   "I'll check it out when I get to town. Which way?",
+   true,
+   4.9
+  ],
+  [
+   "Space",
+   9,
+   "I'll check it out when I get to town. Which way?",
+   "Wait, before you go there. Can I ask you a favour?",
+   true,
+   5.5
+  ],
+  [
+   "Space",
+   10,
+   "Wait, before you go there. Can I ask you a favour?",
+   "I've just arrived and you're asking me a favour?",
+   true,
+   6.1
+  ],
+  [
+   "Space",
+   11,
+   "I've just arrived and you're asking me a favour?",
+   "The thing is, I'm trying to gather some seeds for a recipe but the local plants are a bit... aggressive.",
+   true,
+   6.7
+  ],
+  [
+   "Space",
+   12,
+   "The thing is, I'm trying to gather some seeds for a recipe but the local plants are a bit... aggressive.",
+   "They call them Groens, and they are carnivorous plants that eat much more than insects.",
+   true,
+   7.3
+  ],
+  [
+   "Space",
+   13,
+   "They call them Groens, and they are carnivorous plants that eat much more than insects.",
+   "I guess they also love good food.",
+   true,
+   8.0
+  ],
+  [
+   "Space",
+   14,
+   "I guess they also love good food.",
+   "I know you can take care of them!",
+   true,
+   8.6
+  ],
+  [
+   "Space",
+   15,
+   "I know you can take care of them!",
+   "Where can I find them?",
+   true,
+   9.2
+  ],
+  [
+   "Space",
+   16,
+   "Where can I find them?",
+   "There's a few of them just over the hill above the beach.",
+   true,
+   9.9
+  ],
+  [
+   "Space",
+   17,
+   "There's a few of them just over the hill above the beach.",
+   "Anything for you, my friend.",
+   true,
+   10.5
+  ],
+  [
+   "Space",
+   18,
+   "Anything for you, my friend.",
+   null,
+   false,
+   11.1
+  ]
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "before": [
+  "10",
+  "10",
+  "10"
+ ],
+ "after_change": [
+  "5",
+  "7",
+  "10"
+ ],
+ "reopened_same_session": [
+  "5",
+  "10",
+  "7"
+ ],
+ "save_hash": "fcb6e9a1323d0f2e"
+}

@@ -1,0 +1,90 @@
+{
+ "settings_it": [
+  [
+   "VersionNo",
+   "v 0.9"
+  ],
+  [
+   "Disclamer",
+   "Work in progress. This game is being made as a collaborative effort by Unity and the community."
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Continue' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'NewGame' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Settings' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Credits' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Exit' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Audio' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Graphics' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Language' in UI Misc"
+  ],
+  [
+   "Setting_Title",
+   "No translation found for 'Language' in UI Misc"
+  ],
+  [
+   "CurrentOption",
+   "italiano"
+  ],
+  [
+   "ButtonText",
+   "No translation found for 'Save' in UI Misc"
+  ],
+  [
+   "ButtonText",
+   "No translation found for 'Reset' in UI Misc"
+  ]
+ ],
+ "mainmenu_it": [
+  [
+   "VersionNo",
+   "v 0.9"
+  ],
+  [
+   "Disclamer",
+   "Work in progress. This game is being made as a collaborative effort by Unity and the community."
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Continue' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'NewGame' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Settings' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Credits' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Exit' in UI Misc"
+  ]
+ ]
+}

@@ -1,0 +1,392 @@
+[
+ {
+  "name": "Boat",
+  "cid": "COLL-02 Boat",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 2.44,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.5244424099322451,
+    "back": 1.04,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.515
+   },
+   {
+    "start": 2.4,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.5165874036797309,
+    "back": 1.04,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.514
+   },
+   {
+    "start": 2.42,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.6854314900345495,
+    "back": 1.04,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.515
+   }
+  ],
+  "expected": null,
+  "inside": null
+ },
+ {
+  "name": "Palm (3)",
+  "cid": "COLL-02 Palm (3)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 2.8,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.1676447105177257,
+    "back": 1.06,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.168
+   },
+   {
+    "start": 2.44,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.4032702205918943,
+    "back": 1.06,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.185
+   },
+   {
+    "start": 2.35,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.2287976100237223,
+    "back": 1.04,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.189
+   }
+  ],
+  "expected": 0.93,
+  "inside": 0
+ },
+ {
+  "name": "Palm (4)",
+  "cid": "COLL-02 Palm (4)",
+  "status": "Не подтверждено",
+  "reps": [
+   {
+    "start": 1.86,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.2120839517129296,
+    "back": 1.06,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.115
+   },
+   {
+    "start": 2.55,
+    "staged": true,
+    "reason": "лимит 30 шагов",
+    "stop": 1.099,
+    "back": 0.82,
+    "crossed": false,
+    "stopped": false,
+    "min_d": 1.099
+   },
+   {
+    "start": 2.49,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.2966014385693279,
+    "back": 1.09,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.099
+   }
+  ],
+  "expected": 0.93,
+  "inside": 0
+ },
+ {
+  "name": "Palm (2)",
+  "cid": "COLL-02 Palm (2)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 3.48,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.2144848613712633,
+    "back": 1.11,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.214
+   },
+   {
+    "start": 2.72,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.345266146604462,
+    "back": 1.07,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.299
+   },
+   {
+    "start": 2.41,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.2787714162038326,
+    "back": 1.05,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.716
+   }
+  ],
+  "expected": 0.93,
+  "inside": 0
+ },
+ {
+  "name": "BeachPalm(Polybrush Clone)",
+  "cid": "COLL-02 BeachPalm(Polybrush Clone)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 2.8,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.5979953167040536,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.598
+   },
+   {
+    "start": 0.6,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.5979953167040536,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.598
+   },
+   {
+    "start": 0.6,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.5979953167040536,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.598
+   }
+  ],
+  "expected": 0.58,
+  "inside": 0
+ },
+ {
+  "name": "Palm2(Polybrush Clone)",
+  "cid": "COLL-02 Palm2(Polybrush Clone) (19 м)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 4.26,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 4.259640126959103,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 4.26
+   },
+   {
+    "start": 4.26,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 4.259640126959103,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 4.26
+   },
+   {
+    "start": 4.26,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 4.259640126959103,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 4.26
+   }
+  ],
+  "expected": 1.02,
+  "inside": 0
+ },
+ {
+  "name": "Palm (5)",
+  "cid": "COLL-02 Palm (5)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 5.82,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 5.816314452297119,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 5.816
+   },
+   {
+    "start": 5.82,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 5.816314452297119,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 5.816
+   },
+   {
+    "start": 5.82,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 5.816314452297119,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 5.816
+   }
+  ],
+  "expected": 0.93,
+  "inside": 0
+ },
+ {
+  "name": "Palm2(Polybrush Clone)",
+  "cid": "COLL-02 Palm2(Polybrush Clone) (26 м)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 7.82,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 7.815438102448276,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 7.815
+   },
+   {
+    "start": 7.82,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 7.815438102448276,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 7.815
+   },
+   {
+    "start": 7.82,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 7.815438102448276,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 7.815
+   }
+  ],
+  "expected": 1.02,
+  "inside": 0
+ },
+ {
+  "name": "BigRock2 (4)",
+  "cid": "COLL-02 BigRock2 (4)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 49.53,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 49.527411806069544,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 49.527
+   },
+   {
+    "start": 49.53,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 49.527411806069544,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 49.527
+   },
+   {
+    "start": 49.53,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 49.527411806069544,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 49.527
+   }
+  ],
+  "expected": null,
+  "inside": null
+ },
+ {
+  "name": "BigRock (8)",
+  "cid": "COLL-02 BigRock (8)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 65.77,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 65.76879592183515,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 65.769
+   },
+   {
+    "start": 65.77,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 65.76879592183515,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 65.769
+   },
+   {
+    "start": 65.77,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 65.76879592183515,
+    "back": 0.0,
+    "crossed": false,
+    "stopped": true,
+    "min_d": 65.769
+   }
+  ],
+  "expected": null,
+  "inside": null
+ }
+]

@@ -1,0 +1,22 @@
+[
+ {
+  "step": 1,
+  "dist": 2.65,
+  "hint": false
+ },
+ {
+  "step": 2,
+  "dist": 2.32,
+  "hint": false
+ },
+ {
+  "step": 3,
+  "dist": 1.97,
+  "hint": false
+ },
+ {
+  "step": 4,
+  "dist": 1.56,
+  "hint": true
+ }
+]

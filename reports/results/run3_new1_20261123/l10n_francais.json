@@ -1,0 +1,123 @@
+{
+ "fr_settings": [
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "Text (TMP)",
+   "Audio"
+  ],
+  [
+   "Text (TMP)",
+   "Graphics"
+  ],
+  [
+   "Text (TMP)",
+   "Language"
+  ],
+  [
+   "Setting_Title",
+   "Language"
+  ],
+  [
+   "CurrentOption",
+   "English"
+  ],
+  [
+   "ButtonText",
+   "Save"
+  ],
+  [
+   "ButtonText",
+   "Reset"
+  ]
+ ],
+ "save_changed_after_Save": true,
+ "fr_pause": [
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "PopupDescription",
+   "Take your time. "
+  ],
+  [
+   "PopupTitle",
+   "Hold on ! "
+  ],
+  [
+   "ButtonText",
+   "Resume"
+  ],
+  [
+   "ButtonText",
+   "Settings"
+  ],
+  [
+   "ButtonText",
+   "Back to Menu"
+  ]
+ ],
+ "fr_hud": [
+  [
+   "Text (TMP)",
+   "/"
+  ]
+ ],
+ "fr_inv": [
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "Text (TMP)",
+   "T"
+  ],
+  [
+   "Text (TMP)",
+   "Y"
+  ],
+  [
+   "Count",
+   "1"
+  ],
+  [
+   "Count",
+   "14"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "1"
+  ],
+  [
+   "ItemName",
+   "Phoenix Chick"
+  ],
+  [
+   "ItemHealthRestoration",
+   ""
+  ],
+  [
+   "ItemDescription",
+   "This is the phoenix Chick"
+  ]
+ ]
+}

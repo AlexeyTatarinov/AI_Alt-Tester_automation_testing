@@ -1,0 +1,45 @@
+{
+ "preflight": {
+  "time": "12:34:53",
+  "label": "finish",
+  "port_13000": true,
+  "window": {
+   "pid": 2576,
+   "cpu_delta_1_5s": 3.5,
+   "foreground": false,
+   "title": "UOP1_Project - Beach - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
+   "responding": true,
+   "found": true,
+   "shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run4_new2_20261123\\shots\\preflight_finish.png",
+   "iconic": false
+  },
+  "consoleFlags": 7683,
+  "consoleFlags_note": "прочиталось (assembly UnityEditor.CoreModule)",
+  "error_pause": false,
+  "play": [
+   true,
+   "isPlaying прочитан"
+  ],
+  "log_offset": 79257676,
+  "log_last_lines": [
+   "NLog.Logger:Debug (string)",
+   "AltTester.AltTesterUnitySDK.Commands.CommandHandler:Send (string)",
+   "AltTester.AltTesterUnitySDK.Commands.CommandHandler/<>c__DisplayClass30_0:<OnMessage>b__0 ()",
+   "AltTester.AltTesterSDK.Driver.AltResponseQueue:Cycle ()",
+   "AltTester.AltTesterUnitySDK.Commands.AltRunner:Update ()"
+  ],
+  "alive": true,
+  "alive_detail": "frameCount 805586 -> 805716"
+ },
+ "guard_offset": 79257676,
+ "unpause_attempts": 0,
+ "risky_checkpoint": {
+  "time": "12:32:14",
+  "step": "DLG-11: Q в диалоге",
+  "log_size": 77357594,
+  "save_hashes": {
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079"
+  }
+ }
+}

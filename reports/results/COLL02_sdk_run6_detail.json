@@ -1,0 +1,154 @@
+[
+ {
+  "name": "Boat",
+  "cid": "COLL-02 Boat",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 3.11,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.4464375640880434,
+    "back": 1.11,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.365
+   },
+   {
+    "start": 2.55,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.3863507485827533,
+    "back": 1.1,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.386
+   },
+   {
+    "start": 2.49,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.375319904367354,
+    "back": 1.1,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.375
+   }
+  ],
+  "expected": null,
+  "inside": null
+ },
+ {
+  "name": "Palm (3)",
+  "cid": "COLL-02 Palm (3)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 2.46,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.1958461402609448,
+    "back": 1.09,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.174
+   },
+   {
+    "start": 2.56,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.2022918551387385,
+    "back": 1.1,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.182
+   },
+   {
+    "start": 2.61,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.1897626613824983,
+    "back": 1.08,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.19
+   }
+  ],
+  "expected": 0.93,
+  "inside": 0
+ },
+ {
+  "name": "Palm (4)",
+  "cid": "COLL-02 Palm (4)",
+  "status": "Не подтверждено",
+  "reps": [
+   {
+    "start": 3.46,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.0999634475058773,
+    "back": 0.0,
+    "state_after": "Sliding",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.1
+   }
+  ],
+  "error": "персонаж не двигается (состояние: Sliding): проверка невозможна"
+ },
+ {
+  "name": "Palm (2)",
+  "cid": "COLL-02 Palm (2)",
+  "status": "Не подтверждено",
+  "reps": [],
+  "error": "персонаж не двигается (состояние: Sliding): проверка невозможна"
+ },
+ {
+  "name": "BeachPalm(Polybrush Clone)",
+  "cid": "COLL-02 BeachPalm(Polybrush Clone)",
+  "status": "Не подтверждено",
+  "reps": [],
+  "error": "персонаж не двигается (состояние: Sliding): проверка невозможна"
+ },
+ {
+  "name": "Palm2(Polybrush Clone)",
+  "cid": "COLL-02 Palm2(Polybrush Clone) (19 м)",
+  "status": "Не подтверждено",
+  "reps": [],
+  "error": "персонаж не двигается (состояние: Sliding): проверка невозможна"
+ },
+ {
+  "name": "Palm (5)",
+  "cid": "COLL-02 Palm (5)",
+  "status": "Не подтверждено",
+  "reps": [],
+  "error": "персонаж не двигается (состояние: Sliding): проверка невозможна"
+ },
+ {
+  "name": "Palm2(Polybrush Clone)",
+  "cid": "COLL-02 Palm2(Polybrush Clone) (26 м)",
+  "status": "Не подтверждено",
+  "reps": [],
+  "error": "персонаж не двигается (состояние: Sliding): проверка невозможна"
+ },
+ {
+  "name": "BigRock2 (4)",
+  "cid": "COLL-02 BigRock2 (4)",
+  "status": "Не подтверждено",
+  "reps": [],
+  "error": "персонаж не двигается (состояние: Sliding): проверка невозможна"
+ },
+ {
+  "name": "BigRock (8)",
+  "cid": "COLL-02 BigRock (8)",
+  "status": "Не подтверждено",
+  "reps": [],
+  "error": "персонаж не двигается (состояние: Sliding): проверка невозможна"
+ }
+]

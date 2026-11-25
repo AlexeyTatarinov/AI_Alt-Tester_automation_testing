@@ -1,0 +1,46 @@
+[
+ {
+  "time": "10:48:34",
+  "case": "INT-03",
+  "why": "перед кейсом: подключение не удалось: NoAppConnected",
+  "klass": "причина неизвестна",
+  "recv_without_sent": false,
+  "last_command_received": null,
+  "last_error": "Prefab instance problem. Missing Prefab Asset: 'Rocks_Path_Divider (Missing Prefab with guid: fa681c013617a6742b914f9f026e1c77)'",
+  "probable_cause": "вероятная причина: Prefab instance problem. Missing Prefab Asset: 'Rocks_Path_Divider (Missing Prefab with guid: fa681c013617a6742b914f9f026e1c77)'",
+  "log_size": 31989697,
+  "window": {
+   "title": "UOP1_Project - Beach - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
+   "found": true,
+   "pid": 2576,
+   "iconic": true,
+   "foreground": false,
+   "responding": true,
+   "cpu_delta_1_5s": 3
+  },
+  "log_tail_copy": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\log_tails\\104836_stall_INT-03.txt",
+  "unpause_attempts_used": 0
+ },
+ {
+  "time": "10:50:26",
+  "case": "INT-03",
+  "why": "перед кейсом: подключение не удалось: NoAppConnected",
+  "klass": "причина неизвестна",
+  "recv_without_sent": false,
+  "last_command_received": null,
+  "last_error": "Prefab instance problem. Missing Prefab Asset: 'Rocks_Path_Divider (Missing Prefab with guid: fa681c013617a6742b914f9f026e1c77)'",
+  "probable_cause": "вероятная причина: Prefab instance problem. Missing Prefab Asset: 'Rocks_Path_Divider (Missing Prefab with guid: fa681c013617a6742b914f9f026e1c77)'",
+  "log_size": 32075842,
+  "window": {
+   "title": "UOP1_Project - Beach - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
+   "found": true,
+   "pid": 2576,
+   "iconic": true,
+   "foreground": false,
+   "responding": true,
+   "cpu_delta_1_5s": 2.969
+  },
+  "log_tail_copy": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\log_tails\\105028_stall_INT-03.txt",
+  "unpause_attempts_used": 0
+ }
+]

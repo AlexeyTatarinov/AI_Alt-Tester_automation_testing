@@ -1,0 +1,122 @@
+{
+ "it_settings": [
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Audio' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Graphics' in UI Misc"
+  ],
+  [
+   "Text (TMP)",
+   "No translation found for 'Language' in UI Misc"
+  ],
+  [
+   "Setting_Title",
+   "No translation found for 'Language' in UI Misc"
+  ],
+  [
+   "CurrentOption",
+   "italiano"
+  ],
+  [
+   "ButtonText",
+   "No translation found for 'Save' in UI Misc"
+  ],
+  [
+   "ButtonText",
+   "No translation found for 'Reset' in UI Misc"
+  ]
+ ],
+ "it_pause": [
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "PopupDescription",
+   "Take your time. "
+  ],
+  [
+   "PopupTitle",
+   "Hold on ! "
+  ],
+  [
+   "ButtonText",
+   "Resume"
+  ],
+  [
+   "ButtonText",
+   "Settings"
+  ],
+  [
+   "ButtonText",
+   "Back to Menu"
+  ]
+ ],
+ "it_hud": [
+  [
+   "Text (TMP)",
+   "/"
+  ]
+ ],
+ "it_inv": [
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "Text (TMP)",
+   "T"
+  ],
+  [
+   "Text (TMP)",
+   "Y"
+  ],
+  [
+   "Count",
+   "1"
+  ],
+  [
+   "Count",
+   "14"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "1"
+  ],
+  [
+   "ItemName",
+   "Phoenix Chick"
+  ],
+  [
+   "ItemHealthRestoration",
+   ""
+  ],
+  [
+   "ItemDescription",
+   "This is the phoenix Chick"
+  ]
+ ]
+}

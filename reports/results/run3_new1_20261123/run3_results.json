@@ -1,0 +1,84 @@
+[
+ {
+  "verdict": "Invalid",
+  "numbers": "GUARD-01: шаг подхода (W 0,3 с) сдвинул игрока на 0.0 м (< 0.3): игрок заморожен (диалог/меню/пауза?), кейс не выполнялся; ",
+  "guard01": {
+   "verdict": "Invalid",
+   "approach_moved_m": 0.0,
+   "invalid_frozen": true,
+   "sliding_gt3s": false,
+   "sliding_max_s": 0.0
+  },
+  "save05": {
+   "before": {
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "7383d0056b4db998",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "33c38933a6cb735c",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+   },
+   "after": {
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "7383d0056b4db998",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "33c38933a6cb735c",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+   },
+   "changed": false
+  },
+  "id": "GUARD-01 frozen (меню паузы)",
+  "seconds": 2.2,
+  "finished": "11:56:07"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "(заглушка: всегда Passed)",
+  "guard01": {
+   "verdict": "Пройдено",
+   "approach_moved_m": 1.03,
+   "invalid_frozen": false,
+   "sliding_gt3s": false,
+   "sliding_max_s": 0.0
+  },
+  "save05": {
+   "before": {
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "7383d0056b4db998",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "33c38933a6cb735c",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+   },
+   "after": {
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "7383d0056b4db998",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "33c38933a6cb735c",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+   },
+   "changed": false
+  },
+  "id": "GUARD-01 control (свободное управление)",
+  "seconds": 2.3,
+  "finished": "11:56:11"
+ },
+ {
+  "id": "GUARD-01",
+  "verdict": "Пройдено",
+  "numbers": "замороженный случай (меню паузы «Hold on!» открыто, timeScale 0.0): шаг подхода W 0,3 с сдвинул на 0.0 м (< 0,3), кейс-заглушка с вердиктом Passed получил «Invalid», заглушка не вызывалась (вызовов 1); контроль (меню закрыто Esc=True): сдвиг 1.03 м (≥ 0,3), вердикт «Пройдено»; флаг Sliding > 3 с: непрерывные 3,6 с → флаг=True, 2 + 2 с с перерывом → флаг=False (ожидаются True/False)",
+  "evidence": "shots/guard01_frozen.png; встроено: scripts/fast_run3/guard.py (SlideWatch, judge), fastlib.py (approach_step, case)"
+ },
+ {
+  "id": "PAUSE-01",
+  "verdict": "Пройдено",
+  "numbers": "Beach, свободно: шаг W до паузы 1.02 м; Esc → меню открыто=True, timeScale 0.0, игровое время за 1,5 с +0.0 (кадров отрисовано 400); W 0,5 с в меню сдвинул на 0.0 м; закрыто Esc=True (после: меню=False, timeScale 1.0); шаг после закрытия 1.02 м (≥ 0,5)",
+  "evidence": "shots/pause01_free.png, pause01_menu.png, pause01_resumed.png"
+ },
+ {
+  "id": "INV-13",
+  "verdict": "Пройдено",
+  "numbers": "у котла (подсказка на 1.93 м, E → инвентарь открыт=True, _isNearPot=True, вкладка Recipe=2): рецептов нет (вкладка пуста), кнопка действия interactable=False (неактивна = норма); _errorPotMessage=False; Q один раз: исключений 0, ошибок 0, save.chop изменился=False, игра жива=True; Tab закрыл=True, шаг после 1.08 м (≥0,5)",
+  "evidence": "shots/inv13_*.png"
+ },
+ {
+  "id": "INV-10",
+  "verdict": "Пройдено",
+  "numbers": "предмет Seed (Use), количество ДО Q 20, ПОСЛЕ Q: через 1 с 19, через 3 с 19 (изменение -1, ожидается −1; больше −1 = накопившиеся подписки CC-81); перед Q 2 раза выбран другой предмет и возврат; исключений 0, ошибок 0, save.chop изменился=True, игра жива=True; инвентарь закрыт=True, шаг после 1.05 м",
+  "evidence": "shots/inv10_*.png"
+ }
+]

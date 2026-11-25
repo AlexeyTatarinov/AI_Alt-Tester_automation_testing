@@ -1,0 +1,138 @@
+[
+ {
+  "n": 1,
+  "time": "14:12:38",
+  "title": "0. Исходное состояние: чистый Play, меню",
+  "ok": true,
+  "details": "realtimeSinceStartup 65 с, frameCount 5522, Error Pause выключен (consoleFlags 7683)",
+  "shot": "shots/01_00_menu.png"
+ },
+ {
+  "n": 2,
+  "time": "14:12:58",
+  "title": "1. New Game: игра началась на пляже",
+  "ok": true,
+  "details": "сцены ['PersistentManagers', 'Gameplay', 'Beach'], семян в сохранении: 20",
+  "shot": "shots/02_01_beach.png"
+ },
+ {
+  "n": 3,
+  "time": "14:13:08",
+  "title": "2. Подошли к зайцу BardHare: появилась подсказка «E»",
+  "ok": true,
+  "details": "расстояние 0.95 м",
+  "shot": "shots/03_02_hint.png"
+ },
+ {
+  "n": 4,
+  "time": "14:13:09",
+  "title": "3. Первый разговор открыт",
+  "ok": true,
+  "details": "первая реплика: Hey Hamlet!",
+  "shot": "shots/04_03_dialogue1_open.png"
+ },
+ {
+  "n": 5,
+  "time": "14:13:30",
+  "title": "4. Первый разговор прошли до конца",
+  "ok": true,
+  "details": "нажатий Space: 18 (ожидание 18), кнопок Yes/No нет, шагов квеста в save.chop: ['2187c1f18f6f9ae4bbd10f33a1871d8e']",
+  "shot": "shots/05_04_dialogue1_closed.png"
+ },
+ {
+  "n": 6,
+  "time": "14:13:52",
+  "title": "5. Второй разговор: заяц спрашивает про семена",
+  "ok": true,
+  "details": "реплика: Did you gather the seeds from the Groens up the hill?",
+  "shot": "shots/06_05_dialogue2_question.png"
+ },
+ {
+  "n": 7,
+  "time": "14:13:54",
+  "title": "6. Появились кнопки Yes / No",
+  "ok": true,
+  "details": "один Space после вопроса; Seed до ответа: 20",
+  "shot": "shots/07_06_yes_no.png"
+ },
+ {
+  "n": 8,
+  "time": "14:13:57",
+  "title": "7. Нажали Yes (отдаём семечко)",
+  "ok": true,
+  "details": "реплика: Oh yeah! Thanks! I love them so much.",
+  "shot": "shots/08_07_after_yes.png"
+ },
+ {
+  "n": 9,
+  "time": "14:14:06",
+  "title": "8. Разговор закончился: рецепт получен",
+  "ok": true,
+  "details": "нажатий Space: 8; Seed 20 → 19",
+  "shot": "shots/09_08_dialogue2_closed.png"
+ },
+ {
+  "n": 10,
+  "time": "14:14:11",
+  "title": "9. Вкладка «Рецепты» в инвентаре",
+  "ok": true,
+  "details": "рецепты: [('SweetCream_Recipe', 1)]; состав (сырые данные игры): {'currentItem.Item.IngredientsList': \"[{'Amount': 3, 'Item': {'Name': {}, 'PreviewImage': {}, 'Description': {}, 'HealthResorationValue': 1, 'ItemType': {}, 'Prefab': {}, 'IngredientsList': None, 'ResultingDish': None, 'IsLocalized': Fals\", 'currentItem.Item.ResultingDish.name': 'SweetCream_Dish'}; известно из прогона d01: 3 × Seed → SweetCream_Dish",
+  "shot": "shots/10_09_recipe_tab.png"
+ },
+ {
+  "n": 11,
+  "time": "14:14:18",
+  "title": "10. Подошли к котлу: подсказка «E»",
+  "ok": true,
+  "details": "расстояние 1.11 м; семян: 19 (нужно 3)",
+  "shot": "shots/11_10_pot_hint.png"
+ },
+ {
+  "n": 12,
+  "time": "14:14:21",
+  "title": "11. E у котла: открылся инвентарь, вкладка рецептов",
+  "ok": true,
+  "details": "вкладка 2, предметы [('SweetCream_Recipe', 1)]",
+  "shot": "shots/12_11_pot_inventory.png"
+ },
+ {
+  "n": 13,
+  "time": "14:14:23",
+  "title": "12. Выбрали рецепт: кнопка действия",
+  "ok": true,
+  "details": "кнопка действия активна: True",
+  "shot": "shots/13_12_recipe_selected.png"
+ },
+ {
+  "n": 14,
+  "time": "14:14:27",
+  "title": "13. Нажали Q: готовка",
+  "ok": true,
+  "details": "семена 19 → 16; save.chop изменился: True; исключений в логе: {'NullReferenceException': 1}",
+  "shot": "shots/14_13_after_Q.png"
+ },
+ {
+  "n": 15,
+  "time": "14:14:38",
+  "title": "14. Готовое блюдо в инвентаре",
+  "ok": true,
+  "details": "блюдо: [('SweetCream_Dish', 1, 1)]; вкладки: {\"1\": [[\"PhoenixChick\", 1, 3], [\"Seed\", 16, 1], [\"SlimeCritterEgg\", 20, 1], [\"GoldenEgg\", 20, 1], [\"RockCritterEgg\", 20, 1], [\"SpecialSpoon\", 1, 3], [\"SweetCream_Dish\", 1, 1]], \"0\": [], \"2\": [[\"SweetCream_Recipe\", 1, 0]]}",
+  "shot": "shots/15_14_dish.png"
+ },
+ {
+  "n": 16,
+  "time": "14:14:40",
+  "title": "ИТОГ",
+  "ok": true,
+  "details": "рецепт верный, ингредиенты списаны (−3 Seed), блюдо +1; единственный дефект: исключение NullReferenceException при Q (CC-91)",
+  "shot": null
+ },
+ {
+  "exceptions_total": 1,
+  "by_type": {
+   "NullReferenceException": 1
+  },
+  "frameCount_start": 5522,
+  "realtime_start": 65.1210861
+ }
+]

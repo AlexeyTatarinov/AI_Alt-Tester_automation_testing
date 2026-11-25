@@ -1,0 +1,29 @@
+{
+ "equal": true,
+ "hashes": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "c9dde7118826c1bd",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ },
+ "autoSync": false,
+ "locale": "en",
+ "save_locale": {
+  "instanceID": 0
+ },
+ "log_run": {
+  "lines": 323040,
+  "exceptions": 124,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": [
+   "MissingReferenceException: The object of type 'StepController' has been destroyed but you are still trying to access it.",
+   "MissingReferenceException while executing 'performed' callbacks of 'Dialogues/AdvanceDialogue[/Keyboard/space,/AltKeyboard/space,/AltGamepad/buttonSouth]'",
+   "NullReferenceException: Object reference not set to an instance of an object",
+   "NullReferenceException while executing 'performed' callbacks of 'Dialogues/AdvanceDialogue[/Keyboard/space,/AltKeyboard/space,/AltGamepad/buttonSouth]'",
+   "NullReferenceException: Object reference not set to an instance of an object"
+  ]
+ }
+}

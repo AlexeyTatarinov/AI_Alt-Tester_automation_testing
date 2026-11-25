@@ -1,0 +1,123 @@
+{
+ "fr_settings": [
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "Text (TMP)",
+   "Audio"
+  ],
+  [
+   "Text (TMP)",
+   "Graphique"
+  ],
+  [
+   "Text (TMP)",
+   "Langue"
+  ],
+  [
+   "Setting_Title",
+   "Langue"
+  ],
+  [
+   "CurrentOption",
+   "français"
+  ],
+  [
+   "ButtonText",
+   "Sauvegarder"
+  ],
+  [
+   "ButtonText",
+   "Réinitialiser"
+  ]
+ ],
+ "save_changed_after_Save": true,
+ "fr_pause": [
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "PopupDescription",
+   "Prends ton temps !"
+  ],
+  [
+   "PopupTitle",
+   "Petite pause!"
+  ],
+  [
+   "ButtonText",
+   "Reprendre"
+  ],
+  [
+   "ButtonText",
+   "Paramètres"
+  ],
+  [
+   "ButtonText",
+   "Retour au menu"
+  ]
+ ],
+ "fr_hud": [
+  [
+   "Text (TMP)",
+   "/"
+  ]
+ ],
+ "fr_inv": [
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "Text (TMP)",
+   "T"
+  ],
+  [
+   "Text (TMP)",
+   "Y"
+  ],
+  [
+   "Count",
+   "1"
+  ],
+  [
+   "Count",
+   "14"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "1"
+  ],
+  [
+   "ItemName",
+   "No translation found for 'Phoenix' in Inventory Item Name"
+  ],
+  [
+   "ItemHealthRestoration",
+   ""
+  ],
+  [
+   "ItemDescription",
+   "No translation found for 'Phoenix' in Inventory Item Description"
+  ]
+ ]
+}

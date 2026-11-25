@@ -1,0 +1,656 @@
+{
+ "Field_Hill via Beach_FieldsHill": {
+  "button": "Field_Hill via Beach_FieldsHill",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Field_Hill"
+  ],
+  "pig": true,
+  "load_s": 4.2,
+  "pos": [
+   -50.9315338,
+   8.238586,
+   -337.29184
+  ],
+  "found": {
+   "CollectableItem": [],
+   "Equip": [],
+   "Recipe": [],
+   "Interaction": [],
+   "NPC": [],
+   "Chest": [],
+   "Pickable": [],
+   "CookingPot": [],
+   "ItemPickup": [],
+   "Collectable": []
+  },
+  "log": {
+   "lines": 1390,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  }
+ },
+ "Field_Farms via FieldsHill_FieldsFarms": {
+  "button": "Field_Farms via FieldsHill_FieldsFarms",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Field_Farms"
+  ],
+  "pig": true,
+  "load_s": 5.8,
+  "pos": [
+   -14.16062,
+   1.54067171,
+   -259.616425
+  ],
+  "found": {
+   "CollectableItem": [],
+   "Equip": [],
+   "Recipe": [],
+   "Interaction": [],
+   "NPC": [
+    [
+     "Terra",
+     84.5,
+     1.8,
+     -68.6
+    ],
+    [
+     "Ayud",
+     75.4,
+     1.7,
+     -149.8
+    ]
+   ],
+   "Chest": [],
+   "Pickable": [],
+   "CookingPot": [],
+   "ItemPickup": [],
+   "Collectable": []
+  },
+  "log": {
+   "lines": 1580,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  },
+  "name_hits": [
+   "Chest",
+   "Tree_Mushroom",
+   "Tree_Mushroom (1)",
+   "Tree_Mushroom (2)",
+   "Tree_Mushroom (3)",
+   "Tree_Mushroom (4)",
+   "Tree_Mushroom (5)",
+   "Tree_Mushroom (6)"
+  ]
+ },
+ "Town_Market via FieldsFarms_TownMarket": {
+  "button": "Town_Market via FieldsFarms_TownMarket",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Market"
+  ],
+  "pig": true,
+  "load_s": 5.3,
+  "pos": [
+   56.3604126,
+   7.94729042,
+   -15.7532692
+  ],
+  "found": {
+   "CollectableItem": [],
+   "Equip": [],
+   "Recipe": [],
+   "Interaction": [],
+   "NPC": [
+    [
+     "BardHare_Market",
+     60.8,
+     7.7,
+     -8.6
+    ],
+    [
+     "Felfel",
+     41.6,
+     8.4,
+     7.0
+    ],
+    [
+     "Townsfolk_F",
+     4.8,
+     11.2,
+     -5.9
+    ],
+    [
+     "Townsfolk_M",
+     13.0,
+     11.1,
+     2.1
+    ],
+    [
+     "Townsfolk_M (1)",
+     10.9,
+     10.8,
+     -4.8
+    ],
+    [
+     "Townsfolk_M (2)",
+     35.1,
+     8.4,
+     3.7
+    ],
+    [
+     "Townsfolk_F (1)",
+     19.6,
+     10.2,
+     -1.0
+    ],
+    [
+     "Townsfolk_F (2)",
+     23.5,
+     7.6,
+     -13.4
+    ],
+    [
+     "Townsfolk_F (3)",
+     33.6,
+     7.9,
+     -9.0
+    ],
+    [
+     "Townsfolk_F (4)",
+     42.3,
+     7.5,
+     -15.7
+    ],
+    [
+     "Townsfolk_F (5)",
+     27.4,
+     3.0,
+     -30.2
+    ],
+    [
+     "Townsfolk_M (3)",
+     22.0,
+     7.5,
+     -15.0
+    ],
+    [
+     "Townsfolk_M (4)",
+     27.6,
+     2.7,
+     -39.4
+    ],
+    [
+     "Townsfolk_M (5)",
+     29.0,
+     2.8,
+     -38.8
+    ],
+    [
+     "Townsfolk_M (6)",
+     38.8,
+     3.2,
+     -38.6
+    ],
+    [
+     "Townsfolk_M (7)",
+     18.0,
+     3.4,
+     -28.5
+    ],
+    [
+     "Townsfolk_M (8)",
+     28.2,
+     7.2,
+     -16.4
+    ],
+    [
+     "Townsfolk_M (9)",
+     31.5,
+     15.5,
+     13.1
+    ],
+    [
+     "Townsfolk_F (6)",
+     58.4,
+     14.3,
+     32.6
+    ]
+   ],
+   "Chest": [],
+   "Pickable": [],
+   "CookingPot": [],
+   "ItemPickup": [],
+   "Collectable": []
+  },
+  "log": {
+   "lines": 1906,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  },
+  "name_hits": [
+   "Chest",
+   "Chest (1)",
+   "Tree_Mushroom",
+   "chest_bot_low",
+   "chest_top_low"
+  ]
+ },
+ "Town_Upper via InnerTown_UpperTown_Slope": {
+  "button": "Town_Upper via InnerTown_UpperTown_Slope",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Upper"
+  ],
+  "pig": true,
+  "load_s": 5.5,
+  "pos": [
+   33.16729,
+   30.6753368,
+   58.87044
+  ],
+  "found": {
+   "CollectableItem": [],
+   "Equip": [],
+   "Recipe": [],
+   "Interaction": [],
+   "NPC": [
+    [
+     "ChefComb",
+     -11.7,
+     30.2,
+     -6.0
+    ],
+    [
+     "Townsfolk_F",
+     -7.1,
+     30.0,
+     -3.0
+    ],
+    [
+     "Townsfolk_M",
+     -11.4,
+     30.0,
+     -0.5
+    ],
+    [
+     "Lola",
+     -14.2,
+     30.0,
+     -3.1
+    ],
+    [
+     "Andre",
+     -13.3,
+     30.0,
+     -2.2
+    ],
+    [
+     "Andy",
+     -8.7,
+     30.0,
+     -0.7
+    ],
+    [
+     "Ashley",
+     -12.6,
+     30.0,
+     -1.0
+    ],
+    [
+     "Bronson",
+     -7.7,
+     30.0,
+     -0.6
+    ],
+    [
+     "Chema",
+     -6.8,
+     30.1,
+     -1.4
+    ],
+    [
+     "Ciro",
+     -10.2,
+     30.0,
+     -1.0
+    ],
+    [
+     "Townsfolk_M",
+     -11.6,
+     30.0,
+     3.4
+    ],
+    [
+     "Townsfolk_F",
+     -11.0,
+     30.0,
+     2.0
+    ],
+    [
+     "Runa",
+     -12.6,
+     30.0,
+     2.0
+    ],
+    [
+     "Lolo",
+     -10.0,
+     30.0,
+     1.9
+    ],
+    [
+     "Kori",
+     -9.8,
+     30.0,
+     0.7
+    ],
+    [
+     "Eurika",
+     -8.7,
+     30.0,
+     2.7
+    ],
+    [
+     "Fifi",
+     -8.5,
+     30.0,
+     0.2
+    ],
+    [
+     "Fifi",
+     -11.9,
+     30.0,
+     0.6
+    ],
+    [
+     "Jojo",
+     -8.0,
+     30.0,
+     1.1
+    ],
+    [
+     "Ciro",
+     -7.4,
+     30.0,
+     2.7
+    ],
+    [
+     "Ayud",
+     -6.0,
+     30.1,
+     1.0
+    ],
+    [
+     "Cerise",
+     -5.8,
+     30.1,
+     -0.1
+    ],
+    [
+     "Felfel",
+     -13.3,
+     30.0,
+     0.4
+    ],
+    [
+     "Terra",
+     -7.1,
+     30.1,
+     0.4
+    ]
+   ],
+   "Chest": [],
+   "Pickable": [],
+   "CookingPot": [],
+   "ItemPickup": [],
+   "Collectable": []
+  },
+  "log": {
+   "lines": 1586,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  },
+  "name_hits": [
+   "Chest",
+   "Tree_Mushroom (3)",
+   "Tree_Mushroom (4)",
+   "Tree_Mushroom (5)",
+   "Tree_Mushroom (6)"
+  ]
+ },
+ "Town_Inner via InnerTown_Forest": {
+  "button": "Town_Inner via InnerTown_Forest",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Inner"
+  ],
+  "pig": true,
+  "load_s": 7.3,
+  "pos": [
+   -15.6365013,
+   12.5774994,
+   25.3957787
+  ],
+  "found": {
+   "CollectableItem": [],
+   "Equip": [],
+   "Recipe": [],
+   "Interaction": [],
+   "NPC": [],
+   "Chest": [],
+   "Pickable": [],
+   "CookingPot": [],
+   "ItemPickup": [],
+   "Collectable": []
+  },
+  "log": {
+   "lines": 1567,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  },
+  "name_hits": [
+   "Chest",
+   "Tree_Mushroom (3)",
+   "Tree_Mushroom (4)",
+   "Tree_Mushroom (5)",
+   "Tree_Mushroom (6)"
+  ]
+ },
+ "Forest via InnerTown_Forest": {
+  "button": "Forest via InnerTown_Forest",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Forest"
+  ],
+  "pig": true,
+  "load_s": 4.5,
+  "pos": [
+   -53.63438,
+   2.98314929,
+   20.3892212
+  ],
+  "found": {
+   "CollectableItem": [],
+   "Equip": [],
+   "Recipe": [],
+   "Interaction": [],
+   "NPC": [
+    [
+     "Cerise",
+     -286.8,
+     -9.2,
+     -67.0
+    ]
+   ],
+   "Chest": [],
+   "Pickable": [],
+   "CookingPot": [],
+   "ItemPickup": [],
+   "Collectable": []
+  },
+  "log": {
+   "lines": 1494,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  },
+  "name_hits": [
+   "Chest",
+   "Tree_Mushroom",
+   "Tree_Mushroom (1)",
+   "Tree_Mushroom (2)",
+   "Tree_Mushroom (3)",
+   "Tree_Mushroom (4)",
+   "Tree_Mushroom (5)",
+   "Tree_Mushroom (6)"
+  ]
+ },
+ "Mountain_Path via MountainCave_MountainPath_BottomExit": {
+  "button": "Mountain_Path via MountainCave_MountainPath_BottomExit",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Mountain_Path"
+  ],
+  "pig": true,
+  "load_s": 4.1,
+  "pos": [
+   110.731949,
+   21.7072487,
+   55.33332
+  ],
+  "found": {
+   "CollectableItem": [],
+   "Equip": [],
+   "Recipe": [],
+   "Interaction": [],
+   "NPC": [],
+   "Chest": [],
+   "Pickable": [],
+   "CookingPot": [],
+   "ItemPickup": [],
+   "Collectable": []
+  },
+  "log": {
+   "lines": 1474,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  },
+  "name_hits": [
+   "Chest"
+  ]
+ },
+ "Mountain_Path via MountainPath_MountainCave_Shaft": {
+  "button": "Mountain_Path via MountainPath_MountainCave_Shaft",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Mountain_Path"
+  ],
+  "pig": true,
+  "load_s": 4.1,
+  "pos": [
+   110.731949,
+   21.7072487,
+   55.33332
+  ],
+  "found": {
+   "CollectableItem": [],
+   "Equip": [],
+   "Recipe": [],
+   "Interaction": [],
+   "NPC": [],
+   "Chest": [],
+   "Pickable": [],
+   "CookingPot": [],
+   "ItemPickup": [],
+   "Collectable": []
+  },
+  "log": {
+   "lines": 1458,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  },
+  "name_hits": [
+   "Chest"
+  ]
+ },
+ "Mountain_Cave via MountainPath_MountainCave_Shaft": {
+  "button": "Mountain_Cave via MountainPath_MountainCave_Shaft",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Mountain_Cave"
+  ],
+  "pig": true,
+  "load_s": 4.1,
+  "pos": [
+   96.94254,
+   36.40894,
+   116.326515
+  ],
+  "found": {
+   "CollectableItem": [],
+   "Equip": [],
+   "Recipe": [],
+   "Interaction": [],
+   "NPC": [],
+   "Chest": [],
+   "Pickable": [],
+   "CookingPot": [],
+   "ItemPickup": [],
+   "Collectable": []
+  },
+  "log": {
+   "lines": 1471,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  },
+  "name_hits": [
+   "Chest"
+  ]
+ }
+}

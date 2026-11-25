@@ -1,0 +1,47 @@
+{
+ "preflight": {
+  "time": "11:40:17",
+  "label": "stageB_start",
+  "port_13000": true,
+  "window": {
+   "title": "UOP1_Project - MainMenu - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
+   "found": true,
+   "pid": 5720,
+   "iconic": true,
+   "foreground": false,
+   "responding": true,
+   "cpu_delta_1_5s": 4.141
+  },
+  "window_restore": "limit",
+  "consoleFlags": 7683,
+  "consoleFlags_note": "прочиталось (assembly UnityEditor.CoreModule)",
+  "error_pause": false,
+  "play": [
+   true,
+   "isPlaying прочитан"
+  ],
+  "log_offset": 124828595,
+  "log_last_lines": [
+   "NLog.Logger:Debug (string)",
+   "AltTester.AltTesterUnitySDK.Commands.CommandHandler:Send (string)",
+   "AltTester.AltTesterUnitySDK.Commands.CommandHandler/<>c__DisplayClass30_0:<OnMessage>b__0 ()",
+   "AltTester.AltTesterSDK.Driver.AltResponseQueue:Cycle ()",
+   "AltTester.AltTesterUnitySDK.Commands.AltRunner:Update ()"
+  ],
+  "alive": true,
+  "alive_detail": "frameCount 157758 -> 157828",
+  "game_pause_menu": false
+ },
+ "guard_offset": 124828595,
+ "unpause_attempts": 0,
+ "risky_checkpoint": {
+  "time": "21:41:01",
+  "step": "to_menu fin",
+  "log_size": 33515107,
+  "save_hashes": {
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "fcb6e9a1323d0f2e",
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079"
+  }
+ },
+ "window_restores": 5
+}

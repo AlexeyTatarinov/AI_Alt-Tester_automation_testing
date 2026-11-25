@@ -1,0 +1,34 @@
+{
+ "scenes": [
+  "PersistentManagers",
+  "Gameplay",
+  "Field_Hill"
+ ],
+ "seen": {
+  "PersistentManagers": 0.1,
+  "Gameplay": 0.1,
+  "Beach": 0.1,
+  "Field_Hill": 1.0
+ },
+ "log": {
+  "lines": 1081,
+  "exceptions": 0,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": []
+ },
+ "save_before": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "a995c0764a98a473",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "54143e9ef225fc4c",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ },
+ "save_after": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "963f0f5e01ce9d34",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "a995c0764a98a473",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ }
+}

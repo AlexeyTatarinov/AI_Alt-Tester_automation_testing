@@ -1,0 +1,99 @@
+{
+ "ng_hud": [
+  [
+   "Text (TMP)",
+   "/"
+  ]
+ ],
+ "ng_inv": [
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "Text (TMP)",
+   "T"
+  ],
+  [
+   "Text (TMP)",
+   "Y"
+  ],
+  [
+   "Count",
+   "1"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "20"
+  ],
+  [
+   "Count",
+   "1"
+  ],
+  [
+   "ItemName",
+   "No translation found for 'Phoenix' in Inventory Item Name"
+  ],
+  [
+   "ItemHealthRestoration",
+   ""
+  ],
+  [
+   "ItemDescription",
+   "No translation found for 'Phoenix' in Inventory Item Description"
+  ]
+ ],
+ "ng_pause": [
+  [
+   "Text (TMP)",
+   "/"
+  ],
+  [
+   "PopupDescription",
+   "Prends ton temps !"
+  ],
+  [
+   "PopupTitle",
+   "Petite pause!"
+  ],
+  [
+   "ButtonText",
+   "Reprendre"
+  ],
+  [
+   "ButtonText",
+   "Paramètres"
+  ],
+  [
+   "ButtonText",
+   "Retour au menu"
+  ]
+ ],
+ "ng_lang_cur": "français",
+ "ng_step": 1.04,
+ "log": {
+  "lines": 6306,
+  "exceptions": 0,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": []
+ }
+}

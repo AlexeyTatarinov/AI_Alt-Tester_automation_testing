@@ -1,0 +1,192 @@
+[
+ {
+  "name": "LocationButton",
+  "enabled": true,
+  "id": -180296,
+  "comps": [
+   "UnityEngine.RectTransform",
+   "UnityEngine.CanvasRenderer",
+   "UnityEngine.UI.Image",
+   "UnityEngine.UI.Button",
+   "LocationTeleporterButton",
+   "UnityEngine.UI.LayoutElement"
+  ],
+  "children": [
+   [
+    "Text",
+    "Beach via Beach_FieldsHill"
+   ]
+  ]
+ },
+ {
+  "name": "LocationButton (1)",
+  "enabled": true,
+  "id": -180318,
+  "comps": [
+   "UnityEngine.RectTransform",
+   "UnityEngine.CanvasRenderer",
+   "UnityEngine.UI.Image",
+   "UnityEngine.UI.Button",
+   "LocationTeleporterButton",
+   "UnityEngine.UI.LayoutElement"
+  ],
+  "children": [
+   [
+    "Text",
+    "Field_Hill via Beach_FieldsHill"
+   ]
+  ]
+ },
+ {
+  "name": "LocationButton (2)",
+  "enabled": true,
+  "id": -180340,
+  "comps": [
+   "UnityEngine.RectTransform",
+   "UnityEngine.CanvasRenderer",
+   "UnityEngine.UI.Image",
+   "UnityEngine.UI.Button",
+   "LocationTeleporterButton",
+   "UnityEngine.UI.LayoutElement"
+  ],
+  "children": [
+   [
+    "Text",
+    "Field_Farms via FieldsHill_FieldsFarms"
+   ]
+  ]
+ },
+ {
+  "name": "LocationButton (3)",
+  "enabled": true,
+  "id": -180362,
+  "comps": [
+   "UnityEngine.RectTransform",
+   "UnityEngine.CanvasRenderer",
+   "UnityEngine.UI.Image",
+   "UnityEngine.UI.Button",
+   "LocationTeleporterButton",
+   "UnityEngine.UI.LayoutElement"
+  ],
+  "children": [
+   [
+    "Text",
+    "Town_Market via FieldsFarms_TownMarket"
+   ]
+  ]
+ },
+ {
+  "name": "LocationButton (4)",
+  "enabled": true,
+  "id": -180384,
+  "comps": [
+   "UnityEngine.RectTransform",
+   "UnityEngine.CanvasRenderer",
+   "UnityEngine.UI.Image",
+   "UnityEngine.UI.Button",
+   "LocationTeleporterButton",
+   "UnityEngine.UI.LayoutElement"
+  ],
+  "children": [
+   [
+    "Text",
+    "Town_Upper via InnerTown_UpperTown_Slope"
+   ]
+  ]
+ },
+ {
+  "name": "LocationButton (5)",
+  "enabled": true,
+  "id": -180406,
+  "comps": [
+   "UnityEngine.RectTransform",
+   "UnityEngine.CanvasRenderer",
+   "UnityEngine.UI.Image",
+   "UnityEngine.UI.Button",
+   "LocationTeleporterButton",
+   "UnityEngine.UI.LayoutElement"
+  ],
+  "children": [
+   [
+    "Text",
+    "Town_Inner via InnerTown_Forest"
+   ]
+  ]
+ },
+ {
+  "name": "LocationButton (6)",
+  "enabled": true,
+  "id": -180428,
+  "comps": [
+   "UnityEngine.RectTransform",
+   "UnityEngine.CanvasRenderer",
+   "UnityEngine.UI.Image",
+   "UnityEngine.UI.Button",
+   "LocationTeleporterButton",
+   "UnityEngine.UI.LayoutElement"
+  ],
+  "children": [
+   [
+    "Text",
+    "Forest via InnerTown_Forest"
+   ]
+  ]
+ },
+ {
+  "name": "LocationButton (7)",
+  "enabled": true,
+  "id": -180450,
+  "comps": [
+   "UnityEngine.RectTransform",
+   "UnityEngine.CanvasRenderer",
+   "UnityEngine.UI.Image",
+   "UnityEngine.UI.Button",
+   "LocationTeleporterButton",
+   "UnityEngine.UI.LayoutElement"
+  ],
+  "children": [
+   [
+    "Text",
+    "Mountain_Path via MountainCave_MountainPath_BottomExit"
+   ]
+  ]
+ },
+ {
+  "name": "LocationButton (8)",
+  "enabled": true,
+  "id": -180472,
+  "comps": [
+   "UnityEngine.RectTransform",
+   "UnityEngine.CanvasRenderer",
+   "UnityEngine.UI.Image",
+   "UnityEngine.UI.Button",
+   "LocationTeleporterButton",
+   "UnityEngine.UI.LayoutElement"
+  ],
+  "children": [
+   [
+    "Text",
+    "Mountain_Path via MountainPath_MountainCave_Shaft"
+   ]
+  ]
+ },
+ {
+  "name": "LocationButton (9)",
+  "enabled": true,
+  "id": -180494,
+  "comps": [
+   "UnityEngine.RectTransform",
+   "UnityEngine.CanvasRenderer",
+   "UnityEngine.UI.Image",
+   "UnityEngine.UI.Button",
+   "LocationTeleporterButton",
+   "UnityEngine.UI.LayoutElement"
+  ],
+  "children": [
+   [
+    "Text",
+    "Mountain_Cave via MountainPath_MountainCave_Shaft"
+   ]
+  ]
+ }
+]

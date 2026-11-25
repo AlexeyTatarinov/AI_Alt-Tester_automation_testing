@@ -1,0 +1,42 @@
+{
+ "dlg_now": false,
+ "inv_now": false,
+ "hint_now": true,
+ "state": "Idle",
+ "control_step_m": 1.03,
+ "to_menu_s": 0.6,
+ "ng_s": 1.4,
+ "clean": {
+  "dlg_panel_active": false,
+  "choices": false,
+  "inv": false,
+  "pause": false,
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Beach"
+  ],
+  "pigs": 1,
+  "pos": [
+   -58.27,
+   -5.23,
+   -369.8
+  ],
+  "ts": 1.0,
+  "step_m": 1.02
+ },
+ "log": {
+  "lines": 8816,
+  "exceptions": 0,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": []
+ },
+ "exc": {},
+ "alive": [
+  true,
+  "frameCount 803864 -> 803994"
+ ]
+}

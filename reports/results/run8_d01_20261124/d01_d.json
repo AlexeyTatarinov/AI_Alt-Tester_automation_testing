@@ -1,0 +1,30 @@
+{
+ "finished_after_ng": [],
+ "N": 45,
+ "closed": false,
+ "seq": [
+  "You made it! Welcome to Yolk island!",
+  "It's been a while! Did you come for the cooking festival?",
+  "Yes, I've heard great things about the local chef. Comb, I think he's called?",
+  "Oh yes, he's a legend around here. He's very hard to impress.",
+  "You'll have to prepare something very special to win the contest!",
+  "I wasn't necessarily planning to take part in it, but...",
+  "You have to! I'm curious to see what you come up with.",
+  "I'll check it out when I get to town. Which way?",
+  "Wait, before you go there. Can I ask you a favour?",
+  "I've just arrived and you're asking me a favour?",
+  "The thing is, I'm trying to gather some seeds for a recipe but the local plants are a bit... aggressive.",
+  "They call them Groens, and they are carnivorous plants that eat much more than insects.",
+  "I guess they also love good food.",
+  "I know you can take care of them!",
+  "Where can I find them?",
+  "There's a few of them just over the hill above the beach.",
+  "Anything for you, my friend.",
+  "They are the key ingredient in my grandma's recipe for an amazing sweet cream."
+ ],
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

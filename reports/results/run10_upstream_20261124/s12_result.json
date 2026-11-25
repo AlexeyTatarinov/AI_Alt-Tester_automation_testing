@@ -1,0 +1,129 @@
+{
+ "started": "15:11:23",
+ "clean_play": {
+  "frameCount": 1779,
+  "realtime": 22.1377735,
+  "scenes": [
+   "MainMenu",
+   "PersistentManagers"
+  ]
+ },
+ "483_hint_before": true,
+ "483": {
+  "dialogue_open": true,
+  "first_line": "Hey Hamlet!",
+  "hint_visible_in_dialogue": false,
+  "E_presses": [
+   {
+    "press": 1,
+    "line": "Hey Hamlet!",
+    "dlg": true
+   },
+   {
+    "press": 2,
+    "line": "Hey Hamlet!",
+    "dlg": true
+   },
+   {
+    "press": 3,
+    "line": "Hey Hamlet!",
+    "dlg": true
+   },
+   {
+    "press": 4,
+    "line": "Hey Hamlet!",
+    "dlg": true
+   },
+   {
+    "press": 5,
+    "line": "Hey Hamlet!",
+    "dlg": true
+   }
+  ],
+  "E_advanced": false,
+  "after_space_line": "You made it! Welcome to Yolk island!",
+  "space_advanced": true,
+  "dialogue_closed_after_presses": 17
+ },
+ "scene_after_cheat": [
+  "PersistentManagers",
+  "Gameplay",
+  "Town_Market"
+ ],
+ "505": {
+  "ovens": [
+   {
+    "name": "Oven",
+    "pos": [
+     38.47,
+     8.38,
+     6.93
+    ],
+    "components": [
+     "UnityEngine.Transform",
+     "UnityEngine.MeshFilter",
+     "UnityEngine.MeshRenderer"
+    ],
+    "child_colliders": [],
+    "children": 0
+   }
+  ],
+  "min_distance_to_oven_center_walking": 0.36,
+  "final_pos": [
+   37.7391052,
+   8.430002,
+   7.3748
+  ]
+ },
+ "484": {
+  "hare": "BardHare_Market",
+  "townsfolk_count": 17,
+  "townsfolk": [
+   {
+    "name": "Townsfolk_F (4)",
+    "min_distance_to_hare": 19.83,
+    "range_of_movement_m": 0.0
+   },
+   {
+    "name": "Townsfolk_F (3)",
+    "min_distance_to_hare": 27.17,
+    "range_of_movement_m": 0.0
+   },
+   {
+    "name": "Townsfolk_M (2)",
+    "min_distance_to_hare": 28.46,
+    "range_of_movement_m": 0.0
+   },
+   {
+    "name": "Townsfolk_M (8)",
+    "min_distance_to_hare": 33.56,
+    "range_of_movement_m": 0.0
+   },
+   {
+    "name": "Townsfolk_M (9)",
+    "min_distance_to_hare": 36.42,
+    "range_of_movement_m": 0.0
+   },
+   {
+    "name": "Townsfolk_M (6)",
+    "min_distance_to_hare": 37.2,
+    "range_of_movement_m": 0.0
+   },
+   {
+    "name": "Townsfolk_F (2)",
+    "min_distance_to_hare": 37.65,
+    "range_of_movement_m": 0.0
+   },
+   {
+    "name": "Townsfolk_M (3)",
+    "min_distance_to_hare": 39.33,
+    "range_of_movement_m": 0.0
+   }
+  ],
+  "moving_npcs": 0,
+  "closest_m": 19.83
+ },
+ "exceptions": {},
+ "exceptions_total": 0,
+ "finished": "15:14:12"
+}

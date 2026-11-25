@@ -1,0 +1,44 @@
+[
+ {
+  "name": "BeachPalm(Polybrush Clone)",
+  "cid": "COLL-02 BeachPalm(Polybrush Clone)",
+  "status": "Не подтверждено",
+  "reps": [
+   {
+    "start": 51.28,
+    "staged": false,
+    "reason": "лимит 30 шагов",
+    "stop": 42.366,
+    "back": 1.02,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": false,
+    "min_d": 42.366
+   },
+   {
+    "start": 3.1,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.6679612925911437,
+    "back": 1.1,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.668
+   },
+   {
+    "start": 2.5,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.664737004611614,
+    "back": 1.03,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.665
+   }
+  ],
+  "expected": 0.58,
+  "inside": 0
+ }
+]

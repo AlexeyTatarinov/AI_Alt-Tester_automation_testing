@@ -1,0 +1,165 @@
+[
+ {
+  "id": "TP-00",
+  "verdict": "Пройдено",
+  "numbers": "выбран T1: критерий 2.3 выполнен 3 из 3 (туда и обратно); autoSyncTransforms исходно=False",
+  "evidence": "run1_tp00_detail.json"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "5 из 5. спавн: XZ0,5=0.0 XZ2=0.0 grounded=True t_gr=0.62 dy=0.37; 2 м от лодки: XZ0,5=0.0 XZ2=0.0 grounded=True t_gr=0.62 dy=0.13; 2 м от котла: XZ0,5=0.0 XZ2=0.0 grounded=True t_gr=0.59 dy=0.49; 2 м от зайца: XZ0,5=0.0 XZ2=0.0 grounded=True t_gr=0.6 dy=0.71; стоп-точка v3: XZ0,5=0.0 XZ2=0.0 grounded=True t_gr=0.61 dy=0.3",
+  "evidence": "run1_tp01.json",
+  "id": "TP-01",
+  "seconds": 16.4,
+  "finished": "11:49:31"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "камера–игрок: 0,5 с=21.37 м, 2 с=9.95 м, 5 с=9.85 м (порог 10 м)",
+  "evidence": "run1_tp02.json",
+  "id": "TP-02",
+  "seconds": 8.2,
+  "finished": "11:49:39"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "исключений 0, ошибок 0, предупреждений CC(inactive) 0, CC-67 0, прочих предупреждений 0; телепорты 5 из 5; за 60 с покоя: исключений 0, ошибок 0",
+  "evidence": "run1_con01.json",
+  "id": "CON-01",
+  "seconds": 79.5,
+  "finished": "11:50:59"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "R=1.56 м (шаг 4); критерий 0,6–1,6 м; серия: [(1, 2.65, False), (2, 2.32, False), (3, 1.97, False), (4, 1.56, True)]",
+  "evidence": "run1_int01.json",
+  "id": "INT-01",
+  "seconds": 4.2,
+  "finished": "11:52:49"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "после шага расстояние 2.52 м (R+1 м = 2.56); подсказка до E=False, после E=False; диалог активен=False",
+  "id": "INT-02",
+  "seconds": 4.5,
+  "finished": "11:52:54"
+ },
+ {
+  "verdict": "Не пройдено",
+  "numbers": "попытка 2: диалог за 0.1 с; закрылся=False за N=30; подсказка через 1/3/8/15 с и состояние катсцен=[(1.0, False, [0, 0]), (3.0, False, [0, 0]), (8.0, False, [0, 0]), (15.0, False, [0, 0])]; шаг 0.0 м; save.chop изменился=False. Попытка 1: диалог открылся за 0.05 с; закрылся=True за N=18 нажатий (17.0 с); подсказка после=False; шаг 0.97 м; выборы по шагам=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; save.chop изменился=True",
+  "evidence": "run1_int03.json",
+  "screenshot": "C:\\Games\\ChopChop\\UOP1_Project\\.claude\\worktrees\\alttester-cli-connection-9050ce\\Reports\\results\\run1_shots\\INT-03b_fail.png",
+  "id": "INT-03",
+  "seconds": 48.6,
+  "finished": "11:55:40",
+  "note": "Попытка 2 остановилась на диалоге с выбором Yes/No; Space не выбирает вариант; диалог закрыт кликом по кнопке Yes (скриншоты dialogue_stuck*.png)"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "вкладки=[1, 0, 2]; _isNearPot=False; кнопка interactable=False; _errorPotMessage активен=True; слотов до/после Q: 16/16; save.chop изменился=False",
+  "id": "INT-05",
+  "seconds": 8.1,
+  "finished": "11:59:20"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "подход с 3 м, шагов 3, подсказка у котла=True на 1.94 м; после E инвентарь=True, _isNearPot=True, вкладка=2 (Recipe=2); после Tab закрыт=True, подсказка=True, шаг 0.98 м; save.chop изменился=False. По документу (телепорт в 1,3 м + 1 шаг 0,15 с) подсказка не появилась за 4 шагов: персонаж не повернут к котлу. Прежние запуски до восстановления управления не считаются",
+  "id": "INT-04",
+  "seconds": 8.9,
+  "finished": "11:59:45"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "здоровье 50 -> 40 (через 6 с 40); сумма fillAmount сердец 5.0 -> 4.0 (5 сердец); fill до=[1.0, 1.0, 1.0, 1.0, 1.0] после=[1.0, 1.0, 1.0, 1.0, 0.0]",
+  "id": "DTH-02",
+  "seconds": 8.7,
+  "finished": "12:00:14"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "старт 72.2 м от спавна, здоровье до=40; новый PigChef через 4.47 с (ряд [(0.03, 1), (0.59, 1), (1.14, 1), (1.69, 1), (2.23, 1), (2.77, 1), (3.33, 1), (3.92, 1), (4.47, 1), (5.02, 1), (5.57, 1), (6.12, 1)]); через 1 с объектов=1; позиция нового 0.0 м от спавна; здоровье=50 (норма 50); шаг 0.98 м; исключений 0; CC-67 предупреждений 1 (известный CC-67, не новый баг)",
+  "evidence": "run1_dth01.json",
+  "id": "DTH-01",
+  "seconds": 15.3,
+  "finished": "12:00:29"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "y через 10 с = -516.45 (норма < -100); респавна нет=True; детектор падения сработал: y<-25 на t=0.08; y-ряд (t,y)=[(0.08, -35.12), (1.89, -107.3), (3.63, -197.82), (5.37, -283.68), (7.11, -371.72), (8.84, -458.58)]",
+  "evidence": "run1_bnd05.json",
+  "id": "BND-05",
+  "seconds": 10.7,
+  "finished": "12:01:11"
+ },
+ {
+  "verdict": "Наблюдение: падение без респавна (вердикт за владельцем)",
+  "numbers": "точка края: x=-253.3 y=-29.34 z=-378.1 (отступ 20 м); смещение за шаг 1.01 м; y через 1/3/10 с = -33.1/-85.49/-291.8; новый PigChef за 10 с=False; падение=y<-25 на t=0.97; исключений 0",
+  "evidence": "run1_bnd_BND-01.json",
+  "screenshot": "C:\\Games\\ChopChop\\UOP1_Project\\.claude\\worktrees\\alttester-cli-connection-9050ce\\Reports\\results\\run1_shots\\BND-01_fall.png",
+  "fell": true,
+  "y_end": -291.8,
+  "id": "BND-01",
+  "seconds": 21.7,
+  "finished": "12:01:37"
+ },
+ {
+  "verdict": "Наблюдение: падение без респавна (вердикт за владельцем)",
+  "numbers": "точка края: x=-16.9 y=-29.88 z=-378.1 (отступ 20 м); смещение за шаг 1.05 м; y через 1/3/10 с = -32.79/-85.49/-285.25; новый PigChef за 10 с=False; падение=y<-25 на t=1.04; исключений 0",
+  "evidence": "run1_bnd_BND-02.json",
+  "screenshot": "C:\\Games\\ChopChop\\UOP1_Project\\.claude\\worktrees\\alttester-cli-connection-9050ce\\Reports\\results\\run1_shots\\BND-02_fall.png",
+  "fell": true,
+  "y_end": -285.25,
+  "id": "BND-02",
+  "seconds": 22.6,
+  "finished": "12:02:04"
+ },
+ {
+  "verdict": "Наблюдение: падение без респавна (вердикт за владельцем)",
+  "numbers": "точка края: x=-135.1 y=-28.55 z=-496.3 (отступ 20 м); смещение за шаг 1.24 м; y через 1/3/10 с = -38.23/-78.1/-276.55; новый PigChef за 10 с=False; падение=y<-25 на t=1.49; исключений 0",
+  "evidence": "run1_bnd_BND-03.json",
+  "screenshot": "C:\\Games\\ChopChop\\UOP1_Project\\.claude\\worktrees\\alttester-cli-connection-9050ce\\Reports\\results\\run1_shots\\BND-03_fall.png",
+  "fell": true,
+  "y_end": -276.55,
+  "id": "BND-03",
+  "seconds": 22.6,
+  "finished": "12:02:31"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "точка края: x=-135.1 y=-7.34 z=-241.9 (отступ 2 м); смещение за шаг 0.98 м; y через 1/3/10 с = -7.34/-7.34/-7.34; новый PigChef за 10 с=False; падение=None; исключений 0",
+  "evidence": "run1_bnd_BND-04.json",
+  "fell": false,
+  "y_end": -7.34,
+  "id": "BND-04",
+  "seconds": 16.1,
+  "finished": "12:02:52"
+ },
+ {
+  "id": "BND-07",
+  "verdict": "Пройдено",
+  "numbers": "возвратов на спавн 4, все прошли=True: [{'after': 'BND-05', 'ok': True, 'xz_2': 0.0, 'grounded': True, 'step_m': 0.97}, {'after': 'BND-01', 'ok': True, 'xz_2': 0.0, 'grounded': True, 'step_m': 0.98}, {'after': 'BND-02', 'ok': True, 'xz_2': 0.0, 'grounded': True, 'step_m': 0.99}, {'after': 'BND-03', 'ok': True, 'xz_2': 0.0, 'grounded': True, 'step_m': 1.0}]",
+  "evidence": "run1_bnd07.json"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "новая сцена ['Field_Hill'] за 1.8 с (Beach выгружен=True); назначение выхода `_locationToLoad`=Field_Hill, путь=Beach_FieldsHill; игрок 0.0 м от ближайшего LocationEntrance (входов в сцене 2); CC-67 предупреждений 0; save.chop изменился=True; исключений 0",
+  "evidence": "run1_loc01.json",
+  "id": "LOC-01",
+  "seconds": 4.5,
+  "finished": "12:03:27"
+ },
+ {
+  "verdict": "Пройдено",
+  "numbers": "Beach загружен за 1.0 с; выход выбран по полю _locationToLoad (всего выходов 3, назначения ['Field_Farms', 'Beach', 'Beach']); игрок 0.01 м от LocationEntrance Beach ((-58.27, -5.32, -369.79)); CC-67 предупреждений 0; save.chop изменился=True; исключений 0",
+  "evidence": "run1_loc02.json",
+  "id": "LOC-02",
+  "seconds": 3.7,
+  "finished": "12:03:31"
+ },
+ {
+  "id": "BND-00",
+  "verdict": "Пройдено",
+  "numbers": "зонд края: пол найден на отступе 20 м (запад y=-29,3; восток -29,9; юг -28,6) и 2 м (север y=-7,3); на меньших отступах пола нет",
+  "evidence": "run1_bnd_BND-01..04.json"
+ }
+]

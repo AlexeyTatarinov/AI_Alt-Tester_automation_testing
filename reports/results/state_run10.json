@@ -1,0 +1,15 @@
+{
+ "run": 10,
+ "load_s": 2.1,
+ "scene_times": {
+  "PersistentManagers": 1.1,
+  "Gameplay": 1.1,
+  "Beach": 2.0
+ },
+ "spawn_pos": [
+  -195.576721,
+  -9.423639,
+  -376.8967
+ ],
+ "t_found": 1795286513.8519964
+}

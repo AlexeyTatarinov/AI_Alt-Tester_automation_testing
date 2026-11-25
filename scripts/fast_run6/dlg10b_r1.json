@@ -1,0 +1,333 @@
+{
+ "res": {
+  "round": "1",
+  "opened_s": 0.22,
+  "step1_moved": 0.38,
+  "found_at_press": null,
+  "last_line_change_t": 23.3,
+  "t_found": null,
+  "pause_no_buttons_s": null
+ },
+ "log": [
+  [
+   1,
+   1.3,
+   true,
+   false,
+   false,
+   "You made it! Welcome to Yolk island!"
+  ],
+  [
+   2,
+   2.5,
+   true,
+   false,
+   false,
+   "It's been a while! Did you come for the cooking festival?"
+  ],
+  [
+   3,
+   3.8,
+   true,
+   false,
+   false,
+   "Yes, I've heard great things about the local chef. Comb, I t"
+  ],
+  [
+   4,
+   5.1,
+   true,
+   false,
+   false,
+   "Oh yes, he's a legend around here. He's very hard to impress"
+  ],
+  [
+   5,
+   6.5,
+   true,
+   false,
+   false,
+   "You'll have to prepare something very special to win the con"
+  ],
+  [
+   6,
+   7.8,
+   true,
+   false,
+   false,
+   "I wasn't necessarily planning to take part in it, but..."
+  ],
+  [
+   7,
+   9.1,
+   true,
+   false,
+   false,
+   "You have to! I'm curious to see what you come up with."
+  ],
+  [
+   8,
+   10.4,
+   true,
+   false,
+   false,
+   "I'll check it out when I get to town. Which way?"
+  ],
+  [
+   9,
+   11.7,
+   true,
+   false,
+   false,
+   "Wait, before you go there. Can I ask you a favour?"
+  ],
+  [
+   10,
+   13.0,
+   true,
+   false,
+   false,
+   "I've just arrived and you're asking me a favour?"
+  ],
+  [
+   11,
+   14.3,
+   true,
+   false,
+   false,
+   "The thing is, I'm trying to gather some seeds for a recipe b"
+  ],
+  [
+   12,
+   15.6,
+   true,
+   false,
+   false,
+   "They call them Groens, and they are carnivorous plants that "
+  ],
+  [
+   13,
+   16.9,
+   true,
+   false,
+   false,
+   "I guess they also love good food."
+  ],
+  [
+   14,
+   18.1,
+   true,
+   false,
+   false,
+   "I know you can take care of them!"
+  ],
+  [
+   15,
+   19.4,
+   true,
+   false,
+   false,
+   "Where can I find them?"
+  ],
+  [
+   16,
+   20.7,
+   true,
+   false,
+   false,
+   "There's a few of them just over the hill above the beach."
+  ],
+  [
+   17,
+   22.0,
+   true,
+   false,
+   false,
+   "Anything for you, my friend."
+  ],
+  [
+   18,
+   23.3,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   19,
+   24.6,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   20,
+   25.9,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   21,
+   27.3,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   22,
+   28.6,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   23,
+   29.9,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   24,
+   31.2,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   25,
+   32.5,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   26,
+   33.8,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   27,
+   35.1,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   28,
+   36.4,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   29,
+   37.7,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   30,
+   38.9,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   31,
+   40.2,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   32,
+   41.5,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   33,
+   42.9,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   34,
+   44.2,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   35,
+   45.5,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   36,
+   46.8,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   37,
+   48.1,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   38,
+   49.4,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   39,
+   50.7,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ],
+  [
+   40,
+   52.0,
+   true,
+   false,
+   false,
+   "They are the key ingredient in my grandma's recipe for an am"
+  ]
+ ]
+}

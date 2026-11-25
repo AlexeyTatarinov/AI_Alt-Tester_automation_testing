@@ -1,0 +1,140 @@
+{
+ "rts": 61.9574661,
+ "frameCount": 4072,
+ "save_before_newgame": {
+  "hash": "33c38933a6cb735c",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 17,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "a1dd90": 1,
+   "edcc6c": 1
+  }
+ },
+ "log_off": 131893366,
+ "save_after_newgame": {
+  "hash": "628fab9eef30a455",
+  "finished": [],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "hint1": true,
+ "dist1": 0.81,
+ "first": {
+  "N_space": 18,
+  "closed": true,
+  "replies": 17,
+  "seq": [
+   "You made it! Welcome to Yolk island!",
+   "It's been a while! Did you come for the cooking festival?",
+   "Yes, I've heard great things about the local chef. Comb, I think he's called?",
+   "Oh yes, he's a legend around here. He's very hard to impress.",
+   "You'll have to prepare something very special to win the contest!",
+   "I wasn't necessarily planning to take part in it, but...",
+   "You have to! I'm curious to see what you come up with.",
+   "I'll check it out when I get to town. Which way?",
+   "Wait, before you go there. Can I ask you a favour?",
+   "I've just arrived and you're asking me a favour?",
+   "The thing is, I'm trying to gather some seeds for a recipe but the local plants are a bit... aggressive.",
+   "They call them Groens, and they are carnivorous plants that eat much more than insects.",
+   "I guess they also love good food.",
+   "I know you can take care of them!",
+   "Where can I find them?",
+   "There's a few of them just over the hill above the beach.",
+   "Anything for you, my friend."
+  ],
+  "exc": {
+   "by_type": {},
+   "total": 0,
+   "first_stacks": {}
+  }
+ },
+ "save_after_first": {
+  "hash": "8d5f8004fba94efd",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "hint2": true,
+ "inv_before_yes": {
+  "hash": "8d5f8004fba94efd",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "second_first_line": "Did you gather the seeds from the Groens up the hill?",
+ "second": {
+  "N_space": 1,
+  "choices": true,
+  "line": "Did you gather the seeds from the Groens up the hill?",
+  "texts": [
+   "Yes",
+   "No"
+  ],
+  "shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run7_new5_20261123\\shots\\d01_choices.png",
+  "dlg_closed": false,
+  "exc": {
+   "by_type": {},
+   "total": 0,
+   "first_stacks": {}
+  }
+ },
+ "seeds_before": 20,
+ "after_click_line": "Oh yeah! Thanks! I love them so much.",
+ "after_click_lines": [
+  "They are the key ingredient in my grandma's recipe for an amazing sweet cream.",
+  "You cook too?",
+  "Are you surprised? I can share the recipe with you if you want.",
+  "It's easy. Just drop 3 Groen seeds into boiling water, then stir for 2 minutes.",
+  "I see. Grandma's old recipe, right?",
+  "It's been our family's treasure for generations."
+ ],
+ "seeds_after": 19,
+ "save_after_yes": {
+  "hash": "902abc1c729e1cef",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 19,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "before": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "33c38933a6cb735c",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ },
+ "restore_equal": true,
+ "after": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "c9dde7118826c1bd",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ },
+ "backup": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "c9dde7118826c1bd",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ },
+ "autoSync": false,
+ "dlg_open": true,
+ "choices": true,
+ "scenes": [
+  "PersistentManagers",
+  "Gameplay",
+  "Beach"
+ ],
+ "window": {
+  "title": "UOP1_Project - Beach - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
+  "found": true,
+  "pid": 7052,
+  "iconic": false,
+  "foreground": false,
+  "responding": true,
+  "cpu_delta_1_5s": 3.625
+ },
+ "restores_log": "self)\n10:03:31 restore #4 (24.11, before s4b run2; window re-minimizes itself within ~5s)\n10:04:10 restore #5 (24.11, before s5_pick)\n10:10:24 restore #1 (preflight t_guard) restored iconic_after=False\n10:18:39 restore #1 (preflight s9) restored iconic_after=False\n10:19:30 restore #2 (preflight s9) restored iconic_after=False\n10:27:26 restore #3 (preflight s9) restored iconic_after=False\n10:30:05 Unity window brought to front by Claude (owner asked to restart Play myself)\n11:00:55 restore #4 (d01 A) restored iconic_after=False\n11:25:50 restore #5 (preflight d02pre) restored iconic_after=False\n",
+ "window_restores_state": 5
+}

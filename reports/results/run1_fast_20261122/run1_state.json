@@ -1,0 +1,40 @@
+{
+ "run_started": "2026-11-22T11:47:58",
+ "orig_runInBackground": true,
+ "prologue": {
+  "runInBackground_now": true,
+  "frames_per_s": 87.0,
+  "ok": true
+ },
+ "editor_log_offset0": 283713179,
+ "editor_log_last_line": "AltTester.AltTesterUnitySDK.Commands.AltRunner:Update ()\r",
+ "backup_dir": "C:\\Users\\Aotat\\Desktop\\Test_Ai\\Reports_2026-11-21\\evidence\\save_backup\\20261122_114746",
+ "saves_hash_before": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "628fab9eef30a455",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "628fab9eef30a455",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ },
+ "new_game": {
+  "load_s": "не измерено (первый запуск stage0 прервался после клика)",
+  "note": "New Game нажат в первом запуске stage0; копия 20261122_114746 сделана непосредственно перед ним, копия 114759 — уже после клика, содержимое то же"
+ },
+ "spawn_found_pos": [
+  -195.576721,
+  -9.495012,
+  -376.8967
+ ],
+ "spawn_grounded": true,
+ "spawn_health": 50,
+ "orig_autoSync": false,
+ "tp_method": "T1",
+ "int": {
+  "precheck": {
+   "hint_visible": true,
+   "seconds": 0.7,
+   "dist": 0.92
+  },
+  "R": 1.56,
+  "N": 18
+ }
+}

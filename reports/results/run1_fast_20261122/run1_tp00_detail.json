@@ -1,0 +1,188 @@
+{
+ "T1_autoSync_set": true,
+ "T1_attempt1": {
+  "ok_reps": 3,
+  "reps": [
+   {
+    "rep": 1,
+    "out": {
+     "target": [
+      -185.6,
+      -9.4,
+      -376.9
+     ],
+     "label": "out",
+     "method": "T1",
+     "call_s": 0.066,
+     "xz_0_5": 0.0,
+     "xz_2": 0.0,
+     "grounded_3s": true,
+     "time_to_grounded_s": 0.59,
+     "y_3s": -9.84,
+     "dy": 0.44,
+     "cc_enabled": true,
+     "pig_count": 1,
+     "log": {
+      "lines": 1892,
+      "exceptions": 0,
+      "errors": 0,
+      "cc_inactive_warnings": 0,
+      "cc67_locationentry": 0,
+      "warnings_other": 0,
+      "samples": []
+     },
+     "ok": true
+    },
+    "back": {
+     "target": [
+      -195.58,
+      -9.42,
+      -376.9
+     ],
+     "label": "back",
+     "method": "T1",
+     "call_s": 0.066,
+     "xz_0_5": 0.0,
+     "xz_2": 0.0,
+     "grounded_3s": true,
+     "time_to_grounded_s": 0.62,
+     "y_3s": -9.49,
+     "dy": 0.07,
+     "cc_enabled": true,
+     "pig_count": 1,
+     "log": {
+      "lines": 1892,
+      "exceptions": 0,
+      "errors": 0,
+      "cc_inactive_warnings": 0,
+      "cc67_locationentry": 0,
+      "warnings_other": 0,
+      "samples": []
+     },
+     "ok": true
+    },
+    "ok": true
+   },
+   {
+    "rep": 2,
+    "out": {
+     "target": [
+      -185.6,
+      -9.4,
+      -376.9
+     ],
+     "label": "out",
+     "method": "T1",
+     "call_s": 0.066,
+     "xz_0_5": 0.0,
+     "xz_2": 0.0,
+     "grounded_3s": true,
+     "time_to_grounded_s": 0.62,
+     "y_3s": -9.84,
+     "dy": 0.44,
+     "cc_enabled": true,
+     "pig_count": 1,
+     "log": {
+      "lines": 1892,
+      "exceptions": 0,
+      "errors": 0,
+      "cc_inactive_warnings": 0,
+      "cc67_locationentry": 0,
+      "warnings_other": 0,
+      "samples": []
+     },
+     "ok": true
+    },
+    "back": {
+     "target": [
+      -195.58,
+      -9.42,
+      -376.9
+     ],
+     "label": "back",
+     "method": "T1",
+     "call_s": 0.076,
+     "xz_0_5": 0.0,
+     "xz_2": 0.0,
+     "grounded_3s": true,
+     "time_to_grounded_s": 0.62,
+     "y_3s": -9.49,
+     "dy": 0.07,
+     "cc_enabled": true,
+     "pig_count": 1,
+     "log": {
+      "lines": 1892,
+      "exceptions": 0,
+      "errors": 0,
+      "cc_inactive_warnings": 0,
+      "cc67_locationentry": 0,
+      "warnings_other": 0,
+      "samples": []
+     },
+     "ok": true
+    },
+    "ok": true
+   },
+   {
+    "rep": 3,
+    "out": {
+     "target": [
+      -185.6,
+      -9.4,
+      -376.9
+     ],
+     "label": "out",
+     "method": "T1",
+     "call_s": 0.104,
+     "xz_0_5": 0.0,
+     "xz_2": 0.0,
+     "grounded_3s": true,
+     "time_to_grounded_s": 0.63,
+     "y_3s": -9.84,
+     "dy": 0.44,
+     "cc_enabled": true,
+     "pig_count": 1,
+     "log": {
+      "lines": 1892,
+      "exceptions": 0,
+      "errors": 0,
+      "cc_inactive_warnings": 0,
+      "cc67_locationentry": 0,
+      "warnings_other": 0,
+      "samples": []
+     },
+     "ok": true
+    },
+    "back": {
+     "target": [
+      -195.58,
+      -9.42,
+      -376.9
+     ],
+     "label": "back",
+     "method": "T1",
+     "call_s": 0.066,
+     "xz_0_5": 0.0,
+     "xz_2": 0.0,
+     "grounded_3s": true,
+     "time_to_grounded_s": 0.67,
+     "y_3s": -9.49,
+     "dy": 0.07,
+     "cc_enabled": true,
+     "pig_count": 1,
+     "log": {
+      "lines": 1892,
+      "exceptions": 0,
+      "errors": 0,
+      "cc_inactive_warnings": 0,
+      "cc67_locationentry": 0,
+      "warnings_other": 0,
+      "samples": []
+     },
+     "ok": true
+    },
+    "ok": true
+   }
+  ]
+ }
+}

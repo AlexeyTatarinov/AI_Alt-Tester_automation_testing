@@ -1,0 +1,463 @@
+{
+ "Field_Hill via Beach_FieldsHill": {
+  "button": "Field_Hill via Beach_FieldsHill",
+  "scenes_before": [
+   "PersistentManagers",
+   "Gameplay",
+   "Beach"
+  ],
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Field_Hill"
+  ],
+  "pos": [
+   -50.9315338,
+   8.238586,
+   -337.29184
+  ],
+  "entrances": [
+   {
+    "name": "LocationEntrance_FromBeach",
+    "pos": [
+     -50.93,
+     8.29,
+     -337.29
+    ],
+    "path": "{'name': 'Beach_FieldsHill', 'hideFlags': 0}",
+    "dist": 0.05
+   },
+   {
+    "name": "LocationEntrance_FromFarms",
+    "pos": [
+     -31.07,
+     6.58,
+     -268.87
+    ],
+    "path": "{'name': 'FieldsHill_FieldsFarms', 'hideFlags': 0}",
+    "dist": 71.27
+   }
+  ],
+  "log": {
+   "lines": 854,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  }
+ },
+ "Field_Farms via FieldsHill_FieldsFarms": {
+  "button": "Field_Farms via FieldsHill_FieldsFarms",
+  "scenes_before": [
+   "PersistentManagers",
+   "Gameplay",
+   "Field_Hill"
+  ],
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Field_Farms"
+  ],
+  "pos": [
+   -14.16062,
+   1.54067171,
+   -259.616425
+  ],
+  "entrances": [
+   {
+    "name": "LocationEntrance_FromHill",
+    "pos": [
+     -14.16,
+     1.62,
+     -259.62
+    ],
+    "path": "{'name': 'FieldsHill_FieldsFarms', 'hideFlags': 0}",
+    "dist": 0.08
+   },
+   {
+    "name": "LocationEntrance_FromTownMarket",
+    "pos": [
+     67.36,
+     6.1,
+     -31.24
+    ],
+    "path": "{'name': 'FieldsFarms_TownMarket', 'hideFlags': 0}",
+    "dist": 242.53
+   }
+  ],
+  "log": {
+   "lines": 860,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  }
+ },
+ "Town_Market via FieldsFarms_TownMarket": {
+  "button": "Town_Market via FieldsFarms_TownMarket",
+  "scenes_before": [
+   "PersistentManagers",
+   "Gameplay",
+   "Field_Farms"
+  ],
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Market"
+  ],
+  "pos": [
+   56.3604126,
+   7.94729042,
+   -15.7532692
+  ],
+  "entrances": [
+   {
+    "name": "LocationEntrance_FromInnerTown_Riverside",
+    "pos": [
+     2.7,
+     11.29,
+     -2.17
+    ],
+    "path": "{'name': 'TownMarket_InnerTown_Riverside', 'hideFlags': 0}",
+    "dist": 55.45
+   },
+   {
+    "name": "LocationEntrance_FromInnerTown_Backside",
+    "pos": [
+     48.4,
+     11.12,
+     37.3
+    ],
+    "path": "{'name': 'TownMarket_InnerTown_BackSide', 'hideFlags': 0}",
+    "dist": 53.74
+   },
+   {
+    "name": "LocationEntrance_FromMountainPath",
+    "pos": [
+     81.49,
+     7.96,
+     20.61
+    ],
+    "path": "{'name': 'TownMarket_MountainPath', 'hideFlags': 0}",
+    "dist": 44.2
+   },
+   {
+    "name": "LocationEntrance_FromFarms",
+    "pos": [
+     56.36,
+     8.48,
+     -15.75
+    ],
+    "path": "{'name': 'FieldsFarms_TownMarket', 'hideFlags': 0}",
+    "dist": 0.53
+   },
+   {
+    "name": "LocationEntrance_FromLakeFall",
+    "pos": [
+     18.08,
+     3.41,
+     -30.58
+    ],
+    "path": "{'name': 'TownMarket_LakeFall', 'hideFlags': 0}",
+    "dist": 41.3
+   }
+  ],
+  "log": {
+   "lines": 1399,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  }
+ },
+ "Town_Upper via InnerTown_UpperTown_Slope": {
+  "button": "Town_Upper via InnerTown_UpperTown_Slope",
+  "scenes_before": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Market"
+  ],
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Upper"
+  ],
+  "pos": [
+   33.16729,
+   30.6753368,
+   58.87044
+  ],
+  "entrances": [
+   {
+    "name": "LocationEntrance_FromInnerTown",
+    "pos": [
+     33.17,
+     31.55,
+     58.87
+    ],
+    "path": "{'name': 'InnerTown_UpperTown_Slope', 'hideFlags': 0}",
+    "dist": 0.87
+   }
+  ],
+  "log": {
+   "lines": 791,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  }
+ },
+ "Town_Inner via InnerTown_Forest": {
+  "button": "Town_Inner via InnerTown_Forest",
+  "scenes_before": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Upper"
+  ],
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Inner"
+  ],
+  "pos": [
+   -15.6365013,
+   12.5774994,
+   25.3957787
+  ],
+  "entrances": [
+   {
+    "name": "LocationEntrance_FromMarket_BackSide",
+    "pos": [
+     15.13,
+     14.15,
+     41.92
+    ],
+    "path": "{'name': 'TownMarket_InnerTown_BackSide', 'hideFlags': 0}",
+    "dist": 34.96
+   },
+   {
+    "name": "LocationEntrance_FromMarket_Riverside",
+    "pos": [
+     -1.2,
+     12.97,
+     18.02
+    ],
+    "path": "{'name': 'TownMarket_InnerTown_Riverside', 'hideFlags': 0}",
+    "dist": 16.22
+   },
+   {
+    "name": "LocationEntrance_FromMarket_FromForest",
+    "pos": [
+     -15.64,
+     12.64,
+     25.4
+    ],
+    "path": "{'name': 'InnerTown_Forest', 'hideFlags': 0}",
+    "dist": 0.06
+   },
+   {
+    "name": "LocationEntrance_FromUpperTown",
+    "pos": [
+     5.51,
+     14.55,
+     38.05
+    ],
+    "path": "{'name': 'InnerTown_UpperTown_Slope', 'hideFlags': 0}",
+    "dist": 24.72
+   }
+  ],
+  "log": {
+   "lines": 1013,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  }
+ },
+ "Forest via InnerTown_Forest": {
+  "button": "Forest via InnerTown_Forest",
+  "scenes_before": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Inner"
+  ],
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Forest"
+  ],
+  "pos": [
+   -53.63438,
+   2.98314953,
+   20.3892212
+  ],
+  "entrances": [
+   {
+    "name": "LocationEntrance",
+    "pos": [
+     -53.62,
+     2.94,
+     20.39
+    ],
+    "path": "{'name': 'InnerTown_Forest', 'hideFlags': 0}",
+    "dist": 0.05
+   }
+  ],
+  "log": {
+   "lines": 691,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  }
+ },
+ "Mountain_Path via MountainCave_MountainPath_BottomExit": {
+  "button": "Mountain_Path via MountainCave_MountainPath_BottomExit",
+  "scenes_before": [
+   "PersistentManagers",
+   "Gameplay",
+   "Forest"
+  ],
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Mountain_Path"
+  ],
+  "pos": [
+   110.731949,
+   21.7072487,
+   55.33332
+  ],
+  "entrances": [
+   {
+    "name": "LocationEntrance_FromTown",
+    "pos": [
+     108.29,
+     11.53,
+     38.76
+    ],
+    "path": "{'name': 'TownMarket_MountainPath', 'hideFlags': 0}",
+    "dist": 19.6
+   },
+   {
+    "name": "LocationEntrance_FromCave",
+    "pos": [
+     110.73,
+     21.79,
+     55.33
+    ],
+    "path": "{'name': 'MountainCave_MountainPath_BottomExit', 'hideFlags': 0}",
+    "dist": 0.08
+   }
+  ],
+  "log": {
+   "lines": 761,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  }
+ },
+ "Mountain_Path via MountainPath_MountainCave_Shaft": {
+  "button": "Mountain_Path via MountainPath_MountainCave_Shaft",
+  "scenes_before": [
+   "PersistentManagers",
+   "Gameplay",
+   "Mountain_Path"
+  ],
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Mountain_Path"
+  ],
+  "pos": [
+   110.731949,
+   21.7072487,
+   55.33332
+  ],
+  "entrances": [
+   {
+    "name": "LocationEntrance_FromTown",
+    "pos": [
+     108.29,
+     11.53,
+     38.76
+    ],
+    "path": "{'name': 'TownMarket_MountainPath', 'hideFlags': 0}",
+    "dist": 19.6
+   },
+   {
+    "name": "LocationEntrance_FromCave",
+    "pos": [
+     110.73,
+     21.79,
+     55.33
+    ],
+    "path": "{'name': 'MountainCave_MountainPath_BottomExit', 'hideFlags': 0}",
+    "dist": 0.08
+   }
+  ],
+  "log": {
+   "lines": 744,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  }
+ },
+ "Mountain_Cave via MountainPath_MountainCave_Shaft": {
+  "button": "Mountain_Cave via MountainPath_MountainCave_Shaft",
+  "scenes_before": [
+   "PersistentManagers",
+   "Gameplay",
+   "Mountain_Path"
+  ],
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Mountain_Cave"
+  ],
+  "pos": [
+   96.94254,
+   36.40894,
+   116.326515
+  ],
+  "entrances": [
+   {
+    "name": "LocationEntrance",
+    "pos": [
+     96.94,
+     36.5,
+     116.33
+    ],
+    "path": "{'name': 'MountainPath_MountainCave_Shaft', 'hideFlags': 0}",
+    "dist": 0.09
+   }
+  ],
+  "log": {
+   "lines": 676,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  }
+ }
+}

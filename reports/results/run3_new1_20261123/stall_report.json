@@ -1,0 +1,36 @@
+[
+ {
+  "time": "12:03:26",
+  "case": "MENU-08 круг 1",
+  "why": "NotFoundException: Object not found",
+  "klass": "причина неизвестна",
+  "recv_without_sent": false,
+  "last_command_received": null,
+  "last_error": "Prefab instance problem. Missing Prefab Asset: 'Rocks_Path_Divider (Missing Prefab with guid: fa681c013617a6742b914f9f026e1c77)'",
+  "probable_cause": "вероятная причина: Prefab instance problem. Missing Prefab Asset: 'Rocks_Path_Divider (Missing Prefab with guid: fa681c013617a6742b914f9f026e1c77)'",
+  "log_size": 53469461,
+  "window": {
+   "found": null,
+   "error": "AttributeError: 'NoneType' object has no attribute 'strip'"
+  },
+  "log_tail_copy": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run3_new1_20261123\\log_tails\\120329_stall_MENU-08_круг_1.txt",
+  "unpause_attempts_used": 0
+ },
+ {
+  "time": "12:04:17",
+  "case": "MENU-08 круг 1",
+  "why": "NotFoundException: Object not found",
+  "klass": "причина неизвестна",
+  "recv_without_sent": false,
+  "last_command_received": null,
+  "last_error": "Prefab instance problem. Missing Prefab Asset: 'Rocks_Path_Divider (Missing Prefab with guid: fa681c013617a6742b914f9f026e1c77)'",
+  "probable_cause": "вероятная причина: Prefab instance problem. Missing Prefab Asset: 'Rocks_Path_Divider (Missing Prefab with guid: fa681c013617a6742b914f9f026e1c77)'",
+  "log_size": 54125977,
+  "window": {
+   "found": null,
+   "error": "AttributeError: 'NoneType' object has no attribute 'strip'"
+  },
+  "log_tail_copy": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run3_new1_20261123\\log_tails\\120419_stall_MENU-08_круг_1.txt",
+  "unpause_attempts_used": 0
+ }
+]

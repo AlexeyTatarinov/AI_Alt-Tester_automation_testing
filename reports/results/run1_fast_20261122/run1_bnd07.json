@@ -1,0 +1,30 @@
+[
+ {
+  "after": "BND-05",
+  "ok": true,
+  "xz_2": 0.0,
+  "grounded": true,
+  "step_m": 0.97
+ },
+ {
+  "after": "BND-01",
+  "ok": true,
+  "xz_2": 0.0,
+  "grounded": true,
+  "step_m": 0.98
+ },
+ {
+  "after": "BND-02",
+  "ok": true,
+  "xz_2": 0.0,
+  "grounded": true,
+  "step_m": 0.99
+ },
+ {
+  "after": "BND-03",
+  "ok": true,
+  "xz_2": 0.0,
+  "grounded": true,
+  "step_m": 1.0
+ }
+]

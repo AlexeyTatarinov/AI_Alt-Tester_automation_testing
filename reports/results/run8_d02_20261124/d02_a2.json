@@ -1,0 +1,239 @@
+{
+ "start": "11:26:20",
+ "realtimeSinceStartup": 137.396149,
+ "frameCount": 16149,
+ "save_before_newgame": {
+  "hash": "33c38933a6cb735c",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 17,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "a1dd90": 1,
+   "edcc6c": 1
+  }
+ },
+ "new_game_s": 3.6,
+ "save_after_newgame": {
+  "hash": "628fab9eef30a455",
+  "finished": [],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "recipe_before": null,
+ "hint1": true,
+ "dist1": 0.88,
+ "conv1": {
+  "N": 18,
+  "replies": 17,
+  "closed": true,
+  "choices": false,
+  "first": [
+   "You made it! Welcome to Yolk island!"
+  ],
+  "last": [
+   "Anything for you, my friend."
+  ],
+  "seq": [
+   "You made it! Welcome to Yolk island!",
+   "It's been a while! Did you come for the cooking festival?",
+   "Yes, I've heard great things about the local chef. Comb, I think he's called?",
+   "Oh yes, he's a legend around here. He's very hard to impress.",
+   "You'll have to prepare something very special to win the contest!",
+   "I wasn't necessarily planning to take part in it, but...",
+   "You have to! I'm curious to see what you come up with.",
+   "I'll check it out when I get to town. Which way?",
+   "Wait, before you go there. Can I ask you a favour?",
+   "I've just arrived and you're asking me a favour?",
+   "The thing is, I'm trying to gather some seeds for a recipe but the local plants are a bit... aggressive.",
+   "They call them Groens, and they are carnivorous plants that eat much more than insects.",
+   "I guess they also love good food.",
+   "I know you can take care of them!",
+   "Where can I find them?",
+   "There's a few of them just over the hill above the beach.",
+   "Anything for you, my friend."
+  ],
+  "exc": {
+   "by_type": {},
+   "total": 0,
+   "first_stacks": {}
+  }
+ },
+ "save_after_conv1": {
+  "hash": "8d5f8004fba94efd",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "inv_before": {
+  "1": [
+   [
+    "PhoenixChick",
+    1,
+    3
+   ],
+   [
+    "Seed",
+    20,
+    1
+   ],
+   [
+    "SlimeCritterEgg",
+    20,
+    1
+   ],
+   [
+    "GoldenEgg",
+    20,
+    1
+   ],
+   [
+    "RockCritterEgg",
+    20,
+    1
+   ],
+   [
+    "SpecialSpoon",
+    1,
+    3
+   ]
+  ],
+  "0": [],
+  "2": []
+ },
+ "hint2": false,
+ "dist2": 0.81,
+ "seeds_before_no": 20,
+ "stacks_before_no": {
+  "540c35": 1,
+  "42396f": 20,
+  "1c53a3": 20,
+  "7a6557": 20,
+  "f14caf": 20,
+  "3e3538": 1
+ },
+ "conv2_open": true,
+ "conv2_first_line": "Did you gather the seeds from the Groens up the hill?",
+ "resume": "11:27:58",
+ "E_without_hint_dlg_opened": false,
+ "hint2b": true,
+ "dist2b": 0.84,
+ "conv2_after_space_line": "Did you gather the seeds from the Groens up the hill?",
+ "conv2_choices": true,
+ "conv2_texts": [
+  "Yes",
+  "No"
+ ],
+ "conv2_shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run7_new5_20261123\\shots\\d02_choices_No.png",
+ "after_no": {
+  "dlg": true,
+  "line": "Ok, no problem, come back when you got them.",
+  "seeds": 20,
+  "texts_now": [
+   [
+    "Text (TMP)",
+    "/"
+   ],
+   [
+    "DialogueLine",
+    "Ok, no problem, come back when you got them."
+   ],
+   [
+    "ActorName",
+    "Maqam"
+   ]
+  ]
+ },
+ "after_no_spaces": [
+  [
+   null,
+   false
+  ]
+ ],
+ "final_dlg": false,
+ "seeds_after_no": 20,
+ "save_after_no": {
+  "hash": "8d5f8004fba94efd",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "exc_conv2": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "exc_all": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "inv_after_no": {
+  "1": [
+   [
+    "PhoenixChick",
+    1,
+    3
+   ],
+   [
+    "Seed",
+    20,
+    1
+   ],
+   [
+    "SlimeCritterEgg",
+    20,
+    1
+   ],
+   [
+    "GoldenEgg",
+    20,
+    1
+   ],
+   [
+    "RockCritterEgg",
+    20,
+    1
+   ],
+   [
+    "SpecialSpoon",
+    1,
+    3
+   ]
+  ],
+  "0": [],
+  "2": []
+ }
+}

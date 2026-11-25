@@ -1,0 +1,49 @@
+{
+ "time": "21:36:01",
+ "steps": [
+  {
+   "t": "21:36:01",
+   "msg": "до",
+   "frameCount": 2480582,
+   "realtime": 23093.2734,
+   "consoleFlags": 7683,
+   "isPlaying": true,
+   "scenes": [
+    "PersistentManagers",
+    "MainMenu"
+   ]
+  },
+  {
+   "t": "21:36:02",
+   "msg": "окна Unity",
+   "wins": [
+    [
+     "8496",
+     "1835172",
+     "UOP1_Project - MainMenu - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>"
+    ]
+   ]
+  },
+  {
+   "t": "21:36:02",
+   "msg": "isPlaying=False отправлено"
+  },
+  {
+   "t": "21:37:10",
+   "msg": "Play остановлен (игра отключилась от AltTester)",
+   "sec": 67.7
+  },
+  {
+   "t": "21:37:14",
+   "msg": "Ctrl+P отправлен"
+  },
+  {
+   "t": "21:37:15",
+   "msg": "фокус возвращён прежнему окну",
+   "was_iconic": true
+  }
+ ],
+ "dry": false,
+ "exit": 3,
+ "why": "Ctrl+P отправлен, но через 120 с AltTester не отвечает. Состояние неизвестно: СТОП, проверить окно Unity вручную (Play мог не запуститься)."
+}

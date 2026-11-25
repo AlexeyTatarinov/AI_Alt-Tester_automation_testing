@@ -1,0 +1,95 @@
+{
+ "start": "11:29:32",
+ "save_before_restore": "a995c0764a98a473",
+ "restore1": true,
+ "hash_after_restore1": "33c38933a6cb735c",
+ "to_menu_s": 0.7,
+ "hash_after_menu": "33c38933a6cb735c",
+ "finished_in_menu": [
+  "7b43c62a4fa974bbc82d5af43cc173ca",
+  "2419d670f41b60f45939ba1637631315",
+  "2187c1f18f6f9ae4bbd10f33a1871d8e",
+  "a025a2dfd3ab26844a62c94ac3899db6",
+  "081f946471c1cce4da8b7d99e82e7b40"
+ ],
+ "restore2_in_menu": true,
+ "hash_after_restore2": "33c38933a6cb735c",
+ "buttons": [
+  [
+   "Button Continue",
+   true
+  ],
+  [
+   "Button New Game",
+   true
+  ],
+  [
+   "Button Settings ",
+   true
+  ],
+  [
+   "Button Credits",
+   true
+  ],
+  [
+   "Button Exit",
+   true
+  ],
+  [
+   "Button Close",
+   true
+  ],
+  [
+   "Audio_Tab",
+   true
+  ],
+  [
+   "Graphic_Tab",
+   true
+  ],
+  [
+   "Language_Tab",
+   true
+  ],
+  [
+   "Button Close",
+   true
+  ],
+  [
+   "Button Close",
+   true
+  ],
+  [
+   "Icon",
+   true
+  ],
+  [
+   "CloseButton",
+   true
+  ],
+  [
+   "RestartButton",
+   true
+  ],
+  [
+   "LogsButton",
+   true
+  ],
+  [
+   "ClearButton",
+   true
+  ],
+  [
+   "CopyButton",
+   true
+  ],
+  [
+   "CloseButton",
+   true
+  ],
+  [
+   "ResetSearchButton",
+   false
+  ]
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "samples": {
+  "0.5": 21.37,
+  "2.0": 9.95,
+  "5.0": 9.85
+ },
+ "log": {
+  "lines": 1436,
+  "exceptions": 0,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": []
+ }
+}

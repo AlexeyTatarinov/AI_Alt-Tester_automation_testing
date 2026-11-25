@@ -1,0 +1,78 @@
+{
+ "started": "21:31:25",
+ "499": [
+  {
+   "rock": "BigRock2 (10)",
+   "dist_from_hare": 19.3,
+   "min_dist_to_center": 0.35,
+   "lateral_move_after_hit_m": 0.96,
+   "stuck": false
+  },
+  {
+   "rock": "BigRock2 (11)",
+   "dist_from_hare": 21.2,
+   "min_dist_to_center": 0.27,
+   "lateral_move_after_hit_m": 0.99,
+   "stuck": false
+  }
+ ],
+ "502_wall": {
+  "name": "BigRock2 (18)",
+  "pos": [
+   -125.3,
+   -5.4,
+   -315.1
+  ]
+ },
+ "502": {
+  "baseline": [
+   [
+    3.59,
+    2.9
+   ],
+   [
+    4.16,
+    3.52
+   ],
+   [
+    3.67,
+    3.16
+   ]
+  ],
+  "into_wall": [
+   [
+    2.71,
+    0.84
+   ],
+   [
+    4.97,
+    3.55
+   ],
+   [
+    4.43,
+    3.5
+   ]
+  ]
+ },
+ "426": {
+  "found": 6,
+  "tests": []
+ },
+ "262b": [
+  {
+   "scene_button": 1,
+   "first_move_after_player_s": 1.32
+  },
+  {
+   "scene_button": 2,
+   "first_move_after_player_s": 2.2
+  },
+  {
+   "scene_button": 3,
+   "first_move_after_player_s": 1.25
+  }
+ ],
+ "exceptions": {},
+ "exceptions_total": 0,
+ "finished": "21:33:23"
+}

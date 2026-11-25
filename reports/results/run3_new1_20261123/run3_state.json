@@ -1,0 +1,103 @@
+{
+ "preflight": {
+  "time": "12:06:21",
+  "label": "finish",
+  "port_13000": true,
+  "window": {
+   "pid": 2576,
+   "cpu_delta_1_5s": 3.422,
+   "foreground": false,
+   "title": "UOP1_Project - Beach - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
+   "responding": true,
+   "found": true,
+   "shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run3_new1_20261123\\shots\\preflight_finish.png",
+   "iconic": false
+  },
+  "consoleFlags": 7683,
+  "consoleFlags_note": "прочиталось (assembly UnityEditor.CoreModule)",
+  "error_pause": false,
+  "play": [
+   true,
+   "isPlaying прочитан"
+  ],
+  "log_offset": 56532906,
+  "log_last_lines": [
+   "NLog.Logger:Debug (string)",
+   "AltTester.AltTesterUnitySDK.Commands.CommandHandler:Send (string)",
+   "AltTester.AltTesterUnitySDK.Commands.CommandHandler/<>c__DisplayClass30_0:<OnMessage>b__0 ()",
+   "AltTester.AltTesterSDK.Driver.AltResponseQueue:Cycle ()",
+   "AltTester.AltTesterUnitySDK.Commands.AltRunner:Update ()"
+  ],
+  "alive": true,
+  "alive_detail": "frameCount 627962 -> 628086"
+ },
+ "guard_offset": 56532906,
+ "unpause_attempts": 0,
+ "heartbeat": {
+  "time": "12:02:23",
+  "ts": 1795431743.6655908,
+  "case": "INV-10",
+  "status": "Пройдено",
+  "note": "предмет Seed (Use), количество ДО Q 20, ПОСЛЕ Q: через 1 с 19, через 3 с 19 (изменение -1, ожидается −1; больше −1 = накопившиеся подписки CC-81); пер"
+ },
+ "heartbeats": [
+  {
+   "time": "11:55:51",
+   "ts": 1795431351.3824017,
+   "case": "GUARD-01 frozen (меню паузы)",
+   "status": "Invalid",
+   "note": "GUARD-01: шаг подхода (W 0,3 с) сдвинул игрока на 0.0 м (< 0.3): игрок заморожен (диалог/меню/пауза?), кейс не выполнялся; "
+  },
+  {
+   "time": "11:55:55",
+   "ts": 1795431355.1615555,
+   "case": "GUARD-01 control (свободное управление)",
+   "status": "Пройдено",
+   "note": "(заглушка: всегда Passed)"
+  },
+  {
+   "time": "11:56:07",
+   "ts": 1795431367.2125041,
+   "case": "GUARD-01 frozen (меню паузы)",
+   "status": "Invalid",
+   "note": "GUARD-01: шаг подхода (W 0,3 с) сдвинул игрока на 0.0 м (< 0.3): игрок заморожен (диалог/меню/пауза?), кейс не выполнялся; "
+  },
+  {
+   "time": "11:56:11",
+   "ts": 1795431371.0714982,
+   "case": "GUARD-01 control (свободное управление)",
+   "status": "Пройдено",
+   "note": "(заглушка: всегда Passed)"
+  },
+  {
+   "time": "11:56:21",
+   "ts": 1795431381.3012328,
+   "case": "PAUSE-01",
+   "status": "Пройдено",
+   "note": "Beach, свободно: шаг W до паузы 1.02 м; Esc → меню открыто=True, timeScale 0.0, игровое время за 1,5 с +0.0 (кадров отрисовано 400); W 0,5 с в меню сд"
+  },
+  {
+   "time": "12:01:38",
+   "ts": 1795431698.6356962,
+   "case": "INV-13",
+   "status": "Пройдено",
+   "note": "у котла (подсказка на 1.93 м, E → инвентарь открыт=True, _isNearPot=True, вкладка Recipe=2): рецептов нет (вкладка пуста), кнопка действия interactabl"
+  },
+  {
+   "time": "12:02:23",
+   "ts": 1795431743.6655908,
+   "case": "INV-10",
+   "status": "Пройдено",
+   "note": "предмет Seed (Use), количество ДО Q 20, ПОСЛЕ Q: через 1 с 19, через 3 с 19 (изменение -1, ожидается −1; больше −1 = накопившиеся подписки CC-81); пер"
+  }
+ ],
+ "risky_checkpoint": {
+  "time": "12:04:32",
+  "step": "MENU-08: 3 круга Back to menu -> New Game",
+  "log_size": 54212509,
+  "save_hashes": {
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "572a5bd3d94c1951",
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079"
+  }
+ }
+}

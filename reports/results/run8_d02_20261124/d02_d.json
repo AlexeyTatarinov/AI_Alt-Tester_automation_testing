@@ -1,0 +1,162 @@
+{
+ "start": "11:29:55",
+ "save_before": {
+  "hash": "33c38933a6cb735c",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 17,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "a1dd90": 1,
+   "edcc6c": 1
+  }
+ },
+ "popup_clicked": true,
+ "load_s": 2.7,
+ "scenes": [
+  "PersistentManagers",
+  "Gameplay",
+  "Beach"
+ ],
+ "pos": [
+  -195.576721,
+  -9.495012,
+  -376.8967
+ ],
+ "spawn_dist_to_hare": 76.1,
+ "save_after_load": {
+  "hash": "33c38933a6cb735c",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 17,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "a1dd90": 1,
+   "edcc6c": 1
+  }
+ },
+ "exc_load": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "inv_after_load": {
+  "1": [
+   [
+    "PhoenixChick",
+    1,
+    3
+   ],
+   [
+    "Seed",
+    17,
+    1
+   ],
+   [
+    "SlimeCritterEgg",
+    20,
+    1
+   ],
+   [
+    "GoldenEgg",
+    20,
+    1
+   ],
+   [
+    "RockCritterEgg",
+    20,
+    1
+   ],
+   [
+    "SpecialSpoon",
+    1,
+    3
+   ],
+   [
+    "SweetCream_Dish",
+    1,
+    1
+   ]
+  ],
+  "0": [],
+  "2": [
+   [
+    "SweetCream_Recipe",
+    1,
+    0
+   ],
+   [
+    "RockCandy_Recipe",
+    1,
+    0
+   ]
+  ]
+ },
+ "hint": true,
+ "open": true,
+ "first_line": "Did you try the sweet cream recipe I gave you?",
+ "conv": {
+  "N": 1,
+  "replies": 1,
+  "closed": false,
+  "choices": true,
+  "seq": [
+   "Did you try the sweet cream recipe I gave you?"
+  ],
+  "texts": [
+   "Yes",
+   "No"
+  ]
+ },
+ "exc_conv": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "exc_all": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "save_after_conv": {
+  "hash": "33c38933a6cb735c",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 17,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "a1dd90": 1,
+   "edcc6c": 1
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "autoSyncTransforms_restored": false,
+ "autoSyncTransforms_orig": false,
+ "runInBackground_restored": true,
+ "runInBackground_orig": true,
+ "scenes_end": [
+  "PersistentManagers",
+  "Gameplay",
+  "Beach"
+ ],
+ "editor_log_total": {
+  "lines": 194477,
+  "exceptions": 0,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 1,
+  "warnings_other": 1,
+  "samples": []
+ },
+ "saves_after_run": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "a995c0764a98a473",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "a995c0764a98a473",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ },
+ "saves_before": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "628fab9eef30a455",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "628fab9eef30a455",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ },
+ "saves_after_restore": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "628fab9eef30a455",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "628fab9eef30a455",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ },
+ "save_restore_ok": true,
+ "save_files_changed_during_run": [
+  "Chop Chop\\save.chop",
+  "Chop Chop\\save.chop.bak"
+ ],
+ "finished": "2026-11-22T12:03:58"
+}

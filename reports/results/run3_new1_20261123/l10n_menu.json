@@ -1,0 +1,53 @@
+{
+ "log0": 48178558,
+ "save_before": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "6a612e208fe4df42",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "b5f636e55fc1cb18",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ },
+ "to_menu_s": 1.2,
+ "menu_scenes": [
+  "PersistentManagers",
+  "MainMenu"
+ ],
+ "menu_texts": [
+  [
+   "VersionNo",
+   "v 0.9"
+  ],
+  [
+   "Disclamer",
+   "Work in progress. This game is being made as a collaborative effort by Unity and the community."
+  ],
+  [
+   "Text (TMP)",
+   "CONTINUER"
+  ],
+  [
+   "Text (TMP)",
+   "NOUVELLE PARTIE"
+  ],
+  [
+   "Text (TMP)",
+   "PARAMETRE"
+  ],
+  [
+   "Text (TMP)",
+   "CREDITS"
+  ],
+  [
+   "Text (TMP)",
+   "QUITTER"
+  ]
+ ],
+ "log_menu": {
+  "lines": 1775,
+  "exceptions": 0,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": []
+ }
+}

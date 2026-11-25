@@ -1,0 +1,36 @@
+{
+ "exits": [
+  {
+   "x": -25.14415,
+   "y": 3.986318,
+   "z": -267.7909,
+   "dest": "Field_Farms"
+  },
+  {
+   "x": -58.2874222,
+   "y": -1.042601,
+   "z": -348.030731,
+   "dest": "Beach"
+  },
+  {
+   "x": -71.0,
+   "y": -6.28,
+   "z": -300.7,
+   "dest": "Beach"
+  }
+ ],
+ "scenes": [
+  "PersistentManagers",
+  "Gameplay",
+  "Beach"
+ ],
+ "log": {
+  "lines": 910,
+  "exceptions": 0,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": []
+ }
+}

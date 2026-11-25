@@ -1,0 +1,86 @@
+[
+ {
+  "name": "BigRock2 (4)",
+  "cid": "COLL-02 BigRock2 (4)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 3.47,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 2.99437882615071,
+    "back": 1.03,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 2.954
+   },
+   {
+    "start": 3.45,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 2.985268413141386,
+    "back": 1.04,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 2.984
+   },
+   {
+    "start": 3.52,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 3.2355773613066017,
+    "back": 1.03,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 2.983
+   }
+  ],
+  "expected": null,
+  "inside": null
+ },
+ {
+  "name": "BigRock (8)",
+  "cid": "COLL-02 BigRock (8)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 2.55,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.8332286374863505,
+    "back": 1.02,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.833
+   },
+   {
+    "start": 2.84,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.8887361965081315,
+    "back": 1.06,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.889
+   },
+   {
+    "start": 2.94,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 2.0563841907824543,
+    "back": 1.02,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.933
+   }
+  ],
+  "expected": null,
+  "inside": null
+ }
+]

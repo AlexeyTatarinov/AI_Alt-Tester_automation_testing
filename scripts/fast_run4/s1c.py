@@ -1,0 +1,13 @@
+import os, sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from r4lib import *
+d = connect(); pre = preflight("s1c")
+print("scenes", scenes())
+eq = save_hashes() == bk_hashes(); print("hash==bk до восстановления", eq)
+if not eq: print("restored", restore())
+print("hash==bk перед NG", save_hashes() == bk_hashes(), save_hashes())
+guard.risky("New Game перед INT-03")
+LOG = log_mark(); open("log_off_int03.txt","w").write(str(LOG))
+t = new_game(); print("new_game", t, scenes())
+try: print("pos", ppos(), "SPAWN", SPAWN, "pause", pause_open(), "ts", d.get_static_property("UnityEngine.Time","timeScale",CORE))
+except Exception as e: print("pos err", type(e).__name__)
+print(shot("s1c_beach"))

@@ -1,0 +1,178 @@
+{
+ "hash_eq_backup_before": false,
+ "restored": true,
+ "checkpoint": {
+  "time": "12:32:14",
+  "step": "DLG-11: Q в диалоге",
+  "log_size": 77357594,
+  "save_hashes": {
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079"
+  }
+ },
+ "to_menu_s": 0.6,
+ "ng_s": 1.4,
+ "S_ng": {
+  "hash": "628fab9eef30a455",
+  "finished": [],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "steps_to_hint": 2,
+ "hint": true,
+ "open_s": 0.16,
+ "line_before_Q": "Hey Hamlet!",
+ "dlg_before_Q": true,
+ "inv_before_Q": false,
+ "ts_before": 1.0,
+ "state_before_Q": "Idle",
+ "save_before_Q": {
+  "hash": "628fab9eef30a455",
+  "finished": [],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "log_off_Q": 77956842,
+ "Q_pressed": true,
+ "after_Q_timeline": [
+  {
+   "t": 0.0,
+   "frame": 797629,
+   "dlg": true,
+   "inv": false,
+   "choices": false,
+   "line": "Hey Hamlet!",
+   "pstate": "Idle"
+  },
+  {
+   "t": 1.3,
+   "frame": 797747,
+   "dlg": true,
+   "inv": false,
+   "choices": false,
+   "line": "Hey Hamlet!",
+   "pstate": "Idle"
+  },
+  {
+   "t": 2.5,
+   "frame": 797878,
+   "dlg": true,
+   "inv": false,
+   "choices": false,
+   "line": "Hey Hamlet!",
+   "pstate": "Idle"
+  },
+  {
+   "t": 3.7,
+   "frame": 798010,
+   "dlg": true,
+   "inv": false,
+   "choices": false,
+   "line": "Hey Hamlet!",
+   "pstate": "Idle"
+  },
+  {
+   "t": 5.0,
+   "frame": 798146,
+   "dlg": true,
+   "inv": false,
+   "choices": false,
+   "line": "Hey Hamlet!",
+   "pstate": "Idle"
+  },
+  {
+   "t": 6.3,
+   "frame": 798265,
+   "dlg": true,
+   "inv": false,
+   "choices": false,
+   "line": "Hey Hamlet!",
+   "pstate": "Idle"
+  },
+  {
+   "t": 7.5,
+   "frame": 798397,
+   "dlg": true,
+   "inv": false,
+   "choices": false,
+   "line": "Hey Hamlet!",
+   "pstate": "Idle"
+  },
+  {
+   "t": 8.8,
+   "frame": 798531,
+   "dlg": true,
+   "inv": false,
+   "choices": false,
+   "line": "Hey Hamlet!",
+   "pstate": "Idle"
+  },
+  {
+   "t": 10.0,
+   "frame": 798666,
+   "dlg": true,
+   "inv": false,
+   "choices": false,
+   "line": "Hey Hamlet!",
+   "pstate": "Idle"
+  }
+ ],
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "log_since": {
+  "lines": 6414,
+  "exceptions": 0,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": []
+ },
+ "log_size_delta": 407742,
+ "errors_new_10s": 0,
+ "alive_after": [
+  true,
+  "frameCount 798831 -> 798954"
+ ],
+ "frames_10s": 1051,
+ "ts_after": 1.0,
+ "panel_left": true,
+ "inv_opened": false,
+ "save_after_Q": {
+  "hash": "628fab9eef30a455",
+  "finished": [],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "advance_after_Q": {
+  "before": "Hey Hamlet!",
+  "after1": null,
+  "after2": null,
+  "advances": true,
+  "dlg_open_after": false
+ },
+ "exc_after_advance": {
+  "ArgumentOutOfRangeException": 1
+ }
+}

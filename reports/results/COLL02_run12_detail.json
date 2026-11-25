@@ -1,0 +1,422 @@
+[
+ {
+  "name": "Boat",
+  "cid": "COLL-02 Boat",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 11.0,
+    "staged": false,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.8133805732388475,
+    "back": 1.07,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.568
+   },
+   {
+    "start": 2.73,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.519360297789843,
+    "back": 1.02,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.519
+   },
+   {
+    "start": 2.53,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.5661334688014326,
+    "back": 1.04,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.516
+   }
+  ],
+  "expected": null,
+  "inside": null
+ },
+ {
+  "name": "Palm (3)",
+  "cid": "COLL-02 Palm (3)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 3.63,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.2236798039111083,
+    "back": 1.06,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.183
+   },
+   {
+    "start": 2.57,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.2032653807452534,
+    "back": 1.09,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.203
+   },
+   {
+    "start": 2.52,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.2081797528927711,
+    "back": 1.08,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.206
+   }
+  ],
+  "expected": 0.93,
+  "inside": 0
+ },
+ {
+  "name": "Palm (4)",
+  "cid": "COLL-02 Palm (4)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 3.3,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.1163240981005873,
+    "back": 1.04,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.116
+   },
+   {
+    "start": 2.54,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.197415852951676,
+    "back": 1.07,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.197
+   },
+   {
+    "start": 2.62,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.1376328951380072,
+    "back": 0.9,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.111
+   }
+  ],
+  "expected": 0.93,
+  "inside": 0
+ },
+ {
+  "name": "Palm (2)",
+  "cid": "COLL-02 Palm (2)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 3.04,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.224871139834686,
+    "back": 1.1,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.13
+   },
+   {
+    "start": 2.45,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.1537403772512929,
+    "back": 1.03,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.122
+   },
+   {
+    "start": 2.51,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.2325891423341138,
+    "back": 1.04,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.197
+   }
+  ],
+  "expected": 0.93,
+  "inside": 0
+ },
+ {
+  "name": "BeachPalm(Polybrush Clone)",
+  "cid": "COLL-02 BeachPalm(Polybrush Clone)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 2.5,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.8611488558896198,
+    "back": 1.02,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.627
+   },
+   {
+    "start": 2.51,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.6203879463690274,
+    "back": 1.04,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.62
+   },
+   {
+    "start": 2.52,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.6019882660816424,
+    "back": 1.05,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.602
+   }
+  ],
+  "expected": 0.58,
+  "inside": 0
+ },
+ {
+  "name": "Palm2(Polybrush Clone)",
+  "cid": "COLL-02 Palm2(Polybrush Clone) (19 м)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 3.21,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.8994345960101989,
+    "back": 1.03,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.887
+   },
+   {
+    "start": 2.64,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.8744152247645118,
+    "back": 1.05,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.857
+   },
+   {
+    "start": 2.6,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.8536315882158653,
+    "back": 1.05,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.854
+   }
+  ],
+  "expected": 1.02,
+  "inside": 0
+ },
+ {
+  "name": "Palm (5)",
+  "cid": "COLL-02 Palm (5)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 3.27,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.9860919779108033,
+    "back": 1.04,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.985
+   },
+   {
+    "start": 2.34,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.0767856024297546,
+    "back": 1.04,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.077
+   },
+   {
+    "start": 2.53,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.3525321535919002,
+    "back": 1.09,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.067
+   }
+  ],
+  "expected": 0.93,
+  "inside": 0
+ },
+ {
+  "name": "Palm2(Polybrush Clone)",
+  "cid": "COLL-02 Palm2(Polybrush Clone) (26 м)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 2.52,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.8438731637515082,
+    "back": 1.07,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.817
+   },
+   {
+    "start": 2.61,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 0.9508577418310228,
+    "back": 1.03,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.951
+   },
+   {
+    "start": 2.38,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.0621634535230273,
+    "back": 1.08,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 0.967
+   }
+  ],
+  "expected": 1.02,
+  "inside": 0
+ },
+ {
+  "name": "BigRock2 (4)",
+  "cid": "COLL-02 BigRock2 (4)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 3.36,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 2.986229998375863,
+    "back": 1.14,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 2.941
+   },
+   {
+    "start": 3.6,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 2.930829948683428,
+    "back": 1.11,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 2.928
+   },
+   {
+    "start": 3.49,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 2.926254008335562,
+    "back": 1.11,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 2.926
+   }
+  ],
+  "expected": null,
+  "inside": null
+ },
+ {
+  "name": "BigRock (8)",
+  "cid": "COLL-02 BigRock (8)",
+  "status": "Пройдено",
+  "reps": [
+   {
+    "start": 2.95,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.835398221667457,
+    "back": 1.08,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.835
+   },
+   {
+    "start": 2.92,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 1.9827207794593755,
+    "back": 1.05,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 1.926
+   },
+   {
+    "start": 2.84,
+    "staged": true,
+    "reason": "упор: 3 шага подряд без продвижения",
+    "stop": 2.0542637202657366,
+    "back": 1.13,
+    "state_after": "Idle",
+    "crossed": false,
+    "stopped": true,
+    "min_d": 2.014
+   }
+  ],
+  "expected": null,
+  "inside": null
+ }
+]

@@ -1,0 +1,199 @@
+{
+ "before_state": {
+  "hash": "6cbc4e736f583878",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 7,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "edcc6c": 1
+  }
+ },
+ "hash_eq_backup_before": false,
+ "restored_from_backup": true,
+ "S_menu_before": {
+  "hash": "33c38933a6cb735c",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 17,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "a1dd90": 1,
+   "edcc6c": 1
+  }
+ },
+ "to_menu_s": 0.6,
+ "hash_eq_backup_at_menu": true,
+ "ng_s": 1.5,
+ "pos_after_ng": [
+  -58.2666,
+  -5.228544,
+  -369.803284
+ ],
+ "dlg_after_ng": false,
+ "pause_after_ng": false,
+ "S_ng": {
+  "hash": "628fab9eef30a455",
+  "finished": [],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "inv_before": {
+  "1": [
+   [
+    "PhoenixChick",
+    1,
+    3
+   ],
+   [
+    "Seed",
+    20,
+    1
+   ],
+   [
+    "SlimeCritterEgg",
+    20,
+    1
+   ],
+   [
+    "GoldenEgg",
+    20,
+    1
+   ],
+   [
+    "RockCritterEgg",
+    20,
+    1
+   ],
+   [
+    "SpecialSpoon",
+    1,
+    3
+   ]
+  ],
+  "0": [],
+  "2": []
+ },
+ "hint_after_step1": false,
+ "steps_to_hint": 2,
+ "hint": true,
+ "log_off": 76954374,
+ "open_s": 0.19,
+ "talk": {
+  "closed": true,
+  "used": "Space",
+  "per_method": {
+   "Space": {
+    "presses": 3,
+    "changed": true
+   }
+  },
+  "elapsed": 9.9
+ },
+ "N_total": 3,
+ "lines": [
+  "Hey Hamlet!",
+  "You made it! Welcome to Yolk island!",
+  "It's been a while! Did you come for the cooking festival?"
+ ],
+ "log": [
+  [
+   "Space",
+   1,
+   "Hey Hamlet!",
+   "You made it! Welcome to Yolk island!",
+   true,
+   0.7
+  ],
+  [
+   "Space",
+   2,
+   "You made it! Welcome to Yolk island!",
+   "It's been a while! Did you come for the cooking festival?",
+   true,
+   1.5
+  ],
+  [
+   "Space",
+   3,
+   "It's been a while! Did you come for the cooking festival?",
+   null,
+   false,
+   9.8
+  ]
+ ],
+ "hint_back_s": 0.1,
+ "step_m": 1.04,
+ "S_after": {
+  "hash": "b551e1049c076857",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "exc": {
+  "by_type": {
+   "ArgumentOutOfRangeException": 1
+  },
+  "total": 1,
+  "first_stacks": {
+   "ArgumentOutOfRangeException": [
+    "ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.",
+    "Parameter name: index",
+    "  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <b2ed3aa968d84284a17b07ec9195055c>:0 ",
+    "  at DialogueManager.get__reachedEndOfLine () [0x00000] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\Dialogues\\DialogueManager.cs:31 ",
+    "  at DialogueManager.OnAdvance () [0x0000e] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\Dialogues\\DialogueManager.cs:77 ",
+    "  at (wrapper delegate-invoke) <Module>.invoke_void()",
+    "  at InputReader.OnAdvanceDialogue (UnityEngine.InputSystem.InputAction+CallbackContext context) [0x0000a] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\Input\\InputReader.cs:181 "
+   ]
+  }
+ },
+ "log_since": {
+  "lines": 4117,
+  "exceptions": 2,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": [
+   "ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.",
+   "ArgumentOutOfRangeException while executing 'performed' callbacks of 'Dialogues/AdvanceDialogue[/Keyboard/space,/AltKeyboard/space,/AltGamepad/buttonSouth]'"
+  ]
+ },
+ "inv_after": {
+  "2": []
+ },
+ "alive": true
+}
