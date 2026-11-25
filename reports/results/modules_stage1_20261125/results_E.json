@@ -1,0 +1,12 @@
+{
+ "M01-02": {
+  "verdict": "OBSERVATION",
+  "numbers": "после 3 переходов (Beach->Field_Hill->Town_Market->Beach): SceneLoader/AudioManager/EventSystem/PigChef = 1 везде: True; нарушения []; AudioListener (всего объектов, активных) по шагам [('Beach(NewGame)', 5, 1), ('Field_Hill', 2, 1), ('Town_Market', 2, 1), ('Beach', 5, 1)]; исключений 0 | AudioListener: объектов с компонентом 2 (Field_Hill, Town_Market) и 5 (Beach), активных всегда 1; по критерию «если 2 — OBSERVATION»; в логе за переход 51 сообщение «2 audio listeners» (P11). Остальные объекты ровно по 1.",
+  "source": "m01_02_m18_01.json"
+ },
+ "M18-01": {
+  "verdict": "PASS",
+  "numbers": "музыкальный трек сцены (MusicPlayer) и играющие зацикленные клипы: {'Beach_first': ('Music_Beach', ['Env_BoilingWater', 'Music_Beach', 'Env_Campfire']), 'Field_Hill': ('Music_Field', ['Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Music_Glade', 'Env_Campfire', 'Env_Campfire']), 'Town_Market': ('Music_Town', ['Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_BoilingWater', 'Env_Campfire', 'Env_Campfire', 'Music_Town', 'Env_Campfire', 'Env_BoilingWater', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_BoilingWater', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire', 'Env_Campfire']), 'Beach_after_chain': ('Music_Beach', ['Music_Beach', 'Env_Campfire', 'Env_BoilingWater'])}; различных треков 3 из 3, наборов клипов 3 из 3",
+  "source": "m01_02_m18_01.json"
+ }
+}

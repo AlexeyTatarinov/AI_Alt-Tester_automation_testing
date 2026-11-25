@@ -1,0 +1,12 @@
+import sys; sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\modules")
+from elib import *
+try: autosync(False)
+except Exception as e: print("autosync err", e)
+try: print("autoSync now", d.get_static_property("UnityEngine.Physics","autoSyncTransforms",PHYS))
+except Exception as e: print("read err", e)
+try: print("runInBackground", d.get_static_property("UnityEngine.Application","runInBackground",CORE))
+except Exception as e: print(e)
+print("restore ok:", restore())
+print("hashes == backup:", save_hashes()==bk_hashes())
+print(scenes(), "window iconic", guard.unity_window().get("iconic"))
+st=guard._state(); print("window_restores", st.get("window_restores"), "unpause", st.get("unpause_attempts"), "pause_closed", st.get("game_pause_closed"))

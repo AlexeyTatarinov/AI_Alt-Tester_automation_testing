@@ -1,0 +1,99 @@
+{
+ "exits": {
+  "Field_Hill/LocationExit_ToFarms": {
+   "src": "Field_Hill",
+   "exit": "LocationExit_ToFarms",
+   "to": "Field_Farms",
+   "path": "FieldsHill_FieldsFarms",
+   "exit_pos": [
+    -25.14,
+    3.99,
+    -267.79
+   ],
+   "arrived_s": 2.3,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Field_Farms"
+   ],
+   "player_pos": [
+    -14.16,
+    1.54,
+    -259.62
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromHill",
+     "FieldsHill_FieldsFarms",
+     0.0,
+     0.08
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.0,
+   "log": {
+    "lines": 989,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.00 м, CC-67 нет"
+  },
+  "Field_Hill/LocationExit_ToBeach": {
+   "verdict": "SKIPPED",
+   "why": "Beach<->Field_Hill уже PASS (LOC-01/02)"
+  },
+  "Field_Hill/LocationExit_ToBeach_JumpDown": {
+   "src": "Field_Hill",
+   "exit": "LocationExit_ToBeach_JumpDown",
+   "to": "Beach",
+   "path": "Beach_FieldsHill",
+   "exit_pos": [
+    -71.0,
+    -6.28,
+    -300.7
+   ],
+   "arrived_s": 0.9,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Beach"
+   ],
+   "verdict": "BLOCKED",
+   "why": "read error NotFoundException"
+  }
+ },
+ "scenes": {
+  "Field_Hill": {
+   "exits": [
+    [
+     "LocationExit_ToFarms",
+     "Field_Farms",
+     "FieldsHill_FieldsFarms"
+    ],
+    [
+     "LocationExit_ToBeach",
+     "Beach",
+     "Beach_FieldsHill"
+    ],
+    [
+     "LocationExit_ToBeach_JumpDown",
+     "Beach",
+     "Beach_FieldsHill"
+    ]
+   ],
+   "entrances": [
+    [
+     "LocationEntrance_FromBeach",
+     "Beach_FieldsHill"
+    ],
+    [
+     "LocationEntrance_FromFarms",
+     "FieldsHill_FieldsFarms"
+    ]
+   ]
+  }
+ }
+}

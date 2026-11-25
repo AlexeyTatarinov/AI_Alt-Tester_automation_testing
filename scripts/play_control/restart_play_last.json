@@ -1,49 +1,76 @@
 {
- "time": "21:36:01",
+ "time": "12:40:42",
  "steps": [
   {
-   "t": "21:36:01",
+   "t": "12:40:43",
    "msg": "до",
-   "frameCount": 2480582,
-   "realtime": 23093.2734,
+   "frameCount": 988464,
+   "realtime": 5202.244,
    "consoleFlags": 7683,
    "isPlaying": true,
    "scenes": [
     "PersistentManagers",
-    "MainMenu"
+    "Gameplay"
    ]
   },
   {
-   "t": "21:36:02",
+   "t": "12:40:43",
    "msg": "окна Unity",
    "wins": [
     [
-     "8496",
-     "1835172",
-     "UOP1_Project - MainMenu - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>"
+     "5720",
+     "67084",
+     "UOP1_Project - PersistentManagers - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>"
     ]
    ]
   },
   {
-   "t": "21:36:02",
+   "t": "12:40:43",
+   "msg": "внимание: игра в Gameplay; Stop сам перезапишет save.chop, поэтому --restore-save выполнится ПОСЛЕ остановки"
+  },
+  {
+   "t": "12:40:43",
    "msg": "isPlaying=False отправлено"
   },
   {
-   "t": "21:37:10",
+   "t": "12:41:51",
    "msg": "Play остановлен (игра отключилась от AltTester)",
    "sec": 67.7
   },
   {
-   "t": "21:37:14",
+   "t": "12:41:54",
+   "msg": "save.chop возвращён из копии",
+   "equal": true
+  },
+  {
+   "t": "12:41:55",
    "msg": "Ctrl+P отправлен"
   },
   {
-   "t": "21:37:15",
+   "t": "12:42:04",
    "msg": "фокус возвращён прежнему окну",
    "was_iconic": true
+  },
+  {
+   "t": "12:42:07",
+   "msg": "после",
+   "frameCount": 202,
+   "realtime": 10.5441866,
+   "consoleFlags": 7683,
+   "isPlaying": true,
+   "scenes": [
+    "MainMenu",
+    "PersistentManagers"
+   ]
+  },
+  {
+   "t": "12:42:09",
+   "msg": "окно Unity свёрнуто повторно после старта игры (редактор сам разворачивает окно при входе в Play)"
   }
  ],
  "dry": false,
- "exit": 3,
- "why": "Ctrl+P отправлен, но через 120 с AltTester не отвечает. Состояние неизвестно: СТОП, проверить окно Unity вручную (Play мог не запуститься)."
+ "frames_before": 988464,
+ "frames_after": 202,
+ "exit": 0,
+ "why": "Play перезапущен: frameCount 988464 -> 202, сцены ['MainMenu', 'PersistentManagers']"
 }

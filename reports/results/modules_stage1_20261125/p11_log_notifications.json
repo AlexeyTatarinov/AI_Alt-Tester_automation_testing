@@ -1,0 +1,178 @@
+{
+ "notif": [
+  [
+   1795603458.23,
+   null,
+   "2026-11-25 11:44:18.2180|AltTester|DEBUG|response sent: {\"messageId\":\"208552\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"activateNotification\",\"error\":null,\"data\":\"\\\"Ok\\\"\",\"isNotific"
+  ],
+  [
+   1795603458.24,
+   null,
+   "2026-11-25 11:44:18.2398|AltTester|DEBUG|response sent: {\"messageId\":\"219248\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"activateNotification\",\"error\":null,\"data\":\"\\\"Ok\\\"\",\"isNotific"
+  ],
+  [
+   1795603458.26,
+   null,
+   "2026-11-25 11:44:18.2612|AltTester|DEBUG|response sent: {\"messageId\":\"250596\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"activateNotification\",\"error\":null,\"data\":\"\\\"Ok\\\"\",\"isNotific"
+  ],
+  [
+   1795603458.28,
+   null,
+   "2026-11-25 11:44:18.2815|AltTester|DEBUG|response sent: {\"messageId\":\"271520\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"pressKeyboardKeys\",\"error\":null,\"data\":\"\\\"Ok\\\"\",\"isNotificati"
+  ],
+  [
+   1795603458.38,
+   null,
+   "2026-11-25 11:44:18.3832|AltTester|DEBUG|response sent: {\"messageId\":\"271520\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"pressKeyboardKeys\",\"error\":null,\"data\":\"\\\"Finished\\\"\",\"isNoti"
+  ],
+  [
+   1795603459.62,
+   null,
+   "2026-11-25 11:44:19.6135|AltTester|DEBUG|response sent: {\"messageId\":\"589657\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"findObjects\",\"error\":null,\"data\":\"[{\\\"name\\\":\\\"LocationButton"
+  ],
+  [
+   1795603459.65,
+   null,
+   "2026-11-25 11:44:19.6491|AltTester|DEBUG|response sent: {\"messageId\":\"621385\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"findObjects\",\"error\":null,\"data\":\"[{\\\"name\\\":\\\"Text\\\",\\\"id\\\":"
+  ],
+  [
+   1795603459.69,
+   null,
+   "2026-11-25 11:44:19.6865|AltTester|DEBUG|response sent: {\"messageId\":\"653426\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"getText\",\"error\":null,\"data\":\"\\\"Field_Hill via Beach_FieldsHi"
+  ],
+  [
+   1795603459.72,
+   null,
+   "2026-11-25 11:44:19.7160|AltTester|DEBUG|response sent: {\"messageId\":\"696172\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"clickElement\",\"error\":null,\"data\":\"{\\\"name\\\":\\\"LocationButton"
+  ],
+  [
+   1795603459.73,
+   null,
+   "2026-11-25 11:44:19.7160|AltTester|DEBUG|response sent: {\"messageId\":\"696172\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"clickElement\",\"error\":null,\"data\":\"\\\"Finished\\\"\",\"isNotificat"
+  ],
+  [
+   1795603459.74,
+   null,
+   "2026-11-25 11:44:19.7432|AltTester|DEBUG|response sent: {\"messageId\":\"727648\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"getAllLoadedScenes\",\"error\":null,\"data\":\"[\\\"PersistentManager"
+  ],
+  [
+   1795603460.67,
+   null,
+   "2026-11-25 11:44:20.6635|AltTester|DEBUG|response sent: {\"messageId\":null,\"driverId\":null,\"commandName\":\"unloadSceneNotification\",\"error\":null,\"data\":\"\\\"Beach\\\"\",\"isNotification\":true}"
+  ],
+  [
+   1795603460.67,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.67,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.67,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.67,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.67,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.68,
+   null,
+   "2026-11-25 11:44:20.6655|AltTester|DEBUG|response sent: {\"messageId\":\"248653\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"getAllLoadedScenes\",\"error\":null,\"data\":\"[\\\"PersistentManager"
+  ],
+  [
+   1795603460.68,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.7,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.7,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.71,
+   null,
+   "2026-11-25 11:44:20.6963|AltTester|DEBUG|response sent: {\"messageId\":\"684470\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"findObjects\",\"error\":null,\"data\":\"[]\",\"isNotification\":false}"
+  ],
+  [
+   1795603460.71,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.76,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.76,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.76,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.76,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.77,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.77,
+   null,
+   "There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene"
+  ],
+  [
+   1795603460.89,
+   null,
+   "2026-11-25 11:44:20.8923|AltTester|DEBUG|response sent: {\"messageId\":null,\"driverId\":null,\"commandName\":\"loadSceneNotification\",\"error\":null,\"data\":\"{\\\"sceneName\\\":\\\"Field_Hill\\\",\\\"loadSceneMode\\\":1}\""
+  ],
+  [
+   1795603461.23,
+   null,
+   "2026-11-25 11:44:21.2298|AltTester|DEBUG|response sent: {\"messageId\":\"218001\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"getAllLoadedScenes\",\"error\":null,\"data\":\"[\\\"PersistentManager"
+  ],
+  [
+   1795603461.27,
+   null,
+   "2026-11-25 11:44:21.2727|AltTester|DEBUG|response sent: {\"messageId\":\"239914\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"findObjects\",\"error\":null,\"data\":\"[{\\\"name\\\":\\\"PigChef(Clone)"
+  ],
+  [
+   1795603461.82,
+   null,
+   "2026-11-25 11:44:21.8162|AltTester|DEBUG|response sent: {\"messageId\":\"782792\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"getAllLoadedScenes\",\"error\":null,\"data\":\"[\\\"PersistentManager"
+  ],
+  [
+   1795603461.85,
+   null,
+   "2026-11-25 11:44:21.8484|AltTester|DEBUG|response sent: {\"messageId\":\"826540\",\"driverId\":\"74634b38afc54f209b8ff594773bf294\",\"commandName\":\"findObjects\",\"error\":null,\"data\":\"[{\\\"name\\\":\\\"PigChef(Clone)"
+  ]
+ ],
+ "editor_err": [
+  "AltTester.AltTesterUnitySDK.Commands.AltCommandWithWait`2<AltTester.AltTesterSDK.Driver.Commands.AltClickElementParams, AltTester.AltTesterSDK.Driver.AltObject>:onFinish (System.Exception)",
+  "AltTester.AltTesterUnitySDK.Commands.AltCommandWithWait`2<AltTester.AltTesterSDK.Driver.Commands.AltClickElementParams, AltTester.AltTesterSDK.Driver.AltObject>:onFinish (System.Exception)"
+ ]
+}

@@ -1,0 +1,367 @@
+{
+ "M01-02": {
+  "steps": [
+   {
+    "at": "Beach(NewGame)",
+    "counts": {
+     "SceneLoader": 1,
+     "AudioManager": 1,
+     "EventSystem(name)": 1,
+     "AudioListener_all": 5,
+     "AudioListener_active": 1,
+     "PigChef(Clone)": 1
+    }
+   },
+   {
+    "at": "Field_Hill",
+    "go": [
+     "Field_Hill via Beach_FieldsHill",
+     6.7,
+     0
+    ],
+    "scenes": [
+     "Field_Hill"
+    ],
+    "counts": {
+     "SceneLoader": 1,
+     "AudioManager": 1,
+     "EventSystem(name)": 1,
+     "AudioListener_all": 2,
+     "AudioListener_active": 1,
+     "PigChef(Clone)": 1
+    },
+    "log": {
+     "lines": 2338,
+     "exceptions": 0,
+     "errors": 0,
+     "cc_inactive_warnings": 0,
+     "cc67_locationentry": 0,
+     "warnings_other": 0,
+     "samples": []
+    }
+   },
+   {
+    "at": "Town_Market",
+    "go": [
+     "Town_Market via FieldsFarms_TownMarket",
+     6.7,
+     0
+    ],
+    "scenes": [
+     "Town_Market"
+    ],
+    "counts": {
+     "SceneLoader": 1,
+     "AudioManager": 1,
+     "EventSystem(name)": 1,
+     "AudioListener_all": 2,
+     "AudioListener_active": 1,
+     "PigChef(Clone)": 1
+    },
+    "log": {
+     "lines": 2662,
+     "exceptions": 0,
+     "errors": 0,
+     "cc_inactive_warnings": 0,
+     "cc67_locationentry": 0,
+     "warnings_other": 0,
+     "samples": []
+    }
+   },
+   {
+    "at": "Beach",
+    "go": [
+     "Beach via Beach_FieldsHill",
+     6.6,
+     0
+    ],
+    "scenes": [
+     "Beach"
+    ],
+    "counts": {
+     "SceneLoader": 1,
+     "AudioManager": 1,
+     "EventSystem(name)": 1,
+     "AudioListener_all": 5,
+     "AudioListener_active": 1,
+     "PigChef(Clone)": 1
+    },
+    "log": {
+     "lines": 2350,
+     "exceptions": 0,
+     "errors": 0,
+     "cc_inactive_warnings": 0,
+     "cc67_locationentry": 0,
+     "warnings_other": 0,
+     "samples": []
+    }
+   }
+  ]
+ },
+ "M18-01": {
+  "scenes": {
+   "Beach_first": {
+    "scene": "Beach",
+    "playing": [
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_BoilingWater",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Music_Beach",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "BardHare_15",
+      "loop": false
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     }
+    ],
+    "MusicPlayer._thisSceneSO.name": "Beach",
+    "MusicPlayer._thisSceneSO.musicTrack.name": "Music_Beach",
+    "audiosources_total": 36
+   },
+   "Field_Hill": {
+    "scene": "Field_Hill",
+    "playing": [
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Music_Glade",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     }
+    ],
+    "MusicPlayer._thisSceneSO.name": "Field_Hill",
+    "MusicPlayer._thisSceneSO.musicTrack.name": "Music_Field",
+    "audiosources_total": 36
+   },
+   "Town_Market": {
+    "scene": "Town_Market",
+    "playing": [
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_BoilingWater",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "BardHare_02_Long",
+      "loop": false
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Music_Town",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_BoilingWater",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_BoilingWater",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     }
+    ],
+    "MusicPlayer._thisSceneSO.name": "Town_Market",
+    "MusicPlayer._thisSceneSO.musicTrack.name": "Music_Town",
+    "audiosources_total": 36
+   },
+   "Beach_after_chain": {
+    "scene": "Beach",
+    "playing": [
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Music_Beach",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_Campfire",
+      "loop": true
+     },
+     {
+      "obj": "SoundEmitter(Clone)",
+      "clip": "Env_BoilingWater",
+      "loop": true
+     }
+    ],
+    "MusicPlayer._thisSceneSO.name": "Beach",
+    "MusicPlayer._thisSceneSO.musicTrack.name": "Music_Beach",
+    "audiosources_total": 36
+   }
+  }
+ }
+}

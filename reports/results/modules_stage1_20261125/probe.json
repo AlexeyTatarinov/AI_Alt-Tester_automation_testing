@@ -1,0 +1,454 @@
+{
+ "rows": [
+  {
+   "id": "P07",
+   "call": "StartGame._saveSystem.saveData._locationId depth=2",
+   "ok": true,
+   "resp": "2f386bbc670c05145834a0f9c7d55798",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P07",
+   "call": "StartGame._saveSystem.saveData._finishedQuestlineItemsGUIds depth=2",
+   "ok": true,
+   "resp": "['7b43c62a4fa974bbc82d5af43cc173ca', '2419d670f41b60f45939ba1637631315', '2187c1f18f6f9ae4bbd10f33a1871d8e', 'a025a2dfd3ab26844a62c94ac3899db6', '081f946471c1cce4da8b7d99e82e7b40']",
+   "s": 0.03,
+   "note": ""
+  },
+  {
+   "id": "P07",
+   "call": "StartGame._saveSystem.saveData._locationId depth=4",
+   "ok": true,
+   "resp": "2f386bbc670c05145834a0f9c7d55798",
+   "s": 0.03,
+   "note": ""
+  },
+  {
+   "id": "P07",
+   "call": "StartGame._saveSystem.saveData._finishedQuestlineItemsGUIds depth=4",
+   "ok": true,
+   "resp": "['7b43c62a4fa974bbc82d5af43cc173ca', '2419d670f41b60f45939ba1637631315', '2187c1f18f6f9ae4bbd10f33a1871d8e', 'a025a2dfd3ab26844a62c94ac3899db6', '081f946471c1cce4da8b7d99e82e7b40']",
+   "s": 0.03,
+   "note": ""
+  },
+  {
+   "id": "P07",
+   "call": "StartGame._saveSystem.saveData._itemStacks depth=4",
+   "ok": true,
+   "resp": "[{'itemGuid': '540c35ca6164bf3438e37e4f8087d47c', 'amount': 1}, {'itemGuid': '42396f680e5649c4b91e2b29ff34f811', 'amount': 17}, {'itemGuid': '1c53a3bee1a484bc2ab70d7f4f1f0aa4', 'amount': 20}, {'itemGuid': '7a6557abb46da48458da1572c9022163', 'amount': 20}, {'itemGuid': 'f14caff5e16bd4a48b45e4a2c5a0fc",
+   "s": 0.03,
+   "note": "stacks"
+  },
+  {
+   "id": "P07",
+   "call": "save.chop file",
+   "ok": true,
+   "resp": "loc=2f386bbc670c05145834a0f9c7d55798 finished=5 stacks=9",
+   "s": 0,
+   "note": "file compare"
+  },
+  {
+   "id": "P08",
+   "call": "GetGroupVolume(MasterVolume)",
+   "ok": true,
+   "resp": "1.0",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P08",
+   "call": "GetGroupVolume(MusicVolume)",
+   "ok": true,
+   "resp": "1.0",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P08",
+   "call": "GetGroupVolume(SFXVolume)",
+   "ok": true,
+   "resp": "1.0",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P08",
+   "call": "AudioManager._masterVolume depth=2",
+   "ok": true,
+   "resp": "1.0",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P08",
+   "call": "AudioManager._musicVolume depth=2",
+   "ok": true,
+   "resp": "1.0",
+   "s": 0.03,
+   "note": ""
+  },
+  {
+   "id": "P08",
+   "call": "AudioManager._sfxVolume depth=2",
+   "ok": true,
+   "resp": "1.0",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P09",
+   "call": "CutsceneManager._activePlayableDirector depth=2",
+   "ok": true,
+   "resp": "None",
+   "s": 0.02,
+   "note": "t=0 after New Game"
+  },
+  {
+   "id": "P09",
+   "call": "CutsceneManager._activePlayableDirector.state depth=2",
+   "ok": true,
+   "resp": "None",
+   "s": 0.02,
+   "note": "t=0 after New Game"
+  },
+  {
+   "id": "P09",
+   "call": "CutsceneManager._activePlayableDirector.time depth=2",
+   "ok": true,
+   "resp": "None",
+   "s": 0.02,
+   "note": "t=0 after New Game"
+  },
+  {
+   "id": "P09",
+   "call": "CutsceneManager._activePlayableDirector.state depth=4",
+   "ok": true,
+   "resp": "None",
+   "s": 0.02,
+   "note": "t=0 after New Game d4"
+  },
+  {
+   "id": "P01",
+   "call": "get_all_components(PigChef(Clone))",
+   "ok": true,
+   "resp": "['UnityEngine.Transform', 'UnityEngine.CapsuleCollider', 'UnityEngine.CharacterController', 'UnityEngine.Animator', 'UOP1.StateMachine.StateMachine', 'Attacker', 'Damageable', 'UnityEngine.Animations.Rigging.BoneRenderer', 'ProtagonistAudio', 'Protagonist', 'UnityEngine.Animations.Rigging.RigBuilder",
+   "s": 0.03,
+   "note": ""
+  },
+  {
+   "id": "P09",
+   "call": "CutsceneManager._activePlayableDirector depth=2",
+   "ok": true,
+   "resp": "None",
+   "s": 0.03,
+   "note": "t=30s after New Game"
+  },
+  {
+   "id": "P09",
+   "call": "CutsceneManager._activePlayableDirector.state depth=2",
+   "ok": true,
+   "resp": "None",
+   "s": 0.02,
+   "note": "t=30s after New Game"
+  },
+  {
+   "id": "P09",
+   "call": "CutsceneManager._activePlayableDirector.time depth=2",
+   "ok": true,
+   "resp": "None",
+   "s": 0.02,
+   "note": "t=30s after New Game"
+  },
+  {
+   "id": "P09",
+   "call": "CutsceneManager._activePlayableDirector.state depth=4",
+   "ok": true,
+   "resp": "None",
+   "s": 0.02,
+   "note": "t=30s after New Game d4"
+  },
+  {
+   "id": "P02",
+   "call": "UIManager._gameStateManager._currentGameState depth=2",
+   "ok": true,
+   "resp": "0",
+   "s": 0.02,
+   "note": "Gameplay"
+  },
+  {
+   "id": "P02",
+   "call": "UIManager._gameStateManager.CurrentGameState depth=2",
+   "ok": true,
+   "resp": "0",
+   "s": 0.03,
+   "note": "Gameplay public",
+   "pytype": "int"
+  },
+  {
+   "id": "P02",
+   "call": "UIManager._gameStateManager._currentGameState depth=2",
+   "ok": true,
+   "resp": "1",
+   "s": 0.03,
+   "note": "Esc open"
+  },
+  {
+   "id": "P03",
+   "call": "Protagonist._inputReader._gameInput.Gameplay.enabled depth=2",
+   "ok": true,
+   "resp": "False",
+   "s": 0.03,
+   "note": "Esc open"
+  },
+  {
+   "id": "P03",
+   "call": "Protagonist._inputReader._gameInput.Menus.enabled depth=2",
+   "ok": true,
+   "resp": "True",
+   "s": 0.04,
+   "note": "Esc open"
+  },
+  {
+   "id": "P03",
+   "call": "Protagonist._inputReader._gameInput.Dialogues.enabled depth=2",
+   "ok": true,
+   "resp": "False",
+   "s": 0.04,
+   "note": "Esc open"
+  },
+  {
+   "id": "P03",
+   "call": "Protagonist._inputReader._gameInput.Gameplay.enabled depth=2",
+   "ok": true,
+   "resp": "True",
+   "s": 0.04,
+   "note": "Gameplay"
+  },
+  {
+   "id": "P03",
+   "call": "Protagonist._inputReader._gameInput.Menus.enabled depth=2",
+   "ok": true,
+   "resp": "False",
+   "s": 0.04,
+   "note": "Gameplay"
+  },
+  {
+   "id": "P03",
+   "call": "Protagonist._inputReader._gameInput.Dialogues.enabled depth=2",
+   "ok": true,
+   "resp": "False",
+   "s": 0.03,
+   "note": "Gameplay"
+  },
+  {
+   "id": "P02",
+   "call": "UIManager._gameStateManager._currentGameState depth=2",
+   "ok": true,
+   "resp": "2",
+   "s": 0.02,
+   "note": "Tab open"
+  },
+  {
+   "id": "P03",
+   "call": "Protagonist._inputReader._gameInput.Gameplay.enabled depth=2",
+   "ok": true,
+   "resp": "False",
+   "s": 0.02,
+   "note": "Tab open"
+  },
+  {
+   "id": "P03",
+   "call": "Protagonist._inputReader._gameInput.Menus.enabled depth=2",
+   "ok": true,
+   "resp": "True",
+   "s": 0.02,
+   "note": "Tab open"
+  },
+  {
+   "id": "P02",
+   "call": "UIManager._gameStateManager._currentGameState depth=2",
+   "ok": true,
+   "resp": "0",
+   "s": 0.02,
+   "note": "after Tab close"
+  },
+  {
+   "id": "P04",
+   "call": "InventoryManager._currentInventory._items depth=2",
+   "ok": true,
+   "resp": "[{'Amount': 1, 'Item': {'Name': {}, 'PreviewImage': {}, 'Description': {}, 'HealthResorationValue': 0, 'ItemType': {}, 'Prefab': {}, 'IngredientsList': None, 'ResultingDish': None, 'IsLocalized': False, 'LocalizePreviewImage': None, 'Guid': '540c35ca6164bf3438e37e4f8087d47c', 'name': 'PhoenixChick',",
+   "s": 0.05,
+   "note": ""
+  },
+  {
+   "id": "P04",
+   "call": "InventoryManager._currentInventory._items depth=4",
+   "ok": false,
+   "resp": "UnknownErrorException: Error getting value from 'transform' on 'UnityEngine.GameObject'.",
+   "s": 0.12,
+   "note": ""
+  },
+  {
+   "id": "P04",
+   "call": "InventoryManager._currentInventory._items[0]._amount depth=2",
+   "ok": false,
+   "resp": "PropertyNotFoundException: Property _amount not found",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P04",
+   "call": "InventoryManager._currentInventory._items[0]._item.name depth=2",
+   "ok": true,
+   "resp": "PhoenixChick",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P04",
+   "call": "InventoryManager._currentInventory._items[0].Amount depth=2",
+   "ok": true,
+   "resp": "1",
+   "s": 0.02,
+   "note": "public variant"
+  },
+  {
+   "id": "P04",
+   "call": "InventoryManager._currentInventory._items[0].Item.name depth=2",
+   "ok": true,
+   "resp": "PhoenixChick",
+   "s": 0.02,
+   "note": "public variant"
+  },
+  {
+   "id": "P04",
+   "call": "InventoryManager._currentInventory.Items depth=4",
+   "ok": false,
+   "resp": "UnknownErrorException: Error getting value from 'transform' on 'UnityEngine.GameObject'.",
+   "s": 0.07,
+   "note": "public variant"
+  },
+  {
+   "id": "P05",
+   "call": "Damageable._currentHealthSO._currentHealth depth=2",
+   "ok": true,
+   "resp": "50",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P05",
+   "call": "Damageable._currentHealthSO.CurrentHealth depth=2",
+   "ok": true,
+   "resp": "50",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P05",
+   "call": "Damageable._currentHealthSO._maxHealth depth=2",
+   "ok": true,
+   "resp": "50",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P06",
+   "call": "GameManager._questManager._currentQuestlineIndex depth=2",
+   "ok": true,
+   "resp": "0",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P06",
+   "call": "GameManager._questManager._currentStepIndex depth=2",
+   "ok": true,
+   "resp": "0",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P06",
+   "call": "GameManager._questManager._currentStep depth=2",
+   "ok": true,
+   "resp": "None",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P06",
+   "call": "GameManager._questManager._currentStep.name depth=2",
+   "ok": true,
+   "resp": "None",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P06",
+   "call": "GameManager._questManager depth=2",
+   "ok": true,
+   "resp": "{'name': 'QuestManager', 'hideFlags': 0}",
+   "s": 0.02,
+   "note": "whole"
+  },
+  {
+   "id": "P15",
+   "call": "find_objects(COMPONENT,AudioListener,enabled=False)",
+   "ok": true,
+   "resp": "all=5 active=1 names=[('Listener', False), ('AudioListener', True), ('AudioListener', True), ('AudioListener', True), ('AudioListener', True)]",
+   "s": 0.1,
+   "note": ""
+  },
+  {
+   "id": "P15",
+   "call": "AudioListener.enabled per object",
+   "ok": true,
+   "resp": "[('Listener', True), ('AudioListener', True), ('AudioListener', True), ('AudioListener', True), ('AudioListener', True)]",
+   "s": 0,
+   "note": ""
+  },
+  {
+   "id": "P13",
+   "call": "get_all_loaded_scenes every 0.5s after click",
+   "ok": true,
+   "resp": "load_s=5.2 errors=0 types={} first_err=None last_err=None",
+   "s": 5.2,
+   "note": "err span s=0"
+  },
+  {
+   "id": "P12",
+   "call": "LOADSCENE/UNLOADSCENE notifications",
+   "ok": true,
+   "resp": "[(1795603460.67, 'UNLOAD', 'Beach'), (1795603460.89, 'LOAD', '<alttester.commands.Notifications.load_scene_notification_result.LoadSceneNotificationResult object at 0x000002C3808EABA0>')]",
+   "s": 0,
+   "note": "count=2; click at 1795603459.70"
+  },
+  {
+   "id": "P11",
+   "call": "LOG notification vs Editor.log",
+   "ok": true,
+   "resp": "notif_total=34 levels={'None': 34} sample=['2026-11-25 11:44:18.2180|AltTester|DEBUG|response sent: {\"messageId\":\"208552\",\"d', '2026-11-25 11:44:18.2398|AltTester|DEBUG|response sent: {\"messageId\":\"219248\",\"d', '2026-11-25 11:44:18.2612|AltTester|DEBUG|response sent: {\"messageId\":\"250596\",\"d'] | edi",
+   "s": 0,
+   "note": ""
+  },
+  {
+   "id": "P10",
+   "call": "find PlantCritter",
+   "ok": false,
+   "resp": "no component PlantCritter; Critter n=6",
+   "s": 0,
+   "note": ""
+  },
+  {
+   "id": "P14",
+   "call": "PATH //*[@component=Critter] vs COMPONENT Critter",
+   "ok": true,
+   "resp": "path=6 component=6 names_path=['PlantCritter', 'PlantCritter (1)', 'PlantCritter (2)', 'PlantCritter (3)', 'PlantCritter (4)', 'PlantCritter (5)']",
+   "s": 0.04,
+   "note": "equal=True"
+  }
+ ],
+ "made": "2026-11-25 11:44:29"
+}

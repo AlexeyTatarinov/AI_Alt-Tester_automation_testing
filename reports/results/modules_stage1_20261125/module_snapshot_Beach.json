@@ -1,0 +1,1090 @@
+{
+ "scene": "Beach",
+ "time": "11:46:29",
+ "loaded_scenes": [
+  "PersistentManagers",
+  "Gameplay",
+  "Beach"
+ ],
+ "modules": {
+  "M01": {
+   "SceneLoader": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "SceneLoader",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "InitializationLoader": {
+    "count": 0,
+    "objects": []
+   },
+   "StartGame": {
+    "count": 0,
+    "objects": []
+   },
+   "FadeController": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "FadeController",
+      "pos": [
+       113.8,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "LoadingInterfaceController": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "LoadingInterfaceController",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M02": {
+   "UIMainMenu": {
+    "count": 0,
+    "objects": []
+   },
+   "UIMenuManager": {
+    "count": 0,
+    "objects": []
+   },
+   "UIPause": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Pause_Screen",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   },
+   "UIPopup": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Confirmation_Popup",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   },
+   "UICredits": {
+    "count": 0,
+    "objects": []
+   }
+  },
+  "M03": {
+   "UIManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Canvas",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "InteractionManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       -58.3,
+       -5.2,
+       -369.8
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M04": {
+   "StartGame": {
+    "count": 0,
+    "objects": []
+   }
+  },
+  "M05": {
+   "Protagonist": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       -58.3,
+       -5.2,
+       -369.8
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M06": {
+   "FallCatcher": {
+    "count": 0,
+    "objects": []
+   },
+   "UnityEngine.CharacterController": {
+    "count": 4,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       -58.3,
+       -5.2,
+       -369.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "CutScenePigChef",
+      "pos": [
+       -140.3,
+       -4.3,
+       -327.0
+      ],
+      "enabled": false
+     },
+     {
+      "name": "CutScenePigChefToPot",
+      "pos": [
+       -140.3,
+       -4.2,
+       -327.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "CutScenePigChef",
+      "pos": [
+       -272.0,
+       -9.3,
+       -406.6
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M07": {
+   "CameraManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "CameraSystem",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M08": {
+   "LocationExit": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "LocationExit",
+      "pos": [
+       -62.8,
+       -4.8,
+       -358.9
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "LocationEntrance": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "LocationEntrance",
+      "pos": [
+       -58.3,
+       -5.3,
+       -369.8
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "SpawnSystem": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "SpawnSystem",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M09": {
+   "Damageable": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       -58.3,
+       -5.2,
+       -369.8
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UIHealthBarManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "UIHealtDisplay",
+      "pos": [
+       10.5,
+       368.1,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UIHeartDisplay": {
+    "count": 5,
+    "objects": [
+     {
+      "name": "Heart (5)",
+      "pos": [
+       18.3,
+       359.3,
+       0.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Heart (6)",
+      "pos": [
+       34.6,
+       359.3,
+       0.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Heart (7)",
+      "pos": [
+       50.9,
+       359.3,
+       0.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Heart (8)",
+      "pos": [
+       67.2,
+       359.3,
+       0.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Heart (9)",
+      "pos": [
+       83.5,
+       359.3,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M10": {
+   "Critter": {
+    "count": 0,
+    "objects": []
+   },
+   "Attacker": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       -58.3,
+       -5.2,
+       -369.8
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "ZoneTriggerController": {
+    "count": 4,
+    "objects": [
+     {
+      "name": "InteractionDetector",
+      "pos": [
+       -139.6,
+       -3.7,
+       -326.7
+      ],
+      "enabled": false
+     },
+     {
+      "name": "InteractionDetector",
+      "pos": [
+       -140.8,
+       -3.6,
+       -326.4
+      ],
+      "enabled": false
+     },
+     {
+      "name": "InteractionDetector",
+      "pos": [
+       -271.3,
+       -8.8,
+       -406.9
+      ],
+      "enabled": false
+     },
+     {
+      "name": "InteractionDetector",
+      "pos": [
+       -58.1,
+       -4.6,
+       -370.6
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "MovingCritterAttackController": {
+    "count": 0,
+    "objects": []
+   }
+  },
+  "M11": {
+   "InteractionManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       -58.3,
+       -5.2,
+       -369.8
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UIInteraction": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "InteractionDisplay",
+      "pos": [
+       0.0,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   }
+  },
+  "M12": {
+   "InventoryManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "InventoryManager",
+      "pos": [
+       -0.5,
+       -10.2,
+       -4.9
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UIInventory": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Inventory_Screen",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   },
+   "ItemPicker": {
+    "count": 0,
+    "objects": []
+   },
+   "CollectableItem": {
+    "count": 0,
+    "objects": []
+   },
+   "UIActionButton": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "ActionButton",
+      "pos": [
+       708.6,
+       74.5,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   }
+  },
+  "M13": {
+   "UIItemForAnimation": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "AddToInventory_animation",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   }
+  },
+  "M14": {
+   "DialogueManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "DialogueManager",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UIDialogueManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Dialogue_Panel",
+      "pos": [
+       490.2,
+       37.9,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   },
+   "UIDialogueChoicesManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Panel Choices",
+      "pos": [
+       490.2,
+       53.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "DialogueTrigger": {
+    "count": 0,
+    "objects": []
+   }
+  },
+  "M15": {
+   "StepController": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "BardHare",
+      "pos": [
+       -138.8,
+       -3.9,
+       -326.2
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "GameManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "GameManager",
+      "pos": [
+       1690.5,
+       153.3,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M16": {
+   "CutsceneManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "CutsceneManager",
+      "pos": [
+       553.7,
+       111.4,
+       61.9
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "CutsceneTrigger": {
+    "count": 2,
+    "objects": [
+     {
+      "name": "CutscenePlayableDirector",
+      "pos": [
+       -137.4,
+       -2.2,
+       -330.1
+      ],
+      "enabled": true
+     },
+     {
+      "name": "CutscenePlayableDirector",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "TimelineBinder": {
+    "count": 2,
+    "objects": [
+     {
+      "name": "CutscenePlayableDirector",
+      "pos": [
+       -137.4,
+       -2.2,
+       -330.1
+      ],
+      "enabled": true
+     },
+     {
+      "name": "CutscenePlayableDirector",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UnityEngine.Playables.PlayableDirector": {
+    "count": 2,
+    "objects": [
+     {
+      "name": "CutscenePlayableDirector",
+      "pos": [
+       -137.4,
+       -2.2,
+       -330.1
+      ],
+      "enabled": true
+     },
+     {
+      "name": "CutscenePlayableDirector",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M17": {
+   "UISettingsController": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Settings_Panel_PR",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   },
+   "UISettingsAudioComponent": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Audio_Panel",
+      "pos": [
+       367.7,
+       176.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UISettingsLanguageComponent": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Language_Panel",
+      "pos": [
+       367.7,
+       176.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "SettingsSystem": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "SettingsSystemManager",
+      "pos": [
+       703.6,
+       417.3,
+       -589.8
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M18": {
+   "AudioManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "AudioManager",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "MusicPlayer": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "MusicPlayer",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "SoundEmitter": {
+    "count": 13,
+    "objects": [
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -95.0,
+       10.5,
+       -311.7
+      ],
+      "enabled": false
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -106.0,
+       12.4,
+       -287.8
+      ],
+      "enabled": false
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -69.3,
+       9.3,
+       -332.3
+      ],
+      "enabled": false
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -87.9,
+       16.8,
+       -265.5
+      ],
+      "enabled": false
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -144.2,
+       -4.4,
+       -324.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -84.5,
+       9.1,
+       -329.1
+      ],
+      "enabled": false
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -138.8,
+       -3.9,
+       -326.2
+      ],
+      "enabled": false
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -138.8,
+       -3.9,
+       -326.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -138.8,
+       -3.9,
+       -326.2
+      ],
+      "enabled": false
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -77.6,
+       11.4,
+       -301.6
+      ],
+      "enabled": false
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -66.4,
+       10.3,
+       -321.0
+      ],
+      "enabled": false
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -144.2,
+       -4.4,
+       -324.2
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "AudioCue": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PotOverFire",
+      "pos": [
+       -144.2,
+       -4.4,
+       -324.2
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M19": {
+   "NPC": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "BardHare",
+      "pos": [
+       -138.8,
+       -3.9,
+       -326.2
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "NPCMovement": {
+    "count": 0,
+    "objects": []
+   },
+   "NPCMovementSwitcher": {
+    "count": 0,
+    "objects": []
+   }
+  }
+ },
+ "scene_counts": {
+  "LocationExit": 1,
+  "LocationEntrance": 1,
+  "Critter": 0,
+  "NPC": 1,
+  "StepController": 1,
+  "FallCatcher": 0,
+  "AudioListener": 5,
+  "UnityEngine.EventSystems.EventSystem": 0,
+  "SceneLoader": 1,
+  "AudioManager": 1,
+  "tag:CookingPot": 1,
+  "tag:NPC": 1,
+  "tag:Pickable": 0,
+  "tag:Player": 8,
+  "name:SceneLoader": 1,
+  "name:AudioManager": 1,
+  "name:PersistentManagers": 0,
+  "name:PigChef(Clone)": 1,
+  "name:EventSystem": 1,
+  "name:Pause_Screen": 1,
+  "name:CheatMenu": 1
+ },
+ "oracles": {
+  "game_state": 0,
+  "input_maps": {
+   "Gameplay": true,
+   "Menus": false,
+   "Dialogues": false
+  },
+  "inventory": {
+   "count": 6,
+   "items": [
+    [
+     "PhoenixChick",
+     1
+    ],
+    [
+     "Seed",
+     20
+    ],
+    [
+     "SlimeCritterEgg",
+     20
+    ],
+    [
+     "GoldenEgg",
+     20
+    ],
+    [
+     "RockCritterEgg",
+     20
+    ],
+    [
+     "SpecialSpoon",
+     1
+    ]
+   ]
+  },
+  "health": {
+   "cur": 50,
+   "max": 50
+  },
+  "quest": {
+   "questline_idx": 0,
+   "step_idx": 0,
+   "step": null
+  },
+  "volumes": {
+   "MasterVolume": 1.0,
+   "MusicVolume": 1.0,
+   "SFXVolume": 1.0
+  },
+  "cutscene": {
+   "director": null,
+   "state": null
+  }
+ },
+ "location_exits": [
+  {
+   "name": "LocationExit",
+   "pos": [
+    -62.8,
+    -4.8,
+    -358.9
+   ],
+   "to": "Field_Hill",
+   "path": "Beach_FieldsHill"
+  }
+ ],
+ "location_entrances": [
+  {
+   "name": "LocationEntrance",
+   "pos": [
+    -58.3,
+    -5.3,
+    -369.8
+   ],
+   "path": "Beach_FieldsHill"
+  }
+ ],
+ "tagged": {
+  "CookingPot": [
+   {
+    "name": "PotOverFire",
+    "pos": [
+     -144.2,
+     -4.4,
+     -324.2
+    ]
+   }
+  ],
+  "NPC": [
+   {
+    "name": "BardHare",
+    "pos": [
+     -138.8,
+     -3.9,
+     -326.2
+    ]
+   }
+  ]
+ },
+ "critter_kinds": {},
+ "audio_listeners": [
+  {
+   "name": "Listener",
+   "active": false,
+   "pos": [
+    -0.1,
+    2.0,
+    -0.0
+   ]
+  },
+  {
+   "name": "AudioListener",
+   "active": true,
+   "pos": [
+    -140.6,
+    -3.3,
+    -327.2
+   ]
+  },
+  {
+   "name": "AudioListener",
+   "active": true,
+   "pos": [
+    -140.2,
+    -3.2,
+    -327.4
+   ]
+  },
+  {
+   "name": "AudioListener",
+   "active": true,
+   "pos": [
+    -272.2,
+    -8.3,
+    -406.5
+   ]
+  },
+  {
+   "name": "AudioListener",
+   "active": true,
+   "pos": [
+    -58.3,
+    -4.2,
+    -369.5
+   ]
+  }
+ ],
+ "seconds": 4.5
+}

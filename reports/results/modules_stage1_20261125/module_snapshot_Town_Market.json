@@ -1,0 +1,2209 @@
+{
+ "scene": "Town_Market",
+ "time": "11:47:09",
+ "loaded_scenes": [
+  "PersistentManagers",
+  "Gameplay",
+  "Town_Market"
+ ],
+ "modules": {
+  "M01": {
+   "SceneLoader": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "SceneLoader",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "InitializationLoader": {
+    "count": 0,
+    "objects": []
+   },
+   "StartGame": {
+    "count": 0,
+    "objects": []
+   },
+   "FadeController": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "FadeController",
+      "pos": [
+       113.8,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "LoadingInterfaceController": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "LoadingInterfaceController",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M02": {
+   "UIMainMenu": {
+    "count": 0,
+    "objects": []
+   },
+   "UIMenuManager": {
+    "count": 0,
+    "objects": []
+   },
+   "UIPause": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Pause_Screen",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   },
+   "UIPopup": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Confirmation_Popup",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   },
+   "UICredits": {
+    "count": 0,
+    "objects": []
+   }
+  },
+  "M03": {
+   "UIManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Canvas",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "InteractionManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       56.4,
+       7.9,
+       -15.8
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M04": {
+   "StartGame": {
+    "count": 0,
+    "objects": []
+   }
+  },
+  "M05": {
+   "Protagonist": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       56.4,
+       7.9,
+       -15.8
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M06": {
+   "FallCatcher": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "FallCatcher_Lake",
+      "pos": [
+       2.1,
+       -4.2,
+       -24.7
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UnityEngine.CharacterController": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       56.4,
+       7.9,
+       -15.8
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M07": {
+   "CameraManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "CameraSystem",
+      "pos": [
+       52.9,
+       0.0,
+       -152.8
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M08": {
+   "LocationExit": {
+    "count": 4,
+    "objects": [
+     {
+      "name": "LocationExit_ToInnerTown_Backside",
+      "pos": [
+       38.5,
+       13.0,
+       43.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "LocationExit_ToInnerTown_Riverside",
+      "pos": [
+       -2.9,
+       11.3,
+       8.9
+      ],
+      "enabled": true
+     },
+     {
+      "name": "LocationExit_ToMountainPath",
+      "pos": [
+       90.8,
+       9.0,
+       25.9
+      ],
+      "enabled": true
+     },
+     {
+      "name": "LocationExit_ToFarms",
+      "pos": [
+       62.1,
+       8.6,
+       -21.9
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "LocationEntrance": {
+    "count": 5,
+    "objects": [
+     {
+      "name": "LocationEntrance_FromInnerTown_Riverside",
+      "pos": [
+       2.7,
+       11.3,
+       -2.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "LocationEntrance_FromInnerTown_Backside",
+      "pos": [
+       48.4,
+       11.1,
+       37.3
+      ],
+      "enabled": true
+     },
+     {
+      "name": "LocationEntrance_FromMountainPath",
+      "pos": [
+       81.5,
+       8.0,
+       20.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "LocationEntrance_FromFarms",
+      "pos": [
+       56.4,
+       8.5,
+       -15.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "LocationEntrance_FromLakeFall",
+      "pos": [
+       18.1,
+       3.4,
+       -30.6
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "SpawnSystem": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "SpawnSystem",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M09": {
+   "Damageable": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       56.4,
+       7.9,
+       -15.8
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UIHealthBarManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "UIHealtDisplay",
+      "pos": [
+       10.5,
+       368.1,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UIHeartDisplay": {
+    "count": 5,
+    "objects": [
+     {
+      "name": "Heart (5)",
+      "pos": [
+       18.3,
+       359.3,
+       0.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Heart (6)",
+      "pos": [
+       34.6,
+       359.3,
+       0.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Heart (7)",
+      "pos": [
+       50.9,
+       359.3,
+       0.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Heart (8)",
+      "pos": [
+       67.2,
+       359.3,
+       0.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Heart (9)",
+      "pos": [
+       83.5,
+       359.3,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M10": {
+   "Critter": {
+    "count": 0,
+    "objects": []
+   },
+   "Attacker": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       56.4,
+       7.9,
+       -15.8
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "ZoneTriggerController": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "InteractionDetector",
+      "pos": [
+       56.0,
+       8.6,
+       -15.1
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "MovingCritterAttackController": {
+    "count": 0,
+    "objects": []
+   }
+  },
+  "M11": {
+   "InteractionManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "PigChef(Clone)",
+      "pos": [
+       56.4,
+       7.9,
+       -15.8
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UIInteraction": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "InteractionDisplay",
+      "pos": [
+       0.0,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   }
+  },
+  "M12": {
+   "InventoryManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "InventoryManager",
+      "pos": [
+       -0.5,
+       -10.2,
+       -4.9
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UIInventory": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Inventory_Screen",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   },
+   "ItemPicker": {
+    "count": 0,
+    "objects": []
+   },
+   "CollectableItem": {
+    "count": 0,
+    "objects": []
+   },
+   "UIActionButton": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "ActionButton",
+      "pos": [
+       708.6,
+       74.5,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   }
+  },
+  "M13": {
+   "UIItemForAnimation": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "AddToInventory_animation",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   }
+  },
+  "M14": {
+   "DialogueManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "DialogueManager",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UIDialogueManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Dialogue_Panel",
+      "pos": [
+       490.2,
+       37.9,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   },
+   "UIDialogueChoicesManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Panel Choices",
+      "pos": [
+       490.2,
+       53.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "DialogueTrigger": {
+    "count": 0,
+    "objects": []
+   }
+  },
+  "M15": {
+   "StepController": {
+    "count": 19,
+    "objects": [
+     {
+      "name": "BardHare_Market",
+      "pos": [
+       60.8,
+       7.7,
+       -8.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Felfel",
+      "pos": [
+       41.6,
+       8.4,
+       7.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F",
+      "pos": [
+       4.8,
+       11.2,
+       -5.9
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M",
+      "pos": [
+       13.0,
+       11.1,
+       2.1
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (1)",
+      "pos": [
+       10.9,
+       10.8,
+       -4.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (2)",
+      "pos": [
+       35.1,
+       8.4,
+       3.7
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (1)",
+      "pos": [
+       19.6,
+       10.2,
+       -1.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (2)",
+      "pos": [
+       23.5,
+       7.6,
+       -13.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (3)",
+      "pos": [
+       33.6,
+       7.9,
+       -9.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (4)",
+      "pos": [
+       42.3,
+       7.5,
+       -15.7
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (5)",
+      "pos": [
+       27.4,
+       3.0,
+       -30.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (3)",
+      "pos": [
+       22.0,
+       7.5,
+       -15.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (4)",
+      "pos": [
+       27.6,
+       2.7,
+       -39.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (5)",
+      "pos": [
+       29.0,
+       2.8,
+       -38.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (6)",
+      "pos": [
+       38.8,
+       3.2,
+       -38.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (7)",
+      "pos": [
+       18.0,
+       3.4,
+       -28.5
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (8)",
+      "pos": [
+       28.2,
+       7.2,
+       -16.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (9)",
+      "pos": [
+       31.5,
+       15.5,
+       13.1
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (6)",
+      "pos": [
+       58.4,
+       14.3,
+       32.6
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "GameManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "GameManager",
+      "pos": [
+       1690.5,
+       153.3,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M16": {
+   "CutsceneManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "CutsceneManager",
+      "pos": [
+       553.7,
+       111.4,
+       61.9
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "CutsceneTrigger": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "CutscenePlayableDirector (1)",
+      "pos": [
+       60.3,
+       8.1,
+       -8.2
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "TimelineBinder": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "CutscenePlayableDirector (1)",
+      "pos": [
+       60.3,
+       8.1,
+       -8.2
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UnityEngine.Playables.PlayableDirector": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "CutscenePlayableDirector (1)",
+      "pos": [
+       60.3,
+       8.1,
+       -8.2
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M17": {
+   "UISettingsController": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Settings_Panel_PR",
+      "pos": [
+       490.2,
+       189.3,
+       0.0
+      ],
+      "enabled": false
+     }
+    ]
+   },
+   "UISettingsAudioComponent": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Audio_Panel",
+      "pos": [
+       367.7,
+       176.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "UISettingsLanguageComponent": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "Language_Panel",
+      "pos": [
+       367.7,
+       176.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "SettingsSystem": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "SettingsSystemManager",
+      "pos": [
+       703.6,
+       417.3,
+       -589.8
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M18": {
+   "AudioManager": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "AudioManager",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "MusicPlayer": {
+    "count": 1,
+    "objects": [
+     {
+      "name": "MusicPlayer",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "SoundEmitter": {
+    "count": 35,
+    "objects": [
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       28.7,
+       16.9,
+       11.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       67.2,
+       7.8,
+       8.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       67.2,
+       7.8,
+       8.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       24.5,
+       3.3,
+       -42.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       60.8,
+       7.7,
+       -8.6
+      ],
+      "enabled": false
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       35.2,
+       7.9,
+       -8.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       31.3,
+       9.9,
+       3.9
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       60.8,
+       7.7,
+       -8.6
+      ],
+      "enabled": false
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       19.4,
+       8.0,
+       -20.5
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       59.6,
+       14.8,
+       29.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       48.8,
+       9.9,
+       -3.7
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       89.7,
+       8.5,
+       16.9
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       35.2,
+       7.9,
+       -8.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       46.4,
+       9.9,
+       -1.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       28.6,
+       7.7,
+       -23.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       43.1,
+       11.8,
+       11.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       3.7,
+       12.9,
+       1.7
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       70.8,
+       9.5,
+       21.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       15.6,
+       12.6,
+       4.5
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       31.9,
+       3.7,
+       -44.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       68.7,
+       12.1,
+       4.3
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       37.0,
+       5.2,
+       -29.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       21.3,
+       2.4,
+       -37.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       21.3,
+       2.4,
+       -37.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       58.2,
+       9.8,
+       21.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       56.0,
+       9.5,
+       -17.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       31.3,
+       4.7,
+       -28.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       24.3,
+       9.4,
+       -9.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -8.9,
+       31.6,
+       -3.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       -15.3,
+       31.6,
+       -5.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       16.6,
+       11.9,
+       -4.3
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       61.4,
+       9.6,
+       -14.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       38.5,
+       16.0,
+       21.3
+      ],
+      "enabled": true
+     },
+     {
+      "name": "SoundEmitter(Clone)",
+      "pos": [
+       60.8,
+       7.7,
+       -8.6
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "AudioCue": {
+    "count": 28,
+    "objects": [
+     {
+      "name": "PotOverFire",
+      "pos": [
+       21.3,
+       2.4,
+       -37.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "PotOverFire",
+      "pos": [
+       35.2,
+       7.9,
+       -8.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "PotOverFire (1)",
+      "pos": [
+       67.2,
+       7.8,
+       8.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       -15.3,
+       31.6,
+       -5.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       -8.9,
+       31.6,
+       -3.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       31.9,
+       3.7,
+       -44.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       31.3,
+       4.7,
+       -28.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       37.0,
+       5.2,
+       -29.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       24.5,
+       3.3,
+       -42.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       19.4,
+       8.0,
+       -20.5
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       24.3,
+       9.4,
+       -9.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       15.6,
+       12.6,
+       4.5
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       16.6,
+       11.9,
+       -4.3
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       3.7,
+       12.9,
+       1.7
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       31.3,
+       9.9,
+       3.9
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       28.7,
+       16.9,
+       11.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       28.6,
+       7.7,
+       -23.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       43.1,
+       11.8,
+       11.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       38.5,
+       16.0,
+       21.3
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       59.6,
+       14.8,
+       29.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       58.2,
+       9.8,
+       21.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       70.8,
+       9.5,
+       21.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       89.7,
+       8.5,
+       16.9
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       68.7,
+       12.1,
+       4.3
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       61.4,
+       9.6,
+       -14.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       56.0,
+       9.5,
+       -17.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       48.8,
+       9.9,
+       -3.7
+      ],
+      "enabled": true
+     },
+     {
+      "name": "AudioCue",
+      "pos": [
+       46.4,
+       9.9,
+       -1.4
+      ],
+      "enabled": true
+     }
+    ]
+   }
+  },
+  "M19": {
+   "NPC": {
+    "count": 19,
+    "objects": [
+     {
+      "name": "BardHare_Market",
+      "pos": [
+       60.8,
+       7.7,
+       -8.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Felfel",
+      "pos": [
+       41.6,
+       8.4,
+       7.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F",
+      "pos": [
+       4.8,
+       11.2,
+       -5.9
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M",
+      "pos": [
+       13.0,
+       11.1,
+       2.1
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (1)",
+      "pos": [
+       10.9,
+       10.8,
+       -4.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (2)",
+      "pos": [
+       35.1,
+       8.4,
+       3.7
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (1)",
+      "pos": [
+       19.6,
+       10.2,
+       -1.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (2)",
+      "pos": [
+       23.5,
+       7.6,
+       -13.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (3)",
+      "pos": [
+       33.6,
+       7.9,
+       -9.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (4)",
+      "pos": [
+       42.3,
+       7.5,
+       -15.7
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (5)",
+      "pos": [
+       27.4,
+       3.0,
+       -30.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (3)",
+      "pos": [
+       22.0,
+       7.5,
+       -15.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (4)",
+      "pos": [
+       27.6,
+       2.7,
+       -39.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (5)",
+      "pos": [
+       29.0,
+       2.8,
+       -38.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (6)",
+      "pos": [
+       38.8,
+       3.2,
+       -38.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (7)",
+      "pos": [
+       18.0,
+       3.4,
+       -28.5
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (8)",
+      "pos": [
+       28.2,
+       7.2,
+       -16.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (9)",
+      "pos": [
+       31.5,
+       15.5,
+       13.1
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (6)",
+      "pos": [
+       58.4,
+       14.3,
+       32.6
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "NPCMovement": {
+    "count": 18,
+    "objects": [
+     {
+      "name": "Felfel",
+      "pos": [
+       41.6,
+       8.4,
+       7.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F",
+      "pos": [
+       4.8,
+       11.2,
+       -5.9
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M",
+      "pos": [
+       13.0,
+       11.1,
+       2.1
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (1)",
+      "pos": [
+       10.9,
+       10.8,
+       -4.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (2)",
+      "pos": [
+       35.1,
+       8.4,
+       3.7
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (1)",
+      "pos": [
+       19.6,
+       10.2,
+       -1.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (2)",
+      "pos": [
+       23.5,
+       7.6,
+       -13.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (3)",
+      "pos": [
+       33.6,
+       7.9,
+       -9.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (4)",
+      "pos": [
+       42.3,
+       7.5,
+       -15.7
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (5)",
+      "pos": [
+       27.4,
+       3.0,
+       -30.2
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (3)",
+      "pos": [
+       22.0,
+       7.5,
+       -15.0
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (4)",
+      "pos": [
+       27.6,
+       2.7,
+       -39.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (5)",
+      "pos": [
+       29.0,
+       2.8,
+       -38.8
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (6)",
+      "pos": [
+       38.8,
+       3.2,
+       -38.6
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (7)",
+      "pos": [
+       18.0,
+       3.4,
+       -28.5
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (8)",
+      "pos": [
+       28.2,
+       7.2,
+       -16.4
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_M (9)",
+      "pos": [
+       31.5,
+       15.5,
+       13.1
+      ],
+      "enabled": true
+     },
+     {
+      "name": "Townsfolk_F (6)",
+      "pos": [
+       58.4,
+       14.3,
+       32.6
+      ],
+      "enabled": true
+     }
+    ]
+   },
+   "NPCMovementSwitcher": {
+    "count": 0,
+    "objects": []
+   }
+  }
+ },
+ "scene_counts": {
+  "LocationExit": 4,
+  "LocationEntrance": 5,
+  "Critter": 0,
+  "NPC": 19,
+  "StepController": 19,
+  "FallCatcher": 1,
+  "AudioListener": 2,
+  "UnityEngine.EventSystems.EventSystem": 0,
+  "SceneLoader": 1,
+  "AudioManager": 1,
+  "tag:CookingPot": 3,
+  "tag:NPC": 19,
+  "tag:Pickable": 0,
+  "tag:Player": 3,
+  "name:SceneLoader": 1,
+  "name:AudioManager": 1,
+  "name:PersistentManagers": 0,
+  "name:PigChef(Clone)": 1,
+  "name:EventSystem": 1,
+  "name:Pause_Screen": 1,
+  "name:CheatMenu": 1
+ },
+ "oracles": {
+  "game_state": 0,
+  "input_maps": {
+   "Gameplay": true,
+   "Menus": false,
+   "Dialogues": false
+  },
+  "inventory": {
+   "count": 6,
+   "items": [
+    [
+     "PhoenixChick",
+     1
+    ],
+    [
+     "Seed",
+     20
+    ],
+    [
+     "SlimeCritterEgg",
+     20
+    ],
+    [
+     "GoldenEgg",
+     20
+    ],
+    [
+     "RockCritterEgg",
+     20
+    ],
+    [
+     "SpecialSpoon",
+     1
+    ]
+   ]
+  },
+  "health": {
+   "cur": 50,
+   "max": 50
+  },
+  "quest": {
+   "questline_idx": 0,
+   "step_idx": 0,
+   "step": null
+  },
+  "volumes": {
+   "MasterVolume": 1.0,
+   "MusicVolume": 1.0,
+   "SFXVolume": 1.0
+  },
+  "cutscene": {
+   "director": null,
+   "state": null
+  }
+ },
+ "location_exits": [
+  {
+   "name": "LocationExit_ToInnerTown_Backside",
+   "pos": [
+    38.5,
+    13.0,
+    43.2
+   ],
+   "to": "Town_Inner",
+   "path": "TownMarket_InnerTown_BackSide"
+  },
+  {
+   "name": "LocationExit_ToInnerTown_Riverside",
+   "pos": [
+    -2.9,
+    11.3,
+    8.9
+   ],
+   "to": "Town_Inner",
+   "path": "TownMarket_InnerTown_Riverside"
+  },
+  {
+   "name": "LocationExit_ToMountainPath",
+   "pos": [
+    90.8,
+    9.0,
+    25.9
+   ],
+   "to": "Mountain_Path",
+   "path": "TownMarket_MountainPath"
+  },
+  {
+   "name": "LocationExit_ToFarms",
+   "pos": [
+    62.1,
+    8.6,
+    -21.9
+   ],
+   "to": "Field_Farms",
+   "path": "FieldsFarms_TownMarket"
+  }
+ ],
+ "location_entrances": [
+  {
+   "name": "LocationEntrance_FromInnerTown_Riverside",
+   "pos": [
+    2.7,
+    11.3,
+    -2.2
+   ],
+   "path": "TownMarket_InnerTown_Riverside"
+  },
+  {
+   "name": "LocationEntrance_FromInnerTown_Backside",
+   "pos": [
+    48.4,
+    11.1,
+    37.3
+   ],
+   "path": "TownMarket_InnerTown_BackSide"
+  },
+  {
+   "name": "LocationEntrance_FromMountainPath",
+   "pos": [
+    81.5,
+    8.0,
+    20.6
+   ],
+   "path": "TownMarket_MountainPath"
+  },
+  {
+   "name": "LocationEntrance_FromFarms",
+   "pos": [
+    56.4,
+    8.5,
+    -15.8
+   ],
+   "path": "FieldsFarms_TownMarket"
+  },
+  {
+   "name": "LocationEntrance_FromLakeFall",
+   "pos": [
+    18.1,
+    3.4,
+    -30.6
+   ],
+   "path": "TownMarket_LakeFall"
+  }
+ ],
+ "tagged": {
+  "CookingPot": [
+   {
+    "name": "PotOverFire",
+    "pos": [
+     21.3,
+     2.4,
+     -37.8
+    ]
+   },
+   {
+    "name": "PotOverFire",
+    "pos": [
+     35.2,
+     7.9,
+     -8.2
+    ]
+   },
+   {
+    "name": "PotOverFire (1)",
+    "pos": [
+     67.2,
+     7.8,
+     8.6
+    ]
+   }
+  ],
+  "NPC": [
+   {
+    "name": "BardHare_Market",
+    "pos": [
+     60.8,
+     7.7,
+     -8.6
+    ]
+   },
+   {
+    "name": "Felfel",
+    "pos": [
+     41.6,
+     8.4,
+     7.0
+    ]
+   },
+   {
+    "name": "Townsfolk_F",
+    "pos": [
+     4.8,
+     11.2,
+     -5.9
+    ]
+   },
+   {
+    "name": "Townsfolk_M",
+    "pos": [
+     13.0,
+     11.1,
+     2.1
+    ]
+   },
+   {
+    "name": "Townsfolk_M (1)",
+    "pos": [
+     10.9,
+     10.8,
+     -4.8
+    ]
+   },
+   {
+    "name": "Townsfolk_M (2)",
+    "pos": [
+     35.1,
+     8.4,
+     3.7
+    ]
+   },
+   {
+    "name": "Townsfolk_F (1)",
+    "pos": [
+     19.6,
+     10.2,
+     -1.0
+    ]
+   },
+   {
+    "name": "Townsfolk_F (2)",
+    "pos": [
+     23.5,
+     7.6,
+     -13.4
+    ]
+   },
+   {
+    "name": "Townsfolk_F (3)",
+    "pos": [
+     33.6,
+     7.9,
+     -9.0
+    ]
+   },
+   {
+    "name": "Townsfolk_F (4)",
+    "pos": [
+     42.3,
+     7.5,
+     -15.7
+    ]
+   },
+   {
+    "name": "Townsfolk_F (5)",
+    "pos": [
+     27.4,
+     3.0,
+     -30.2
+    ]
+   },
+   {
+    "name": "Townsfolk_M (3)",
+    "pos": [
+     22.0,
+     7.5,
+     -15.0
+    ]
+   },
+   {
+    "name": "Townsfolk_M (4)",
+    "pos": [
+     27.6,
+     2.7,
+     -39.4
+    ]
+   },
+   {
+    "name": "Townsfolk_M (5)",
+    "pos": [
+     29.0,
+     2.8,
+     -38.8
+    ]
+   },
+   {
+    "name": "Townsfolk_M (6)",
+    "pos": [
+     38.8,
+     3.2,
+     -38.6
+    ]
+   },
+   {
+    "name": "Townsfolk_M (7)",
+    "pos": [
+     18.0,
+     3.4,
+     -28.5
+    ]
+   },
+   {
+    "name": "Townsfolk_M (8)",
+    "pos": [
+     28.2,
+     7.2,
+     -16.4
+    ]
+   },
+   {
+    "name": "Townsfolk_M (9)",
+    "pos": [
+     31.5,
+     15.5,
+     13.1
+    ]
+   },
+   {
+    "name": "Townsfolk_F (6)",
+    "pos": [
+     58.4,
+     14.3,
+     32.6
+    ]
+   }
+  ]
+ },
+ "critter_kinds": {},
+ "audio_listeners": [
+  {
+   "name": "Listener",
+   "active": false,
+   "pos": [
+    52.8,
+    2.0,
+    -152.8
+   ]
+  },
+  {
+   "name": "AudioListener",
+   "active": true,
+   "pos": [
+    56.5,
+    9.0,
+    -16.0
+   ]
+  }
+ ],
+ "seconds": 5.5
+}

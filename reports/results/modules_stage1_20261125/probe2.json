@@ -1,0 +1,148 @@
+{
+ "rows": [
+  {
+   "id": "P10",
+   "call": "get_all_components(PlantCritter obj)",
+   "ok": true,
+   "resp": "['UnityEngine.Transform', 'UnityEngine.CapsuleCollider', 'UnityEngine.CapsuleCollider', 'UnityEngine.Animator', 'UOP1.StateMachine.StateMachine', 'Critter', 'Attacker', 'Damageable', 'CritterAudio', 'UnityEngine.Animations.Rigging.BoneRenderer']",
+   "s": 0,
+   "note": ""
+  },
+  {
+   "id": "P10",
+   "call": "UnityEngine.AI.NavMeshAgent.isStopped depth=2",
+   "ok": false,
+   "resp": "ComponentNotFoundException: Component NavMeshAgent not found",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P10",
+   "call": "UnityEngine.AI.NavMeshAgent.remainingDistance depth=2",
+   "ok": false,
+   "resp": "ComponentNotFoundException: Component NavMeshAgent not found",
+   "s": 0.03,
+   "note": ""
+  },
+  {
+   "id": "P10",
+   "call": "UnityEngine.AI.NavMeshAgent.velocity depth=2",
+   "ok": false,
+   "resp": "ComponentNotFoundException: Component NavMeshAgent not found",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P10",
+   "call": "UnityEngine.AI.NavMeshAgent.isStopped depth=4",
+   "ok": false,
+   "resp": "ComponentNotFoundException: Component NavMeshAgent not found",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P10",
+   "call": "UnityEngine.AI.NavMeshAgent.remainingDistance depth=4",
+   "ok": false,
+   "resp": "ComponentNotFoundException: Component NavMeshAgent not found",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P10",
+   "call": "UnityEngine.AI.NavMeshAgent.velocity depth=4",
+   "ok": false,
+   "resp": "ComponentNotFoundException: Component NavMeshAgent not found",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P10",
+   "call": "Critter.isPlayerInAlertZone depth=2",
+   "ok": true,
+   "resp": "False",
+   "s": 0.02,
+   "note": ""
+  },
+  {
+   "id": "P10",
+   "call": "UnityEngine.AI.NavMeshAgent.hasPath depth=2",
+   "ok": false,
+   "resp": "ComponentNotFoundException: Component NavMeshAgent not found",
+   "s": 0.03,
+   "note": ""
+  },
+  {
+   "id": "P13",
+   "call": "get_all_loaded_scenes 0.5s after click (2nd sample Field_Hill->Beach)",
+   "ok": true,
+   "resp": "load_s=5.4 errors=0 []",
+   "s": 5.4,
+   "note": ""
+  },
+  {
+   "id": "P12",
+   "call": "LOADSCENE/UNLOADSCENE (fields scene_name)",
+   "ok": true,
+   "resp": "[(0.67, 'UNLOAD', 'Field_Hill'), (0.87, 'LOAD', 'Beach', 'LoadSceneMode.Additive')]",
+   "s": 0,
+   "note": "relative to click"
+  },
+  {
+   "id": "P11",
+   "call": "LOG notification (type field) vs Editor.log",
+   "ok": true,
+   "resp": "notif_total=81 types={'1': 81} non_AltTester_notif=60 sample=['There are no audio listeners in the scene. Please ensure there is always one audio listene', 'There are no audio listeners in the scene. Please ensure there is always one audio listene', 'There are no audio listeners in the scene. Please",
+   "s": 0,
+   "note": ""
+  },
+  {
+   "id": "P04",
+   "call": "_items[6].Amount",
+   "ok": false,
+   "resp": "UnknownErrorException: indexOutOfRange",
+   "s": 0.02,
+   "note": "end of list"
+  },
+  {
+   "id": "P04",
+   "call": "iterate _items[i].Item.name/.Amount",
+   "ok": true,
+   "resp": "[('PhoenixChick', 1), ('Seed', 20), ('SlimeCritterEgg', 20), ('GoldenEgg', 20), ('RockCritterEgg', 20), ('SpecialSpoon', 1)]",
+   "s": 0,
+   "note": "count=6"
+  },
+  {
+   "id": "P04",
+   "call": "InventoryManager._currentInventory._items.Count depth=2",
+   "ok": true,
+   "resp": "6",
+   "s": 0.02,
+   "note": "length"
+  },
+  {
+   "id": "P04",
+   "call": "InventoryManager._currentInventory._items.Length depth=2",
+   "ok": false,
+   "resp": "PropertyNotFoundException: Property Length not found",
+   "s": 0.02,
+   "note": "length"
+  },
+  {
+   "id": "P04",
+   "call": "inventory screen (Tab, all tabs) via UIInventoryItem",
+   "ok": true,
+   "resp": "[('PhoenixChick', 1), ('Seed', 20), ('SlimeCritterEgg', 20), ('GoldenEgg', 20), ('RockCritterEgg', 20), ('SpecialSpoon', 1)]",
+   "s": 0,
+   "note": "tabs=['1', '0', '2']"
+  },
+  {
+   "id": "P04",
+   "call": "compare list vs screen",
+   "ok": true,
+   "resp": "same=True list=6 screen=6",
+   "s": 0,
+   "note": ""
+  }
+ ]
+}
