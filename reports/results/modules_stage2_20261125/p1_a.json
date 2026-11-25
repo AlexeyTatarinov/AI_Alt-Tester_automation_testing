@@ -1,0 +1,93 @@
+{
+ "frameCount": 373,
+ "intro_state_after": "Gameplay",
+ "off": 118343831,
+ "snap_before": {
+  "label": "IT-03 до",
+  "t": "20:41:23",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 0
+  },
+  "save_hash": "628fab9eef30a455",
+  "save_finished": 0,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "hint1": true,
+ "dist1": 0.86,
+ "first": {
+  "N_space": 18,
+  "closed": true,
+  "replies": 17,
+  "seq": [
+   "You made it! Welcome to Yolk island!",
+   "It's been a while! Did you come for the cooking festival?",
+   "Yes, I've heard great things about the local chef. Comb, I think he's called?",
+   "Oh yes, he's a legend around here. He's very hard to impress.",
+   "You'll have to prepare something very special to win the contest!",
+   "I wasn't necessarily planning to take part in it, but...",
+   "You have to! I'm curious to see what you come up with.",
+   "I'll check it out when I get to town. Which way?",
+   "Wait, before you go there. Can I ask you a favour?",
+   "I've just arrived and you're asking me a favour?",
+   "The thing is, I'm trying to gather some seeds for a recipe but the local plants are a bit... aggressive.",
+   "They call them Groens, and they are carnivorous plants that eat much more than insects.",
+   "I guess they also love good food.",
+   "I know you can take care of them!",
+   "Where can I find them?",
+   "There's a few of them just over the hill above the beach.",
+   "Anything for you, my friend."
+  ]
+ },
+ "snap_after_first": {
+  "label": "после первого разговора",
+  "t": "20:42:11",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 1
+  },
+  "save_hash": "8d5f8004fba94efd",
+  "save_finished": 1,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "save_info_first": {
+  "hash": "8d5f8004fba94efd",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ }
+}

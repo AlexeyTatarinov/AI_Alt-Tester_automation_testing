@@ -40,3 +40,14 @@ Test_Ai\scripts\sdk_smoke\.venv\Scripts\python.exe Test_Ai\scripts\play_control\
 - Исправлено: остановка определяется по отключению игры от AltTester (`game_alive`), а не по порту; перед ожиданием драйвер скрипта закрывается.
 - Попытка 2 (10:43): `restart_play.py --restore-save` дал код 0 за ≈21 с: Stop через AltTester 8 с, save.chop равен копии, Ctrl+P отправлен окну Unity (фокус через AttachThreadInput), после старта MainMenu, frameCount 137, consoleFlags 7683. Мышь и computer use не использовались.
 - Окно Unity на время нажатия выходит на передний план (фокус забирается на секунды).
+
+## Обновление stage2 (25.11.2026)
+- 25.11 20:35: `--restore-save` вернул код 2: «нужен ровно один Unity.exe (найдено 3)». Лишние процессы — `AssetImportWorker0/1` (`-batchMode -name AssetImportWorker…`, родитель = главный Unity.exe). Скрипт не менялся. Предложение владельцу: считать только процессы без `-batchMode`/`AssetImportWorker` в командной строке (или с родителем не Unity.exe).
+
+## Обновление stage2 (повтор, 25.11.2026 20:38-20:58)
+- `restart_play.py --restore-save` после правки предусловия: код 0 в 20:38 (frameCount 1 524 413 -> 17, MainMenu); в 20:57 код 4: Play остановлен, окно Unity не стало активным, Ctrl+P не отправлен. Play пришлось бы запускать вручную; скрипт не менялся.
+
+## Обновление 25.11.2026 21:12 (координатор)
+- Добавлен режим `--start-only` (Play не идёт: фокус, Ctrl+P, ждёт MainMenu, проверка frameCount; можно с `--restore-save`, `--check`). Проверен: код 0, frameCount 18.
+- Фокус: `focus_robust`: до 3 циклов по 6 попыток, пауза 20 с. Новый код 6: рабочий стол заблокирован (OpenInputDesktop не открывается или GetForegroundWindow()==0).
+- Код 4 в 20:57: остановка Play заняла 68,7 с (обычно несколько секунд); причина фокуса не установлена.

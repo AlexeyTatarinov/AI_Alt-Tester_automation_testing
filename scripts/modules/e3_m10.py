@@ -43,7 +43,7 @@ def face(cp, n=3):
 
 def far_point(cp):
     cands = []
-    for o in d.find_objects(By.COMPONENT, "LocationEntrance", enabled=False) + d.find_objects(By.COMPONENT, "LocationExit", enabled=False):
+    for o in d.find_objects(By.COMPONENT, "LocationEntrance", enabled=False):
         cands.append((math.hypot(o.worldX - cp[0], o.worldZ - cp[2]), (o.worldX, o.worldY + 0.5, o.worldZ)))
     cands.sort(reverse=True)
     return cands[0] if cands else (None, None)
@@ -53,8 +53,17 @@ def test_kind(kind, scene):
     r = {"kind": kind, "scene": scene}
     guard.before_case("m10_" + kind)
     cl = [c for c in crit_list() if c.name.split(" (")[0] == kind]
-    c = cl[0]
-    c.update_object()
+    c = None
+    for cc in cl:
+        try:
+            cc.update_object()
+            c = cc
+            break
+        except Exception:
+            pass
+    if c is None:
+        r.update(blocked="все %d объектов вида неактивны в иерархии (update_object NotFound), враг не появляется без сюжетного события" % len(cl))
+        return r
     cp = (c.worldX, c.worldY, c.worldZ)
     r["n_in_scene"] = len(cl)
     r["pos"] = [round(v, 1) for v in cp]
@@ -82,6 +91,8 @@ def test_kind(kind, scene):
     else:
         teleport("T1", *fp)
         time.sleep(0.5)
+        if SCN.get(scene, scene) not in scenes():
+            raise RuntimeError("SCRIPT: far point changed scene %s -> %s" % (scene, scenes()))
         t0 = time.time()
         off_t = None
         while time.time() - t0 < 6:
@@ -101,6 +112,8 @@ def test_kind(kind, scene):
     gone = False
     hp_last = hp0
     ph = [php()]
+    hit_seen = False
+    dead_seen = False
     while time.time() - t0 < 20:
         key("F", 0.1)
         hits += 1
@@ -109,6 +122,10 @@ def test_kind(kind, scene):
         try:
             c.update_object()
             a, hp_last = cinfo(c)
+            if c.get_component_property("Damageable", "GetHit", ASM) is True:
+                hit_seen = True
+            if c.get_component_property("Damageable", "IsDead", ASM) is True:
+                dead_seen = True
         except Exception:
             gone = True
             break
@@ -122,8 +139,8 @@ def test_kind(kind, scene):
                 pass
     time.sleep(1.5)
     items1 = len(d.find_objects(By.COMPONENT, "CollectableItem", enabled=False))
-    ok3 = gone or (hp0 is not None and hp_last is not None and hp_last < hp0)
-    r["enm03"] = {"hits": hits, "enemy_hp": [hp0, hp_last], "gone": gone, "items": [items0, items1], "dropped": items1 > items0, "player_hp_series": ph[:12], "ok": bool(ok3)}
+    ok3 = gone or dead_seen or (hp0 is not None and hp_last is not None and hp_last < hp0)
+    r["enm03"] = {"hits": hits, "enemy_hp": [hp0, hp_last], "gone": gone, "get_hit_seen": hit_seen, "is_dead_seen": dead_seen, "items": [items0, items1], "dropped": items1 > items0, "player_hp_series": ph[:12], "ok": bool(ok3)}
     r["log"] = log_since(off)
     return r
 

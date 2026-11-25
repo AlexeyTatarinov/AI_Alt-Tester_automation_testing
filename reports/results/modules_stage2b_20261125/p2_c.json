@@ -1,0 +1,168 @@
+{
+ "off": 136389460,
+ "snap_before": {
+  "label": "перед Back to menu",
+  "t": "21:18:55",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 19,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 2
+  },
+  "save_hash": "a995c0764a98a473",
+  "save_finished": 2,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "save_before": {
+  "hash": "a995c0764a98a473",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 19,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1
+  }
+ },
+ "to_menu_s": 2.2,
+ "save_in_menu": {
+  "hash": "a995c0764a98a473",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 19,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1
+  }
+ },
+ "popup_clicked": true,
+ "load_s": 4.0,
+ "snap_after_load": {
+  "label": "после Continue",
+  "t": "21:19:14",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 19,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 2
+  },
+  "save_hash": "a995c0764a98a473",
+  "save_finished": 2,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "save_after_load": {
+  "hash": "a995c0764a98a473",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 19,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1
+  }
+ },
+ "diff_load": {},
+ "hint": true,
+ "open": true,
+ "first_line": "Did you try the sweet cream recipe I gave you?",
+ "conv": {
+  "N": 1,
+  "replies": 1,
+  "closed": false,
+  "choices": true,
+  "seq": [
+   "Did you try the sweet cream recipe I gave you?"
+  ],
+  "texts": [
+   "Yes",
+   "No"
+  ]
+ },
+ "snap_after_conv": {
+  "label": "после разговора (Continue)",
+  "t": "21:19:25",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Dialogue",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 19,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 2
+  },
+  "save_hash": "a995c0764a98a473",
+  "save_finished": 2,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "save_after_conv": {
+  "hash": "a995c0764a98a473",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 19,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1
+  }
+ },
+ "state_after": "Dialogue"
+}

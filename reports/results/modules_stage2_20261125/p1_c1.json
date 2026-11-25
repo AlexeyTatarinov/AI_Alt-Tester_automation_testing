@@ -1,0 +1,108 @@
+{
+ "off": 120911572,
+ "snap_before": {
+  "label": "IT-04 до",
+  "t": "20:43:56",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 19,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 2
+  },
+  "save_hash": "a995c0764a98a473",
+  "save_finished": 2,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "tp_dist": 1.7,
+ "hint": false,
+ "dist": 0.87,
+ "tp_dist_final": 1.5,
+ "snap_opened": {
+  "label": "котёл открыт",
+  "t": "20:44:57",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Inventory",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 19,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 2
+  },
+  "save_hash": "a995c0764a98a473",
+  "save_finished": 2,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "cook_parent": "ActionButton",
+ "action_interactable_before": true,
+ "save_changed": true,
+ "snap_after": {
+  "label": "IT-04 после",
+  "t": "20:45:23",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 16,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 2
+  },
+  "save_hash": "2ab4c2a1cd9a20a7",
+  "save_finished": 2,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "diff": {
+  "save_hash": [
+   "a995c0764a98a473",
+   "2ab4c2a1cd9a20a7"
+  ],
+  "inv": {
+   "Seed": [
+    19,
+    16
+   ],
+   "SweetCream_Dish": [
+    0,
+    1
+   ]
+  }
+ },
+ "exc_detail": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "shot_after": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/modules_stage2_20261125\\shots\\p1_after_cook.png"
+}

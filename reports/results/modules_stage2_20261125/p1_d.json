@@ -1,0 +1,136 @@
+{
+ "off": 122942211,
+ "snap_before": {
+  "label": "IT-12 до",
+  "t": "20:45:59",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 16,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 2
+  },
+  "save_hash": "2ab4c2a1cd9a20a7",
+  "save_finished": 2,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "hint": true,
+ "dist": 1.3,
+ "choices": true,
+ "N_space": 1,
+ "closed": true,
+ "seq": [
+  "Did you try the sweet cream recipe I gave you?"
+ ],
+ "snap_after": {
+  "label": "IT-12 после",
+  "t": "20:48:18",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 16,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1,
+   "RockCandy_Recipe": 1
+  },
+  "quest": {
+   "line": 1,
+   "step": 2
+  },
+  "save_hash": "a3a537f3abeef4f3",
+  "save_finished": 5,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "diff": {
+  "quest": [
+   {
+    "line": 0,
+    "step": 2
+   },
+   {
+    "line": 1,
+    "step": 2
+   }
+  ],
+  "save_hash": [
+   "2ab4c2a1cd9a20a7",
+   "a3a537f3abeef4f3"
+  ],
+  "save_finished": [
+   2,
+   5
+  ],
+  "inv": {
+   "RockCandy_Recipe": [
+    0,
+    1
+   ]
+  }
+ },
+ "save_info": {
+  "hash": "a3a537f3abeef4f3",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 16,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "a1dd90": 1,
+   "edcc6c": 1
+  }
+ },
+ "next_step_name": null,
+ "exc_detail": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "choice_texts": [
+  "Yes",
+  "No"
+ ],
+ "clicked": "ButtonChoice1",
+ "after_yes_lines": [
+  "Nice! How did it turn out?",
+  "Bless you, Nar!",
+  "Ooooh, your little friend sneezed fire on the cream, and now it's ruined.",
+  "Are you sure it's ruined? Sometimes cuisine happens in the most unexpected ways.",
+  "Look, the extreme temperature sneeze from Nar caramelised the cream into rock-hard candy.",
+  "I'm adding this to my recipe book!",
+  "Maybe you can use it for the contest.",
+  "And about that, you can start going, I'll catch up with you in a while. See you in town!"
+ ],
+ "quest_after": {
+  "line": 1,
+  "step": 2
+ }
+}

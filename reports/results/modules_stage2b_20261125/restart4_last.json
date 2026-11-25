@@ -1,0 +1,65 @@
+{
+ "time": "21:38:05",
+ "steps": [
+  {
+   "t": "21:38:07",
+   "msg": "до",
+   "frameCount": 15155,
+   "realtime": 865.3137,
+   "consoleFlags": 7683,
+   "isPlaying": true,
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ]
+  },
+  {
+   "t": "21:38:08",
+   "msg": "окна Unity",
+   "wins": [
+    [
+     "13604",
+     "1049894",
+     "UOP1_Project - Beach - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>"
+    ]
+   ]
+  },
+  {
+   "t": "21:38:08",
+   "msg": "внимание: игра в Gameplay; Stop сам перезапишет save.chop, поэтому --restore-save выполнится ПОСЛЕ остановки"
+  },
+  {
+   "t": "21:38:08",
+   "msg": "isPlaying=False отправлено"
+  },
+  {
+   "t": "21:39:17",
+   "msg": "Play остановлен (игра отключилась от AltTester)",
+   "sec": 68.8
+  },
+  {
+   "t": "21:39:20",
+   "msg": "save.chop возвращён из копии",
+   "equal": true
+  },
+  {
+   "t": "21:39:27",
+   "msg": "окно Unity не стало активным",
+   "cycle": 1
+  },
+  {
+   "t": "21:39:54",
+   "msg": "окно Unity не стало активным",
+   "cycle": 2
+  },
+  {
+   "t": "21:40:21",
+   "msg": "окно Unity не стало активным",
+   "cycle": 3
+  }
+ ],
+ "dry": false,
+ "exit": 4,
+ "why": "Play остановлен, но окно Unity не стало активным: Ctrl+P НЕ отправлен. Можно повторить: restart_play.py --start-only. Мышью не лечить."
+}

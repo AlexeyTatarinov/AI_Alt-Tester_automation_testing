@@ -1,0 +1,209 @@
+{
+ "start_scenes": [
+  "PersistentManagers",
+  "Gameplay",
+  "Beach"
+ ],
+ "series": [
+  {
+   "t": 0.9,
+   "gameplay_loaded": true,
+   "state": null,
+   "director": null,
+   "ph_err": "NotFoundException"
+  },
+  {
+   "t": 2.3,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "move_err": "NotFoundException"
+  },
+  {
+   "t": 6.1,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 7.1,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 8.1,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "placeholder": false,
+   "move_err": "NotFoundException"
+  },
+  {
+   "t": 12.1,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 13.1,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 14.1,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "move_err": "NotFoundException"
+  },
+  {
+   "t": 18.0,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "placeholder": false
+  },
+  {
+   "t": 19.1,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 20.1,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "move_m": 1.04
+  },
+  {
+   "t": 22.5,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 23.7,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "placeholder": false
+  },
+  {
+   "t": 26.1,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "move_m": 1.04
+  },
+  {
+   "t": 28.4,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 29.3,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 30.3,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "placeholder": false
+  },
+  {
+   "t": 31.4,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "move_m": 1.04
+  },
+  {
+   "t": 33.5,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 34.5,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 35.6,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "placeholder": false
+  },
+  {
+   "t": 36.6,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "move_m": 1.03
+  },
+  {
+   "t": 38.6,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 39.3,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null
+  },
+  {
+   "t": 40.0,
+   "gameplay_loaded": true,
+   "state": "Gameplay",
+   "director": null,
+   "placeholder": false
+  }
+ ],
+ "moves": [
+  [
+   20.1,
+   1.04
+  ],
+  [
+   26.1,
+   1.04
+  ],
+  [
+   31.4,
+   1.04
+  ],
+  [
+   36.6,
+   1.03
+  ]
+ ],
+ "first_cutscene_s": null,
+ "back_to_gameplay_s": null,
+ "first_move_ok_s": 20.1,
+ "placeholder_t": [],
+ "log": {
+  "lines": 18156,
+  "exceptions": 0,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": []
+ },
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

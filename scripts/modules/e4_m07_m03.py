@@ -119,7 +119,7 @@ def setup_state(state):
 def combat_setup():
     """телепорт в 3 м от PlantCritter и ожидание isPlayerInAlertZone"""
     ok, n = to_gameplay(3, (0, 6))
-    cl = [c in d.find_objects(By.COMPONENT, "Critter", enabled=False) if c.name == "PlantCritter"]
+    cl = [c for c in d.find_objects(By.COMPONENT, "Critter", enabled=False) if c.name == "PlantCritter"]
     if not cl:
         return None
     # выбрать живого врага с самой ранней тревогой: берём первого, у которого здоровье > 0
@@ -212,6 +212,16 @@ def m03():
             D["M03-01"] = {"rows": rows, "problems": problems}
             jdump(F, D)
             print(state, k, json.dumps(row, ensure_ascii=False, default=str)[:300], flush=True)
+    # выйти из зоны тревоги в этой же сцене (иначе при смене сцены счётчик тревог протекает: Combat залипает)
+    try:
+        ents = d.find_objects(By.COMPONENT, "LocationEntrance", enabled=False)
+        pl = [c for c in d.find_objects(By.COMPONENT, "Critter", enabled=False) if c.name == "PlantCritter"]
+        if ents and pl:
+            far = max(ents, key=lambda o: math.hypot(o.worldX - pl[0].worldX, o.worldZ - pl[0].worldZ))
+            tp(far.worldX, far.worldY + 0.5, far.worldZ, 2.0)
+            D["M03-01_after_combat_state"] = sname(gstate())
+    except Exception as e:
+        D["M03-01_cleanup_error"] = type(e).__name__
     # ожидания
     def moved(st, k):
         return rows.get("%s|%s" % (st, k), {}).get("moved_m")

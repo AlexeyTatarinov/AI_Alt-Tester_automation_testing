@@ -1,0 +1,2991 @@
+{
+ "exits": {
+  "Field_Hill/LocationExit_ToFarms": {
+   "src": "Field_Hill",
+   "exit": "LocationExit_ToFarms",
+   "to": "Field_Farms",
+   "path": "FieldsHill_FieldsFarms",
+   "exit_pos": [
+    -25.14,
+    3.99,
+    -267.79
+   ],
+   "start_pos": [
+    -28.1,
+    4.49,
+    -268.33
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.3,
+     [
+      -28.1,
+      4.5,
+      -268.3
+     ]
+    ],
+    [
+     1.2,
+     [
+      -27.3,
+      5.0,
+      -268.2
+     ]
+    ],
+    [
+     2.2,
+     [
+      -26.2,
+      4.6,
+      -268.5
+     ]
+    ],
+    [
+     4.0,
+     [
+      -13.8,
+      1.5,
+      -259.3
+     ]
+    ]
+   ],
+   "walk_s": 4.0,
+   "end_dist_xz_to_trigger": 14.35,
+   "arrived_s": 0.7,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Field_Farms"
+   ],
+   "player_pos": [
+    -13.58,
+    1.54,
+    -259.1
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromHill",
+     "FieldsHill_FieldsFarms",
+     0.77,
+     0.77
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.77,
+   "log": {
+    "lines": 3738,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.77 м, CC-67 нет"
+  },
+  "Field_Hill/LocationExit_ToBeach": {
+   "verdict": "SKIPPED",
+   "why": "Beach<->Field_Hill уже PASS (LOC-01/02)"
+  },
+  "Field_Hill/LocationExit_ToBeach_JumpDown": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Field_Farms/LocationExit_ToHill": {
+   "src": "Field_Farms",
+   "exit": "LocationExit_ToHill",
+   "to": "Field_Hill",
+   "path": "FieldsHill_FieldsFarms",
+   "exit_pos": [
+    -16.88,
+    -0.61,
+    -264.18
+   ],
+   "start_pos": [
+    -15.34,
+    -0.11,
+    -261.6
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.4,
+     [
+      -15.3,
+      -2.8,
+      -261.6
+     ]
+    ],
+    [
+     1.5,
+     [
+      -15.5,
+      -2.5,
+      -262.0
+     ]
+    ],
+    [
+     2.8,
+     [
+      -15.8,
+      -2.1,
+      -262.9
+     ]
+    ],
+    [
+     4.2,
+     [
+      -16.4,
+      -1.9,
+      -262.5
+     ]
+    ],
+    [
+     5.5,
+     [
+      -17.3,
+      -1.6,
+      -261.9
+     ]
+    ],
+    [
+     6.8,
+     [
+      -17.7,
+      -1.4,
+      -261.7
+     ]
+    ],
+    [
+     8.1,
+     [
+      -17.8,
+      -1.4,
+      -261.6
+     ]
+    ],
+    [
+     9.3,
+     [
+      -17.9,
+      -1.3,
+      -261.6
+     ]
+    ],
+    [
+     10.5,
+     [
+      -18.0,
+      -1.3,
+      -261.6
+     ]
+    ],
+    [
+     11.6,
+     [
+      -18.1,
+      -1.3,
+      -261.5
+     ]
+    ],
+    [
+     12.9,
+     [
+      -18.4,
+      -1.2,
+      -261.4
+     ]
+    ],
+    [
+     14.3,
+     [
+      -31.3,
+      6.6,
+      -268.8
+     ]
+    ]
+   ],
+   "walk_s": 14.3,
+   "end_dist_xz_to_trigger": 15.43,
+   "arrived_s": 0.8,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Field_Hill"
+   ],
+   "player_pos": [
+    -31.63,
+    6.66,
+    -268.72
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromFarms",
+     "FieldsHill_FieldsFarms",
+     0.58,
+     0.58
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.58,
+   "log": {
+    "lines": 9185,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.58 м, CC-67 нет"
+  },
+  "Field_Farms/LocationExit_ToTownMarket": {
+   "src": "Field_Farms",
+   "exit": "LocationExit_ToTownMarket",
+   "to": "Town_Market",
+   "path": "FieldsFarms_TownMarket",
+   "exit_pos": [
+    64.22,
+    6.62,
+    -24.44
+   ],
+   "start_pos": [
+    65.48,
+    7.12,
+    -27.16
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.4,
+     [
+      65.5,
+      6.6,
+      -27.2
+     ]
+    ],
+    [
+     1.5,
+     [
+      65.9,
+      6.7,
+      -26.4
+     ]
+    ],
+    [
+     2.7,
+     [
+      65.7,
+      6.9,
+      -25.7
+     ]
+    ],
+    [
+     3.8,
+     [
+      65.0,
+      7.2,
+      -24.8
+     ]
+    ],
+    [
+     5.2,
+     [
+      56.2,
+      7.9,
+      -15.8
+     ]
+    ]
+   ],
+   "walk_s": 5.2,
+   "end_dist_xz_to_trigger": 12.2,
+   "arrived_s": 0.8,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Market"
+   ],
+   "player_pos": [
+    55.86,
+    7.89,
+    -15.56
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromFarms",
+     "FieldsFarms_TownMarket",
+     0.54,
+     0.8
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.54,
+   "log": {
+    "lines": 5019,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.54 м, CC-67 нет"
+  },
+  "Town_Market/LocationExit_ToInnerTown_Backside": {
+   "src": "Town_Market",
+   "exit": "LocationExit_ToInnerTown_Backside",
+   "to": "Town_Inner",
+   "path": "TownMarket_InnerTown_BackSide",
+   "exit_pos": [
+    38.53,
+    12.96,
+    43.22
+   ],
+   "start_pos": [
+    41.1,
+    13.46,
+    41.68
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.1,
+     [
+      41.1,
+      12.9,
+      41.7
+     ]
+    ],
+    [
+     0.6,
+     [
+      40.5,
+      13.0,
+      41.4
+     ]
+    ],
+    [
+     1.1,
+     [
+      39.7,
+      13.2,
+      42.1
+     ]
+    ],
+    [
+     1.7,
+     [
+      39.0,
+      13.5,
+      43.2
+     ]
+    ],
+    [
+     2.3,
+     [
+      15.1,
+      14.1,
+      41.9
+     ]
+    ]
+   ],
+   "walk_s": 2.3,
+   "end_dist_xz_to_trigger": 23.54,
+   "arrived_s": 0.6,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Inner"
+   ],
+   "player_pos": [
+    15.0,
+    14.11,
+    41.87
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromMarket_BackSide",
+     "TownMarket_InnerTown_BackSide",
+     0.14,
+     0.15
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.14,
+   "log": {
+    "lines": 4813,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.14 м, CC-67 нет"
+  },
+  "Town_Market/LocationExit_ToInnerTown_Riverside": {
+   "src": "Town_Market",
+   "exit": "LocationExit_ToInnerTown_Riverside",
+   "to": "Town_Inner",
+   "path": "TownMarket_InnerTown_Riverside",
+   "exit_pos": [
+    -2.9,
+    11.3,
+    8.95
+   ],
+   "start_pos": [
+    -1.55,
+    11.8,
+    6.27
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.1,
+     [
+      -1.6,
+      11.8,
+      6.3
+     ]
+    ],
+    [
+     0.7,
+     [
+      -2.1,
+      11.6,
+      6.6
+     ]
+    ],
+    [
+     1.3,
+     [
+      -2.2,
+      11.6,
+      7.5
+     ]
+    ],
+    [
+     1.9,
+     [
+      -2.6,
+      11.1,
+      8.5
+     ]
+    ],
+    [
+     2.6,
+     [
+      -1.2,
+      12.9,
+      18.4
+     ]
+    ]
+   ],
+   "walk_s": 2.6,
+   "end_dist_xz_to_trigger": 9.71,
+   "arrived_s": 0.6,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Inner"
+   ],
+   "player_pos": [
+    -1.1,
+    12.93,
+    18.67
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromMarket_Riverside",
+     "TownMarket_InnerTown_Riverside",
+     0.66,
+     0.66
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.66,
+   "log": {
+    "lines": 4813,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.66 м, CC-67 нет"
+  },
+  "Town_Market/LocationExit_ToMountainPath": {
+   "src": "Town_Market",
+   "exit": "LocationExit_ToMountainPath",
+   "to": "Mountain_Path",
+   "path": "TownMarket_MountainPath",
+   "exit_pos": [
+    90.77,
+    9.0,
+    25.91
+   ],
+   "start_pos": [
+    88.17,
+    9.5,
+    24.42
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.2,
+     [
+      88.2,
+      8.7,
+      24.4
+     ]
+    ],
+    [
+     0.9,
+     [
+      88.7,
+      8.8,
+      24.8
+     ]
+    ],
+    [
+     1.6,
+     [
+      89.6,
+      8.9,
+      25.6
+     ]
+    ],
+    [
+     2.3,
+     [
+      90.1,
+      8.9,
+      25.9
+     ]
+    ],
+    [
+     3.4,
+     [
+      108.0,
+      11.5,
+      38.2
+     ]
+    ]
+   ],
+   "walk_s": 3.4,
+   "end_dist_xz_to_trigger": 21.0,
+   "arrived_s": 0.6,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Mountain_Path"
+   ],
+   "player_pos": [
+    107.82,
+    11.5,
+    37.86
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromTown",
+     "TownMarket_MountainPath",
+     1.01,
+     1.01
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 1.01,
+   "log": {
+    "lines": 4841,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 1.01 м, CC-67 нет"
+  },
+  "Town_Market/LocationExit_ToFarms": {
+   "src": "Town_Market",
+   "exit": "LocationExit_ToFarms",
+   "to": "Field_Farms",
+   "path": "FieldsFarms_TownMarket",
+   "exit_pos": [
+    62.09,
+    8.63,
+    -21.87
+   ],
+   "start_pos": [
+    60.04,
+    9.13,
+    -19.68
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.3,
+     [
+      60.0,
+      8.5,
+      -19.7
+     ]
+    ],
+    [
+     1.0,
+     [
+      60.4,
+      8.5,
+      -19.3
+     ]
+    ],
+    [
+     1.9,
+     [
+      61.2,
+      8.5,
+      -19.4
+     ]
+    ],
+    [
+     2.7,
+     [
+      62.0,
+      8.6,
+      -20.4
+     ]
+    ],
+    [
+     3.5,
+     [
+      62.6,
+      8.4,
+      -21.4
+     ]
+    ],
+    [
+     5.1,
+     [
+      67.0,
+      5.9,
+      -31.0
+     ]
+    ]
+   ],
+   "walk_s": 5.1,
+   "end_dist_xz_to_trigger": 10.06,
+   "arrived_s": 0.7,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Field_Farms"
+   ],
+   "player_pos": [
+    66.49,
+    5.94,
+    -30.79
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromTownMarket",
+     "FieldsFarms_TownMarket",
+     0.97,
+     0.99
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.97,
+   "log": {
+    "lines": 5339,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.97 м, CC-67 нет"
+  },
+  "Town_Upper/LocationExit_ToInnerTown_Slope": {
+   "src": "Town_Upper",
+   "exit": "LocationExit_ToInnerTown_Slope",
+   "to": "Town_Inner",
+   "path": "InnerTown_UpperTown_Slope",
+   "exit_pos": [
+    5.27,
+    19.72,
+    52.95
+   ],
+   "start_pos": [
+    8.2,
+    20.22,
+    53.57
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     1.9,
+     [
+      8.2,
+      12.6,
+      53.6
+     ]
+    ],
+    [
+     4.6,
+     [
+      7.8,
+      12.8,
+      53.2
+     ]
+    ],
+    [
+     5.8,
+     [
+      7.0,
+      13.0,
+      52.6
+     ]
+    ],
+    [
+     7.2,
+     [
+      5.7,
+      13.2,
+      52.1
+     ]
+    ],
+    [
+     8.5,
+     [
+      4.9,
+      13.3,
+      52.4
+     ]
+    ],
+    [
+     9.9,
+     [
+      5.0,
+      13.0,
+      53.1
+     ]
+    ],
+    [
+     11.1,
+     [
+      6.0,
+      12.7,
+      53.7
+     ]
+    ],
+    [
+     12.4,
+     [
+      6.2,
+      12.5,
+      54.1
+     ]
+    ],
+    [
+     13.7,
+     [
+      5.7,
+      12.5,
+      54.5
+     ]
+    ],
+    [
+     14.9,
+     [
+      5.0,
+      12.8,
+      53.5
+     ]
+    ]
+   ],
+   "walk_s": 15.6,
+   "end_dist_xz_to_trigger": 0.7,
+   "arrived_s": null,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Upper"
+   ],
+   "verdict": "BLOCKED",
+   "why": "не дошёл до триггера за 15 с (осталось 0.7 м)",
+   "log": {
+    "lines": 7639,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Town_Upper/LocationExit_ToInnerTown_FallDown": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Town_Upper/LocationExit_ToInnerTown_FallDown (1)": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown (1)": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown (2)": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown (3)": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown (4)": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown (5)": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Town_Upper/LocationExit_ToForestEntrance_FallDown": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Town_Inner/LocationExit_ToMarket_BackSide": {
+   "src": "Town_Inner",
+   "exit": "LocationExit_ToMarket_BackSide",
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_BackSide",
+   "exit_pos": [
+    26.92,
+    13.71,
+    45.33
+   ],
+   "start_pos": [
+    24.04,
+    14.21,
+    44.5
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.6,
+     [
+      24.0,
+      13.6,
+      44.5
+     ]
+    ],
+    [
+     2.5,
+     [
+      24.6,
+      13.7,
+      44.7
+     ]
+    ],
+    [
+     4.6,
+     [
+      25.6,
+      13.7,
+      45.2
+     ]
+    ],
+    [
+     7.8,
+     [
+      48.4,
+      11.1,
+      37.3
+     ]
+    ]
+   ],
+   "walk_s": 7.8,
+   "end_dist_xz_to_trigger": 22.93,
+   "arrived_s": 1.2,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Market"
+   ],
+   "player_pos": [
+    48.4,
+    11.06,
+    37.3
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromInnerTown_Backside",
+     "TownMarket_InnerTown_BackSide",
+     0.0,
+     0.06
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.0,
+   "log": {
+    "lines": 4499,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.00 м, CC-67 нет"
+  },
+  "Town_Inner/LocationExit_ToUpperTown": {
+   "src": "Town_Inner",
+   "exit": "LocationExit_ToUpperTown",
+   "to": "Town_Upper",
+   "path": "InnerTown_UpperTown_Slope",
+   "exit_pos": [
+    5.51,
+    14.91,
+    46.34
+   ],
+   "start_pos": [
+    5.51,
+    15.41,
+    43.34
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.1,
+     [
+      5.5,
+      15.3,
+      43.3
+     ]
+    ],
+    [
+     0.5,
+     [
+      5.2,
+      15.6,
+      43.8
+     ]
+    ],
+    [
+     1.0,
+     [
+      5.4,
+      16.0,
+      44.5
+     ]
+    ],
+    [
+     1.5,
+     [
+      5.3,
+      16.0,
+      44.5
+     ]
+    ],
+    [
+     2.0,
+     [
+      5.3,
+      16.0,
+      44.5
+     ]
+    ],
+    [
+     2.5,
+     [
+      5.3,
+      16.0,
+      44.5
+     ]
+    ],
+    [
+     3.0,
+     [
+      5.4,
+      16.1,
+      44.5
+     ]
+    ],
+    [
+     3.4,
+     [
+      6.4,
+      16.4,
+      45.3
+     ]
+    ],
+    [
+     3.9,
+     [
+      6.9,
+      16.6,
+      45.7
+     ]
+    ],
+    [
+     5.1,
+     [
+      33.1,
+      30.7,
+      59.4
+     ]
+    ]
+   ],
+   "walk_s": 5.1,
+   "end_dist_xz_to_trigger": 30.62,
+   "arrived_s": 0.6,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Upper"
+   ],
+   "player_pos": [
+    33.06,
+    30.74,
+    59.91
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromInnerTown",
+     "InnerTown_UpperTown_Slope",
+     1.04,
+     1.32
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 1.04,
+   "log": {
+    "lines": 8000,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 1.04 м, CC-67 нет"
+  },
+  "Town_Inner/LocationExit_ToForest": {
+   "src": "Town_Inner",
+   "exit": "LocationExit_ToForest",
+   "to": "Forest",
+   "path": "InnerTown_Forest",
+   "exit_pos": [
+    -21.89,
+    7.7,
+    25.0
+   ],
+   "start_pos": [
+    -18.9,
+    8.2,
+    25.19
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.1,
+     [
+      -18.9,
+      -57.5,
+      25.2
+     ]
+    ],
+    [
+     0.7,
+     [
+      -19.2,
+      -86.4,
+      24.8
+     ]
+    ],
+    [
+     1.3,
+     [
+      -20.0,
+      -113.7,
+      24.8
+     ]
+    ],
+    [
+     1.8,
+     [
+      -21.3,
+      -142.5,
+      24.8
+     ]
+    ],
+    [
+     2.4,
+     [
+      -22.5,
+      -170.6,
+      24.4
+     ]
+    ],
+    [
+     3.0,
+     [
+      -22.7,
+      -198.9,
+      24.7
+     ]
+    ],
+    [
+     3.5,
+     [
+      -22.0,
+      -227.1,
+      25.8
+     ]
+    ],
+    [
+     4.1,
+     [
+      -21.5,
+      -253.6,
+      25.4
+     ]
+    ],
+    [
+     4.6,
+     [
+      -21.6,
+      -282.2,
+      24.1
+     ]
+    ],
+    [
+     5.1,
+     [
+      -21.2,
+      -308.8,
+      24.4
+     ]
+    ],
+    [
+     5.6,
+     [
+      -21.5,
+      -335.3,
+      25.4
+     ]
+    ],
+    [
+     6.2,
+     [
+      -21.9,
+      -362.5,
+      24.9
+     ]
+    ],
+    [
+     6.8,
+     [
+      -21.3,
+      -391.7,
+      24.5
+     ]
+    ],
+    [
+     7.3,
+     [
+      -21.5,
+      -417.6,
+      24.8
+     ]
+    ],
+    [
+     7.8,
+     [
+      -22.7,
+      -443.4,
+      24.9
+     ]
+    ],
+    [
+     8.4,
+     [
+      -22.8,
+      -470.9,
+      25.5
+     ]
+    ],
+    [
+     9.0,
+     [
+      -22.4,
+      -499.6,
+      25.5
+     ]
+    ],
+    [
+     9.6,
+     [
+      -21.7,
+      -529.1,
+      24.2
+     ]
+    ],
+    [
+     10.1,
+     [
+      -21.2,
+      -556.9,
+      24.3
+     ]
+    ],
+    [
+     10.8,
+     [
+      -21.6,
+      -588.7,
+      25.6
+     ]
+    ],
+    [
+     11.4,
+     [
+      -22.0,
+      -620.3,
+      25.4
+     ]
+    ],
+    [
+     12.0,
+     [
+      -21.7,
+      -650.4,
+      24.2
+     ]
+    ],
+    [
+     12.5,
+     [
+      -22.0,
+      -677.4,
+      24.3
+     ]
+    ],
+    [
+     13.0,
+     [
+      -23.1,
+      -704.3,
+      24.9
+     ]
+    ],
+    [
+     13.7,
+     [
+      -22.9,
+      -733.3,
+      25.8
+     ]
+    ],
+    [
+     14.2,
+     [
+      -22.2,
+      -763.7,
+      25.6
+     ]
+    ],
+    [
+     14.8,
+     [
+      -22.1,
+      -790.4,
+      24.3
+     ]
+    ]
+   ],
+   "walk_s": 15.2,
+   "end_dist_xz_to_trigger": 0.65,
+   "arrived_s": null,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Inner"
+   ],
+   "verdict": "BLOCKED",
+   "why": "не дошёл до триггера за 15 с (осталось 0.65 м)",
+   "log": {
+    "lines": 19456,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Town_Inner/LocationExit_ToMarket_Riverside": {
+   "src": "Town_Inner",
+   "exit": "LocationExit_ToMarket_Riverside",
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_Riverside",
+   "exit_pos": [
+    -1.47,
+    11.08,
+    8.1
+   ],
+   "start_pos": [
+    -1.39,
+    11.58,
+    11.1
+   ],
+   "start_dist_xz_to_trigger": 3.1,
+   "trace": [
+    [
+     0.1,
+     [
+      -1.6,
+      12.1,
+      11.2
+     ]
+    ],
+    [
+     0.7,
+     [
+      -1.9,
+      12.1,
+      10.6
+     ]
+    ],
+    [
+     1.3,
+     [
+      -2.4,
+      11.4,
+      9.5
+     ]
+    ],
+    [
+     1.9,
+     [
+      -2.7,
+      10.9,
+      8.9
+     ]
+    ],
+    [
+     2.7,
+     [
+      2.9,
+      11.3,
+      -2.4
+     ]
+    ]
+   ],
+   "walk_s": 2.7,
+   "end_dist_xz_to_trigger": 11.54,
+   "arrived_s": 0.6,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Market"
+   ],
+   "player_pos": [
+    3.08,
+    11.29,
+    -2.67
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromInnerTown_Riverside",
+     "TownMarket_InnerTown_Riverside",
+     0.62,
+     0.62
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.62,
+   "log": {
+    "lines": 5156,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.62 м, CC-67 нет"
+  },
+  "Forest/LocationExit": {
+   "src": "Forest",
+   "exit": "LocationExit",
+   "to": "Town_Inner",
+   "path": "InnerTown_Forest",
+   "exit_pos": [
+    -33.46,
+    6.84,
+    21.63
+   ],
+   "start_pos": [
+    -36.45,
+    7.34,
+    21.45
+   ],
+   "start_dist_xz_to_trigger": 18.22,
+   "trace": [
+    [
+     0.2,
+     [
+      -15.6,
+      12.6,
+      25.4
+     ]
+    ]
+   ],
+   "walk_s": 0.2,
+   "end_dist_xz_to_trigger": 18.22,
+   "arrived_s": 0.7,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Inner"
+   ],
+   "player_pos": [
+    -15.64,
+    12.58,
+    25.4
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromMarket_FromForest",
+     "InnerTown_Forest",
+     0.0,
+     0.06
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.0,
+   "log": {
+    "lines": 1769,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.00 м, CC-67 нет"
+  },
+  "Mountain_Path_bottom/LocationExit_Town": {
+   "src": "Mountain_Path_bottom",
+   "exit": "LocationExit_Town",
+   "to": "Town_Market",
+   "path": "TownMarket_MountainPath",
+   "exit_pos": [
+    99.76,
+    9.43,
+    30.81
+   ],
+   "start_pos": [
+    101.96,
+    9.93,
+    32.85
+   ],
+   "start_dist_xz_to_trigger": 2.99,
+   "trace": [
+    [
+     0.5,
+     [
+      102.0,
+      10.0,
+      32.8
+     ]
+    ],
+    [
+     1.6,
+     [
+      102.0,
+      9.8,
+      32.2
+     ]
+    ],
+    [
+     2.7,
+     [
+      101.4,
+      9.5,
+      31.3
+     ]
+    ],
+    [
+     3.8,
+     [
+      100.9,
+      9.4,
+      31.1
+     ]
+    ],
+    [
+     5.4,
+     [
+      81.0,
+      7.9,
+      20.8
+     ]
+    ]
+   ],
+   "walk_s": 5.4,
+   "end_dist_xz_to_trigger": 21.64,
+   "arrived_s": 0.8,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Market"
+   ],
+   "player_pos": [
+    80.42,
+    7.93,
+    20.9
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromMountainPath",
+     "TownMarket_MountainPath",
+     1.11,
+     1.11
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 1.11,
+   "log": {
+    "lines": 5018,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 1.11 м, CC-67 нет"
+  },
+  "Mountain_Path_bottom/LocationExit_Cave": {
+   "src": "Mountain_Path_bottom",
+   "exit": "LocationExit_Cave",
+   "to": "Mountain_Cave",
+   "path": "MountainPath_MountainCave_Shaft",
+   "exit_pos": [
+    98.2,
+    31.64,
+    120.82
+   ],
+   "start_pos": [
+    98.76,
+    32.14,
+    117.87
+   ],
+   "start_dist_xz_to_trigger": 4.67,
+   "trace": [
+    [
+     0.1,
+     [
+      96.9,
+      36.4,
+      116.3
+     ]
+    ]
+   ],
+   "walk_s": 0.1,
+   "end_dist_xz_to_trigger": 4.67,
+   "arrived_s": 0.6,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Mountain_Cave"
+   ],
+   "player_pos": [
+    96.94,
+    36.41,
+    116.33
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance",
+     "MountainPath_MountainCave_Shaft",
+     0.0,
+     0.09
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.0,
+   "log": {
+    "lines": 1607,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.00 м, CC-67 нет"
+  },
+  "Mountain_Cave/LocationExit": {
+   "src": "Mountain_Cave",
+   "exit": "LocationExit",
+   "to": "Mountain_Path",
+   "path": "MountainCave_MountainPath_BottomExit",
+   "exit_pos": [
+    104.76,
+    21.6,
+    76.9
+   ],
+   "start_pos": [
+    104.18,
+    22.1,
+    79.84
+   ],
+   "start_dist_xz_to_trigger": 2.99,
+   "trace": [
+    [
+     0.1,
+     [
+      104.2,
+      22.2,
+      79.8
+     ]
+    ],
+    [
+     0.6,
+     [
+      104.3,
+      22.1,
+      79.2
+     ]
+    ],
+    [
+     1.1,
+     [
+      104.4,
+      22.0,
+      78.8
+     ]
+    ],
+    [
+     1.9,
+     [
+      110.3,
+      21.7,
+      55.7
+     ]
+    ]
+   ],
+   "walk_s": 1.9,
+   "end_dist_xz_to_trigger": 21.81,
+   "arrived_s": 0.6,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Mountain_Path"
+   ],
+   "player_pos": [
+    109.95,
+    21.72,
+    55.92
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromCave",
+     "MountainCave_MountainPath_BottomExit",
+     0.98,
+     0.98
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.98,
+   "log": {
+    "lines": 3740,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.98 м, CC-67 нет"
+  },
+  "Beach/LocationExit": {
+   "verdict": "SKIPPED",
+   "why": "Beach<->Field_Hill уже PASS (LOC-01/02)"
+  }
+ },
+ "scenes": {
+  "Field_Hill": {
+   "exits": [
+    [
+     "LocationExit_ToFarms",
+     "Field_Farms",
+     "FieldsHill_FieldsFarms"
+    ],
+    [
+     "LocationExit_ToBeach",
+     "Beach",
+     "Beach_FieldsHill"
+    ],
+    [
+     "LocationExit_ToBeach_JumpDown",
+     "Beach",
+     "Beach_FieldsHill"
+    ]
+   ],
+   "entrances": [
+    [
+     "LocationEntrance_FromBeach",
+     "Beach_FieldsHill"
+    ],
+    [
+     "LocationEntrance_FromFarms",
+     "FieldsHill_FieldsFarms"
+    ]
+   ]
+  },
+  "Field_Farms": {
+   "exits": [
+    [
+     "LocationExit_ToHill",
+     "Field_Hill",
+     "FieldsHill_FieldsFarms"
+    ],
+    [
+     "LocationExit_ToTownMarket",
+     "Town_Market",
+     "FieldsFarms_TownMarket"
+    ]
+   ],
+   "entrances": [
+    [
+     "LocationEntrance_FromHill",
+     "FieldsHill_FieldsFarms"
+    ],
+    [
+     "LocationEntrance_FromTownMarket",
+     "FieldsFarms_TownMarket"
+    ]
+   ]
+  },
+  "Town_Market": {
+   "exits": [
+    [
+     "LocationExit_ToInnerTown_Backside",
+     "Town_Inner",
+     "TownMarket_InnerTown_BackSide"
+    ],
+    [
+     "LocationExit_ToInnerTown_Riverside",
+     "Town_Inner",
+     "TownMarket_InnerTown_Riverside"
+    ],
+    [
+     "LocationExit_ToMountainPath",
+     "Mountain_Path",
+     "TownMarket_MountainPath"
+    ],
+    [
+     "LocationExit_ToFarms",
+     "Field_Farms",
+     "FieldsFarms_TownMarket"
+    ]
+   ],
+   "entrances": [
+    [
+     "LocationEntrance_FromInnerTown_Riverside",
+     "TownMarket_InnerTown_Riverside"
+    ],
+    [
+     "LocationEntrance_FromInnerTown_Backside",
+     "TownMarket_InnerTown_BackSide"
+    ],
+    [
+     "LocationEntrance_FromMountainPath",
+     "TownMarket_MountainPath"
+    ],
+    [
+     "LocationEntrance_FromFarms",
+     "FieldsFarms_TownMarket"
+    ],
+    [
+     "LocationEntrance_FromLakeFall",
+     "TownMarket_LakeFall"
+    ]
+   ]
+  },
+  "Town_Upper": {
+   "exits": [
+    [
+     "LocationExit_ToInnerTown_Slope",
+     "Town_Inner",
+     "InnerTown_UpperTown_Slope"
+    ],
+    [
+     "LocationExit_ToInnerTown_FallDown",
+     "Town_Inner",
+     "InnerTown_UpperTown_Slope"
+    ],
+    [
+     "LocationExit_ToInnerTown_FallDown (1)",
+     "Town_Inner",
+     "InnerTown_UpperTown_Slope"
+    ],
+    [
+     "LocationExit_ToMarket_FallDown",
+     "Town_Market",
+     "TownMarket_InnerTown_BackSide"
+    ],
+    [
+     "LocationExit_ToMarket_FallDown (1)",
+     "Town_Market",
+     "TownMarket_MountainPath"
+    ],
+    [
+     "LocationExit_ToMarket_FallDown (2)",
+     "Town_Market",
+     "TownMarket_InnerTown_BackSide"
+    ],
+    [
+     "LocationExit_ToMarket_FallDown (3)",
+     "Town_Market",
+     "TownMarket_InnerTown_Riverside"
+    ],
+    [
+     "LocationExit_ToMarket_FallDown (4)",
+     "Town_Market",
+     "TownMarket_InnerTown_Riverside"
+    ],
+    [
+     "LocationExit_ToMarket_FallDown (5)",
+     "Town_Market",
+     "TownMarket_InnerTown_Riverside"
+    ],
+    [
+     "LocationExit_ToForestEntrance_FallDown",
+     null,
+     "InnerTown_Forest"
+    ]
+   ],
+   "entrances": [
+    [
+     "LocationEntrance_FromInnerTown",
+     "InnerTown_UpperTown_Slope"
+    ]
+   ]
+  },
+  "Town_Inner": {
+   "exits": [
+    [
+     "LocationExit_ToMarket_BackSide",
+     "Town_Market",
+     "TownMarket_InnerTown_BackSide"
+    ],
+    [
+     "LocationExit_ToUpperTown",
+     "Town_Upper",
+     "InnerTown_UpperTown_Slope"
+    ],
+    [
+     "LocationExit_ToForest",
+     "Forest",
+     "InnerTown_Forest"
+    ],
+    [
+     "LocationExit_ToMarket_Riverside",
+     "Town_Market",
+     "TownMarket_InnerTown_Riverside"
+    ]
+   ],
+   "entrances": [
+    [
+     "LocationEntrance_FromMarket_BackSide",
+     "TownMarket_InnerTown_BackSide"
+    ],
+    [
+     "LocationEntrance_FromMarket_Riverside",
+     "TownMarket_InnerTown_Riverside"
+    ],
+    [
+     "LocationEntrance_FromMarket_FromForest",
+     "InnerTown_Forest"
+    ],
+    [
+     "LocationEntrance_FromUpperTown",
+     "InnerTown_UpperTown_Slope"
+    ]
+   ]
+  },
+  "Forest": {
+   "exits": [
+    [
+     "LocationExit",
+     "Town_Inner",
+     "InnerTown_Forest"
+    ]
+   ],
+   "entrances": [
+    [
+     "LocationEntrance",
+     "InnerTown_Forest"
+    ]
+   ]
+  },
+  "Mountain_Path_bottom": {
+   "exits": [
+    [
+     "LocationExit_Town",
+     "Town_Market",
+     "TownMarket_MountainPath"
+    ],
+    [
+     "LocationExit_Cave",
+     "Mountain_Cave",
+     "MountainPath_MountainCave_Shaft"
+    ]
+   ],
+   "entrances": [
+    [
+     "LocationEntrance_FromTown",
+     "TownMarket_MountainPath"
+    ],
+    [
+     "LocationEntrance_FromCave",
+     "MountainCave_MountainPath_BottomExit"
+    ]
+   ]
+  },
+  "Mountain_Cave": {
+   "exits": [
+    [
+     "LocationExit",
+     "Mountain_Path",
+     "MountainCave_MountainPath_BottomExit"
+    ]
+   ],
+   "entrances": [
+    [
+     "LocationEntrance",
+     "MountainPath_MountainCave_Shaft"
+    ]
+   ]
+  },
+  "Beach": {
+   "exits": [
+    [
+     "LocationExit",
+     "Field_Hill",
+     "Beach_FieldsHill"
+    ]
+   ],
+   "entrances": [
+    [
+     "LocationEntrance",
+     "Beach_FieldsHill"
+    ]
+   ]
+  }
+ },
+ "manual": {
+  "Field_Hill/LocationExit_ToBeach_JumpDown": {
+   "exit": "LocationExit_ToBeach_JumpDown",
+   "scene": "Field_Hill",
+   "pos": [
+    -71.0,
+    -6.28,
+    -300.7
+   ],
+   "to": "Beach",
+   "path": "Beach_FieldsHill"
+  },
+  "Town_Upper/LocationExit_ToInnerTown_FallDown": {
+   "exit": "LocationExit_ToInnerTown_FallDown",
+   "scene": "Town_Upper",
+   "pos": [
+    -8.9,
+    21.04,
+    27.7
+   ],
+   "to": "Town_Inner",
+   "path": "InnerTown_UpperTown_Slope"
+  },
+  "Town_Upper/LocationExit_ToInnerTown_FallDown (1)": {
+   "exit": "LocationExit_ToInnerTown_FallDown (1)",
+   "scene": "Town_Upper",
+   "pos": [
+    8.78,
+    21.04,
+    29.73
+   ],
+   "to": "Town_Inner",
+   "path": "InnerTown_UpperTown_Slope"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown": {
+   "exit": "LocationExit_ToMarket_FallDown",
+   "scene": "Town_Upper",
+   "pos": [
+    53.7,
+    21.04,
+    34.2
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_BackSide"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown (1)": {
+   "exit": "LocationExit_ToMarket_FallDown (1)",
+   "scene": "Town_Upper",
+   "pos": [
+    90.01,
+    21.04,
+    23.91
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_MountainPath"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown (2)": {
+   "exit": "LocationExit_ToMarket_FallDown (2)",
+   "scene": "Town_Upper",
+   "pos": [
+    31.57,
+    27.82,
+    38.84
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_BackSide"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown (3)": {
+   "exit": "LocationExit_ToMarket_FallDown (3)",
+   "scene": "Town_Upper",
+   "pos": [
+    -21.98,
+    21.04,
+    -15.75
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_Riverside"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown (4)": {
+   "exit": "LocationExit_ToMarket_FallDown (4)",
+   "scene": "Town_Upper",
+   "pos": [
+    4.52,
+    21.04,
+    -10.18
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_Riverside"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown (5)": {
+   "exit": "LocationExit_ToMarket_FallDown (5)",
+   "scene": "Town_Upper",
+   "pos": [
+    32.31,
+    21.04,
+    11.9
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_Riverside"
+  },
+  "Town_Upper/LocationExit_ToForestEntrance_FallDown": {
+   "exit": "LocationExit_ToForestEntrance_FallDown",
+   "scene": "Town_Upper",
+   "pos": [
+    -34.2,
+    21.04,
+    14.3
+   ],
+   "to": null,
+   "path": "InnerTown_Forest"
+  }
+ },
+ "attempt1_blocked_walk": {
+  "Field_Hill/LocationExit_ToFarms": {
+   "src": "Field_Hill",
+   "exit": "LocationExit_ToFarms",
+   "to": "Field_Farms",
+   "path": "FieldsHill_FieldsFarms",
+   "exit_pos": [
+    -25.14,
+    3.99,
+    -267.79
+   ],
+   "start_pos": [
+    -28.1,
+    4.49,
+    -268.33
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "walk_s": 16.0,
+   "end_dist_xz_to_trigger": 1.91,
+   "arrived_s": null,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Field_Hill"
+   ],
+   "verdict": "BLOCKED",
+   "why": "не дошёл до триггера за 15 с (осталось 1.91 м)",
+   "log": {
+    "lines": 5767,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Field_Hill/LocationExit_ToBeach": {
+   "verdict": "SKIPPED",
+   "why": "Beach<->Field_Hill уже PASS (LOC-01/02)"
+  },
+  "Field_Hill/LocationExit_ToBeach_JumpDown": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Field_Farms/LocationExit_ToHill": {
+   "src": "Field_Farms",
+   "exit": "LocationExit_ToHill",
+   "to": "Field_Hill",
+   "path": "FieldsHill_FieldsFarms",
+   "exit_pos": [
+    -16.88,
+    -0.61,
+    -264.18
+   ],
+   "start_pos": [
+    -15.34,
+    -0.11,
+    -261.6
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "walk_s": 16.0,
+   "end_dist_xz_to_trigger": 4.18,
+   "arrived_s": null,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Field_Farms"
+   ],
+   "verdict": "BLOCKED",
+   "why": "не дошёл до триггера за 15 с (осталось 4.18 м)",
+   "log": {
+    "lines": 5767,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Field_Farms/LocationExit_ToTownMarket": {
+   "src": "Field_Farms",
+   "exit": "LocationExit_ToTownMarket",
+   "to": "Town_Market",
+   "path": "FieldsFarms_TownMarket",
+   "exit_pos": [
+    64.22,
+    6.62,
+    -24.44
+   ],
+   "start_pos": [
+    65.48,
+    7.12,
+    -27.16
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "walk_s": 15.3,
+   "end_dist_xz_to_trigger": 2.61,
+   "arrived_s": null,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Field_Farms"
+   ],
+   "verdict": "BLOCKED",
+   "why": "не дошёл до триггера за 15 с (осталось 2.61 м)",
+   "log": {
+    "lines": 6461,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Town_Market/LocationExit_ToInnerTown_Backside": {
+   "src": "Town_Market",
+   "exit": "LocationExit_ToInnerTown_Backside",
+   "to": "Town_Inner",
+   "path": "TownMarket_InnerTown_BackSide",
+   "exit_pos": [
+    38.53,
+    12.96,
+    43.22
+   ],
+   "start_pos": [
+    41.1,
+    13.46,
+    41.68
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "walk_s": 16.5,
+   "end_dist_xz_to_trigger": 1.25,
+   "arrived_s": null,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Market"
+   ],
+   "verdict": "BLOCKED",
+   "why": "не дошёл до триггера за 15 с (осталось 1.25 м)",
+   "log": {
+    "lines": 8089,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Town_Market/LocationExit_ToInnerTown_Riverside": {
+   "src": "Town_Market",
+   "exit": "LocationExit_ToInnerTown_Riverside",
+   "to": "Town_Inner",
+   "path": "TownMarket_InnerTown_Riverside",
+   "exit_pos": [
+    -2.9,
+    11.3,
+    8.95
+   ],
+   "start_pos": [
+    -1.55,
+    11.8,
+    6.27
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "walk_s": 16.7,
+   "end_dist_xz_to_trigger": 1.13,
+   "arrived_s": null,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Market"
+   ],
+   "verdict": "BLOCKED",
+   "why": "не дошёл до триггера за 15 с (осталось 1.13 м)",
+   "log": {
+    "lines": 8089,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Town_Market/LocationExit_ToMountainPath": {
+   "src": "Town_Market",
+   "exit": "LocationExit_ToMountainPath",
+   "to": "Mountain_Path",
+   "path": "TownMarket_MountainPath",
+   "exit_pos": [
+    90.77,
+    9.0,
+    25.91
+   ],
+   "start_pos": [
+    88.17,
+    9.5,
+    24.42
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "walk_s": 15.4,
+   "end_dist_xz_to_trigger": 1.83,
+   "arrived_s": null,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Market"
+   ],
+   "verdict": "BLOCKED",
+   "why": "не дошёл до триггера за 15 с (осталось 1.83 м)",
+   "log": {
+    "lines": 7395,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Town_Market/LocationExit_ToFarms": {
+   "src": "Town_Market",
+   "exit": "LocationExit_ToFarms",
+   "to": "Field_Farms",
+   "path": "FieldsFarms_TownMarket",
+   "exit_pos": [
+    62.09,
+    8.63,
+    -21.87
+   ],
+   "start_pos": [
+    60.04,
+    9.13,
+    -19.68
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "walk_s": 15.8,
+   "end_dist_xz_to_trigger": 1.94,
+   "arrived_s": null,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Market"
+   ],
+   "verdict": "BLOCKED",
+   "why": "не дошёл до триггера за 15 с (осталось 1.94 м)",
+   "log": {
+    "lines": 7395,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Town_Upper/LocationExit_ToInnerTown_Slope": {
+   "src": "Town_Upper",
+   "exit": "LocationExit_ToInnerTown_Slope",
+   "to": "Town_Inner",
+   "path": "InnerTown_UpperTown_Slope",
+   "exit_pos": [
+    5.27,
+    19.72,
+    52.95
+   ],
+   "start_pos": [
+    8.2,
+    20.22,
+    53.57
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "walk_s": 16.6,
+   "end_dist_xz_to_trigger": 1.79,
+   "arrived_s": null,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Upper"
+   ],
+   "verdict": "BLOCKED",
+   "why": "не дошёл до триггера за 15 с (осталось 1.79 м)",
+   "log": {
+    "lines": 7075,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Town_Upper/LocationExit_ToInnerTown_FallDown": {
+   "src": "Town_Upper",
+   "exit": "LocationExit_ToInnerTown_FallDown",
+   "to": "Town_Inner",
+   "path": "InnerTown_UpperTown_Slope",
+   "exit_pos": [
+    -8.9,
+    21.04,
+    27.7
+   ],
+   "start_pos": [
+    -6.49,
+    21.54,
+    29.49
+   ],
+   "verdict": "BLOCKED",
+   "why": "teleport error AttributeError"
+  },
+  "Town_Upper/LocationExit_ToInnerTown_FallDown (1)": {
+   "src": "Town_Upper",
+   "exit": "LocationExit_ToInnerTown_FallDown (1)",
+   "to": "Town_Inner",
+   "path": "InnerTown_UpperTown_Slope",
+   "exit_pos": [
+    8.78,
+    21.04,
+    29.73
+   ],
+   "start_pos": [
+    10.71,
+    21.54,
+    32.03
+   ],
+   "verdict": "BLOCKED",
+   "why": "teleport error AttributeError"
+  },
+  "Town_Upper/LocationExit_ToMarket_FallDown": {
+   "src": "Town_Upper",
+   "exit": "LocationExit_ToMarket_FallDown",
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_BackSide",
+   "exit_pos": [
+    53.7,
+    21.04,
+    34.2
+   ],
+   "start_pos": [
+    51.78,
+    21.54,
+    36.51
+   ],
+   "verdict": "BLOCKED",
+   "why": "teleport error AttributeError"
+  }
+ },
+ "attempt2_burst6_invalid": {
+  "Field_Hill/LocationExit_ToFarms": {
+   "src": "Field_Hill",
+   "exit": "LocationExit_ToFarms",
+   "to": "Field_Farms",
+   "path": "FieldsHill_FieldsFarms",
+   "exit_pos": [
+    -25.14,
+    3.99,
+    -267.79
+   ],
+   "start_pos": [
+    -28.1,
+    4.49,
+    -268.33
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.5,
+     [
+      -28.1,
+      4.5,
+      -268.3
+     ]
+    ],
+    [
+     2.1,
+     [
+      -26.2,
+      4.6,
+      -268.4
+     ]
+    ],
+    [
+     4.4,
+     [
+      -13.1,
+      1.5,
+      -258.7
+     ]
+    ]
+   ],
+   "walk_s": 4.4,
+   "end_dist_xz_to_trigger": 15.57,
+   "arrived_s": 0.8,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Field_Farms"
+   ],
+   "player_pos": [
+    -12.66,
+    1.54,
+    -258.24
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromHill",
+     "FieldsHill_FieldsFarms",
+     2.04,
+     2.04
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 2.04,
+   "log": {
+    "lines": 3567,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "FAIL",
+   "why": "игрок в 2.04 м от входа с тем же путём (> 2 м)"
+  },
+  "Field_Hill/LocationExit_ToBeach": {
+   "verdict": "SKIPPED",
+   "why": "Beach<->Field_Hill уже PASS (LOC-01/02)"
+  },
+  "Field_Hill/LocationExit_ToBeach_JumpDown": {
+   "verdict": "MANUAL",
+   "why": "JumpDown/Shaft: только вручную владельцем"
+  },
+  "Field_Farms/LocationExit_ToHill": {
+   "src": "Field_Farms",
+   "exit": "LocationExit_ToHill",
+   "to": "Field_Hill",
+   "path": "FieldsHill_FieldsFarms",
+   "exit_pos": [
+    -16.88,
+    -0.61,
+    -264.18
+   ],
+   "start_pos": [
+    -15.34,
+    -0.11,
+    -261.6
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.1,
+     [
+      -15.3,
+      -2.8,
+      -261.6
+     ]
+    ],
+    [
+     1.0,
+     [
+      -16.5,
+      -1.9,
+      -262.4
+     ]
+    ],
+    [
+     1.9,
+     [
+      -17.3,
+      -1.6,
+      -261.9
+     ]
+    ],
+    [
+     2.7,
+     [
+      -15.9,
+      -2.1,
+      -262.8
+     ]
+    ],
+    [
+     3.6,
+     [
+      -16.4,
+      -1.9,
+      -262.5
+     ]
+    ],
+    [
+     4.5,
+     [
+      -17.4,
+      -1.6,
+      -261.9
+     ]
+    ],
+    [
+     5.5,
+     [
+      -15.9,
+      -2.1,
+      -262.8
+     ]
+    ],
+    [
+     6.4,
+     [
+      -16.3,
+      -1.9,
+      -262.5
+     ]
+    ],
+    [
+     7.3,
+     [
+      -17.3,
+      -1.6,
+      -262.0
+     ]
+    ],
+    [
+     8.2,
+     [
+      -15.8,
+      -2.1,
+      -262.8
+     ]
+    ],
+    [
+     9.1,
+     [
+      -16.4,
+      -1.9,
+      -262.5
+     ]
+    ],
+    [
+     10.0,
+     [
+      -17.4,
+      -1.6,
+      -261.9
+     ]
+    ],
+    [
+     11.0,
+     [
+      -16.0,
+      -2.1,
+      -262.7
+     ]
+    ],
+    [
+     11.9,
+     [
+      -16.4,
+      -1.9,
+      -262.5
+     ]
+    ],
+    [
+     12.8,
+     [
+      -17.3,
+      -1.6,
+      -261.9
+     ]
+    ],
+    [
+     13.7,
+     [
+      -15.9,
+      -2.1,
+      -262.7
+     ]
+    ],
+    [
+     14.6,
+     [
+      -16.4,
+      -1.9,
+      -262.5
+     ]
+    ]
+   ],
+   "walk_s": 15.5,
+   "end_dist_xz_to_trigger": 2.26,
+   "arrived_s": null,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Field_Farms"
+   ],
+   "verdict": "BLOCKED",
+   "why": "не дошёл до триггера за 15 с (осталось 2.26 м)",
+   "log": {
+    "lines": 16822,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Field_Farms/LocationExit_ToTownMarket": {
+   "src": "Field_Farms",
+   "exit": "LocationExit_ToTownMarket",
+   "to": "Town_Market",
+   "path": "FieldsFarms_TownMarket",
+   "exit_pos": [
+    64.22,
+    6.62,
+    -24.44
+   ],
+   "start_pos": [
+    65.48,
+    7.12,
+    -27.16
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.3,
+     [
+      65.5,
+      6.6,
+      -27.2
+     ]
+    ],
+    [
+     1.6,
+     [
+      66.1,
+      7.0,
+      -25.0
+     ]
+    ],
+    [
+     4.6,
+     [
+      56.4,
+      8.5,
+      -15.8
+     ]
+    ]
+   ],
+   "walk_s": 4.6,
+   "end_dist_xz_to_trigger": 11.71,
+   "arrived_s": 0.8,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Market"
+   ],
+   "player_pos": [
+    56.36,
+    7.95,
+    -15.75
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromFarms",
+     "FieldsFarms_TownMarket",
+     0.0,
+     0.54
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 0.0,
+   "log": {
+    "lines": 4151,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "PASS",
+   "why": "до входа 0.00 м, CC-67 нет"
+  },
+  "Town_Market/LocationExit_ToInnerTown_Backside": {
+   "src": "Town_Market",
+   "exit": "LocationExit_ToInnerTown_Backside",
+   "to": "Town_Inner",
+   "path": "TownMarket_InnerTown_BackSide",
+   "exit_pos": [
+    38.53,
+    12.96,
+    43.22
+   ],
+   "start_pos": [
+    41.1,
+    13.46,
+    41.68
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.2,
+     [
+      41.1,
+      12.9,
+      41.7
+     ]
+    ],
+    [
+     1.2,
+     [
+      39.5,
+      13.0,
+      40.9
+     ]
+    ],
+    [
+     2.3,
+     [
+      38.1,
+      13.3,
+      41.6
+     ]
+    ],
+    [
+     3.7,
+     [
+      15.4,
+      14.3,
+      40.2
+     ]
+    ]
+   ],
+   "walk_s": 3.7,
+   "end_dist_xz_to_trigger": 23.24,
+   "arrived_s": 0.6,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Inner"
+   ],
+   "player_pos": [
+    15.62,
+    14.35,
+    39.54
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromMarket_BackSide",
+     "TownMarket_InnerTown_BackSide",
+     2.43,
+     2.44
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 2.43,
+   "log": {
+    "lines": 5085,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "FAIL",
+   "why": "игрок в 2.43 м от входа с тем же путём (> 2 м)"
+  },
+  "Town_Market/LocationExit_ToInnerTown_Riverside": {
+   "src": "Town_Market",
+   "exit": "LocationExit_ToInnerTown_Riverside",
+   "to": "Town_Inner",
+   "path": "TownMarket_InnerTown_Riverside",
+   "exit_pos": [
+    -2.9,
+    11.3,
+    8.95
+   ],
+   "start_pos": [
+    -1.55,
+    11.8,
+    6.27
+   ],
+   "start_dist_xz_to_trigger": 3.0,
+   "trace": [
+    [
+     0.3,
+     [
+      -1.6,
+      11.8,
+      6.3
+     ]
+    ],
+    [
+     1.7,
+     [
+      -3.3,
+      11.0,
+      7.3
+     ]
+    ],
+    [
+     2.9,
+     [
+      -3.5,
+      10.4,
+      8.7
+     ]
+    ],
+    [
+     4.4,
+     [
+      0.6,
+      12.9,
+      17.9
+     ]
+    ]
+   ],
+   "walk_s": 4.4,
+   "end_dist_xz_to_trigger": 9.76,
+   "arrived_s": 0.6,
+   "poll_errors": 0,
+   "scenes_after": [
+    "Town_Inner"
+   ],
+   "player_pos": [
+    1.29,
+    12.9,
+    17.85
+   ],
+   "entrance_candidates": [
+    [
+     "LocationEntrance_FromMarket_Riverside",
+     "TownMarket_InnerTown_Riverside",
+     2.5,
+     2.5
+    ]
+   ],
+   "dist_xz_to_entrance_same_path": 2.5,
+   "log": {
+    "lines": 5086,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   },
+   "cc67": 0,
+   "verdict": "FAIL",
+   "why": "игрок в 2.50 м от входа с тем же путём (> 2 м)"
+  }
+ },
+ "recoveries": [
+  {
+   "t": "18:12:23",
+   "state": "Combat",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Mountain_Path"
+   ]
+  }
+ ],
+ "summary": {
+  "pass": 14,
+  "tested": 16,
+  "fails": [],
+  "blocked": [
+   "Town_Upper/LocationExit_ToInnerTown_Slope",
+   "Town_Inner/LocationExit_ToForest"
+  ],
+  "cc67": [],
+  "manual": [
+   "Field_Hill/LocationExit_ToBeach_JumpDown",
+   "Town_Upper/LocationExit_ToInnerTown_FallDown",
+   "Town_Upper/LocationExit_ToInnerTown_FallDown (1)",
+   "Town_Upper/LocationExit_ToMarket_FallDown",
+   "Town_Upper/LocationExit_ToMarket_FallDown (1)",
+   "Town_Upper/LocationExit_ToMarket_FallDown (2)",
+   "Town_Upper/LocationExit_ToMarket_FallDown (3)",
+   "Town_Upper/LocationExit_ToMarket_FallDown (4)",
+   "Town_Upper/LocationExit_ToMarket_FallDown (5)",
+   "Town_Upper/LocationExit_ToForestEntrance_FallDown"
+  ],
+  "exceptions": 0
+ }
+}

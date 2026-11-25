@@ -1,0 +1,964 @@
+{
+ "M07-01": {
+  "respawn": {
+   "respawn_s": 8.7,
+   "d2": 9.85,
+   "d5": 9.85,
+   "log": {
+    "lines": 6202,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "transition": {
+   "load_s": 0.9,
+   "d2": 9.85,
+   "d5": 9.85,
+   "log": {
+    "lines": 1286,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  }
+ },
+ "M03-01_attempt1_invalid": {
+  "rows": {
+   "Gameplay|W": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Gameplay|Space": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Gameplay|E": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Gameplay|F": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Gameplay|Q": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Gameplay|Tab": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Gameplay|Escape": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Gameplay|C": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Pause|W": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Pause|Space": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Pause|E": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Pause|F": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Pause|Q": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Pause|Tab": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Pause|Escape": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Pause|C": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Inventory|W": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Inventory|Space": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Inventory|E": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Inventory|F": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Inventory|Q": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Inventory|Tab": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Inventory|Escape": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Inventory|C": {
+    "state_before": "Pause",
+    "ready": false,
+    "why": "не удалось привести игру в состояние"
+   },
+   "Combat|W": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 1.02,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|Space": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|E": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|F": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|Q": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|Tab": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|Escape": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Pause",
+    "panels_opened": [
+     "pause"
+    ],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Combat|C": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [
+     "cheat"
+    ],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   }
+  },
+  "problems": [
+   [
+    "setup",
+    "Gameplay",
+    "W"
+   ],
+   [
+    "setup",
+    "Gameplay",
+    "Space"
+   ],
+   [
+    "setup",
+    "Gameplay",
+    "E"
+   ],
+   [
+    "setup",
+    "Gameplay",
+    "F"
+   ],
+   [
+    "setup",
+    "Gameplay",
+    "Q"
+   ],
+   [
+    "setup",
+    "Gameplay",
+    "Tab"
+   ],
+   [
+    "setup",
+    "Gameplay",
+    "Escape"
+   ],
+   [
+    "setup",
+    "Gameplay",
+    "C"
+   ],
+   [
+    "setup",
+    "Pause",
+    "W"
+   ],
+   [
+    "setup",
+    "Pause",
+    "Space"
+   ],
+   [
+    "setup",
+    "Pause",
+    "E"
+   ],
+   [
+    "setup",
+    "Pause",
+    "F"
+   ],
+   [
+    "setup",
+    "Pause",
+    "Q"
+   ],
+   [
+    "setup",
+    "Pause",
+    "Tab"
+   ],
+   [
+    "setup",
+    "Pause",
+    "Escape"
+   ],
+   [
+    "setup",
+    "Pause",
+    "C"
+   ],
+   [
+    "setup",
+    "Inventory",
+    "W"
+   ],
+   [
+    "setup",
+    "Inventory",
+    "Space"
+   ],
+   [
+    "setup",
+    "Inventory",
+    "E"
+   ],
+   [
+    "setup",
+    "Inventory",
+    "F"
+   ],
+   [
+    "setup",
+    "Inventory",
+    "Q"
+   ],
+   [
+    "setup",
+    "Inventory",
+    "Tab"
+   ],
+   [
+    "setup",
+    "Inventory",
+    "Escape"
+   ],
+   [
+    "setup",
+    "Inventory",
+    "C"
+   ]
+  ],
+  "expectations": {
+   "Pause: W не двигает": null,
+   "Inventory: W не двигает": null,
+   "Combat: Tab не открывает инвентарь": [],
+   "Combat: E не открывает разговор": [],
+   "Pause: Esc закрывает паузу": null,
+   "Gameplay: W двигает": null
+  }
+ },
+ "M03-01": {
+  "rows": {
+   "Gameplay|W": {
+    "state_before": "Gameplay",
+    "ready": true,
+    "moved_m": 1.02,
+    "state_after": "Gameplay",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Gameplay|Space": {
+    "state_before": "Gameplay",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Gameplay",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Gameplay|E": {
+    "state_before": "Gameplay",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Gameplay",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Gameplay|F": {
+    "state_before": "Gameplay",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Gameplay",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Gameplay|Q": {
+    "state_before": "Gameplay",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Gameplay",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Gameplay|Tab": {
+    "state_before": "Gameplay",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Inventory",
+    "panels_opened": [
+     "inventory"
+    ],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Gameplay|Escape": {
+    "state_before": "Gameplay",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Pause",
+    "panels_opened": [
+     "pause"
+    ],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Gameplay|C": {
+    "state_before": "Gameplay",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Gameplay",
+    "panels_opened": [
+     "cheat"
+    ],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Pause|W": {
+    "state_before": "Pause",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Pause",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Pause|Space": {
+    "state_before": "Pause",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Pause",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Pause|E": {
+    "state_before": "Pause",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Pause",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Pause|F": {
+    "state_before": "Pause",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Pause",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Pause|Q": {
+    "state_before": "Pause",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Pause",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Pause|Tab": {
+    "state_before": "Pause",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Pause",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Pause|Escape": {
+    "state_before": "Pause",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Gameplay",
+    "panels_opened": [],
+    "panels_closed": [
+     "pause"
+    ],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Pause|C": {
+    "state_before": "Pause",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Pause",
+    "panels_opened": [
+     "cheat"
+    ],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 2
+   },
+   "Inventory|W": {
+    "state_before": "Inventory",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Inventory",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Inventory|Space": {
+    "state_before": "Inventory",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Inventory",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Inventory|E": {
+    "state_before": "Inventory",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Inventory",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Inventory|F": {
+    "state_before": "Inventory",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Inventory",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Inventory|Q": {
+    "state_before": "Inventory",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Inventory",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Inventory|Tab": {
+    "state_before": "Inventory",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Gameplay",
+    "panels_opened": [],
+    "panels_closed": [
+     "inventory"
+    ],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Inventory|Escape": {
+    "state_before": "Inventory",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Gameplay",
+    "panels_opened": [],
+    "panels_closed": [
+     "inventory"
+    ],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Inventory|C": {
+    "state_before": "Inventory",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Inventory",
+    "panels_opened": [
+     "cheat"
+    ],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 2
+   },
+   "Combat|W": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 1.05,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|Space": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|E": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|F": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|Q": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|Tab": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 0
+   },
+   "Combat|Escape": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Pause",
+    "panels_opened": [
+     "pause"
+    ],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   },
+   "Combat|C": {
+    "state_before": "Combat",
+    "ready": true,
+    "moved_m": 0.0,
+    "state_after": "Combat",
+    "panels_opened": [
+     "cheat"
+    ],
+    "panels_closed": [],
+    "player_hp": [
+     50,
+     50
+    ],
+    "exceptions": 0,
+    "exc_types": {},
+    "restored_to_gameplay": true,
+    "restore_presses": 1
+   }
+  },
+  "problems": [],
+  "expectations": {
+   "Pause: W не двигает": 0.0,
+   "Inventory: W не двигает": 0.0,
+   "Combat: Tab не открывает инвентарь": [],
+   "Combat: E не открывает разговор": [],
+   "Pause: Esc закрывает паузу": "Gameplay",
+   "Gameplay: W двигает": 1.02
+  }
+ },
+ "M03-01_after_combat_state": "Combat"
+}

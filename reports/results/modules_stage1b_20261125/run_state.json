@@ -1,0 +1,155 @@
+{
+ "preflight": {
+  "time": "18:12:59",
+  "label": "goto_Beach",
+  "port_13000": true,
+  "window": {
+   "pid": 13604,
+   "cpu_delta_1_5s": 3.188,
+   "foreground": false,
+   "title": "UOP1_Project - Mountain_Cave - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
+   "responding": true,
+   "found": true,
+   "shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/modules_stage1b_20261125\\shots\\preflight_goto_Beach.png",
+   "iconic": false
+  },
+  "consoleFlags": 7683,
+  "consoleFlags_note": "прочиталось (assembly UnityEditor.CoreModule)",
+  "error_pause": false,
+  "play": [
+   true,
+   "isPlaying прочитан"
+  ],
+  "log_offset": 116626258,
+  "log_last_lines": [
+   "NLog.Logger:Debug (string)",
+   "AltTester.AltTesterUnitySDK.Commands.CommandHandler:Send (string)",
+   "AltTester.AltTesterUnitySDK.Commands.CommandHandler/<>c__DisplayClass30_0:<OnMessage>b__0 ()",
+   "AltTester.AltTesterSDK.Driver.AltResponseQueue:Cycle ()",
+   "AltTester.AltTesterUnitySDK.Commands.AltRunner:Update ()"
+  ],
+  "alive": true,
+  "alive_detail": "frameCount 589477 -> 589597",
+  "game_pause_menu": false
+ },
+ "guard_offset": 116626258,
+ "unpause_attempts": 0,
+ "window_restores": 4,
+ "game_pause_closed": [
+  {
+   "time": "16:42:42",
+   "case": "M03-01_Gameplay_Space",
+   "closed": true
+  },
+  {
+   "time": "16:42:50",
+   "case": "M03-01_Gameplay_E",
+   "closed": true
+  },
+  {
+   "time": "16:42:57",
+   "case": "M03-01_Gameplay_F",
+   "closed": true
+  },
+  {
+   "time": "16:43:05",
+   "case": "M03-01_Gameplay_Q",
+   "closed": true
+  },
+  {
+   "time": "16:43:13",
+   "case": "M03-01_Gameplay_Tab",
+   "closed": true
+  },
+  {
+   "time": "16:43:21",
+   "case": "M03-01_Gameplay_Escape",
+   "closed": true
+  },
+  {
+   "time": "16:43:29",
+   "case": "M03-01_Gameplay_C",
+   "closed": true
+  },
+  {
+   "time": "16:43:38",
+   "case": "M03-01_Pause_W",
+   "closed": true
+  },
+  {
+   "time": "16:43:45",
+   "case": "M03-01_Pause_Space",
+   "closed": true
+  },
+  {
+   "time": "16:43:53",
+   "case": "M03-01_Pause_E",
+   "closed": true
+  },
+  {
+   "time": "16:44:01",
+   "case": "M03-01_Pause_F",
+   "closed": true
+  },
+  {
+   "time": "16:44:09",
+   "case": "M03-01_Pause_Q",
+   "closed": true
+  },
+  {
+   "time": "16:44:18",
+   "case": "M03-01_Pause_Tab",
+   "closed": true
+  },
+  {
+   "time": "16:44:26",
+   "case": "M03-01_Pause_Escape",
+   "closed": true
+  },
+  {
+   "time": "16:44:34",
+   "case": "M03-01_Pause_C",
+   "closed": true
+  },
+  {
+   "time": "16:44:44",
+   "case": "M03-01_Inventory_W",
+   "closed": true
+  },
+  {
+   "time": "16:44:52",
+   "case": "M03-01_Inventory_Space",
+   "closed": true
+  },
+  {
+   "time": "16:45:01",
+   "case": "M03-01_Inventory_E",
+   "closed": true
+  },
+  {
+   "time": "16:45:10",
+   "case": "M03-01_Inventory_F",
+   "closed": true
+  },
+  {
+   "time": "16:45:18",
+   "case": "M03-01_Inventory_Q",
+   "closed": true
+  },
+  {
+   "time": "16:45:27",
+   "case": "M03-01_Inventory_Tab",
+   "closed": true
+  },
+  {
+   "time": "16:45:36",
+   "case": "M03-01_Inventory_Escape",
+   "closed": true
+  },
+  {
+   "time": "16:45:45",
+   "case": "M03-01_Inventory_C",
+   "closed": true
+  }
+ ]
+}

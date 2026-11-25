@@ -1,0 +1,222 @@
+{
+ "trace": [
+  {
+   "t": "20:52:40",
+   "label": "Field_Hill: до начала",
+   "count": 4,
+   "state": "Gameplay",
+   "scenes": [
+    "Field_Hill"
+   ]
+  },
+  {
+   "t": "20:52:42",
+   "label": "A: подошёл, тревога",
+   "count": 5,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "alert_s": 0.5,
+   "alert": true
+  },
+  {
+   "t": "20:52:57",
+   "label": "A: ушёл пешком",
+   "count": 4,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "steps": 5,
+   "dist": 8.4,
+   "alert": false
+  },
+  {
+   "t": "20:53:08",
+   "label": "A: через 10 с",
+   "count": 4,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "alert": false
+  },
+  {
+   "t": "20:53:16",
+   "label": "B: до подхода",
+   "count": 4,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ]
+  },
+  {
+   "t": "20:53:18",
+   "label": "B: подошёл, тревога",
+   "count": 5,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "alert_s": 0.4,
+   "alert": true
+  },
+  {
+   "t": "20:53:21",
+   "label": "B: C в тревоге",
+   "count": 5,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "cheat": true
+  },
+  {
+   "t": "20:53:55",
+   "label": "B: после смены локации (Beach)",
+   "count": 5,
+   "state": "Combat",
+   "scenes": [
+    "Beach"
+   ],
+   "goto": "('Beach via Beach_FieldsHill', 6.6, 0)"
+  },
+  {
+   "t": "20:53:59",
+   "label": "B: в новой сцене +3 с",
+   "count": 5,
+   "state": "Combat",
+   "scenes": [
+    "Beach"
+   ]
+  },
+  {
+   "t": "20:55:02",
+   "label": "C: до подхода",
+   "count": 5,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ]
+  },
+  {
+   "t": "20:55:05",
+   "label": "C: подошёл, тревога",
+   "count": 6,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "alert_s": 0.4,
+   "alert": true
+  },
+  {
+   "t": "20:55:16",
+   "label": "C: сразу после удара",
+   "count": 5,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "hits": 2,
+   "gone": false,
+   "dead": true
+  },
+  {
+   "t": "20:55:22",
+   "label": "C: через 5 с",
+   "count": 5,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ]
+  },
+  {
+   "t": "20:55:28",
+   "label": "D: до Back to menu",
+   "count": 5,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ]
+  },
+  {
+   "t": "20:55:39",
+   "label": "D: в MainMenu",
+   "count": "no UIManager",
+   "state": "None",
+   "scenes": [
+    "MainMenu"
+   ]
+  },
+  {
+   "t": "20:56:16",
+   "label": "D: после New Game (Beach)",
+   "count": 5,
+   "state": "Gameplay",
+   "scenes": [
+    "Beach"
+   ]
+  },
+  {
+   "t": "20:56:38",
+   "label": "D: Field_Hill, до подхода",
+   "count": 5,
+   "state": "Gameplay",
+   "scenes": [
+    "Field_Hill"
+   ]
+  },
+  {
+   "t": "20:56:39",
+   "label": "D: подошёл, тревога",
+   "count": 6,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "alert_s": 0.3,
+   "alert": true
+  },
+  {
+   "t": "20:56:51",
+   "label": "D: ушёл",
+   "count": 5,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "steps": 5,
+   "dist": 7.6,
+   "alert": false
+  },
+  {
+   "t": "20:57:01",
+   "label": "D: через 10 с",
+   "count": 5,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ]
+  }
+ ],
+ "setup": [
+  "Field_Hill via Beach_FieldsHill",
+  8.3,
+  0
+ ],
+ "critter": "PlantCritter",
+ "critter_pos": [
+  -66.40025,
+  10.3372478,
+  -320.966278
+ ],
+ "exc_A": 0,
+ "B_cheat_opened_in_combat": true,
+ "exc_B": 0,
+ "C_setup": "('Field_Hill via Beach_FieldsHill', 7.5, 0)",
+ "exc_C": 0,
+ "D_setup": "('Field_Hill via Beach_FieldsHill', 7.2, 0)",
+ "exc_D": 0
+}

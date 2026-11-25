@@ -2,7 +2,7 @@
 """Общая библиотека задания modules_stage1: перенаправляет файлы guard/fastlib в папку этого запуска (свежий счётчик восстановлений окна)."""
 import os, sys, json, time, math
 sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run7")
-OUT = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\modules_stage1_20261125"
+OUT = os.environ.get("MOD_OUT", "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/modules_stage1b_20261125")
 os.makedirs(OUT, exist_ok=True)
 import fastlib, guard
 guard.RES = OUT; guard.STATE_F = os.path.join(OUT, "run_state.json"); guard.STALL_F = os.path.join(OUT, "stall_report.json")

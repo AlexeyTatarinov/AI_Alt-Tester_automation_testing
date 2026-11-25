@@ -1,0 +1,292 @@
+{
+ "frameCount0": 863,
+ "count_initial": {
+  "count": 5,
+  "frameCount": 1337
+ },
+ "state_after_ng": "Gameplay",
+ "off": 134282115,
+ "snap_start": {
+  "label": "DLG-10b до",
+  "t": "21:17:06",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 0
+  },
+  "save_hash": "628fab9eef30a455",
+  "save_finished": 0,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "hint1": true,
+ "first": {
+  "N_space": 18,
+  "closed": true,
+  "replies": 17,
+  "choices": false,
+  "seq": [
+   "You made it! Welcome to Yolk island!",
+   "It's been a while! Did you come for the cooking festival?",
+   "Yes, I've heard great things about the local chef. Comb, I think he's called?",
+   "Oh yes, he's a legend around here. He's very hard to impress.",
+   "You'll have to prepare something very special to win the contest!",
+   "I wasn't necessarily planning to take part in it, but...",
+   "You have to! I'm curious to see what you come up with.",
+   "I'll check it out when I get to town. Which way?",
+   "Wait, before you go there. Can I ask you a favour?",
+   "I've just arrived and you're asking me a favour?",
+   "The thing is, I'm trying to gather some seeds for a recipe but the local plants are a bit... aggressive.",
+   "They call them Groens, and they are carnivorous plants that eat much more than insects.",
+   "I guess they also love good food.",
+   "I know you can take care of them!",
+   "Where can I find them?",
+   "There's a few of them just over the hill above the beach.",
+   "Anything for you, my friend."
+  ]
+ },
+ "snap_after_first": {
+  "label": "после первого",
+  "t": "21:17:43",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 1
+  },
+  "save_hash": "8d5f8004fba94efd",
+  "save_finished": 1,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "hint2": true,
+ "snap_before_no": {
+  "label": "перед вторым (No)",
+  "t": "21:17:48",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 1
+  },
+  "save_hash": "8d5f8004fba94efd",
+  "save_finished": 1,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "second_first_line": "Did you gather the seeds from the Groens up the hill?",
+ "second": {
+  "N_space": 1,
+  "choices": true,
+  "line": "Did you gather the seeds from the Groens up the hill?",
+  "texts": [
+   "Yes",
+   "No"
+  ],
+  "shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/modules_stage2b_20261125\\shots\\p2_choices.png",
+  "clicked": "ButtonChoice2",
+  "after_no_lines": [
+   "Ok, no problem, come back when you got them."
+  ],
+  "dlg_closed": true
+ },
+ "snap_after_no": {
+  "label": "после No",
+  "t": "21:17:59",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 1
+  },
+  "save_hash": "8d5f8004fba94efd",
+  "save_finished": 1,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "diff_no": {},
+ "save_info_no": {
+  "hash": "8d5f8004fba94efd",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "exc_no": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "hint3": true,
+ "snap_before_again": {
+  "label": "перед повтором",
+  "t": "21:18:19",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 1
+  },
+  "save_hash": "8d5f8004fba94efd",
+  "save_finished": 1,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "again_open": true,
+ "again_first_line": "Did you gather the seeds from the Groens up the hill?",
+ "again": {
+  "N_space": 1,
+  "choices": true,
+  "line": "Did you gather the seeds from the Groens up the hill?",
+  "texts": [
+   "Yes",
+   "No"
+  ],
+  "clicked": "ButtonChoice1",
+  "after_yes_lines": [
+   "Oh yeah! Thanks! I love them so much.",
+   "They are the key ingredient in my grandma's recipe for an amazing sweet cream.",
+   "You cook too?",
+   "Are you surprised? I can share the recipe with you if you want.",
+   "It's easy. Just drop 3 Groen seeds into boiling water, then stir for 2 minutes.",
+   "I see. Grandma's old recipe, right?",
+   "It's been our family's treasure for generations.",
+   "You can try cooking it yourself using the cauldron just here. The water should be already hot."
+  ],
+  "dlg_closed": true
+ },
+ "snap_after_yes": {
+  "label": "после Yes",
+  "t": "21:18:41",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 19,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 2
+  },
+  "save_hash": "a995c0764a98a473",
+  "save_finished": 2,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "diff_yes": {
+  "quest": [
+   {
+    "line": 0,
+    "step": 1
+   },
+   {
+    "line": 0,
+    "step": 2
+   }
+  ],
+  "save_hash": [
+   "8d5f8004fba94efd",
+   "a995c0764a98a473"
+  ],
+  "save_finished": [
+   1,
+   2
+  ],
+  "inv": {
+   "SweetCream_Recipe": [
+    0,
+    1
+   ],
+   "Seed": [
+    20,
+    19
+   ]
+  }
+ },
+ "save_info_yes": {
+  "hash": "a995c0764a98a473",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 19,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1
+  }
+ },
+ "exc_detail": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

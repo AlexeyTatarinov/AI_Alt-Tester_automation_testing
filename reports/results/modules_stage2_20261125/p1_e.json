@@ -1,0 +1,149 @@
+{
+ "off": 125388855,
+ "snap_before": {
+  "label": "IT-02 до",
+  "t": "20:48:38",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 16,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1,
+   "RockCandy_Recipe": 1
+  },
+  "quest": {
+   "line": 1,
+   "step": 2
+  },
+  "save_hash": "a3a537f3abeef4f3",
+  "save_finished": 5,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "to_menu_s": 1.3,
+ "new_game_s": 2.0,
+ "snap_after_ng": {
+  "label": "после New Game",
+  "t": "20:49:15",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 0
+  },
+  "save_hash": "628fab9eef30a455",
+  "save_finished": 0,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "hint": true,
+ "dlg_open": true,
+ "N_space": 45,
+ "closed": false,
+ "seq": [
+  "You made it! Welcome to Yolk island!",
+  "It's been a while! Did you come for the cooking festival?",
+  "Yes, I've heard great things about the local chef. Comb, I think he's called?",
+  "Oh yes, he's a legend around here. He's very hard to impress.",
+  "You'll have to prepare something very special to win the contest!",
+  "I wasn't necessarily planning to take part in it, but...",
+  "You have to! I'm curious to see what you come up with.",
+  "I'll check it out when I get to town. Which way?",
+  "Wait, before you go there. Can I ask you a favour?",
+  "I've just arrived and you're asking me a favour?",
+  "The thing is, I'm trying to gather some seeds for a recipe but the local plants are a bit... aggressive.",
+  "They call them Groens, and they are carnivorous plants that eat much more than insects.",
+  "I guess they also love good food.",
+  "I know you can take care of them!",
+  "Where can I find them?",
+  "There's a few of them just over the hill above the beach.",
+  "Anything for you, my friend.",
+  "They are the key ingredient in my grandma's recipe for an amazing sweet cream."
+ ],
+ "replies": 18,
+ "snap_after": {
+  "label": "IT-02 после",
+  "t": "20:51:02",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 18,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 1
+  },
+  "save_hash": "c7f191f7a67c1008",
+  "save_finished": 1,
+  "exc": 0,
+  "exc_types": {}
+ },
+ "diff": {
+  "quest": [
+   {
+    "line": 1,
+    "step": 2
+   },
+   {
+    "line": 0,
+    "step": 1
+   }
+  ],
+  "save_hash": [
+   "a3a537f3abeef4f3",
+   "c7f191f7a67c1008"
+  ],
+  "save_finished": [
+   5,
+   1
+  ],
+  "inv": {
+   "SweetCream_Recipe": [
+    1,
+    0
+   ],
+   "SweetCream_Dish": [
+    1,
+    0
+   ],
+   "RockCandy_Recipe": [
+    1,
+    0
+   ],
+   "Seed": [
+    16,
+    18
+   ]
+  }
+ },
+ "exc_detail": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "state_after": "Gameplay"
+}

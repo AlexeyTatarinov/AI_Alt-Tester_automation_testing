@@ -1,0 +1,51 @@
+{
+ "time": "21:23:34",
+ "steps": [
+  {
+   "t": "21:23:39",
+   "msg": "окна Unity",
+   "wins": [
+    [
+     "13604",
+     "1049894",
+     "UOP1_Project - MainMenu - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>"
+    ]
+   ]
+  },
+  {
+   "t": "21:23:39",
+   "msg": "save.chop возвращён из копии",
+   "equal": true
+  },
+  {
+   "t": "21:23:40",
+   "msg": "Ctrl+P отправлен"
+  },
+  {
+   "t": "21:24:00",
+   "msg": "фокус возвращён прежнему окну",
+   "was_iconic": true
+  },
+  {
+   "t": "21:24:03",
+   "msg": "после",
+   "frameCount": 15,
+   "realtime": 21.8734627,
+   "consoleFlags": 7683,
+   "isPlaying": true,
+   "scenes": [
+    "MainMenu",
+    "PersistentManagers"
+   ]
+  },
+  {
+   "t": "21:24:06",
+   "msg": "окно Unity свёрнуто повторно после старта игры (редактор сам разворачивает окно при входе в Play)"
+  }
+ ],
+ "dry": false,
+ "frames_before": 1000000000,
+ "frames_after": 15,
+ "exit": 0,
+ "why": "Play перезапущен: frameCount 1000000000 -> 15, сцены ['MainMenu', 'PersistentManagers']"
+}

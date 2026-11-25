@@ -3,7 +3,10 @@
 НАПИСАН 24.11.2026 аудитом (Opus). НА ЖИВОЙ ИГРЕ НЕ ПРОВЕРЯЛСЯ (аудиту запрещено подключаться к порту 13000).
 Запуск: scripts\\sdk_smoke\\.venv\\Scripts\\python.exe scripts\\play_control\\restart_play.py [--dry-run] [--check] [--restore-save]
 Коды выхода: 0 успех; 2 предусловие не выполнено (ничего не менялось); 3 Play остановлен, но не запущен (СТОП, мышью не лечить);
-             4 клавиша не отправлена (окно Unity не стало активным), Play остановлен; 5 Play запустился, но не MainMenu/не «чистый».
+             4 клавиша не отправлена (окно Unity не стало активным), Play остановлен; 5 Play запустился, но не MainMenu/не «чистый»;
+             6 рабочий стол заблокирован (GetForegroundWindow()==0 или OpenInputDesktop не открывается): клавиша не отправлена.
+Режим --start-only (25.11.2026, координатор): Play НЕ идёт -> только фокус, Ctrl+P, ожидание MainMenu, проверка frameCount (с --restore-save сначала вернёт save.chop).
+Фокус: до 3 циклов по 6 попыток с паузой 20 с между циклами.
 Что делает: (1) читает frameCount, realtimeSinceStartup, consoleFlags, сцены; (2) EditorApplication.isPlaying=False через AltTester;
 (3) ждёт закрытия порта 13000; (4) по флагу --restore-save возвращает save.chop из копии (Play не идёт, игра файл не перепишет);
 (5) активирует окно Unity и шлёт Ctrl+P (keybd_event, без мыши); (6) ждёт AltTester и MainMenu, проверяет frameCount < MAX_FRAMES.
@@ -20,6 +23,7 @@ MAX_FRAMES = 3000          # «чистый» Play: счётчик кадров 
 EDITOR_ASM = ["UnityEditor.CoreModule", "UnityEditor"]
 CORE = "UnityEngine.CoreModule"
 DRY = "--dry-run" in sys.argv; CHECK = "--check" in sys.argv; RESTORE = "--restore-save" in sys.argv
+START_ONLY = "--start-only" in sys.argv
 rep = {"time": None, "steps": []}
 
 def now(): return datetime.datetime.now().strftime("%H:%M:%S")
@@ -86,7 +90,9 @@ u32 = ctypes.windll.user32; k32 = ctypes.windll.kernel32
 def unity_windows():
     ps = ("Get-Process Unity -ErrorAction SilentlyContinue | ForEach-Object { '{0}|{1}|{2}' -f $_.Id,$_.MainWindowHandle,$_.MainWindowTitle }")
     out = subprocess.run(["powershell", "-NoProfile", "-Command", ps], capture_output=True, text=True, timeout=20).stdout.strip().splitlines()
-    return [tuple(l.split("|", 2)) for l in out if l.strip()]
+    allp = [tuple(l.split("|", 2)) for l in out if l.strip()]
+    # AssetImportWorker и др. дочерние процессы редактора окна не имеют: редакторами считаем только процессы с главным окном
+    return [p for p in allp if p[1] not in ("", "0")]
 def focus(h, tries=6):
     """вывести окно Unity на передний план (только клавиатура/WinAPI); несколько попыток, Alt-трюк снимает блокировку SetForegroundWindow"""
     for i in range(tries):
@@ -101,6 +107,24 @@ def focus(h, tries=6):
         time.sleep(0.8)
         if u32.GetForegroundWindow() == h: return True
     return False
+def desktop_locked():
+    """True, если рабочий стол заблокирован или нет активного окна (ввод с клавиатуры невозможен)"""
+    try:
+        hd = u32.OpenInputDesktop(0, False, 0x0100)  # DESKTOP_SWITCHDESKTOP
+        if not hd: return True
+        u32.CloseDesktop(hd)
+    except Exception: return True
+    return u32.GetForegroundWindow() == 0
+def focus_robust(h, cycles=3, tries=6, pause=20):
+    """3 цикла по 6 попыток, пауза 20 с между циклами. Возвращает 'ok' / 'locked' / 'fail'"""
+    for c in range(cycles):
+        if desktop_locked():
+            step("рабочий стол заблокирован или нет активного окна", cycle=c + 1)
+            if c == cycles - 1: return "locked"
+        elif focus(h, tries): return "ok"
+        else: step("окно Unity не стало активным", cycle=c + 1)
+        if c < cycles - 1: time.sleep(pause)
+    return "locked" if desktop_locked() else "fail"
 MINIMIZE_AFTER = "--keep-window" not in sys.argv  # по умолчанию после запуска Play окно Unity сворачивается
 def snapshot_focus(h):
     """запомнить, что было на переднем плане и было ли окно Unity свёрнуто, чтобы вернуть всё как было"""
@@ -122,6 +146,14 @@ def ctrl_p():
 
 def main():
     rep["time"] = now(); rep["dry"] = DRY
+    if START_ONLY:
+        if game_alive(4): done(2, "--start-only: Play уже идёт (игра отвечает AltTester). Ничего не менялось.")
+        wins = unity_windows(); step("окна Unity", wins=wins)
+        if len(wins) != 1: done(2, "нужен ровно один Unity.exe с главным окном (найдено %d). Ничего не менялось." % len(wins))
+        if CHECK or DRY: done(0, "--start-only: проверка пройдена, Play не идёт; изменений нет")
+        if RESTORE: step("save.chop возвращён из копии", equal=restore_save())
+        before = {"frameCount": 10 ** 9, "consoleFlags": None, "scenes": []}
+        return start_phase(wins, before)
     # --- предусловия
     if not port_open(): done(2, "порт 13000 закрыт: Play не идёт или AltTester не подключён. Ничего не менялось.")
     d = driver()
@@ -153,9 +185,14 @@ def main():
     time.sleep(3)  # даём редактору вернуться в Edit mode и записать сохранения
     if RESTORE:
         step("save.chop возвращён из копии", equal=restore_save())
+    start_phase(wins, before)
+
+def start_phase(wins, before):
     # --- Start: Ctrl+P
     h = int(wins[0][1]); fst = snapshot_focus(h)
-    if not focus(h): give_back(h, fst); done(4, "Play остановлен, но окно Unity не стало активным: Ctrl+P НЕ отправлен. СТОП: запустить Play придётся владельцу (кнопка Play или Ctrl+P в окне Unity). Мышью не лечить.")
+    fr = focus_robust(h)
+    if fr == "locked": give_back(h, fst); done(6, "Play остановлен, рабочий стол заблокирован: Ctrl+P НЕ отправлен. Повторить --start-only позже или нужен владелец. Мышью не лечить.")
+    if fr != "ok": give_back(h, fst); done(4, "Play остановлен, но окно Unity не стало активным: Ctrl+P НЕ отправлен. Можно повторить: restart_play.py --start-only. Мышью не лечить.")
     ctrl_p(); step("Ctrl+P отправлен"); time.sleep(1.0); give_back(h, fst); step("фокус возвращён прежнему окну", was_iconic=fst["iconic"])
     # --- ждём игру
     t0 = time.time(); d2 = None; after = None

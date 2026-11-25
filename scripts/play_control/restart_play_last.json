@@ -1,61 +1,31 @@
 {
- "time": "12:40:42",
+ "time": "21:45:34",
  "steps": [
   {
-   "t": "12:40:43",
-   "msg": "до",
-   "frameCount": 988464,
-   "realtime": 5202.244,
-   "consoleFlags": 7683,
-   "isPlaying": true,
-   "scenes": [
-    "PersistentManagers",
-    "Gameplay"
-   ]
-  },
-  {
-   "t": "12:40:43",
+   "t": "21:45:39",
    "msg": "окна Unity",
    "wins": [
     [
-     "5720",
-     "67084",
-     "UOP1_Project - PersistentManagers - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>"
+     "13604",
+     "1049894",
+     "UOP1_Project - MainMenu - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>"
     ]
    ]
   },
   {
-   "t": "12:40:43",
-   "msg": "внимание: игра в Gameplay; Stop сам перезапишет save.chop, поэтому --restore-save выполнится ПОСЛЕ остановки"
-  },
-  {
-   "t": "12:40:43",
-   "msg": "isPlaying=False отправлено"
-  },
-  {
-   "t": "12:41:51",
-   "msg": "Play остановлен (игра отключилась от AltTester)",
-   "sec": 67.7
-  },
-  {
-   "t": "12:41:54",
-   "msg": "save.chop возвращён из копии",
-   "equal": true
-  },
-  {
-   "t": "12:41:55",
+   "t": "21:45:40",
    "msg": "Ctrl+P отправлен"
   },
   {
-   "t": "12:42:04",
+   "t": "21:46:02",
    "msg": "фокус возвращён прежнему окну",
    "was_iconic": true
   },
   {
-   "t": "12:42:07",
+   "t": "21:46:06",
    "msg": "после",
-   "frameCount": 202,
-   "realtime": 10.5441866,
+   "frameCount": 15,
+   "realtime": 23.7171021,
    "consoleFlags": 7683,
    "isPlaying": true,
    "scenes": [
@@ -64,13 +34,13 @@
    ]
   },
   {
-   "t": "12:42:09",
+   "t": "21:46:08",
    "msg": "окно Unity свёрнуто повторно после старта игры (редактор сам разворачивает окно при входе в Play)"
   }
  ],
  "dry": false,
- "frames_before": 988464,
- "frames_after": 202,
+ "frames_before": 1000000000,
+ "frames_after": 15,
  "exit": 0,
- "why": "Play перезапущен: frameCount 988464 -> 202, сцены ['MainMenu', 'PersistentManagers']"
+ "why": "Play перезапущен: frameCount 1000000000 -> 15, сцены ['MainMenu', 'PersistentManagers']"
 }

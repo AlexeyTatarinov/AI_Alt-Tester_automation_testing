@@ -1,0 +1,43 @@
+{
+ "M10-02": {
+  "verdict": "OBSERVATION",
+  "numbers": "PlantCritter, 1,2 м, 20 с без ударов: здоровье игрока 50 → 50 (враг не атакует); ряд (t,hp,alert,расстояние) [(0.2, 50, True, 1.25), (3.8, 50, True, 1.25), (7.4, 50, True, 1.25), (10.9, 50, True, 1.25), (14.6, 50, True, 1.25), (18.2, 50, True, 1.25)]",
+  "source": "m10.json"
+ },
+ "M10-01": {
+  "verdict": "OBSERVATION",
+  "numbers": "Klipper (Mountain_Cave): ENM-01 тревога 0,4 с PASS; ENM-02 снята 0,1 с, но дистанция только 12,8 м (< 40 м, дальней точки нет); ENM-03 PASS (IsDead, выпал CollectableItem 0->1), игрок при этом получил урон 50->5 и возродился. Klipper_TerraRequest (Field_Farms): ENM-01 0,3 с PASS, ENM-02 208 м PASS, ENM-03 не подтверждён: за 2 прогона 16-24 ударов F, IsDead/GetHit не было, здоровье SO читается 0/0 (оракул не работает); враг ходит (NPCMovement) - вероятно удары не доходили; вердикт за владельцем. Gluecose_FarmAttack и CutGluecose_FarmAttack: BLOCKED (все объекты неактивны в иерархии без сюжетного события, update_object NotFound). RockCritter и др.: в Mountain_Path/Forest/Town_Upper/Town_Inner врагов 0. PlantCritter уже PASS ранее.",
+  "source": "m10.json"
+ },
+ "M07-01": {
+  "verdict": "PASS",
+  "numbers": "расстояние камера–игрок через 2 и 5 с (≤ 11 м и d5 ≤ d2+0,5): respawn: d2=9.85 d5=9.85 ok=True; transition: d2=9.85 d5=9.85 ok=True; респавн через 8.7 с; исключений 0",
+  "source": "m07_m03.json"
+ },
+ "M03-01": {
+  "verdict": "OBSERVATION",
+  "numbers": "таблица состояние×клавиша (после, сдвиг м, открылось, исключений) в m07_m03.json; проблемы (исключение/застряла): []; ожидания: {'Pause: W не двигает': 0.0, 'Inventory: W не двигает': 0.0, 'Combat: Tab не открывает инвентарь': [], 'Combat: E не открывает разговор': [], 'Pause: Esc закрывает паузу': 'Gameplay', 'Gameplay: W двигает': 1.02}",
+  "source": "m07_m03.json"
+ },
+ "M18-02": {
+  "verdict": "PASS",
+  "numbers": "Master 0: MasterVolume микшера 1.0 → 0.0 (после Save) → 1.0 (после возврата и Save); изменилось=True, вернулось=True; save.chop менялся=True (хеши ['628fab9eef30a455', '628fab9eef30a455', '628fab9eef30a455', '628fab9eef30a455', '5bf129439dded82f', '628fab9eef30a455', '628fab9eef30a455']); сопоставление кнопок {0: ['MasterVolume'], 1: ['MusicVolume'], 2: ['SFXVolume']}; исключений 0",
+  "source": "m18_02.json"
+ },
+ "M16-01": {
+  "verdict": "OBSERVATION",
+  "numbers": "Интро-катсцена после New Game не запускается: за 40 с состояние только Gameplay, директор катсцены None, Cutscene не было, PLACEHOLDER не виден; управление есть (W сдвигает на ~1,04 м, первая проверка на 20 с). По правилу задания - OBSERVATION со ссылкой на CC-85 (интро не идёт), не FAIL. Скрипт сам поставил PASS - исправлено вручную. 40 с после New Game: состояния ['Gameplay']; директор катсцены ['None']; состояние Cutscene впервые на None с, возврат в Gameplay None с (длительность None с); управление вернулось (W сдвинул ≥ 0,3 м) на 20.1 с; сдвиги W (t,м) [(20.1, 1.04), (26.1, 1.04), (31.4, 1.04), (36.6, 1.03)]; PLACEHOLDER виден в моменты [] (известный CC-85); исключений 0 {}",
+  "source": "m16_01.json",
+  "script_verdict": "PASS"
+ },
+ "M06-01": {
+  "verdict": "OBSERVATION",
+  "numbers": "рамка пола и зонд края (4 стороны, отступы 2/5/10/20 м): {'Field_Hill': ('OBSERVATION', ['N'], ['E', 'S'], {'x0': -87.1, 'x1': 209.5, 'z0': -325.6, 'z1': 21.7, 'ytop': 16.2, 'floor': 'Farms_Landmass'}), 'Field_Farms': ('PASS', [], ['E'], {'x0': -87.1, 'x1': 209.5, 'z0': -325.6, 'z1': 21.7, 'ytop': 16.2, 'floor': 'Farms_Landmass'})}; падение без респавна — OBSERVATION (как CC-82); исключений 0",
+  "source": "m06_01.json"
+ },
+ "M08-01": {
+  "verdict": "OBSERVATION",
+  "numbers": "N из M: 14 из 16 обычных выходов прошли (Beach<->Field_Hill ToBeach и Beach exit пропущены, уже PASS LOC-01/02); FAIL: []; BLOCKED (не дошёл): ['Town_Upper/LocationExit_ToInnerTown_Slope', 'Town_Inner/LocationExit_ToForest']; CC-67 на: []; для ручной проверки: ['Field_Hill/LocationExit_ToBeach_JumpDown', 'Town_Upper/LocationExit_ToInnerTown_FallDown', 'Town_Upper/LocationExit_ToInnerTown_FallDown (1)', 'Town_Upper/LocationExit_ToMarket_FallDown', 'Town_Upper/LocationExit_ToMarket_FallDown (1)', 'Town_Upper/LocationExit_ToMarket_FallDown (2)', 'Town_Upper/LocationExit_ToMarket_FallDown (3)', 'Town_Upper/LocationExit_ToMarket_FallDown (4)', 'Town_Upper/LocationExit_ToMarket_FallDown (5)', 'Town_Upper/LocationExit_ToForestEntrance_FallDown']; исключений в логе 0",
+  "source": "m08_01.json"
+ }
+}

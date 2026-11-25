@@ -1,0 +1,117 @@
+{
+ "steps": [
+  {
+   "gameplay": false,
+   "name": "start",
+   "vols": {
+    "MasterVolume": 1.0,
+    "MusicVolume": 1.0,
+    "SFXVolume": 1.0
+   },
+   "save_hash": "628fab9eef30a455"
+  },
+  {
+   "name": "settings_audio_open",
+   "vols": {
+    "MasterVolume": 1.0,
+    "MusicVolume": 1.0,
+    "SFXVolume": 1.0
+   },
+   "save_hash": "628fab9eef30a455"
+  },
+  {
+   "name": "mapping_done",
+   "vols": {
+    "MasterVolume": 1.0,
+    "MusicVolume": 1.0,
+    "SFXVolume": 1.0
+   },
+   "save_hash": "628fab9eef30a455"
+  },
+  {
+   "name": "master_down_unsaved",
+   "vols": {
+    "MasterVolume": 0.0,
+    "MusicVolume": 1.0,
+    "SFXVolume": 1.0
+   },
+   "save_hash": "628fab9eef30a455"
+  },
+  {
+   "name": "saved_master_zero",
+   "vols": {
+    "MasterVolume": 0.0,
+    "MusicVolume": 1.0,
+    "SFXVolume": 1.0
+   },
+   "save_hash": "5bf129439dded82f"
+  },
+  {
+   "name": "restored_saved",
+   "vols": {
+    "MasterVolume": 1.0,
+    "MusicVolume": 1.0,
+    "SFXVolume": 1.0
+   },
+   "save_hash": "628fab9eef30a455"
+  },
+  {
+   "gameplay": false,
+   "presses": 2,
+   "name": "closed",
+   "vols": {
+    "MasterVolume": 1.0,
+    "MusicVolume": 1.0,
+    "SFXVolume": 1.0
+   },
+   "save_hash": "628fab9eef30a455"
+  }
+ ],
+ "tabs": [
+  "Tab",
+  "Tab_BG",
+  "Tab_Content",
+  "Audio_Tab",
+  "Graphic_Tab",
+  "Language_Tab"
+ ],
+ "fillers": [
+  [
+   "Setting_Item",
+   301.4
+  ],
+  [
+   "Setting_Item",
+   268.8
+  ],
+  [
+   "Setting_Item (1)",
+   236.2
+  ]
+ ],
+ "prev_buttons": [
+  [
+   "ButtonPrevious",
+   301.4
+  ],
+  [
+   "ButtonPrevious",
+   268.8
+  ],
+  [
+   "ButtonPrevious",
+   236.2
+  ]
+ ],
+ "mapping_prev_to_group": {
+  "0": [
+   "MasterVolume"
+  ],
+  "1": [
+   "MusicVolume"
+  ],
+  "2": [
+   "SFXVolume"
+  ]
+ }
+}

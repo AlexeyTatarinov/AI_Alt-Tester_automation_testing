@@ -1,0 +1,407 @@
+{
+ "Field_Hill": {
+  "name": "Field_Hill",
+  "floor_candidates": [
+   {
+    "name": "Farms_Landmass",
+    "comp": "UnityEngine.MeshCollider",
+    "center": [
+     61.23001,
+     -11.9153805,
+     -151.96405
+    ],
+    "ext": [
+     148.300385,
+     18.08462,
+     173.640991
+    ],
+    "area": 103004.10326832616
+   },
+   {
+    "name": "Hill_Landmass",
+    "comp": "UnityEngine.MeshCollider",
+    "center": [
+     -45.3999977,
+     -7.416683,
+     -259.4
+    ],
+    "ext": [
+     141.384979,
+     27.99337,
+     141.384979
+    ],
+    "area": 79958.84914732174
+   },
+   {
+    "name": "Beach_Landmass",
+    "comp": "UnityEngine.MeshCollider",
+    "center": [
+     -135.1,
+     -16.4869251,
+     -378.100037
+    ],
+    "ext": [
+     138.17157,
+     13.5130749,
+     138.171585
+    ],
+    "area": 76365.5393153538
+   },
+   {
+    "name": "BigRock2",
+    "comp": "UnityEngine.MeshCollider",
+    "center": [
+     97.22542,
+     -0.791275,
+     -6.8027935
+    ],
+    "ext": [
+     26.4172745,
+     25.4470768,
+     29.72843
+    ],
+    "area": 3141.37638305614
+   },
+   {
+    "name": "BigRock2",
+    "comp": "UnityEngine.MeshCollider",
+    "center": [
+     108.901443,
+     -0.8020115,
+     -20.5756378
+    ],
+    "ext": [
+     20.5886269,
+     29.1470833,
+     23.4194984
+    ],
+    "area": 1928.7012589709877
+   }
+  ],
+  "floor_errors": [],
+  "frame": {
+   "x0": -87.1,
+   "x1": 209.5,
+   "z0": -325.6,
+   "z1": 21.7,
+   "ytop": 16.2,
+   "floor": "Farms_Landmass"
+  },
+  "sides": [
+   {
+    "side": "W",
+    "tries": [
+     {
+      "off": 2,
+      "grounded": false,
+      "y": -285.1
+     },
+     {
+      "off": 5,
+      "grounded": false,
+      "y": -291.0
+     },
+     {
+      "off": 10,
+      "grounded": true,
+      "y": -30.0
+     }
+    ],
+    "first_floor": [
+     10,
+     -77.07037500000001,
+     -151.96405,
+     -30.0
+    ]
+   },
+   {
+    "side": "E",
+    "tries": [
+     {
+      "off": 2,
+      "grounded": false,
+      "y": -284.0
+     },
+     {
+      "off": 5,
+      "grounded": false,
+      "y": -294.9
+     },
+     {
+      "off": 10,
+      "grounded": false,
+      "y": -300.0
+     },
+     {
+      "off": 20,
+      "grounded": false,
+      "y": -293.3
+     }
+    ],
+    "first_floor": null
+   },
+   {
+    "side": "S",
+    "tries": [
+     {
+      "off": 2,
+      "grounded": false,
+      "y": -267.3
+     },
+     {
+      "off": 5,
+      "grounded": true,
+      "y": null
+     },
+     {
+      "off": 10,
+      "grounded": true,
+      "y": null
+     },
+     {
+      "off": 20,
+      "grounded": true,
+      "y": null
+     }
+    ],
+    "first_floor": null
+   },
+   {
+    "side": "N",
+    "tries": [
+     {
+      "off": 2,
+      "grounded": true,
+      "y": 13.2
+     }
+    ],
+    "first_floor": [
+     2,
+     61.23000999999999,
+     19.676941000000028,
+     13.2
+    ],
+    "step_out_y_1_3_5s": [
+     -112.3,
+     -217.1,
+     -316.3
+    ],
+    "fell": true,
+    "respawned": null,
+    "pig_ids_after": [
+     -452194
+    ]
+   }
+  ],
+  "falls": [
+   "N"
+  ],
+  "no_floor_within_20m": [
+   "E",
+   "S"
+  ],
+  "verdict": "OBSERVATION"
+ },
+ "Field_Farms": {
+  "name": "Field_Farms",
+  "floor_candidates": [
+   {
+    "name": "Farms_Landmass",
+    "comp": "UnityEngine.MeshCollider",
+    "center": [
+     61.23001,
+     -11.9153805,
+     -151.96405
+    ],
+    "ext": [
+     148.300385,
+     18.08462,
+     173.640991
+    ],
+    "area": 103004.10326832616
+   },
+   {
+    "name": "RockyPath_Landmass",
+    "comp": "UnityEngine.MeshCollider",
+    "center": [
+     121.100037,
+     -14.4402781,
+     153.800034
+    ],
+    "ext": [
+     149.994537,
+     15.838666,
+     157.239944
+    ],
+    "area": 94340.53039274372
+   },
+   {
+    "name": "Hill_Landmass",
+    "comp": "UnityEngine.MeshCollider",
+    "center": [
+     -45.3999977,
+     -7.416683,
+     -259.4
+    ],
+    "ext": [
+     141.384979,
+     27.99337,
+     141.384979
+    ],
+    "area": 79958.84914732174
+   },
+   {
+    "name": "Forest_Landmass",
+    "comp": "UnityEngine.MeshCollider",
+    "center": [
+     -194.780609,
+     -16.4636116,
+     15.5001373
+    ],
+    "ext": [
+     113.680634,
+     13.791996,
+     124.969406
+    ],
+    "area": 56826.40521873362
+   },
+   {
+    "name": "TownEntrance_Landmass",
+    "comp": "UnityEngine.MeshCollider",
+    "center": [
+     66.20221,
+     -11.0460587,
+     -28.0661774
+    ],
+    "ext": [
+     102.254593,
+     19.6327438,
+     100.73291
+    ],
+    "area": 41201.61085502252
+   }
+  ],
+  "floor_errors": [],
+  "frame": {
+   "x0": -87.1,
+   "x1": 209.5,
+   "z0": -325.6,
+   "z1": 21.7,
+   "ytop": 16.2,
+   "floor": "Farms_Landmass"
+  },
+  "sides": [
+   {
+    "side": "W",
+    "tries": [
+     {
+      "off": 2,
+      "grounded": false,
+      "y": -241.0
+     },
+     {
+      "off": 5,
+      "grounded": false,
+      "y": -242.3
+     },
+     {
+      "off": 10,
+      "grounded": true,
+      "y": -30.0
+     }
+    ],
+    "first_floor": [
+     10,
+     -77.07037500000001,
+     -151.96405,
+     -30.0
+    ]
+   },
+   {
+    "side": "E",
+    "tries": [
+     {
+      "off": 2,
+      "grounded": false,
+      "y": -171.9
+     },
+     {
+      "off": 5,
+      "grounded": false,
+      "y": -189.2
+     },
+     {
+      "off": 10,
+      "grounded": false,
+      "y": -218.0
+     },
+     {
+      "off": 20,
+      "grounded": false,
+      "y": -238.4
+     }
+    ],
+    "first_floor": null
+   },
+   {
+    "side": "S",
+    "tries": [
+     {
+      "off": 2,
+      "grounded": false,
+      "y": -197.3
+     },
+     {
+      "off": 5,
+      "grounded": false,
+      "y": -217.5
+     },
+     {
+      "off": 10,
+      "grounded": false,
+      "y": -215.7
+     },
+     {
+      "off": 20,
+      "grounded": true,
+      "y": -29.1
+     }
+    ],
+    "first_floor": [
+     20,
+     61.23000999999999,
+     -305.605041,
+     -29.1
+    ]
+   },
+   {
+    "side": "N",
+    "tries": [
+     {
+      "off": 2,
+      "grounded": true,
+      "y": 8.5
+     }
+    ],
+    "first_floor": [
+     2,
+     61.23000999999999,
+     19.676941000000028,
+     8.5
+    ],
+    "step_out_y_1_3_5s": [
+     8.3,
+     8.3,
+     8.3
+    ],
+    "fell": false,
+    "respawned": null
+   }
+  ],
+  "falls": [],
+  "no_floor_within_20m": [
+   "E"
+  ],
+  "verdict": "PASS"
+ }
+}

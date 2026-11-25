@@ -74,3 +74,12 @@
 - P14 ✅ `By.PATH //*[@component=Critter]` и `By.COMPONENT Critter` дают одно число (6 в Field_Hill).
 - P15 ✅ `find_objects(By.COMPONENT,"AudioListener",enabled=False)` в Beach: 5 объектов (`Listener` + 4 `AudioListener`), с `enabled=True` — 1. Другие сцены: Field_Hill 2, Town_Market 2, MainMenu 1.
 - Параметр `enabled=False` в `find_objects` возвращает все объекты (и неактивные), `enabled=True` — только активные.
+
+## Обновление stage2 (25.11.2026)
+- Проверки stage2 не выполнялись: `restart_play.py --restore-save` дал код 2. Причина: предусловие «ровно один Unity.exe» считает дочерние `AssetImportWorker0/1` (родитель — главный редактор PID 13604) как второй/третий редактор. Подробности: `Reports_2026-11-21\results\modules_stage2_20261125\report.md`.
+
+## Обновление stage2 (повтор, 25.11.2026)
+- OK 25.11: `UIManager` -> `_gameStateManager._alertEnemies.Count` читается (max_depth 1 и 2). Сам `_alertEnemies` целиком не читается (UnknownErrorException).
+- OK 25.11: оракулы `InventoryManager._currentInventory._items.Count`, `_items[i].Item.name`, `_items[i].Amount`; `GameManager._questManager._currentQuestlineIndex`, `_currentStepIndex`, `_currentStep.name`, `_currentStep.Type` (0 Dialogue, 1 GiveItem, 2 CheckItem).
+- OK 25.11: готовка без клавиши Q: клик AltTester по слоту рецепта, затем по `ActionButton` (текст Cook); исключений 0.
+- OK 25.11: меню читов (C) открывается и в состоянии Combat.

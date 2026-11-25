@@ -1,0 +1,465 @@
+{
+ "kinds": {
+  "Klipper_TerraRequest": {
+   "kind": "Klipper_TerraRequest",
+   "scene": "Field_Farms",
+   "n_in_scene": 1,
+   "pos": [
+    48.0,
+    -8.8,
+    -60.6
+   ],
+   "components": [
+    "UnityEngine.Transform",
+    "UnityEngine.SphereCollider",
+    "UnityEngine.SphereCollider",
+    "UnityEngine.Animator",
+    "NPCMovement",
+    "Damageable",
+    "Attacker",
+    "Critter",
+    "UnityEngine.AI.NavMeshAgent",
+    "UOP1.StateMachine.StateMachine",
+    "MovingCritterAttackController",
+    "CritterAudio"
+   ],
+   "enm01": {
+    "alert_s": 0.3,
+    "player_hp": [
+     50,
+     50
+    ],
+    "ok": true
+   },
+   "enm02_dist_m": 208.5,
+   "enm02": {
+    "off_s": 0.1,
+    "dist_m": 208.5,
+    "ok": true
+   },
+   "enm03": {
+    "hits": 18,
+    "enemy_hp": [
+     0,
+     0
+    ],
+    "gone": false,
+    "get_hit_seen": false,
+    "is_dead_seen": false,
+    "items": [
+     0,
+     0
+    ],
+    "dropped": false,
+    "player_hp_series": [
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50
+    ],
+    "ok": false
+   },
+   "log": {
+    "lines": 27955,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Gluecose_FarmAttack": {
+   "kind": "Gluecose_FarmAttack",
+   "scene": "Field_Farms",
+   "blocked": "все 3 объектов вида неактивны в иерархии (update_object NotFound), враг не появляется без сюжетного события"
+  },
+  "CutGluecose_FarmAttack": {
+   "kind": "CutGluecose_FarmAttack",
+   "scene": "Field_Farms",
+   "blocked": "все 3 объектов вида неактивны в иерархии (update_object NotFound), враг не появляется без сюжетного события"
+  },
+  "Klipper": {
+   "kind": "Klipper",
+   "scene": "Mountain_Cave",
+   "n_in_scene": 5,
+   "pos": [
+    92.5,
+    27.6,
+    104.4
+   ],
+   "components": [
+    "UnityEngine.Transform",
+    "UnityEngine.SphereCollider",
+    "UnityEngine.SphereCollider",
+    "UnityEngine.Animator",
+    "NPCMovement",
+    "Damageable",
+    "Attacker",
+    "Critter",
+    "UnityEngine.AI.NavMeshAgent",
+    "UOP1.StateMachine.StateMachine",
+    "MovingCritterAttackController",
+    "CritterAudio"
+   ],
+   "enm01": {
+    "alert_s": 0.4,
+    "player_hp": [
+     50,
+     50
+    ],
+    "ok": true
+   },
+   "enm02_dist_m": 12.8,
+   "enm02": {
+    "off_s": 0.1,
+    "dist_m": 12.8,
+    "ok": true
+   },
+   "enm03": {
+    "hits": 16,
+    "enemy_hp": [
+     0,
+     0
+    ],
+    "gone": false,
+    "get_hit_seen": false,
+    "is_dead_seen": true,
+    "items": [
+     0,
+     1
+    ],
+    "dropped": true,
+    "player_hp_series": [
+     35,
+     35,
+     20,
+     20,
+     5,
+     5,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50
+    ],
+    "ok": true
+   },
+   "log": {
+    "lines": 24697,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  }
+ },
+ "scans": {
+  "Field_Farms": {
+   "Klipper_TerraRequest": 1,
+   "Gluecose_FarmAttack": 3,
+   "CutGluecose_FarmAttack": 3
+  },
+  "Mountain_Cave": {
+   "Klipper": 5
+  },
+  "Mountain_Path_bottom": {},
+  "Forest": {},
+  "Town_Upper": {},
+  "Town_Inner": {}
+ },
+ "m10_02": {
+  "player_hp_start": 50,
+  "player_hp_end": 50,
+  "series": [
+   [
+    0.2,
+    50,
+    true,
+    1.25
+   ],
+   [
+    1.4,
+    50,
+    true,
+    1.25
+   ],
+   [
+    2.6,
+    50,
+    true,
+    1.25
+   ],
+   [
+    3.8,
+    50,
+    true,
+    1.25
+   ],
+   [
+    5.0,
+    50,
+    true,
+    1.25
+   ],
+   [
+    6.1,
+    50,
+    true,
+    1.25
+   ],
+   [
+    7.4,
+    50,
+    true,
+    1.25
+   ],
+   [
+    8.6,
+    50,
+    true,
+    1.25
+   ],
+   [
+    9.8,
+    50,
+    true,
+    1.25
+   ],
+   [
+    10.9,
+    50,
+    true,
+    1.25
+   ],
+   [
+    12.2,
+    50,
+    true,
+    1.25
+   ],
+   [
+    13.4,
+    50,
+    true,
+    1.25
+   ],
+   [
+    14.6,
+    50,
+    true,
+    1.25
+   ],
+   [
+    15.8,
+    50,
+    true,
+    1.25
+   ],
+   [
+    17.0,
+    50,
+    true,
+    1.25
+   ],
+   [
+    18.2,
+    50,
+    true,
+    1.25
+   ],
+   [
+    19.5,
+    50,
+    true,
+    1.25
+   ]
+  ],
+  "log": {
+   "lines": 9211,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 0,
+   "warnings_other": 0,
+   "samples": []
+  }
+ },
+ "script_errors": [
+  "Klipper_TerraRequest: far point for ENM-02 was a trigger of LocationExit -> scene changed; first result invalid (ignored)",
+  "run2: enemy hp via Damageable._currentHealthSO reads 0/0 (Klipper) or None (Gluecose) -> oracle useless; Gluecose objects inactive in hierarchy (update_object NotFound). Added GetHit/IsDead oracle + inactive skip."
+ ],
+ "kinds_run2": {
+  "Klipper_TerraRequest": {
+   "kind": "Klipper_TerraRequest",
+   "scene": "Field_Farms",
+   "n_in_scene": 1,
+   "pos": [
+    114.3,
+    -0.3,
+    -52.3
+   ],
+   "components": [
+    "UnityEngine.Transform",
+    "UnityEngine.SphereCollider",
+    "UnityEngine.SphereCollider",
+    "UnityEngine.Animator",
+    "NPCMovement",
+    "Damageable",
+    "Attacker",
+    "Critter",
+    "UnityEngine.AI.NavMeshAgent",
+    "UOP1.StateMachine.StateMachine",
+    "MovingCritterAttackController",
+    "CritterAudio"
+   ],
+   "enm01": {
+    "alert_s": 0.3,
+    "player_hp": [
+     50,
+     50
+    ],
+    "ok": true
+   },
+   "enm02_dist_m": 243.9,
+   "enm02": {
+    "off_s": 0.0,
+    "dist_m": 243.9,
+    "ok": true
+   },
+   "enm03": {
+    "hits": 24,
+    "enemy_hp": [
+     0,
+     0
+    ],
+    "gone": false,
+    "items": [
+     0,
+     0
+    ],
+    "dropped": false,
+    "player_hp_series": [
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50,
+     50
+    ],
+    "ok": false
+   },
+   "log": {
+    "lines": 30214,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  },
+  "Gluecose_FarmAttack": {
+   "kind": "Gluecose_FarmAttack",
+   "scene": "Field_Farms",
+   "error": "NotFoundException: Object not found"
+  },
+  "CutGluecose_FarmAttack": {
+   "kind": "CutGluecose_FarmAttack",
+   "scene": "Field_Farms",
+   "error": "NotFoundException: Object not found"
+  },
+  "Klipper": {
+   "kind": "Klipper",
+   "scene": "Mountain_Cave",
+   "n_in_scene": 5,
+   "pos": [
+    92.5,
+    27.6,
+    104.4
+   ],
+   "components": [
+    "UnityEngine.Transform",
+    "UnityEngine.SphereCollider",
+    "UnityEngine.SphereCollider",
+    "UnityEngine.Animator",
+    "NPCMovement",
+    "Damageable",
+    "Attacker",
+    "Critter",
+    "UnityEngine.AI.NavMeshAgent",
+    "UOP1.StateMachine.StateMachine",
+    "MovingCritterAttackController",
+    "CritterAudio"
+   ],
+   "enm01": {
+    "alert_s": 0.3,
+    "player_hp": [
+     50,
+     50
+    ],
+    "ok": true
+   },
+   "enm02_dist_m": 12.8,
+   "enm02": {
+    "off_s": 0.0,
+    "dist_m": 12.8,
+    "ok": true
+   },
+   "enm03": {
+    "hits": 24,
+    "enemy_hp": [
+     0,
+     0
+    ],
+    "gone": false,
+    "items": [
+     0,
+     1
+    ],
+    "dropped": true,
+    "player_hp_series": [
+     50,
+     35,
+     35,
+     35,
+     20,
+     20,
+     20,
+     5,
+     50,
+     50,
+     50,
+     50
+    ],
+    "ok": false
+   },
+   "log": {
+    "lines": 30383,
+    "exceptions": 0,
+    "errors": 0,
+    "cc_inactive_warnings": 0,
+    "cc67_locationentry": 0,
+    "warnings_other": 0,
+    "samples": []
+   }
+  }
+ }
+}

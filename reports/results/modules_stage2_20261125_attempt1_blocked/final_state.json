@@ -1,0 +1,15 @@
+{
+ "scenes": [
+  "PersistentManagers",
+  "MainMenu"
+ ],
+ "frameCount": 1523314,
+ "autoSyncTransforms": false,
+ "save_hashes_equal_backup": true,
+ "save_hashes": {
+  "otat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
+  "\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "c9dde7118826c1bd",
+  "tat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ }
+}
