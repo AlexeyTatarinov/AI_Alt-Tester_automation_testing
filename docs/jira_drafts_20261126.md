@@ -1,4 +1,5 @@
 # Jira drafts (26.11.2026). Posted 26.11 after owner approval: section 2 = CC-92, section 3 = CC-93, section 1 = comment on CC-90.
+Later on 26.11 the "2/2" wording below was corrected in Jira: CC-90 via Continue is 1 of 1 confirmed; CC-92 is 1 of 1 in a reported run plus one re-run without a report. The drafts are kept as history.
 
 ## 1. CC-90: append comment
 **Reproduces via Continue too (2/2).**
