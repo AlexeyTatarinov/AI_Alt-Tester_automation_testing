@@ -51,3 +51,11 @@ Test_Ai\scripts\sdk_smoke\.venv\Scripts\python.exe Test_Ai\scripts\play_control\
 - Добавлен режим `--start-only` (Play не идёт: фокус, Ctrl+P, ждёт MainMenu, проверка frameCount; можно с `--restore-save`, `--check`). Проверен: код 0, frameCount 18.
 - Фокус: `focus_robust`: до 3 циклов по 6 попыток, пауза 20 с. Новый код 6: рабочий стол заблокирован (OpenInputDesktop не открывается или GetForegroundWindow()==0).
 - Код 4 в 20:57: остановка Play заняла 68,7 с (обычно несколько секунд); причина фокуса не установлена.
+
+## Запуск Play через меню без фокуса (25.11.2026, идея Opus)
+- `menu_play(h)`: Edit > Play Mode > Play (ID 40120 в Unity 6000.3.28, ищется по имени) через `PostMessage(WM_COMMAND)`. Окно не разворачивается и не активируется.
+- `start_phase` пробует меню первым; ждёт до 120 с; Ctrl+P шлётся только если AltTester молчит И в Editor.log нет признаков входа в Play (иначе ждёт ещё 120 с, затем код 3). В restart_play_last.json поле start_path = menu или ctrl_p. Отключить меню: `--no-menu`.
+- Статус: меню прочитано (чтение), отправка WM_COMMAND ещё НЕ проверена на живом Unity; проверка при ближайшем перезапуске (stage3).
+- 26.11: удалён повторный Ctrl+P (переключатель выключал только что запущенный Play, причина «Play входит и сразу выходит» в stage3). Если игра не отвечает: код 3 и стоп.
+- 26.11: housekeeping.py (clear_console/set_stack_trace/tick) против роста консоли и лога; не проверен на живой игре (нет подключения).
+- 26.11 02:26: stage3b упал 23:04 (лимит 5 ч исполнителя «resets 2:20am», не ошибка игры); перезапуск через WM_COMMAND прошёл (Stop 8,1 с, без фокуса). Повтор как stage3b_retry.

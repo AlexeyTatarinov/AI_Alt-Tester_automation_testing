@@ -1,0 +1,335 @@
+{
+ "frameCount0": 3441,
+ "resumed_after_script_error": true,
+ "off": 151517658,
+ "snap_start": {
+  "label": "A старт",
+  "t": "22:02:33",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 0
+  },
+  "save_hash": "628fab9eef30a455",
+  "save_finished": 0,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 5
+ },
+ "hint1": true,
+ "first": {
+  "N_space": 18,
+  "closed": true,
+  "replies": 17,
+  "choices": false,
+  "seq": [
+   "You made it! Welcome to Yolk island!",
+   "It's been a while! Did you come for the cooking festival?",
+   "Yes, I've heard great things about the local chef. Comb, I think he's called?",
+   "Oh yes, he's a legend around here. He's very hard to impress.",
+   "You'll have to prepare something very special to win the contest!",
+   "I wasn't necessarily planning to take part in it, but...",
+   "You have to! I'm curious to see what you come up with.",
+   "I'll check it out when I get to town. Which way?",
+   "Wait, before you go there. Can I ask you a favour?",
+   "I've just arrived and you're asking me a favour?",
+   "The thing is, I'm trying to gather some seeds for a recipe but the local plants are a bit... aggressive.",
+   "They call them Groens, and they are carnivorous plants that eat much more than insects.",
+   "I guess they also love good food.",
+   "I know you can take care of them!",
+   "Where can I find them?",
+   "There's a few of them just over the hill above the beach.",
+   "Anything for you, my friend."
+  ]
+ },
+ "snap_after_first": {
+  "label": "A после первого",
+  "t": "22:03:15",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 1
+  },
+  "save_hash": "8d5f8004fba94efd",
+  "save_finished": 1,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 5
+ },
+ "diff_first": {
+  "quest": [
+   {
+    "line": 0,
+    "step": 0
+   },
+   {
+    "line": 0,
+    "step": 1
+   }
+  ],
+  "save_hash": [
+   "628fab9eef30a455",
+   "8d5f8004fba94efd"
+  ],
+  "save_finished": [
+   0,
+   1
+  ]
+ },
+ "save_info_first": {
+  "hash": "8d5f8004fba94efd",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "to_menu_s": 0.9,
+ "save_in_menu": {
+  "hash": "8d5f8004fba94efd",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "popup_clicked": true,
+ "load_s": 3.4,
+ "snap_after_load": {
+  "label": "A после Continue",
+  "t": "22:03:32",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 1
+  },
+  "save_hash": "8d5f8004fba94efd",
+  "save_finished": 1,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 5
+ },
+ "diff_load": {},
+ "save_after_load": {
+  "hash": "8d5f8004fba94efd",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 20,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "step2": {
+  "hint": true,
+  "before": {
+   "label": "A2 до",
+   "t": "22:03:43",
+   "scenes": [
+    "Beach"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 20,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1
+   },
+   "quest": {
+    "line": 0,
+    "step": 1
+   },
+   "save_hash": "8d5f8004fba94efd",
+   "save_finished": 1,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 5
+  },
+  "first_line": "Did you gather the seeds from the Groens up the hill?",
+  "texts": [
+   "Yes",
+   "No"
+  ],
+  "replies": 11,
+  "seq": [
+   "Did you gather the seeds from the Groens up the hill?",
+   "Oh yeah! Thanks! I love them so much.",
+   "Wow, you're really a natural at cooking! The recipe came out just like my grandma's.",
+   "Now, if you want to go and check out the festival, just head up the hill and go through...",
+   "Bless you, Nar!",
+   "Ooooh, your little friend sneezed fire on the cream, and now it's ruined.",
+   "Are you sure it's ruined? Sometimes cuisine happens in the most unexpected ways.",
+   "Look, the extreme temperature sneeze from Nar caramelised the cream into rock-hard candy.",
+   "I'm adding this to my recipe book!",
+   "Maybe you can use it for the contest.",
+   "And about that, you can start going, I'll catch up with you in a while. See you in town!"
+  ],
+  "closed": true,
+  "after": {
+   "label": "A2 после",
+   "t": "22:05:30",
+   "scenes": [
+    "Beach"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 12,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "RockCandy_Recipe": 1
+   },
+   "quest": {
+    "line": 1,
+    "step": 2
+   },
+   "save_hash": "f2d39958206986a2",
+   "save_finished": 5,
+   "exc": 22,
+   "exc_types": {
+    "NullReferenceException": 1,
+    "ArgumentOutOfRangeException": 21
+   },
+   "alert_count": 5
+  },
+  "diff": {
+   "quest": [
+    {
+     "line": 0,
+     "step": 1
+    },
+    {
+     "line": 1,
+     "step": 2
+    }
+   ],
+   "save_hash": [
+    "8d5f8004fba94efd",
+    "f2d39958206986a2"
+   ],
+   "save_finished": [
+    1,
+    5
+   ],
+   "exc": [
+    0,
+    22
+   ],
+   "inv": {
+    "RockCandy_Recipe": [
+     0,
+     1
+    ],
+    "SweetCream_Recipe": [
+     0,
+     1
+    ],
+    "Seed": [
+     20,
+     12
+    ]
+   }
+  }
+ },
+ "exc": {
+  "by_type": {
+   "NullReferenceException": 1,
+   "ArgumentOutOfRangeException": 21
+  },
+  "total": 22,
+  "first_stacks": {
+   "NullReferenceException": [
+    "NullReferenceException: Object reference not set to an instance of an object",
+    "  at QuestManagerSO.EndDialogue (System.Int32 dialogueType) [0x00009] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\Quests\\QuestManagerSO.cs:235 ",
+    "  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`1[System.Int32].invoke_void_T0(int)",
+    "  at IntEventChannelSO.RaiseEvent (System.Int32 value) [0x00008] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\Events\\ScriptableObjects\\IntEventChannelSO.cs:17 ",
+    "  at DialogueManager.DialogueEndedAndCloseDialogueUI () [0x00019] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\Dialogues\\DialogueManager.cs:167 ",
+    "  at DialogueManager.OnAdvance () [0x00147] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\Dialogues\\DialogueManager.cs:102 ",
+    "  at (wrapper delegate-invoke) <Module>.invoke_void()"
+   ],
+   "ArgumentOutOfRangeException": [
+    "ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.",
+    "Parameter name: index",
+    "  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <b2ed3aa968d84284a17b07ec9195055c>:0 ",
+    "  at DialogueManager.get__reachedEndOfLine () [0x00000] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\Dialogues\\DialogueManager.cs:31 ",
+    "  at DialogueManager.OnAdvance () [0x0000e] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\Dialogues\\DialogueManager.cs:77 ",
+    "  at (wrapper delegate-invoke) <Module>.invoke_void()",
+    "  at InputReader.OnAdvanceDialogue (UnityEngine.InputSystem.InputAction+CallbackContext context) [0x0000a] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\Input\\InputReader.cs:181 "
+   ]
+  }
+ },
+ "save_final": {
+  "hash": "f2d39958206986a2",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 12,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "edcc6c": 1
+  }
+ }
+}

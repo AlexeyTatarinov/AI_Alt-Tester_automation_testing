@@ -1,0 +1,105 @@
+{
+ "steps": [
+  {
+   "name": "0 старт (Gameplay)",
+   "vol": 1.0,
+   "save": {
+    "_masterVolume": 1.0,
+    "_currentLocale": {
+     "instanceID": 0
+    },
+    "hash": "f2d39958206986a2"
+   },
+   "lang": null
+  },
+  {
+   "lang": null,
+   "btn": {},
+   "texts": [
+    "/",
+    "/",
+    "E"
+   ],
+   "name": "1 после Save",
+   "vol": 1.0,
+   "save": {
+    "_masterVolume": 1.0,
+    "_currentLocale": {
+     "instanceID": 46952
+    },
+    "hash": "316de15147ce33c0"
+   }
+  },
+  {
+   "name": "2 в MainMenu",
+   "vol": 1.0,
+   "save": {
+    "_masterVolume": 1.0,
+    "_currentLocale": {
+     "instanceID": 46952
+    },
+    "hash": "316de15147ce33c0"
+   },
+   "lang": null
+  },
+  {
+   "lang": null,
+   "btn": {},
+   "name": "3 после Continue",
+   "vol": 1.0,
+   "save": {
+    "_masterVolume": 1.0,
+    "_currentLocale": {
+     "instanceID": 46952
+    },
+    "hash": "316de15147ce33c0"
+   }
+  },
+  {
+   "lang": null,
+   "name": "4 возврат на English",
+   "vol": 1.0,
+   "save": {
+    "_masterVolume": 1.0,
+    "_currentLocale": {
+     "instanceID": 48776
+    },
+    "hash": "0d8fbe1840b3bae0"
+   }
+  }
+ ],
+ "off": 154831181,
+ "gameplay_start": true,
+ "backup_fields": {
+  "_masterVolume": 1.0,
+  "_currentLocale": {
+   "instanceID": 0
+  }
+ },
+ "master_idx": 0,
+ "vol_after_prev": 0.9,
+ "lang_before": "English",
+ "lang_after_next": "français",
+ "texts_set": [
+  "/",
+  "/",
+  "E"
+ ],
+ "to_menu_s": 2.3,
+ "menu_texts_in_menu": [
+  "CONTINUER",
+  "NOUVELLE PARTIE",
+  "PARAMETRE",
+  "CREDITS",
+  "QUITTER"
+ ],
+ "load_s": 3.6,
+ "lang_after_continue": "français",
+ "vol_restored": 1.0,
+ "vol_orig": 1.0,
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

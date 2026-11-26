@@ -1,0 +1,75 @@
+{
+ "time": "23:03:15",
+ "steps": [
+  {
+   "t": "23:03:16",
+   "msg": "до",
+   "frameCount": 13508,
+   "realtime": 153.303162,
+   "consoleFlags": 7683,
+   "isPlaying": true,
+   "scenes": [
+    "MainMenu",
+    "PersistentManagers"
+   ]
+  },
+  {
+   "t": "23:03:16",
+   "msg": "окна Unity",
+   "wins": [
+    [
+     "7888",
+     "459868",
+     "UOP1_Project - MainMenu - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>"
+    ]
+   ]
+  },
+  {
+   "t": "23:03:16",
+   "msg": "isPlaying=False отправлено"
+  },
+  {
+   "t": "23:03:24",
+   "msg": "Play остановлен (игра отключилась от AltTester)",
+   "sec": 8.1
+  },
+  {
+   "t": "23:03:27",
+   "msg": "save.chop возвращён из копии",
+   "equal": true
+  },
+  {
+   "t": "23:03:27",
+   "msg": "WM_COMMAND Edit>Play Mode>Play отправлен",
+   "cmd_id": 40120
+  },
+  {
+   "t": "23:03:36",
+   "msg": "после WM_COMMAND игра отвечает",
+   "sec": 9.1,
+   "signs": false
+  },
+  {
+   "t": "23:03:38",
+   "msg": "после",
+   "frameCount": 376,
+   "realtime": 11.093749,
+   "consoleFlags": 7683,
+   "isPlaying": true,
+   "scenes": [
+    "MainMenu",
+    "PersistentManagers"
+   ]
+  },
+  {
+   "t": "23:03:41",
+   "msg": "окно Unity свёрнуто повторно после старта игры (редактор сам разворачивает окно при входе в Play)"
+  }
+ ],
+ "dry": false,
+ "start_path": "menu",
+ "frames_before": 13508,
+ "frames_after": 376,
+ "exit": 0,
+ "why": "Play перезапущен: frameCount 13508 -> 376, сцены ['MainMenu', 'PersistentManagers']"
+}

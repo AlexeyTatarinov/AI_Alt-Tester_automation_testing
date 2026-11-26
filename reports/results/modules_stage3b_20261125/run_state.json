@@ -1,0 +1,39 @@
+{
+ "window_restores": 1,
+ "preflight": {
+  "time": "23:04:38",
+  "label": "b1",
+  "port_13000": true,
+  "window": {
+   "pid": 7888,
+   "cpu_delta_1_5s": 3.688,
+   "foreground": false,
+   "title": "UOP1_Project - MainMenu - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
+   "responding": true,
+   "found": true,
+   "shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/modules_stage3b_20261125\\shots\\preflight_b1_after.png",
+   "iconic": false
+  },
+  "window_restore": "restored iconic_after=False",
+  "consoleFlags": 7683,
+  "consoleFlags_note": "прочиталось (assembly UnityEditor.CoreModule)",
+  "error_pause": false,
+  "play": [
+   true,
+   "isPlaying прочитан"
+  ],
+  "log_offset": 16770554,
+  "log_last_lines": [
+   "NLog.Logger:Debug (string)",
+   "AltTester.AltTesterUnitySDK.Commands.CommandHandler:Send (string)",
+   "AltTester.AltTesterUnitySDK.Commands.CommandHandler/<>c__DisplayClass30_0:<OnMessage>b__0 ()",
+   "AltTester.AltTesterSDK.Driver.AltResponseQueue:Cycle ()",
+   "AltTester.AltTesterUnitySDK.Commands.AltRunner:Update ()"
+  ],
+  "alive": true,
+  "alive_detail": "frameCount 7060 -> 7156",
+  "game_pause_menu": false
+ },
+ "guard_offset": 16770554,
+ "unpause_attempts": 0
+}

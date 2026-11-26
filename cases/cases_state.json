@@ -992,7 +992,7 @@
    "id": "M03-02",
    "verdict": "OBSERVATION",
    "date": "2026-11-25",
-   "run": "modules_stage2b",
+   "run": "modules_stage2b+stage3_note",
    "source": "Reports_2026-11-21/results/modules_stage2b_20261125/report.md",
    "method": "M-TP1,M-DLG2",
    "needs_clean_play": false,
@@ -1001,7 +1001,7 @@
    ],
    "do_not_repeat_until": "owner decision",
    "jira": null,
-   "notes": "Залипший Combat. _alertEnemies.Count в Beach (Gameplay, врагов нет) уже был 4. A: 4→5 (тревога) →4 (ушёл), состояние осталось Combat. B: 4→5, смена локации через меню читов (C открывается и в Combat) → Count 5 в Beach, Combat. C: убийство врага 6→5, Combat. D: Back to menu→New Game вернул Gameplay, но Count остался 5; подход и уход: 6→5, Combat. Вывод: Gameplay возвращается только при пустом списке, а в списке есть чужие записи; ни один из случаев A–D список не опустошил. Гипотеза по счётчику подтверждена числами; откуда исходные 4 записи, не установлено. | stage2b 3.1/4.1: исходный Count сразу после New Game: Play №2 = 5 (frame 1337), Play №3 = 5 (frame 657); в stage2 Play №1 = 4, последний Count в stage2 был 5. Список переживает Stop/Play и не очищается; между Play №2 и №3 врагов не было, Count не изменился. Факт: Count 0 не наблюдался ни разу; значение держится между Stop/Play.",
+   "notes": "Залипший Combat. _alertEnemies.Count в Beach (Gameplay, врагов нет) уже был 4. A: 4→5 (тревога) →4 (ушёл), состояние осталось Combat. B: 4→5, смена локации через меню читов (C открывается и в Combat) → Count 5 в Beach, Combat. C: убийство врага 6→5, Combat. D: Back to menu→New Game вернул Gameplay, но Count остался 5; подход и уход: 6→5, Combat. Вывод: Gameplay возвращается только при пустом списке, а в списке есть чужие записи; ни один из случаев A–D список не опустошил. Гипотеза по счётчику подтверждена числами; откуда исходные 4 записи, не установлено. | stage2b 3.1/4.1: исходный Count сразу после New Game: Play №2 = 5 (frame 1337), Play №3 = 5 (frame 657); в stage2 Play №1 = 4, последний Count в stage2 был 5. Список переживает Stop/Play и не очищается; между Play №2 и №3 врагов не было, Count не изменился. Факт: Count 0 не наблюдался ни разу; значение держится между Stop/Play. | Stage3 п.4.3 (M03-02b, выход пешком в Beach с Combat): NOT_RUN, Play B недоступен (см. report stage3). Исходный Count в Play A stage3: 5 (до врагов и после New Game), в конце после Continue 5.",
    "module": "M03",
    "level": "L2"
   },
@@ -1064,15 +1064,15 @@
   },
   {
    "id": "IT-02c",
-   "verdict": "OBSERVATION",
+   "verdict": "FAIL",
    "date": "2026-11-25",
-   "run": "modules_stage2b",
-   "source": "Reports_2026-11-21/results/modules_stage2b_20261125/report.md",
+   "run": "modules_stage3",
+   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
    "method": "M-TP1,M-DLG2",
-   "needs_clean_play": true,
+   "needs_clean_play": false,
    "module": "M02",
    "level": "L2",
-   "notes": "ПОПРАВКА Opus 25.11 (ревью stage2b): вывод «Continue обходит» не доказан, сравнение было на несравнимом шаге (шаг 2, Yes не нажимали); статус OBSERVATION (не доказано), довести до конца в stage3 п.3.1 (Continue → диалог с Yes до закрытия, награда ровно 1 раз). Исходная запись: Continue обходит CC-90 в проверенной форме.Пауза→Back to menu→Continue: загрузка 4,0 с, инвентарь и квест совпали с save.chop (Seed 19, SweetCream_Recipe 1, шаг 0,2; хеш a995c076 до и после). Разговор с BardHare: 1 реплика «Did you try the sweet cream recipe I gave you?» и Yes/No (диалог шага 2, а не повтор 18 реплик). Исключений 0. В stage2 после New Game было 18 реплик и диалог не закрылся. Оговорка: save был на шаге 2, поэтому первый разговор повторно не проверялся.",
+   "notes": "Stage3 п.3.1 (Play A): первый разговор 17 реплик, шаг 0→1, save записан (GUID 1). Back to menu→Continue: инвентарь/квест/save равны состоянию до выхода. Разговор после Continue: Yes/No, нажат Yes, диалог закрылся, НО Seed 20→12 (−8, не −1), SweetCream_Recipe +1, RockCandy_Recipe +1 (лишняя награда), квест (0,1)→(1,2), save_finished 1→5. Исключения 22: NullReferenceException 1 (QuestManagerSO.cs:235 из DialogueManager.cs:167) и ArgumentOutOfRangeException 21 (DialogueManager.cs:31 get__reachedEndOfLine из OnAdvance, DialogueManager.cs:77). Критерий PASS не выполнен (множественная награда, исключения). Совпадает с природой CC-90: повторные подписки после Continue. Предыдущий вердикт stage2b (Continue обходит, на шаге 2) снят для случая шага 1.",
    "depends_on": [
     "IT-02"
    ]
@@ -1092,6 +1092,90 @@
     "IT-03",
     "IT-04"
    ]
+  },
+  {
+   "id": "IT-10",
+   "module": "IT/E2E",
+   "level": "IT",
+   "method": "alttester",
+   "verdict": "OBSERVATION",
+   "date": "2026-11-25",
+   "run": "modules_stage3",
+   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
+   "notes": "Stage3 п.3.2 (Play A, грязный). Попытка 1 как в задании (Master Previous, язык Next, один Save на вкладке Language): язык сохранился (English→français, save _currentLocale изменился, меню по-французски и после Continue), а громкость нет: GetGroupVolume 0.9 до Save, после Save 1.0, save _masterVolume 1.0. Попытка 2 (Save на вкладке Audio до перехода к языку): Master 0.9, save _masterVolume 0.8999999761581421, после Back to menu→Continue громкость 0.9 и язык français те же. Наблюдение: изменение громкости теряется, если сменить вкладку на Language до Save. Пункт 4 (вернуть English и сверить save с копией) выполнен только в попытке 1 (громкость 1.0, English); в попытке 2 Play оборвался (перезапуск редактора). save.chop равен копии не мог быть: Play грязный, в save есть шаги квеста. Решение о баге за владельцем.",
+   "needs_clean_play": false
+  },
+  {
+   "id": "E2E-01b",
+   "module": "IT/E2E",
+   "level": "E2E",
+   "method": "alttester",
+   "verdict": "BLOCKED",
+   "date": "2026-11-25",
+   "run": "modules_stage3",
+   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
+   "notes": "BLOCKED: Play B не начат. После перезапуска редактора Unity (PID 13604→11708, не по моей команде, во время Play A) Play не запускается: 4 вызова restart_play.py --start-only дали код 3 (Ctrl+P отправлен, Play входит и сразу выходит, AltTester не отвечает). Использовано 9 из 12 вызовов, дальше всё BLOCKED (п.2.1).",
+   "needs_clean_play": true
+  },
+  {
+   "id": "IT-05",
+   "module": "IT/E2E",
+   "level": "IT",
+   "method": "alttester",
+   "verdict": "BLOCKED",
+   "date": "2026-11-25",
+   "run": "modules_stage3",
+   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
+   "notes": "BLOCKED: Play B не начат. После перезапуска редактора Unity (PID 13604→11708, не по моей команде, во время Play A) Play не запускается: 4 вызова restart_play.py --start-only дали код 3 (Ctrl+P отправлен, Play входит и сразу выходит, AltTester не отвечает). Использовано 9 из 12 вызовов, дальше всё BLOCKED (п.2.1).",
+   "needs_clean_play": true
+  },
+  {
+   "id": "E2E-02",
+   "module": "IT/E2E",
+   "level": "E2E",
+   "method": "alttester",
+   "verdict": "BLOCKED",
+   "date": "2026-11-25",
+   "run": "modules_stage3",
+   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
+   "notes": "BLOCKED: Play B не начат. После перезапуска редактора Unity (PID 13604→11708, не по моей команде, во время Play A) Play не запускается: 4 вызова restart_play.py --start-only дали код 3 (Ctrl+P отправлен, Play входит и сразу выходит, AltTester не отвечает). Использовано 9 из 12 вызовов, дальше всё BLOCKED (п.2.1).",
+   "needs_clean_play": true
+  },
+  {
+   "id": "IT-11",
+   "module": "IT/E2E",
+   "level": "IT",
+   "method": "alttester",
+   "verdict": "BLOCKED",
+   "date": "2026-11-25",
+   "run": "modules_stage3",
+   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
+   "notes": "BLOCKED: Play B не начат. После перезапуска редактора Unity (PID 13604→11708, не по моей команде, во время Play A) Play не запускается: 4 вызова restart_play.py --start-only дали код 3 (Ctrl+P отправлен, Play входит и сразу выходит, AltTester не отвечает). Использовано 9 из 12 вызовов, дальше всё BLOCKED (п.2.1).",
+   "needs_clean_play": true
+  },
+  {
+   "id": "IT-07",
+   "module": "IT/E2E",
+   "level": "IT",
+   "method": "alttester",
+   "verdict": "OBSERVATION",
+   "date": "2026-11-25",
+   "run": "modules_stage3",
+   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
+   "notes": "Составной вердикт без прогона (stage3 п.5): M08-01 OBSERVATION, M18-01 PASS, M07-01 PASS, LOC-01 PASS, LOC-02 PASS. Отдельной цепочки не запускали.",
+   "needs_clean_play": false
+  },
+  {
+   "id": "IT-09",
+   "module": "IT/E2E",
+   "level": "IT",
+   "method": "alttester",
+   "verdict": "OBSERVATION",
+   "date": "2026-11-25",
+   "run": "modules_stage3",
+   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
+   "notes": "Закрыт ссылкой на M03-01 (OBSERVATION, таблица состояние×ввод). Отдельной цепочки не запускали.",
+   "needs_clean_play": false
   }
  ]
 }

@@ -137,6 +137,38 @@ def give_back(h, st):
         prev = st.get("prev")
         if prev and prev != h and u32.IsWindow(prev): u32.SetForegroundWindow(prev)
     except Exception: pass
+def menu_play(h):
+    """Edit > Play Mode > Play через WM_COMMAND окну Unity: без фокуса и без разворачивания окна (идея Opus 25.11).
+    Возвращает True, если команда отправлена. ID пункта ищется по имени в меню, не зашит."""
+    try:
+        u32.GetMenu.restype = ctypes.c_void_p; u32.GetSubMenu.restype = ctypes.c_void_p
+        u32.GetMenu.argtypes = [ctypes.c_void_p]; u32.GetSubMenu.argtypes = [ctypes.c_void_p, ctypes.c_int]
+        u32.GetMenuItemCount.argtypes = [ctypes.c_void_p]; u32.GetMenuItemID.argtypes = [ctypes.c_void_p, ctypes.c_int]
+        u32.GetMenuStringW.argtypes = [ctypes.c_void_p, ctypes.c_uint, ctypes.c_wchar_p, ctypes.c_int, ctypes.c_uint]
+        def nm(menu, i):
+            b = ctypes.create_unicode_buffer(256); u32.GetMenuStringW(menu, i, b, 256, 0x400)
+            return b.value.replace("&", "").split("\t")[0].strip()
+        def find(menu, title):
+            for i in range(u32.GetMenuItemCount(menu)):
+                if nm(menu, i) == title: return i
+            return -1
+        top = u32.GetMenu(h)
+        if not top: step("menu_play: у окна нет меню"); return False
+        ie = find(top, "Edit")
+        if ie < 0: step("menu_play: нет меню Edit"); return False
+        edit = u32.GetSubMenu(top, ie)
+        ip = find(edit, "Play Mode")
+        if ip < 0: step("menu_play: нет подменю Play Mode"); return False
+        pm = u32.GetSubMenu(edit, ip)
+        ipl = find(pm, "Play")
+        if ipl < 0: step("menu_play: нет пункта Play"); return False
+        cid = u32.GetMenuItemID(pm, ipl)
+        if cid in (0, -1, 0xFFFFFFFF): step("menu_play: у пункта нет ID", id=cid); return False
+        u32.PostMessageW(h, 0x0111, cid, 0)  # WM_COMMAND
+        step("WM_COMMAND Edit>Play Mode>Play отправлен", cmd_id=cid)
+        return True
+    except Exception as e:
+        step("menu_play: ошибка", err=type(e).__name__ + ": " + str(e)[:100]); return False
 def ctrl_p():
     VK_CONTROL, VK_P, UP = 0x11, 0x50, 0x2
     u32.keybd_event(VK_CONTROL, 0, 0, 0); time.sleep(0.08)
@@ -190,10 +222,55 @@ def main():
 def start_phase(wins, before):
     # --- Start: Ctrl+P
     h = int(wins[0][1]); fst = snapshot_focus(h)
-    fr = focus_robust(h)
-    if fr == "locked": give_back(h, fst); done(6, "Play остановлен, рабочий стол заблокирован: Ctrl+P НЕ отправлен. Повторить --start-only позже или нужен владелец. Мышью не лечить.")
-    if fr != "ok": give_back(h, fst); done(4, "Play остановлен, но окно Unity не стало активным: Ctrl+P НЕ отправлен. Можно повторить: restart_play.py --start-only. Мышью не лечить.")
-    ctrl_p(); step("Ctrl+P отправлен"); time.sleep(1.0); give_back(h, fst); step("фокус возвращён прежнему окну", was_iconic=fst["iconic"])
+    via_menu = False
+    LOG = os.path.join(os.environ.get("LOCALAPPDATA", ""), r"Unity\Editor\Editor.log")
+    def log_size():
+        try: return os.path.getsize(LOG)
+        except Exception: return 0
+    def log_tail_from(pos):
+        try:
+            with open(LOG, "rb") as f:
+                f.seek(pos); return f.read().decode("utf-8", "replace")
+        except Exception: return ""
+    rep["start_path"] = None
+    if "--no-menu" not in sys.argv:
+        pos = log_size()
+        if menu_play(h):
+            rep["start_path"] = "menu"
+            t0 = time.time(); last_sz = log_size(); last_change = time.time(); signs = False
+            while time.time() - t0 < 120 and not via_menu:
+                time.sleep(2)
+                try: via_menu = game_alive(3)
+                except Exception: via_menu = False
+                sz = log_size()
+                if sz != last_sz: last_sz = sz; last_change = time.time()
+                if not signs:
+                    tl = log_tail_from(pos)
+                    signs = any(k in tl for k in ("Reloading Domain", "EnteredPlayMode", "Entering Playmode", "Entering playmode"))
+            if not via_menu and signs:
+                step("есть признаки входа в Play в Editor.log, Ctrl+P не шлю; жду ещё до 120 с")
+                t1 = time.time()
+                while time.time() - t1 < 120 and not via_menu:
+                    time.sleep(2)
+                    try: via_menu = game_alive(3)
+                    except Exception: via_menu = False
+                if not via_menu: done(3, "WM_COMMAND отправлен, признаки входа в Play есть, но AltTester не отвечает 240 с. Состояние неизвестно: СТОП, Ctrl+P не слался, чтобы не выключить Play.")
+            elif not via_menu and time.time() - last_change < 30:
+                step("Editor.log менялся в последние 30 с: Unity занят, Ctrl+P не шлю; жду ещё до 120 с")
+                t1 = time.time()
+                while time.time() - t1 < 120 and not via_menu:
+                    time.sleep(2)
+                    try: via_menu = game_alive(3)
+                    except Exception: via_menu = False
+                if not via_menu: done(3, "WM_COMMAND отправлен, Unity занят (лог менялся), но AltTester не отвечает. Состояние неизвестно: СТОП, Ctrl+P не слался.")
+            step("после WM_COMMAND игра отвечает" if via_menu else "после WM_COMMAND нет ответа и нет признаков входа в Play; запасной путь: фокус и Ctrl+P", sec=round(time.time() - t0, 1), signs=signs)
+            if not via_menu: rep["start_path"] = "ctrl_p"
+    if not via_menu and rep["start_path"] is None: rep["start_path"] = "ctrl_p"
+    if not via_menu:
+        fr = focus_robust(h)
+        if fr == "locked": give_back(h, fst); done(6, "Play остановлен, рабочий стол заблокирован: Ctrl+P НЕ отправлен. Повторить --start-only позже или нужен владелец. Мышью не лечить.")
+        if fr != "ok": give_back(h, fst); done(4, "Play остановлен, но окно Unity не стало активным: Ctrl+P НЕ отправлен. Можно повторить: restart_play.py --start-only. Мышью не лечить.")
+        ctrl_p(); step("Ctrl+P отправлен"); time.sleep(1.0); give_back(h, fst); step("фокус возвращён прежнему окну", was_iconic=fst["iconic"])
     # --- ждём игру
     t0 = time.time(); d2 = None; after = None
     while time.time() - t0 < 120:
@@ -204,9 +281,8 @@ def start_phase(wins, before):
         except Exception as e:
             d2 = None
     if after is None:
-        # однократный повтор: редактор мог быть занят перезагрузкой домена и пропустить первое нажатие
-        step("игра не отвечает 120 с после Ctrl+P; одна повторная попытка Ctrl+P")
-        if focus(h): ctrl_p(); time.sleep(1.0); give_back(h, fst)
+        # НИКАКОГО повторного Ctrl+P/WM_COMMAND: это переключатель, второй раз он ВЫКЛЮЧИТ только что запущенный Play (Opus, 25.11, stage3).
+        step("игра не отвечает 120 с после запуска; жду ещё до 120 с, повторных нажатий нет")
         t0 = time.time()
         while time.time() - t0 < 120 and after is None:
             time.sleep(2)
