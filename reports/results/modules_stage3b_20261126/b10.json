@@ -1,0 +1,138 @@
+{
+ "trace": [
+  {
+   "t": "02:52:22",
+   "label": "сейчас",
+   "state": "Dialogue",
+   "panel": false,
+   "choices": false,
+   "hint": true,
+   "pos": [
+    74.06,
+    1.72,
+    -149.84
+   ],
+   "scenes": [
+    "Field_Farms"
+   ]
+  },
+  {
+   "t": "02:52:28",
+   "label": "у Ayud",
+   "state": "Dialogue",
+   "panel": false,
+   "choices": false,
+   "hint": true,
+   "pos": [
+    74.06,
+    1.72,
+    -149.84
+   ],
+   "scenes": [
+    "Field_Farms"
+   ]
+  },
+  {
+   "t": "02:52:31",
+   "label": "после E",
+   "state": "Dialogue",
+   "panel": false,
+   "choices": false,
+   "hint": true,
+   "pos": [
+    74.06,
+    1.72,
+    -149.84
+   ],
+   "scenes": [
+    "Field_Farms"
+   ]
+  },
+  {
+   "t": "02:52:34",
+   "label": "после Space",
+   "state": "Dialogue",
+   "panel": false,
+   "choices": false,
+   "hint": true,
+   "pos": [
+    74.06,
+    1.72,
+    -149.84
+   ],
+   "scenes": [
+    "Field_Farms"
+   ]
+  },
+  {
+   "t": "02:52:36",
+   "label": "после W",
+   "state": "Dialogue",
+   "panel": false,
+   "choices": false,
+   "hint": false,
+   "pos": [
+    75.55,
+    2.0,
+    -147.95
+   ],
+   "scenes": [
+    "Field_Farms"
+   ]
+  },
+  {
+   "t": "02:52:39",
+   "label": "после Tab",
+   "state": "Dialogue",
+   "panel": false,
+   "choices": false,
+   "hint": false,
+   "pos": [
+    75.55,
+    2.0,
+    -147.95
+   ],
+   "scenes": [
+    "Field_Farms"
+   ]
+  },
+  {
+   "t": "02:52:41",
+   "label": "после Esc",
+   "state": "Pause",
+   "panel": false,
+   "choices": false,
+   "hint": false,
+   "pos": [
+    75.55,
+    2.0,
+    -147.95
+   ],
+   "scenes": [
+    "Field_Farms"
+   ]
+  },
+  {
+   "t": "02:52:43",
+   "label": "после 2-го Esc",
+   "state": "Dialogue",
+   "panel": false,
+   "choices": false,
+   "hint": false,
+   "pos": [
+    75.55,
+    2.0,
+    -147.95
+   ],
+   "scenes": [
+    "Field_Farms"
+   ]
+  }
+ ],
+ "ayud_hint": true,
+ "moved_W": 2.4,
+ "tab_opens": false,
+ "pause_opens": true,
+ "log_error_lines": [],
+ "log_error_n": 0
+}

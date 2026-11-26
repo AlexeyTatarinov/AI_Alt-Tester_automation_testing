@@ -1,0 +1,119 @@
+{
+ "before": {
+  "label": "IT-11 до",
+  "t": "02:46:21",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 17,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1,
+   "RockCandy_Recipe": 1
+  },
+  "quest": {
+   "line": 1,
+   "step": 1
+  },
+  "save_hash": "b2c03cde8c332ae9",
+  "save_finished": 8,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "hp_before": 35,
+ "tab_opens": true,
+ "tabs_seen": [
+  [
+   "PhoenixChick",
+   "Seed",
+   "SlimeCritterEgg",
+   "GoldenEgg",
+   "RockCritterEgg",
+   "SpecialSpoon",
+   "SweetCream_Dish"
+  ]
+ ],
+ "button": {
+  "interactable": true,
+  "texts": [
+   "Eat",
+   "A"
+  ]
+ },
+ "hp_after_click": 50,
+ "after": {
+  "label": "IT-11 после",
+  "t": "02:46:30",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 17,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "RockCandy_Recipe": 1
+  },
+  "quest": {
+   "line": 1,
+   "step": 1
+  },
+  "save_hash": "3f9b33fa0c6bfcd5",
+  "save_finished": 8,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "hp_after": 50,
+ "diff": {
+  "save_hash": [
+   "b2c03cde8c332ae9",
+   "3f9b33fa0c6bfcd5"
+  ],
+  "inv": {
+   "SweetCream_Dish": [
+    1,
+    0
+   ]
+  }
+ },
+ "save_info": {
+  "hash": "3f9b33fa0c6bfcd5",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40",
+   "311658b1a307c7a44b26596ad13782d6",
+   "2c804c0ebb31e6a48af992dacd5db830",
+   "03f19f468b83714479db20c8e09f8f47"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 17,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "edcc6c": 1
+  }
+ },
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

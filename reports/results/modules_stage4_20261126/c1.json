@@ -1,0 +1,181 @@
+{
+ "frameCount0": 2007,
+ "hygiene": {
+  "c1": {
+   "clear": "(True, None)",
+   "stack": "{'log': (True, None), 'warning': (True, None)}",
+   "count": "0"
+  },
+  "c1_after_ng": {
+   "clear": "(True, None)",
+   "stack": "{'log': (True, None), 'warning': (True, None)}",
+   "count": "0"
+  }
+ },
+ "off": 1089824764,
+ "start": {
+  "t": "02:57:30",
+  "label": "после New Game",
+  "count": 0,
+  "state": "Gameplay",
+  "scenes": [
+   "Beach"
+  ],
+  "hp": 50,
+  "frame": 3593
+ },
+ "arrive": {
+  "t": "02:57:49",
+  "label": "Mountain_Cave",
+  "count": 0,
+  "state": "Gameplay",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "hp": 50,
+  "pos": [
+   96.94,
+   36.41,
+   116.33
+  ]
+ },
+ "tab_arrive": null,
+ "exits": [
+  {
+   "name": "LocationExit",
+   "pos": [
+    104.76,
+    21.6,
+    76.9
+   ],
+   "to": "Mountain_Path",
+   "path": "MountainCave_MountainPath_BottomExit",
+   "collider": "UnityEngine.BoxCollider",
+   "center": {
+    "x": 104.76,
+    "y": 24.0794849,
+    "z": 76.9,
+    "normalized": {
+     "x": 0.7926342,
+     "y": 0.182189986,
+     "z": 0.5818401,
+     "magnitude": 1.0,
+     "sqrMagnitude": 1.0
+    },
+    "magnitude": 132.1669,
+    "sqrMagnitude": 17468.09
+   },
+   "size": {
+    "x": 11.3577423,
+    "y": 4.958969,
+    "z": 6.98640442,
+    "normalized": {
+     "x": 0.79833883,
+     "y": 0.3485673,
+     "z": 0.4910763,
+     "magnitude": 1.0,
+     "sqrMagnitude": 1.0
+    },
+    "magnitude": 14.2267189,
+    "sqrMagnitude": 202.399536
+   }
+  }
+ ],
+ "entrances": [
+  [
+   "LocationEntrance",
+   [
+    96.94,
+    36.5,
+    116.33
+   ]
+  ]
+ ],
+ "klippers": [
+  {
+   "name": "Klipper",
+   "id": -181090,
+   "pos": [
+    92.5,
+    27.59,
+    104.35
+   ],
+   "alert": false,
+   "d_exits": {
+    "LocationExit": [
+     30.1,
+     6.0
+    ]
+   }
+  },
+  {
+   "name": "Klipper",
+   "id": -181214,
+   "pos": [
+    95.3,
+    32.36,
+    77.83
+   ],
+   "alert": false,
+   "d_exits": {
+    "LocationExit": [
+     9.5,
+     10.8
+    ]
+   }
+  },
+  {
+   "name": "Klipper",
+   "id": -181338,
+   "pos": [
+    103.11,
+    28.6,
+    75.83
+   ],
+   "alert": false,
+   "d_exits": {
+    "LocationExit": [
+     2.0,
+     7.0
+    ]
+   }
+  },
+  {
+   "name": "Klipper",
+   "id": -181462,
+   "pos": [
+    106.98,
+    21.98,
+    90.94
+   ],
+   "alert": false,
+   "d_exits": {
+    "LocationExit": [
+     14.2,
+     0.4
+    ]
+   }
+  },
+  {
+   "name": "Klipper",
+   "id": -181586,
+   "pos": [
+    90.79,
+    28.97,
+    92.34
+   ],
+   "alert": false,
+   "d_exits": {
+    "LocationExit": [
+     20.8,
+     7.4
+    ]
+   }
+  }
+ ],
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

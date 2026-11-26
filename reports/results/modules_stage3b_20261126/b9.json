@@ -1,0 +1,198 @@
+{
+ "hygiene_ticks": [
+  {
+   "t": "02:47:38",
+   "tag": "b9",
+   "cleared": true,
+   "count_before": 5,
+   "count_after": 0
+  }
+ ],
+ "BardHare": {
+  "before": {
+   "label": "после Continue: BardHare до",
+   "t": "02:48:01",
+   "scenes": [
+    "Beach"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 17,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "RockCandy_Recipe": 1
+   },
+   "quest": {
+    "line": 1,
+    "step": 1
+   },
+   "save_hash": "ba4f7bea12992fb3",
+   "save_finished": 8,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "q_before": {
+   "line": 1,
+   "step": 1,
+   "step_name": "None",
+   "step_type": "None",
+   "actor": "None",
+   "item": "None",
+   "quest_name": "None"
+  },
+  "opened": true,
+  "choice_texts": null,
+  "replies": 2,
+  "seq": [
+   "You're still here? The festival has already started, you should get going to town otherwise you'll miss the main event.",
+   "I'll meet you there!"
+  ],
+  "closed": false,
+  "space": 2,
+  "after": {
+   "label": "после Continue: BardHare после",
+   "t": "02:50:34",
+   "scenes": [
+    "Beach"
+   ],
+   "state": "Dialogue",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 17,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "RockCandy_Recipe": 1
+   },
+   "quest": {
+    "line": 1,
+    "step": 1
+   },
+   "save_hash": "ba4f7bea12992fb3",
+   "save_finished": 8,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "q_after": {
+   "line": 1,
+   "step": 1,
+   "step_name": "None",
+   "step_type": "None",
+   "actor": "None",
+   "item": "None",
+   "quest_name": "None"
+  },
+  "diff": {
+   "state": [
+    "Gameplay",
+    "Dialogue"
+   ]
+  }
+ },
+ "Ayud": {
+  "hint": true,
+  "tries": [
+   [
+    1.3,
+    1.3,
+    true
+   ]
+  ],
+  "before": {
+   "label": "после Continue: Ayud до",
+   "t": "02:51:49",
+   "scenes": [
+    "Field_Farms"
+   ],
+   "state": "Dialogue",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 17,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "RockCandy_Recipe": 1
+   },
+   "quest": {
+    "line": 1,
+    "step": 1
+   },
+   "save_hash": "5ad602bbd5e532a9",
+   "save_finished": 8,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "q_before": {
+   "line": 1,
+   "step": 1,
+   "step_name": "None",
+   "step_type": "None",
+   "actor": "None",
+   "item": "None",
+   "quest_name": "None"
+  },
+  "opened": false
+ },
+ "exc_after_continue": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "exc_total": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "save": {
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 17,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "RockCandy_Recipe": 1
+  },
+  "locationId": "5c64917a0d7e83242b5e7f5722ec1b85",
+  "finished_n": 8
+ },
+ "end": {
+  "label": "конец Play B",
+  "t": "02:51:55",
+  "scenes": [
+   "Field_Farms"
+  ],
+  "state": "Dialogue",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 17,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "RockCandy_Recipe": 1
+  },
+  "quest": {
+   "line": 1,
+   "step": 1
+  },
+  "save_hash": "5ad602bbd5e532a9",
+  "save_finished": 8,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ }
+}

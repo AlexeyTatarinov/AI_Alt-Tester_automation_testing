@@ -1,0 +1,339 @@
+{
+ "off": 1064582305,
+ "hygiene_ticks": [
+  {
+   "t": "02:33:00",
+   "tag": "b2",
+   "cleared": true,
+   "count_before": 0,
+   "count_after": 0
+  }
+ ],
+ "start": {
+  "label": "E2E-01b старт",
+  "t": "02:33:00",
+  "scenes": [
+   "Field_Farms"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 16,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1,
+   "RockCandy_Recipe": 1
+  },
+  "quest": {
+   "line": 1,
+   "step": 2
+  },
+  "save_hash": "3548e3280f3a6946",
+  "save_finished": 5,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "S1": {
+  "hint": true,
+  "tries": [
+   [
+    1.3,
+    1.3,
+    true
+   ]
+  ],
+  "before": {
+   "label": "S1-Q1-QL2 до",
+   "t": "02:33:05",
+   "scenes": [
+    "Field_Farms"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 16,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "SweetCream_Dish": 1,
+    "RockCandy_Recipe": 1
+   },
+   "quest": {
+    "line": 1,
+    "step": 2
+   },
+   "save_hash": "3548e3280f3a6946",
+   "save_finished": 5,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "q_before": {
+   "line": 1,
+   "step": 2,
+   "step_name": "None",
+   "step_type": "None",
+   "actor": "None",
+   "item": "None",
+   "quest_name": "None"
+  },
+  "opened": true,
+  "choice_texts": null,
+  "replies": 13,
+  "seq": [
+   "Hi friend! Are you new around here?",
+   "Hey. I am, I'm visiting the island to check the cooking festival.",
+   "Oh, are you here for the contest?",
+   "Not really, but you're not the first one to ask.",
+   "Maybe you're scared of chef Comb? He does look scary.",
+   "I haven't even met him yet. But he sounds like an interesting person.",
+   "He's the judge of the contest, so if you want to meet him your best chance is to enter the competition.",
+   "Maybe I should.",
+   "I heard from the sister of the uncle of Comb's neighbour that this year a sure way to impress him would be to cook something savoury.",
+   "Oh, thanks! Sounds like a reliable source. ",
+   "Oh no, those slimy monsters are here again!",
+   "We are having an infestation of Gluecoses this year, they are attacking our farms and damaging the harvest!",
+   "Maybe I came at the right time. This cane is not just for walking, you know!"
+  ],
+  "closed": true,
+  "space": 16,
+  "after": {
+   "label": "S1-Q1-QL2 после",
+   "t": "02:33:54",
+   "scenes": [
+    "Field_Farms"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 16,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "SweetCream_Dish": 1,
+    "RockCandy_Recipe": 1
+   },
+   "quest": {
+    "line": 1,
+    "step": 1
+   },
+   "save_hash": "7197c61fff76df22",
+   "save_finished": 6,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "q_after": {
+   "line": 1,
+   "step": 1,
+   "step_name": "S2-Q1-QL2",
+   "step_type": "2",
+   "actor": "Ayud",
+   "item": "SpecialSpoon",
+   "quest_name": "Q1-QL2"
+  },
+  "diff": {
+   "quest": [
+    {
+     "line": 1,
+     "step": 2
+    },
+    {
+     "line": 1,
+     "step": 1
+    }
+   ],
+   "save_hash": [
+    "3548e3280f3a6946",
+    "7197c61fff76df22"
+   ],
+   "save_finished": [
+    5,
+    6
+   ]
+  }
+ },
+ "S2": {
+  "hint": true,
+  "tries": [
+   [
+    1.3,
+    1.3,
+    true
+   ]
+  ],
+  "before": {
+   "label": "S2-Q1-QL2 до",
+   "t": "02:34:00",
+   "scenes": [
+    "Field_Farms"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 16,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "SweetCream_Dish": 1,
+    "RockCandy_Recipe": 1
+   },
+   "quest": {
+    "line": 1,
+    "step": 1
+   },
+   "save_hash": "7197c61fff76df22",
+   "save_finished": 6,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "q_before": {
+   "line": 1,
+   "step": 1,
+   "step_name": "S2-Q1-QL2",
+   "step_type": "2",
+   "actor": "Ayud",
+   "item": "SpecialSpoon",
+   "quest_name": "Q1-QL2"
+  },
+  "opened": true,
+  "choice_texts": [
+   "Yes",
+   "No"
+  ],
+  "replies": 4,
+  "seq": [
+   "Did you get rid of all the Gluecoses?!",
+   "Thanks! I didn't bring many tools with me since I like to travel light.",
+   "What is it that I see? Oh, you found my hammer. Those slimes would swallow anything, be it food or not.",
+   "You know what? You can keep it, it's a gift. It's a great tool to crack open hard eggs."
+  ],
+  "closed": true,
+  "space": 4,
+  "after": {
+   "label": "S2-Q1-QL2 после",
+   "t": "02:34:16",
+   "scenes": [
+    "Field_Farms"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 16,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "SweetCream_Dish": 1,
+    "RockCandy_Recipe": 1
+   },
+   "quest": {
+    "line": 1,
+    "step": 1
+   },
+   "save_hash": "55c37f2e0ec0dba9",
+   "save_finished": 8,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "q_after": {
+   "line": 1,
+   "step": 1,
+   "step_name": "None",
+   "step_type": "None",
+   "actor": "None",
+   "item": "None",
+   "quest_name": "None"
+  },
+  "diff": {
+   "save_hash": [
+    "7197c61fff76df22",
+    "55c37f2e0ec0dba9"
+   ],
+   "save_finished": [
+    6,
+    8
+   ]
+  }
+ },
+ "next_step": {
+  "_name": "ERR PropertyNotFoundException: Property _name not found",
+  "name": "S1-Q2-QL2",
+  "Actor.name": "Terra",
+  "Type": "0",
+  "Item.name": "None",
+  "IsDone": "False",
+  "quest1_done": "True",
+  "questline": "QL2"
+ },
+ "end": {
+  "label": "E2E-01b конец",
+  "t": "02:34:18",
+  "scenes": [
+   "Field_Farms"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 16,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1,
+   "RockCandy_Recipe": 1
+  },
+  "quest": {
+   "line": 1,
+   "step": 1
+  },
+  "save_hash": "55c37f2e0ec0dba9",
+  "save_finished": 8,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "save_info": {
+  "hash": "55c37f2e0ec0dba9",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40",
+   "311658b1a307c7a44b26596ad13782d6",
+   "2c804c0ebb31e6a48af992dacd5db830",
+   "03f19f468b83714479db20c8e09f8f47"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 16,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "a1dd90": 1,
+   "edcc6c": 1
+  }
+ },
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

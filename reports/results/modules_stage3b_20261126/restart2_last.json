@@ -1,0 +1,80 @@
+{
+ "time": "02:52:56",
+ "steps": [
+  {
+   "t": "02:52:56",
+   "msg": "до",
+   "frameCount": 127949,
+   "realtime": 1510.68555,
+   "consoleFlags": 7683,
+   "isPlaying": true,
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Field_Farms"
+   ]
+  },
+  {
+   "t": "02:52:56",
+   "msg": "окна Unity",
+   "wins": [
+    [
+     "7888",
+     "459868",
+     "UOP1_Project - Field_Farms - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>"
+    ]
+   ]
+  },
+  {
+   "t": "02:52:56",
+   "msg": "внимание: игра в Gameplay; Stop сам перезапишет save.chop, поэтому --restore-save выполнится ПОСЛЕ остановки"
+  },
+  {
+   "t": "02:52:56",
+   "msg": "isPlaying=False отправлено"
+  },
+  {
+   "t": "02:53:05",
+   "msg": "Play остановлен (игра отключилась от AltTester)",
+   "sec": 8.1
+  },
+  {
+   "t": "02:53:08",
+   "msg": "save.chop возвращён из копии",
+   "equal": true
+  },
+  {
+   "t": "02:53:08",
+   "msg": "WM_COMMAND Edit>Play Mode>Play отправлен",
+   "cmd_id": 40120
+  },
+  {
+   "t": "02:53:16",
+   "msg": "после WM_COMMAND игра отвечает",
+   "sec": 8.7,
+   "signs": false
+  },
+  {
+   "t": "02:53:18",
+   "msg": "после",
+   "frameCount": 386,
+   "realtime": 10.6460438,
+   "consoleFlags": 7683,
+   "isPlaying": true,
+   "scenes": [
+    "MainMenu",
+    "PersistentManagers"
+   ]
+  },
+  {
+   "t": "02:53:21",
+   "msg": "окно Unity свёрнуто повторно после старта игры (редактор сам разворачивает окно при входе в Play)"
+  }
+ ],
+ "dry": false,
+ "start_path": "menu",
+ "frames_before": 127949,
+ "frames_after": 386,
+ "exit": 0,
+ "why": "Play перезапущен: frameCount 127949 -> 386, сцены ['MainMenu', 'PersistentManagers']"
+}

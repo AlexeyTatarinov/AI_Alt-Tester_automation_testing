@@ -990,10 +990,10 @@
   },
   {
    "id": "M03-02",
-   "verdict": "OBSERVATION",
-   "date": "2026-11-25",
-   "run": "modules_stage2b+stage3_note",
-   "source": "Reports_2026-11-21/results/modules_stage2b_20261125/report.md",
+   "verdict": "FAIL",
+   "date": "2026-11-26",
+   "run": "modules_stage4",
+   "source": "Reports_2026-11-21/results/modules_stage4_20261126/report.md",
    "method": "M-TP1,M-DLG2",
    "needs_clean_play": false,
    "depends_on": [
@@ -1001,7 +1001,7 @@
    ],
    "do_not_repeat_until": "owner decision",
    "jira": null,
-   "notes": "Залипший Combat. _alertEnemies.Count в Beach (Gameplay, врагов нет) уже был 4. A: 4→5 (тревога) →4 (ушёл), состояние осталось Combat. B: 4→5, смена локации через меню читов (C открывается и в Combat) → Count 5 в Beach, Combat. C: убийство врага 6→5, Combat. D: Back to menu→New Game вернул Gameplay, но Count остался 5; подход и уход: 6→5, Combat. Вывод: Gameplay возвращается только при пустом списке, а в списке есть чужие записи; ни один из случаев A–D список не опустошил. Гипотеза по счётчику подтверждена числами; откуда исходные 4 записи, не установлено. | stage2b 3.1/4.1: исходный Count сразу после New Game: Play №2 = 5 (frame 1337), Play №3 = 5 (frame 657); в stage2 Play №1 = 4, последний Count в stage2 был 5. Список переживает Stop/Play и не очищается; между Play №2 и №3 врагов не было, Count не изменился. Факт: Count 0 не наблюдался ни разу; значение держится между Stop/Play. | Stage3 п.4.3 (M03-02b, выход пешком в Beach с Combat): NOT_RUN, Play B недоступен (см. report stage3). Исходный Count в Play A stage3: 5 (до врагов и после New Game), в конце после Continue 5.",
+   "notes": "Залипший Combat. _alertEnemies.Count в Beach (Gameplay, врагов нет) уже был 4. A: 4→5 (тревога) →4 (ушёл), состояние осталось Combat. B: 4→5, смена локации через меню читов (C открывается и в Combat) → Count 5 в Beach, Combat. C: убийство врага 6→5, Combat. D: Back to menu→New Game вернул Gameplay, но Count остался 5; подход и уход: 6→5, Combat. Вывод: Gameplay возвращается только при пустом списке, а в списке есть чужие записи; ни один из случаев A–D список не опустошил. Гипотеза по счётчику подтверждена числами; откуда исходные 4 записи, не установлено. | stage2b 3.1/4.1: исходный Count сразу после New Game: Play №2 = 5 (frame 1337), Play №3 = 5 (frame 657); в stage2 Play №1 = 4, последний Count в stage2 был 5. Список переживает Stop/Play и не очищается; между Play №2 и №3 врагов не было, Count не изменился. Факт: Count 0 не наблюдался ни разу; значение держится между Stop/Play. | Stage3 п.4.3 (M03-02b, выход пешком в Beach с Combat): NOT_RUN, Play B недоступен (см. report stage3). Исходный Count в Play A stage3: 5 (до врагов и после New Game), в конце после Continue 5. | stage3b_retry (M03-02b): в начале Play Count=0. Выход пешком на Beach НЕ уходя из зоны выполнить нельзя: PlantCritter (4) не двигается, тревога снимается примерно на 7,4 м, до выхода не меньше 19 м (XZ). При выходе из зоны Count 1->0, Combat->Gameplay. Пеший переход на Beach после этого: Count 0, Gameplay, Tab открывается, разговор с BardHare закрылся. Залипания Combat не было. | stage4, сценарий B честно (смена локации пешком через LocationExit при тревоге): FAIL, 1 из 1. Чистый Play, Count 0 после New Game. Mountain_Cave, T1 в 3 м перед триггером, тревога (Count 1, Combat), вход пешком в Mountain_Path: через 5 и 15 с Count 1, Combat, врагов в сцене 0, Tab не открывает инвентарь, HP 50->50, исключений 0. В _alertEnemies ссылка на уничтоженный Transform. W и Esc работают. Какой именно Klipper дал тревогу, не установлено.",
    "module": "M03",
    "level": "L2"
   },
@@ -1065,14 +1065,14 @@
   {
    "id": "IT-02c",
    "verdict": "FAIL",
-   "date": "2026-11-25",
-   "run": "modules_stage3",
-   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
+   "date": "2026-11-26",
+   "run": "modules_stage3b_retry",
+   "source": "Reports_2026-11-21/results/modules_stage3b_20261126/report.md",
    "method": "M-TP1,M-DLG2",
    "needs_clean_play": false,
    "module": "M02",
    "level": "L2",
-   "notes": "Stage3 п.3.1 (Play A): первый разговор 17 реплик, шаг 0→1, save записан (GUID 1). Back to menu→Continue: инвентарь/квест/save равны состоянию до выхода. Разговор после Continue: Yes/No, нажат Yes, диалог закрылся, НО Seed 20→12 (−8, не −1), SweetCream_Recipe +1, RockCandy_Recipe +1 (лишняя награда), квест (0,1)→(1,2), save_finished 1→5. Исключения 22: NullReferenceException 1 (QuestManagerSO.cs:235 из DialogueManager.cs:167) и ArgumentOutOfRangeException 21 (DialogueManager.cs:31 get__reachedEndOfLine из OnAdvance, DialogueManager.cs:77). Критерий PASS не выполнен (множественная награда, исключения). Совпадает с природой CC-90: повторные подписки после Continue. Предыдущий вердикт stage2b (Continue обходит, на шаге 2) снят для случая шага 1.",
+   "notes": "Stage3 п.3.1 (Play A): первый разговор 17 реплик, шаг 0→1, save записан (GUID 1). Back to menu→Continue: инвентарь/квест/save равны состоянию до выхода. Разговор после Continue: Yes/No, нажат Yes, диалог закрылся, НО Seed 20→12 (−8, не −1), SweetCream_Recipe +1, RockCandy_Recipe +1 (лишняя награда), квест (0,1)→(1,2), save_finished 1→5. Исключения 22: NullReferenceException 1 (QuestManagerSO.cs:235 из DialogueManager.cs:167) и ArgumentOutOfRangeException 21 (DialogueManager.cs:31 get__reachedEndOfLine из OnAdvance, DialogueManager.cs:77). Критерий PASS не выполнен (множественная награда, исключения). Совпадает с природой CC-90: повторные подписки после Continue. Предыдущий вердикт stage2b (Continue обходит, на шаге 2) снят для случая шага 1. | Образец 2 (IT-02c3, stage3b_retry): НЕ засчитан: после Continue _currentStep пуст, следующий шаг у Terra, а не у Ayud/BardHare. Разговор с BardHare (без шага): инвентарь/квест не менялись, исключений 0, но состояние залипло в Dialogue (см. E2E-02). Итог CC-90 через Continue по засчитанным образцам: 1 из 1.",
    "depends_on": [
     "IT-02"
    ]
@@ -1110,11 +1110,11 @@
    "module": "IT/E2E",
    "level": "E2E",
    "method": "alttester",
-   "verdict": "BLOCKED",
-   "date": "2026-11-25",
-   "run": "modules_stage3",
-   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
-   "notes": "BLOCKED: Play B не начат. После перезапуска редактора Unity (PID 13604→11708, не по моей команде, во время Play A) Play не запускается: 4 вызова restart_play.py --start-only дали код 3 (Ctrl+P отправлен, Play входит и сразу выходит, AltTester не отвечает). Использовано 9 из 12 вызовов, дальше всё BLOCKED (п.2.1).",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage3b_retry",
+   "source": "Reports_2026-11-21/results/modules_stage3b_20261126/report.md",
+   "notes": "Ayud (Field_Farms, не Town_Market): S1-Q1-QL2 13 реплик, save_finished 5->6; S2-Q1-QL2 (CheckItem SpecialSpoon) Yes, 4 реплики, 6->8, Quest Q1-QL2 IsDone; исключений 0; инвентарь не менялся. Следующий шаг S1-Q2-QL2, Dialogue, Terra, без предмета (не выполнялся). До этого E2E-01: Seed 20->19->16, Dish +1, RockCandy_Recipe +1, questline 0->1, исключений 0.",
    "needs_clean_play": true
   },
   {
@@ -1122,11 +1122,11 @@
    "module": "IT/E2E",
    "level": "IT",
    "method": "alttester",
-   "verdict": "BLOCKED",
-   "date": "2026-11-25",
-   "run": "modules_stage3",
-   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
-   "notes": "BLOCKED: Play B не начат. После перезапуска редактора Unity (PID 13604→11708, не по моей команде, во время Play A) Play не запускается: 4 вызова restart_play.py --start-only дали код 3 (Ctrl+P отправлен, Play входит и сразу выходит, AltTester не отвечает). Использовано 9 из 12 вызовов, дальше всё BLOCKED (п.2.1).",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage3b_retry",
+   "source": "Reports_2026-11-21/results/modules_stage3b_20261126/report.md",
+   "notes": "PlantCritter убит (1 удар F), враг исчез, CollectableItem Seed; подбор E: Seed 16->17; Count 1->0, Combat->Gameplay; исключений 0.",
    "needs_clean_play": true
   },
   {
@@ -1134,11 +1134,11 @@
    "module": "IT/E2E",
    "level": "E2E",
    "method": "alttester",
-   "verdict": "BLOCKED",
-   "date": "2026-11-25",
-   "run": "modules_stage3",
-   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
-   "notes": "BLOCKED: Play B не начат. После перезапуска редактора Unity (PID 13604→11708, не по моей команде, во время Play A) Play не запускается: 4 вызова restart_play.py --start-only дали код 3 (Ctrl+P отправлен, Play входит и сразу выходит, AltTester не отвечает). Использовано 9 из 12 вызовов, дальше всё BLOCKED (п.2.1).",
+   "verdict": "FAIL",
+   "date": "2026-11-26",
+   "run": "modules_stage3b_retry",
+   "source": "Reports_2026-11-21/results/modules_stage3b_20261126/report.md",
+   "notes": "IT-05 PASS; после Continue инвентарь равен save.chop, локация Mountain_Cave, Count 0, Gameplay, Tab открывается; разговор с BardHare после Continue: 2 реплики, панель закрылась, но состояние осталось Dialogue (>150 с и после смены локации), Tab и разговор с Ayud не работают, движение и Esc работают, ошибок в логе 0. Тот же разговор до Continue закрылся. 1 из 1.",
    "needs_clean_play": true
   },
   {
@@ -1146,11 +1146,11 @@
    "module": "IT/E2E",
    "level": "IT",
    "method": "alttester",
-   "verdict": "BLOCKED",
-   "date": "2026-11-25",
-   "run": "modules_stage3",
-   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
-   "notes": "BLOCKED: Play B не начат. После перезапуска редактора Unity (PID 13604→11708, не по моей команде, во время Play A) Play не запускается: 4 вызова restart_play.py --start-only дали код 3 (Ctrl+P отправлен, Play входит и сразу выходит, AltTester не отвечает). Использовано 9 из 12 вызовов, дальше всё BLOCKED (п.2.1).",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage3b_retry",
+   "source": "Reports_2026-11-21/results/modules_stage3b_20261126/report.md",
+   "notes": "Урон от Klipper (Mountain_Cave, <=2 с): 50->35. Инвентарь, SweetCream_Dish, кнопка Eat: здоровье 35->50 (+15, потолок max), блюдо 1->0, исключений 0.",
    "needs_clean_play": true
   },
   {

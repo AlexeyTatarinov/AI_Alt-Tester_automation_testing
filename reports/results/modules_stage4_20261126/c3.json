@@ -1,0 +1,38 @@
+{
+ "_gameStateManager._alertEnemies": "ERR UnknownErrorException: The object of type 'UnityEngine.Transform' has been destroyed but you are sti",
+ "_gameStateManager._alertEnemies[0]": "ERR UnknownErrorException: The object of type 'UnityEngine.Transform' has been destroyed but you are sti",
+ "_gameStateManager._alertEnemies[0].name": "ERR UnknownErrorException: Exception has been thrown by the target of an invocation.",
+ "_gameStateManager._alertEnemies[0].position": "ERR UnknownErrorException: Exception has been thrown by the target of an invocation.",
+ "later": {
+  "t": "02:59:22",
+  "label": "позже",
+  "count": 1,
+  "state": "Combat",
+  "scenes": [
+   "Mountain_Path"
+  ],
+  "hp": 50
+ },
+ "critters": 0,
+ "w_moved": 1.04,
+ "tab_opens": false,
+ "state_after_tab": "Combat",
+ "esc_pause": true,
+ "after_esc": {
+  "t": "02:59:30",
+  "label": "после Esc",
+  "count": 1,
+  "state": "Combat",
+  "scenes": [
+   "Mountain_Path"
+  ],
+  "hp": 50,
+  "pause": false
+ },
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "console": 0
+}

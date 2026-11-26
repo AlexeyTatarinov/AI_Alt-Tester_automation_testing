@@ -1,0 +1,312 @@
+{
+ "trace": [
+  {
+   "t": "02:58:22",
+   "label": "до T1",
+   "pos": [
+    96.94,
+    36.41,
+    116.33
+   ],
+   "to_edge_z": 35.93,
+   "count": 0,
+   "state": "Gameplay",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 27.3,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  },
+  {
+   "t": "02:58:24",
+   "label": "после T1",
+   "pos": [
+    104.76,
+    22.49,
+    83.4
+   ],
+   "to_edge_z": 3.0,
+   "count": 1,
+   "state": "Combat",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 7.9,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  }
+ ],
+ "walk": [
+  {
+   "t": "02:58:25",
+   "label": "walk",
+   "pos": [
+    104.76,
+    22.49,
+    83.4
+   ],
+   "to_edge_z": 3.0,
+   "count": 1,
+   "state": "Combat",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 7.9,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  },
+  {
+   "t": "02:58:26",
+   "label": "walk",
+   "pos": [
+    104.82,
+    22.51,
+    83.04
+   ],
+   "to_edge_z": 2.65,
+   "count": 1,
+   "state": "Combat",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 8.2,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  },
+  {
+   "t": "02:58:28",
+   "label": "walk",
+   "pos": [
+    104.95,
+    22.53,
+    82.51
+   ],
+   "to_edge_z": 2.12,
+   "count": 1,
+   "state": "Combat",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 8.7,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  },
+  {
+   "t": "02:58:29",
+   "label": "walk",
+   "pos": [
+    105.05,
+    22.55,
+    82.13
+   ],
+   "to_edge_z": 1.74,
+   "count": 1,
+   "state": "Combat",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 9.0,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  },
+  {
+   "t": "02:58:31",
+   "label": "walk",
+   "pos": [
+    105.15,
+    22.56,
+    81.76
+   ],
+   "to_edge_z": 1.36,
+   "count": 1,
+   "state": "Combat",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 9.4,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  },
+  {
+   "t": "02:58:32",
+   "label": "walk",
+   "pos": [
+    105.24,
+    22.56,
+    81.41
+   ],
+   "to_edge_z": 1.01,
+   "count": 1,
+   "state": "Combat",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 9.7,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  },
+  {
+   "t": "02:58:34",
+   "label": "walk",
+   "pos": [
+    105.34,
+    22.56,
+    81.02
+   ],
+   "to_edge_z": 0.63,
+   "count": 1,
+   "state": "Combat",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 10.0,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  },
+  {
+   "t": "02:58:35",
+   "label": "walk",
+   "pos": [
+    105.45,
+    22.57,
+    80.61
+   ],
+   "to_edge_z": 0.22,
+   "count": 1,
+   "state": "Combat",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 10.4,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  },
+  {
+   "t": "02:58:37",
+   "label": "walk",
+   "pos": [
+    105.55,
+    22.57,
+    80.24
+   ],
+   "to_edge_z": -0.16,
+   "count": 1,
+   "state": "Combat",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 10.8,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  },
+  {
+   "t": "02:58:38",
+   "label": "walk",
+   "pos": [
+    105.66,
+    22.53,
+    79.85
+   ],
+   "to_edge_z": -0.55,
+   "count": 1,
+   "state": "Combat",
+   "hp": 50,
+   "alert": false,
+   "d_klipper": 11.2,
+   "scenes": [
+    "Mountain_Cave"
+   ]
+  }
+ ],
+ "off": 1089824764,
+ "hygiene_ticks": [
+  {
+   "t": "02:58:22",
+   "tag": "c2",
+   "cleared": true,
+   "count_before": 0,
+   "count_after": 0
+  }
+ ],
+ "point": [
+  104.76,
+  22.4,
+  83.393
+ ],
+ "klipper": {
+  "id": -181462,
+  "name": "Klipper",
+  "pos": [
+   106.979774,
+   21.98266,
+   90.93677
+  ],
+  "d_to_point": 7.86,
+  "dy": 0.42
+ },
+ "alert_at_point": true,
+ "last_before": {
+  "t": "02:58:38",
+  "label": "walk",
+  "pos": [
+   105.66,
+   22.53,
+   79.85
+  ],
+  "to_edge_z": -0.55,
+  "count": 1,
+  "state": "Combat",
+  "hp": 50,
+  "alert": false,
+  "d_klipper": 11.2,
+  "scenes": [
+   "Mountain_Cave"
+  ]
+ },
+ "left_cave": true,
+ "new_scene": [
+  "Mountain_Path"
+ ],
+ "load_s": 0.1,
+ "after5": {
+  "t": "02:58:46",
+  "sec": 5,
+  "scenes": [
+   "Mountain_Path"
+  ],
+  "count": 1,
+  "state": "Combat",
+  "hp": 50,
+  "pos": [
+   110.73,
+   21.71,
+   55.33
+  ],
+  "dialogue": false
+ },
+ "after15": {
+  "t": "02:58:56",
+  "sec": 15,
+  "scenes": [
+   "Mountain_Path"
+  ],
+  "count": 1,
+  "state": "Combat",
+  "hp": 50,
+  "pos": [
+   110.73,
+   21.71,
+   55.33
+  ],
+  "dialogue": false
+ },
+ "critters_new": [],
+ "tab_opens": false,
+ "state_after_tab": "Combat",
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

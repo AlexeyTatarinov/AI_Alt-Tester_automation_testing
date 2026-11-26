@@ -1,0 +1,47 @@
+{
+ "window_restores": 1,
+ "preflight": {
+  "time": "02:52:18",
+  "label": "b10",
+  "port_13000": true,
+  "window": {
+   "pid": 7888,
+   "cpu_delta_1_5s": 3.297,
+   "foreground": false,
+   "title": "UOP1_Project - Field_Farms - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
+   "responding": true,
+   "found": true,
+   "shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/modules_stage3b_20261126\\shots\\preflight_b10.png",
+   "iconic": false
+  },
+  "consoleFlags": 7683,
+  "consoleFlags_note": "прочиталось (assembly UnityEditor.CoreModule)",
+  "error_pause": false,
+  "play": [
+   true,
+   "isPlaying прочитан"
+  ],
+  "log_offset": 1070613952,
+  "log_last_lines": [
+   "  \"assembly\": \"UnityEditor.CoreModule\",",
+   "  \"maxDepth\": 2,",
+   "  \"driverId\": \"f9b1f935944b470d8928dd57fb7db68a\"",
+   "}",
+   "2026-11-26 02:52:20.9188|AltTester|DEBUG|response sent: {\"messageId\":\"867310\",\"driverId\":\"f9b1f935944b470d8928dd57fb7db68a\",\"commandName\":\"getObjectComponentProperty\",\"error\":null,\"data\":\"true\",\"isNot"
+  ],
+  "alive": true,
+  "alive_detail": "frameCount 125049 -> 125168",
+  "game_pause_menu": false
+ },
+ "guard_offset": 1070613952,
+ "unpause_attempts": 0,
+ "risky_checkpoint": {
+  "time": "02:47:03",
+  "step": "b8 back to menu",
+  "log_size": 1069723665,
+  "save_hashes": {
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "3f9b33fa0c6bfcd5",
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079"
+  }
+ }
+}

@@ -223,3 +223,9 @@ M16 Катсцены ◀──PlayCutscene/PlayDialogue──▶ M14, ──▶ 
 ---
 
 _Дописано 25.11.2026 (этап D модульного задания): строки «проверено 25.11» в карточках модулей M01–M04, M06, M08–M10, M12, M15, M16, M18, M19 — источник `Reports_2026-11-21\results\modules_stage1_20261125\probe.json`, `probe2.json`, `module_snapshot_*.json`. Старые строки «Читать:» не менялись._
+
+## Обновление раздела 5 (26.11.2026, по cases_state.json: 75 случаев, PASS 48, OBSERVATION 17, FAIL 5)
+- Стало зелёным: M13 готовка (3 PASS), M11 (6 PASS), M15 квесты до questline 1 (E2E-01, E2E-01b), M10 бой/подбор (IT-05), лечение едой (IT-11).
+- Жёлтое: M02/M04 (Continue ломает диалоги: IT-02c FAIL, E2E-02 FAIL, см. CC-90), M03 (M03-02 OBSERVATION, сценарий B в stage4), M08 (14 из 16 выходов), M16 (CC-85), M17/M18 (IT-10: громкость без Save).
+- Красное: M17 (L10N-01/02 FAIL), M09 (DTH-04 FAIL), Gluecose BLOCKED(precondition), IT-01/IT-06/IT-08 не закрыты.
+- Закрыто без прогона: IT-07, IT-09 составными вердиктами.

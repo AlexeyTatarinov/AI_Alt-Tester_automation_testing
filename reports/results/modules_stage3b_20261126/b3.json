@@ -1,0 +1,205 @@
+{
+ "trace": [
+  {
+   "t": "02:35:34",
+   "label": "Field_Hill: старт",
+   "count": 0,
+   "state": "Gameplay",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "hp": 50
+  },
+  {
+   "t": "02:35:35",
+   "label": "PlantCritter: тревога",
+   "count": 1,
+   "state": "Combat",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "hp": 50,
+   "alert": true
+  },
+  {
+   "t": "02:35:44",
+   "label": "PlantCritter: через 5 с после удара",
+   "count": 0,
+   "state": "Gameplay",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "hp": 50,
+   "hits": 1,
+   "dead": true,
+   "present": false,
+   "new": [
+    "Seed"
+   ]
+  },
+  {
+   "t": "02:35:53",
+   "label": "IT-05 конец",
+   "count": 0,
+   "state": "Gameplay",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "hp": 50
+  }
+ ],
+ "kills": [
+  {
+   "enemy": "PlantCritter",
+   "items_before": {},
+   "alert_s": 1.0,
+   "hits": 1,
+   "dead": true,
+   "player_hp": [
+    50
+   ],
+   "enemy_still_present": false,
+   "new_items": [
+    {
+     "id": -78748,
+     "pos": [
+      -66.6,
+      10.34,
+      -320.47
+     ],
+     "item": "Seed"
+    }
+   ]
+  }
+ ],
+ "off": 1064582305,
+ "hygiene_ticks": [
+  {
+   "t": "02:35:34",
+   "tag": "b3",
+   "cleared": true,
+   "count_before": 0,
+   "count_after": 0
+  }
+ ],
+ "pickup": {
+  "item": {
+   "id": -78748,
+   "pos": [
+    -66.6,
+    10.34,
+    -320.47
+   ],
+   "item": "Seed"
+  },
+  "before": {
+   "label": "IT-05 до подбора",
+   "t": "02:35:45",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 16,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "SweetCream_Dish": 1,
+    "RockCandy_Recipe": 1
+   },
+   "quest": {
+    "line": 1,
+    "step": 1
+   },
+   "save_hash": "dc0b12191a7394d4",
+   "save_finished": 8,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "tries": [
+   [
+    1.04,
+    false
+   ],
+   [
+    0.82,
+    true
+   ]
+  ],
+  "hint": true,
+  "gone_after": true,
+  "after": {
+   "label": "IT-05 после подбора",
+   "t": "02:35:51",
+   "scenes": [
+    "Field_Hill"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 17,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "SweetCream_Dish": 1,
+    "RockCandy_Recipe": 1
+   },
+   "quest": {
+    "line": 1,
+    "step": 1
+   },
+   "save_hash": "5bb0f8e50ecb092f",
+   "save_finished": 8,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "diff": {
+   "save_hash": [
+    "dc0b12191a7394d4",
+    "5bb0f8e50ecb092f"
+   ],
+   "inv": {
+    "Seed": [
+     16,
+     17
+    ]
+   }
+  }
+ },
+ "save_info": {
+  "hash": "5bb0f8e50ecb092f",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40",
+   "311658b1a307c7a44b26596ad13782d6",
+   "2c804c0ebb31e6a48af992dacd5db830",
+   "03f19f468b83714479db20c8e09f8f47"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 17,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "a1dd90": 1,
+   "edcc6c": 1
+  }
+ },
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

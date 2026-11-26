@@ -1,0 +1,63 @@
+{
+ "hits": [
+  [
+   0.9,
+   50,
+   true
+  ],
+  [
+   1.8,
+   35,
+   true
+  ]
+ ],
+ "hygiene_ticks": [
+  {
+   "t": "02:45:43",
+   "tag": "b6",
+   "cleared": true,
+   "count_before": 0,
+   "count_after": 0
+  }
+ ],
+ "home": [
+  96.94254,
+  36.40894,
+  116.326515
+ ],
+ "arrive": {
+  "t": "02:46:02",
+  "label": "Mountain_Cave",
+  "count": 0,
+  "state": "Gameplay",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "hp": 50
+ },
+ "klipper": [
+  "Klipper",
+  [
+   92.50057,
+   27.5925159,
+   104.354874
+  ]
+ ],
+ "left": {
+  "t": "02:46:08",
+  "label": "отход",
+  "count": 0,
+  "state": "Gameplay",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "hp": 35,
+  "alert": false
+ },
+ "hp0": 50,
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

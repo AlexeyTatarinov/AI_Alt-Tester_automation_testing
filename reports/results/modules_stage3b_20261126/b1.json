@@ -1,0 +1,538 @@
+{
+ "frameCount0": 2202,
+ "frame_lt_3000": true,
+ "hygiene": {
+  "b1": {
+   "clear": "(True, None)",
+   "stack": "{'log': (True, None), 'warning': (True, None)}",
+   "count": "0"
+  },
+  "b1_after_ng": {
+   "clear": "(True, None)",
+   "stack": "{'log': (True, None), 'warning': (True, None)}",
+   "count": "0"
+  }
+ },
+ "off": 1064582305,
+ "snap_start": {
+  "label": "B старт",
+  "t": "02:28:35",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 0
+  },
+  "save_hash": "628fab9eef30a455",
+  "save_finished": 0,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "hint1": true,
+ "first": {
+  "N_space": 18,
+  "closed": true,
+  "replies": 17,
+  "choices": false,
+  "seq": [
+   "You made it! Welcome to Yolk island!",
+   "It's been a while! Did you come for the cooking festival?",
+   "Yes, I've heard great things about the local chef. Comb, I think he's called?",
+   "Oh yes, he's a legend around here. He's very hard to impress.",
+   "You'll have to prepare something very special to win the contest!",
+   "I wasn't necessarily planning to take part in it, but...",
+   "You have to! I'm curious to see what you come up with.",
+   "I'll check it out when I get to town. Which way?",
+   "Wait, before you go there. Can I ask you a favour?",
+   "I've just arrived and you're asking me a favour?",
+   "The thing is, I'm trying to gather some seeds for a recipe but the local plants are a bit... aggressive.",
+   "They call them Groens, and they are carnivorous plants that eat much more than insects.",
+   "I guess they also love good food.",
+   "I know you can take care of them!",
+   "Where can I find them?",
+   "There's a few of them just over the hill above the beach.",
+   "Anything for you, my friend."
+  ]
+ },
+ "snap1": {
+  "label": "1 после первого",
+  "t": "02:29:05",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 20,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 1
+  },
+  "save_hash": "8d5f8004fba94efd",
+  "save_finished": 1,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "diff1": {
+  "quest": [
+   {
+    "line": 0,
+    "step": 0
+   },
+   {
+    "line": 0,
+    "step": 1
+   }
+  ],
+  "save_hash": [
+   "628fab9eef30a455",
+   "8d5f8004fba94efd"
+  ],
+  "save_finished": [
+   0,
+   1
+  ]
+ },
+ "step2": {
+  "hint": true,
+  "before": {
+   "label": "2 до",
+   "t": "02:29:09",
+   "scenes": [
+    "Beach"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 20,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1
+   },
+   "quest": {
+    "line": 0,
+    "step": 1
+   },
+   "save_hash": "8d5f8004fba94efd",
+   "save_finished": 1,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "first_line": "Did you gather the seeds from the Groens up the hill?",
+  "texts": [
+   "Yes",
+   "No"
+  ],
+  "replies": 9,
+  "seq": [
+   "Did you gather the seeds from the Groens up the hill?",
+   "Oh yeah! Thanks! I love them so much.",
+   "They are the key ingredient in my grandma's recipe for an amazing sweet cream.",
+   "You cook too?",
+   "Are you surprised? I can share the recipe with you if you want.",
+   "It's easy. Just drop 3 Groen seeds into boiling water, then stir for 2 minutes.",
+   "I see. Grandma's old recipe, right?",
+   "It's been our family's treasure for generations.",
+   "You can try cooking it yourself using the cauldron just here. The water should be already hot."
+  ],
+  "closed": true,
+  "after": {
+   "label": "2 после",
+   "t": "02:29:30",
+   "scenes": [
+    "Beach"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 19,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1
+   },
+   "quest": {
+    "line": 0,
+    "step": 2
+   },
+   "save_hash": "a995c0764a98a473",
+   "save_finished": 2,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "diff": {
+   "quest": [
+    {
+     "line": 0,
+     "step": 1
+    },
+    {
+     "line": 0,
+     "step": 2
+    }
+   ],
+   "save_hash": [
+    "8d5f8004fba94efd",
+    "a995c0764a98a473"
+   ],
+   "save_finished": [
+    1,
+    2
+   ],
+   "inv": {
+    "SweetCream_Recipe": [
+     0,
+     1
+    ],
+    "Seed": [
+     20,
+     19
+    ]
+   }
+  }
+ },
+ "hygiene_ticks": [
+  {
+   "t": "02:29:31",
+   "tag": "pre-pot",
+   "cleared": false,
+   "count_before": 0,
+   "count_after": 0
+  }
+ ],
+ "pot_before": {
+  "label": "3 котёл до",
+  "t": "02:30:10",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 19,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 2
+  },
+  "save_hash": "a995c0764a98a473",
+  "save_finished": 2,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "pot_hint": true,
+ "pot_dist": 1.17,
+ "pot_tries": [
+  [
+   1.5,
+   1.5,
+   false
+  ],
+  [
+   1.5,
+   1.17,
+   true
+  ]
+ ],
+ "pot_after": {
+  "label": "3 котёл после",
+  "t": "02:30:18",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 16,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 2
+  },
+  "save_hash": "2ab4c2a1cd9a20a7",
+  "save_finished": 2,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "pot_diff": {
+  "save_hash": [
+   "a995c0764a98a473",
+   "2ab4c2a1cd9a20a7"
+  ],
+  "inv": {
+   "SweetCream_Dish": [
+    0,
+    1
+   ],
+   "Seed": [
+    19,
+    16
+   ]
+  }
+ },
+ "state_after_pot": "Gameplay",
+ "pre4_after_script_error": {
+  "label": "перед разговором 4",
+  "t": "02:30:36",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 16,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 2
+  },
+  "save_hash": "2ab4c2a1cd9a20a7",
+  "save_finished": 2,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "step4": {
+  "hint": true,
+  "before": {
+   "label": "4 до",
+   "t": "02:30:40",
+   "scenes": [
+    "Beach"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 16,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "SweetCream_Dish": 1
+   },
+   "quest": {
+    "line": 0,
+    "step": 2
+   },
+   "save_hash": "2ab4c2a1cd9a20a7",
+   "save_finished": 2,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "first_line": "Did you try the sweet cream recipe I gave you?",
+  "texts": [
+   "Yes",
+   "No"
+  ],
+  "replies": 12,
+  "seq": [
+   "Did you try the sweet cream recipe I gave you?",
+   "Nice! How did it turn out?",
+   "Wow, you're really a natural at cooking! The recipe came out just like my grandma's.",
+   "Now, if you want to go and check out the festival, just head up the hill and go through...",
+   "<i>Fire sneeze</i>",
+   "Bless you, Nar!",
+   "Ooooh, your little friend sneezed fire on the cream, and now it's ruined.",
+   "Are you sure it's ruined? Sometimes cuisine happens in the most unexpected ways.",
+   "Look, the extreme temperature sneeze from Nar caramelised the cream into rock-hard candy.",
+   "I'm adding this to my recipe book!",
+   "Maybe you can use it for the contest.",
+   "And about that, you can start going, I'll catch up with you in a while. See you in town!"
+  ],
+  "closed": true,
+  "after": {
+   "label": "4 после",
+   "t": "02:32:06",
+   "scenes": [
+    "Beach"
+   ],
+   "state": "Gameplay",
+   "inv": {
+    "PhoenixChick": 1,
+    "Seed": 16,
+    "SlimeCritterEgg": 20,
+    "GoldenEgg": 20,
+    "RockCritterEgg": 20,
+    "SpecialSpoon": 1,
+    "SweetCream_Recipe": 1,
+    "SweetCream_Dish": 1,
+    "RockCandy_Recipe": 1
+   },
+   "quest": {
+    "line": 1,
+    "step": 2
+   },
+   "save_hash": "a3a537f3abeef4f3",
+   "save_finished": 5,
+   "exc": 0,
+   "exc_types": {},
+   "alert_count": 0
+  },
+  "diff": {
+   "quest": [
+    {
+     "line": 0,
+     "step": 2
+    },
+    {
+     "line": 1,
+     "step": 2
+    }
+   ],
+   "save_hash": [
+    "2ab4c2a1cd9a20a7",
+    "a3a537f3abeef4f3"
+   ],
+   "save_finished": [
+    2,
+    5
+   ],
+   "inv": {
+    "RockCandy_Recipe": [
+     0,
+     1
+    ]
+   }
+  }
+ },
+ "snap_e2e01": {
+  "label": "после E2E-01",
+  "t": "02:32:06",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 16,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1,
+   "RockCandy_Recipe": 1
+  },
+  "quest": {
+   "line": 1,
+   "step": 2
+  },
+  "save_hash": "a3a537f3abeef4f3",
+  "save_finished": 5,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "diff_total": {
+  "quest": [
+   {
+    "line": 0,
+    "step": 0
+   },
+   {
+    "line": 1,
+    "step": 2
+   }
+  ],
+  "save_hash": [
+   "628fab9eef30a455",
+   "a3a537f3abeef4f3"
+  ],
+  "save_finished": [
+   0,
+   5
+  ],
+  "inv": {
+   "SweetCream_Dish": [
+    0,
+    1
+   ],
+   "SweetCream_Recipe": [
+    0,
+    1
+   ],
+   "RockCandy_Recipe": [
+    0,
+    1
+   ],
+   "Seed": [
+    20,
+    16
+   ]
+  }
+ },
+ "save_info": {
+  "hash": "a3a537f3abeef4f3",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 16,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "a1dd90": 1,
+   "edcc6c": 1
+  }
+ },
+ "currentStep_raw": {
+  "_questManager._currentStep": "None",
+  "_questManager._currentStep.name": "None",
+  "_questManager._currentQuest": "None",
+  "_questManager._currentQuest.name": "None"
+ },
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}
