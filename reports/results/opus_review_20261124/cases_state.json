@@ -1395,7 +1395,7 @@
    "needs_clean_play": false,
    "depends_on": [],
    "do_not_repeat_until": "исправление ссылки _locationToLoad / SceneLoader",
-   "jira": null,
+   "jira": "CC-94",
    "notes": "1 из 1. ToForestEntrance_FallDown: NRE SceneLoader.cs:171; на 5/15/30 с и позже: только PersistentManagers+Gameplay, _isLoading True, игрока нет, состояние Gameplay; меню читов открывается, но локацию не грузит. Нужен перезапуск Play.",
    "module": "M08",
    "level": "L1"
