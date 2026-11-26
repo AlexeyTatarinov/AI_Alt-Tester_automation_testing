@@ -1,4 +1,4 @@
-# Jira drafts (26.11.2026). NOT posted; owner approval required.
+# Jira drafts (26.11.2026). Posted 26.11 after owner approval: section 2 = CC-92, section 3 = CC-93, section 1 = comment on CC-90.
 
 ## 1. CC-90: append comment
 **Reproduces via Continue too (2/2).**
