@@ -1067,7 +1067,7 @@
    "verdict": "FAIL",
    "date": "2026-11-26",
    "run": "modules_stage3b_retry",
-   "source": "Reports_2026-11-21/results/modules_stage3b_20261126/report.md",
+   "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
    "method": "M-TP1,M-DLG2",
    "needs_clean_play": false,
    "module": "M02",
@@ -1103,7 +1103,8 @@
    "run": "modules_stage3",
    "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
    "notes": "Stage3 п.3.2 (Play A, грязный). Попытка 1 как в задании (Master Previous, язык Next, один Save на вкладке Language): язык сохранился (English→français, save _currentLocale изменился, меню по-французски и после Continue), а громкость нет: GetGroupVolume 0.9 до Save, после Save 1.0, save _masterVolume 1.0. Попытка 2 (Save на вкладке Audio до перехода к языку): Master 0.9, save _masterVolume 0.8999999761581421, после Back to menu→Continue громкость 0.9 и язык français те же. Наблюдение: изменение громкости теряется, если сменить вкладку на Language до Save. Пункт 4 (вернуть English и сверить save с копией) выполнен только в попытке 1 (громкость 1.0, English); в попытке 2 Play оборвался (перезапуск редактора). save.chop равен копии не мог быть: Play грязный, в save есть шаги квеста. Решение о баге за владельцем.",
-   "needs_clean_play": false
+   "needs_clean_play": false,
+   "jira": "CC-93"
   },
   {
    "id": "E2E-01b",
