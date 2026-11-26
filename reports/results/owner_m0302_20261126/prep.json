@@ -1,0 +1,77 @@
+{
+ "hygiene": {
+  "menu": {
+   "clear": "(True, None)",
+   "stack": "{'log': (True, None), 'warning': (True, None)}",
+   "count": "0"
+  },
+  "after_ng": {
+   "clear": "(True, None)",
+   "stack": "{'log': (True, None), 'warning': (True, None)}",
+   "count": "0"
+  }
+ },
+ "off": 3419531496,
+ "start_raw": {
+  "t": "10:28:23",
+  "label": "после New Game",
+  "count": 2,
+  "state": "Gameplay",
+  "scenes": [
+   "Beach"
+  ],
+  "hp": 50
+ },
+ "start": {
+  "t": "10:28:23",
+  "label": "после очистки",
+  "count": 0,
+  "state": "Gameplay",
+  "scenes": [
+   "Beach"
+  ],
+  "hp": 50
+ },
+ "arrive": {
+  "t": "10:28:41",
+  "label": "Mountain_Cave",
+  "count": 0,
+  "state": "Gameplay",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "hp": 50
+ },
+ "alert": {
+  "t": "10:28:43",
+  "label": "у выхода 0",
+  "count": 1,
+  "state": "Combat",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "hp": 50
+ },
+ "last_before": {
+  "t": "10:28:55",
+  "label": "иду",
+  "count": 1,
+  "state": "Combat",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "hp": 50
+ },
+ "after": {
+  "t": "10:29:12",
+  "label": "через 15 с после перехода",
+  "count": 1,
+  "state": "Combat",
+  "scenes": [
+   "Mountain_Path"
+  ],
+  "hp": 50,
+  "critters": 0
+ },
+ "exc": 0
+}

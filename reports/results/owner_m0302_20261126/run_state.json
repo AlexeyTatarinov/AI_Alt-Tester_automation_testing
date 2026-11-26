@@ -1,0 +1,47 @@
+{
+ "window_restores": 2,
+ "preflight": {
+  "time": "10:28:23",
+  "label": "goto_Mountain_Cave",
+  "port_13000": true,
+  "window": {
+   "pid": 7888,
+   "cpu_delta_1_5s": 3.016,
+   "foreground": false,
+   "title": "UOP1_Project - Beach - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
+   "responding": true,
+   "found": true,
+   "shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/owner_m0302_20261126\\shots\\preflight_goto_Mountain_Cave.png",
+   "iconic": false
+  },
+  "consoleFlags": 7683,
+  "consoleFlags_note": "прочиталось (assembly UnityEditor.CoreModule)",
+  "error_pause": false,
+  "play": [
+   true,
+   "isPlaying прочитан"
+  ],
+  "log_offset": 3419548058,
+  "log_last_lines": [
+   "  \"assembly\": \"UnityEditor.CoreModule\",",
+   "  \"maxDepth\": 2,",
+   "  \"driverId\": \"e9eb460ef1ab44d58987349e4714f582\"",
+   "}",
+   "2026-11-26 10:28:26.0073|AltTester|DEBUG|response sent: {\"messageId\":\"995997\",\"driverId\":\"e9eb460ef1ab44d58987349e4714f582\",\"commandName\":\"getObjectComponentProperty\",\"error\":null,\"data\":\"true\",\"isNot"
+  ],
+  "alive": true,
+  "alive_detail": "frameCount 3444 -> 3584",
+  "game_pause_menu": false
+ },
+ "guard_offset": 3419548058,
+ "unpause_attempts": 0,
+ "risky_checkpoint": {
+  "time": "10:28:03",
+  "step": "prep",
+  "log_size": 3419365536,
+  "save_hashes": {
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079"
+  }
+ }
+}

@@ -1,11 +1,11 @@
 {
- "time": "02:59:36",
+ "time": "10:30:09",
  "steps": [
   {
-   "t": "02:59:36",
+   "t": "10:30:09",
    "msg": "до",
-   "frameCount": 18437,
-   "realtime": 174.394,
+   "frameCount": 15987,
+   "realtime": 146.995575,
    "consoleFlags": 7683,
    "isPlaying": true,
    "scenes": [
@@ -15,7 +15,7 @@
    ]
   },
   {
-   "t": "02:59:37",
+   "t": "10:30:10",
    "msg": "окна Unity",
    "wins": [
     [
@@ -26,39 +26,39 @@
    ]
   },
   {
-   "t": "02:59:37",
+   "t": "10:30:10",
    "msg": "внимание: игра в Gameplay; Stop сам перезапишет save.chop, поэтому --restore-save выполнится ПОСЛЕ остановки"
   },
   {
-   "t": "02:59:37",
+   "t": "10:30:10",
    "msg": "isPlaying=False отправлено"
   },
   {
-   "t": "02:59:45",
+   "t": "10:30:18",
    "msg": "Play остановлен (игра отключилась от AltTester)",
    "sec": 8.1
   },
   {
-   "t": "02:59:48",
+   "t": "10:30:21",
    "msg": "save.chop возвращён из копии",
    "equal": true
   },
   {
-   "t": "02:59:48",
+   "t": "10:30:21",
    "msg": "WM_COMMAND Edit>Play Mode>Play отправлен",
    "cmd_id": 40120
   },
   {
-   "t": "02:59:56",
+   "t": "10:30:30",
    "msg": "после WM_COMMAND игра отвечает",
-   "sec": 8.5,
+   "sec": 9.7,
    "signs": false
   },
   {
-   "t": "02:59:59",
+   "t": "10:30:33",
    "msg": "после",
-   "frameCount": 350,
-   "realtime": 10.4975939,
+   "frameCount": 309,
+   "realtime": 11.7115192,
    "consoleFlags": 7683,
    "isPlaying": true,
    "scenes": [
@@ -67,14 +67,14 @@
    ]
   },
   {
-   "t": "03:00:01",
+   "t": "10:30:35",
    "msg": "окно Unity свёрнуто повторно после старта игры (редактор сам разворачивает окно при входе в Play)"
   }
  ],
  "dry": false,
  "start_path": "menu",
- "frames_before": 18437,
- "frames_after": 350,
+ "frames_before": 15987,
+ "frames_after": 309,
  "exit": 0,
- "why": "Play перезапущен: frameCount 18437 -> 350, сцены ['MainMenu', 'PersistentManagers']"
+ "why": "Play перезапущен: frameCount 15987 -> 309, сцены ['MainMenu', 'PersistentManagers']"
 }
