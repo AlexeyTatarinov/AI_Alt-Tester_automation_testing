@@ -1177,6 +1177,228 @@
    "source": "Reports_2026-11-21/results/modules_stage3_20261125/report.md",
    "notes": "Закрыт ссылкой на M03-01 (OBSERVATION, таблица состояние×ввод). Отдельной цепочки не запускали.",
    "needs_clean_play": false
+  },
+  {
+   "id": "M16-01b",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage5",
+   "source": "Reports_2026-11-21/results/modules_stage5_20261126/report.md",
+   "method": "M-PD1: PlayableDirector state/time at 0,2,5,10 s after Beach",
+   "needs_clean_play": true,
+   "depends_on": [],
+   "do_not_repeat_until": "изменения CutsceneTrigger или сцены Beach",
+   "jira": null,
+   "notes": "1 из 1. BeachIntroCutscene state Playing, time 1.69/4.67/9.69 на 2/5/10 с (в 0 с директоры не найдены). GameState всё время Gameplay, _activePlayableDirector None. Расходится с M16-01 (stage1b): тот оракул не видел запуск мимо CutsceneManager.",
+   "module": "M16",
+   "level": "L1"
+  },
+  {
+   "id": "IT-01",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage5",
+   "source": "Reports_2026-11-21/results/modules_stage5_20261126/report.md",
+   "method": "M-PD1,M-EXC",
+   "needs_clean_play": true,
+   "depends_on": [
+    "M16-01b"
+   ],
+   "do_not_repeat_until": "изменения цепочки New Game",
+   "jira": "CC-67",
+   "notes": "1 из 1. save.chop: GUID квестов 5->0; PersistentManagers+Gameplay+Beach; PigChef у DefaultSpawnLocation (разница y 0.08 м); предупреждение CC-67 есть (1); quest 0/0; исключений 0.",
+   "module": "M02",
+   "level": "L2"
+  },
+  {
+   "id": "REG-90-a",
+   "verdict": "FAIL",
+   "date": "2026-11-26",
+   "run": "modules_stage5",
+   "source": "Reports_2026-11-21/results/modules_stage5_20261126/report.md",
+   "method": "M-TP1,M-DLG2; 3x Back to menu->New Game",
+   "needs_clean_play": true,
+   "depends_on": [],
+   "do_not_repeat_until": "исправление CC-90",
+   "jira": "CC-90",
+   "notes": "1 из 1, базовый замер до исправления CC-90. Разговор 1 с BardHare после 3 выходов: Seed 20->8 (-12), 19 реплик, диалог не закрылся за 60 Space, шаг 0->1, исключений 0. Разговор 2 не выполнялся (правило 2a), награда не измерена.",
+   "module": "M12",
+   "level": "L2"
+  },
+  {
+   "id": "M19-01",
+   "verdict": "OBSERVATION",
+   "date": "2026-11-26",
+   "run": "modules_stage5",
+   "source": "Reports_2026-11-21/results/modules_stage5_20261126/report.md",
+   "method": "позиции NPCMovement 7 раз за 30 с",
+   "needs_clean_play": false,
+   "depends_on": [],
+   "do_not_repeat_until": "ответ владельца или изменения NPC",
+   "jira": null,
+   "notes": "Town_Market: 0 из 18 сдвинулись; npcState Idle у всех; NavMeshAgent.isOnNavMesh False у всех. По коду в Walk переводят только финальные катсцены; стоит ли это по замыслу, решает владелец.",
+   "module": "M19",
+   "level": "L1"
+  },
+  {
+   "id": "M19-02",
+   "verdict": "NOT_APPLICABLE",
+   "date": "2026-11-26",
+   "run": "modules_stage5",
+   "source": "Reports_2026-11-21/results/modules_stage5_20261126/report.md",
+   "method": "M-TP1,M-DLG2",
+   "needs_clean_play": false,
+   "depends_on": [
+    "M19-01"
+   ],
+   "do_not_repeat_until": "жители начнут ходить",
+   "jira": null,
+   "notes": "Townsfolk_F (4): разговор есть (1 реплика, закрылся, 0 исключений), но житель не шёл ни до, ни после, поэтому остановку и продолжение пути проверить не на чем.",
+   "module": "M19",
+   "level": "L1"
+  },
+  {
+   "id": "M08-01c",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage5",
+   "source": "Reports_2026-11-21/results/modules_stage5_20261126/report.md",
+   "method": "M-TP1; пол по Physics.Raycast",
+   "needs_clean_play": false,
+   "depends_on": [],
+   "do_not_repeat_until": "изменения этих выходов",
+   "jira": "CC-67",
+   "notes": "2 из 2 выходов, по 1 образцу. Slope: коллайдер y 19.72..27.78, пол 21.81, T1 -> Town_Inner. ToForest: y 7.70..15.82, пол 10.21, T1 -> Forest. Прежние BLOCKED - ошибка метода. Пешком не проверено. Отклонение: сброс из y=29 задел ToInnerTown_FallDown (1).",
+   "module": "M08",
+   "level": "L1"
+  },
+  {
+   "id": "IT-08",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage5",
+   "source": "Reports_2026-11-21/results/modules_stage5_20261126/report.md",
+   "method": "M-TP1",
+   "needs_clean_play": false,
+   "depends_on": [],
+   "do_not_repeat_until": "изменения UIManager/SceneLoader",
+   "jira": null,
+   "notes": "а) Esc через 0.27 с после входа в LocationExit Beach->Field_Hill: загрузка прошла, timeScale 1, паузы нет, Gameplay. б) Esc в инвентаре готовки: инвентарь закрылся, паузы нет, timeScale 1, Gameplay. По 1 образцу. Диалог не проверялся.",
+   "module": "M03",
+   "level": "L2"
+  },
+  {
+   "id": "IT-06",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage5",
+   "source": "Reports_2026-11-21/results/modules_stage5_20261126/report.md",
+   "method": "M-TP1; камера по M07-01",
+   "needs_clean_play": false,
+   "depends_on": [],
+   "do_not_repeat_until": "изменения смерти/респавна",
+   "jira": null,
+   "notes": "1 из 1. Klipper, Mountain_Cave: HP 50->0 за 8.7 с, новый PigChef через 5.8 с после смерти, HP 50, 5 полных сердец, камера 9.85 м на +2 и +5 с, Gameplay, Count 0, Tab открывается, исключений 0.",
+   "module": "M09",
+   "level": "L2"
+  },
+  {
+   "id": "M16-02",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage6",
+   "source": "Reports_2026-11-21/results/modules_stage6_20261126/report.md",
+   "method": "M-PD1; E2E-01 + Ayud S1-Q1-QL2",
+   "needs_clean_play": true,
+   "depends_on": [
+    "IT-01"
+   ],
+   "do_not_repeat_until": "изменения CutsceneManager или S1-Q1-QL2",
+   "jira": null,
+   "notes": "1 из 1. SlimeCutscene Playing, time 1.8/6.8/11.7/21.7 с на 0/5/10/20 с; после конца Gameplay, Tab открывается, W 0.32 м, исключений 0. Во время катсцены GameState читался как Dialogue, не Cutscene (4 из 4 чтений). Конец катсцены при врагах в тревоге не проверен (Count 0).",
+   "module": "M16",
+   "level": "L2"
+  },
+  {
+   "id": "M10-01g",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage6",
+   "source": "Reports_2026-11-21/results/modules_stage6_20261126/report.md",
+   "method": "M-TP1",
+   "needs_clean_play": true,
+   "depends_on": [
+    "M16-02"
+   ],
+   "do_not_repeat_until": "изменения Gluecose или боя",
+   "jira": null,
+   "notes": "Gluecose_FarmAttack после катсцены активны (3), Cut* неактивны. Тревога 1.8 с, Combat, урон герою 50->35, смерть врага и SlimeCritterEgg (1 из 2 попыток: в 1-й за 8 F удар не засчитан, герой погибал). Здоровье врага 0/0 (InitialHealth 0).",
+   "module": "M10",
+   "level": "L2"
+  },
+  {
+   "id": "CMB-05",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage6",
+   "source": "Reports_2026-11-21/results/modules_stage6_20261126/report.md",
+   "method": "M-TP1 + ходьба; y во время движения",
+   "needs_clean_play": true,
+   "depends_on": [
+    "M10-01g"
+   ],
+   "do_not_repeat_until": "изменения коллайдеров Gluecose/PigChef",
+   "jira": "CC-27",
+   "notes": "#426: вплотную до 0.30 м, максимум y +0.05 м (порог 0.3), 14 замеров ближе 1 м; второй враг: 0.85 м, +0.04 м. Один заход с полным HP.",
+   "module": "M10",
+   "level": "L1"
+  },
+  {
+   "id": "DTH-04n",
+   "verdict": "FAIL",
+   "date": "2026-11-26",
+   "run": "modules_stage6",
+   "source": "Reports_2026-11-21/results/modules_stage6_20261126/report.md",
+   "method": "M-TP1, как DTH-04",
+   "needs_clean_play": false,
+   "depends_on": [
+    "DTH-04"
+   ],
+   "do_not_repeat_until": "исправление FallCatcher",
+   "jira": "CC-84",
+   "notes": "NRE FallCatcher.cs:14 в 10 из 10 циклов смерти (FallCatcher_Lake + 3 F), по 1 на цикл; возрождение 10 из 10. Удары Klipper: NRE 0 из 10 (из них 2 смертельных).",
+   "module": "M09",
+   "level": "L1"
+  },
+  {
+   "id": "M08-01d",
+   "verdict": "PASS",
+   "date": "2026-11-26",
+   "run": "modules_stage6",
+   "source": "Reports_2026-11-21/results/modules_stage6_20261126/report.md",
+   "method": "T1 на 3 м выше триггера, гравитация",
+   "needs_clean_play": false,
+   "depends_on": [],
+   "do_not_repeat_until": "изменения этих выходов",
+   "jira": null,
+   "notes": "9 из 9 выходов: переход на ожидаемую сцену и вход того же пути (<=0.01 м), CC-67 нет, HP 50, исключений 0. Дойти пешком не проверялось. JumpDown: после загрузки Beach снова играет интро, PigChef скрыт ~16 с (квестовых шагов 0).",
+   "module": "M08",
+   "level": "L1"
+  },
+  {
+   "id": "M08-02",
+   "verdict": "FAIL",
+   "date": "2026-11-26",
+   "run": "modules_stage6",
+   "source": "Reports_2026-11-21/results/modules_stage6_20261126/report.md",
+   "method": "T1 (x, y+3, z), гравитация",
+   "needs_clean_play": false,
+   "depends_on": [],
+   "do_not_repeat_until": "исправление ссылки _locationToLoad / SceneLoader",
+   "jira": null,
+   "notes": "1 из 1. ToForestEntrance_FallDown: NRE SceneLoader.cs:171; на 5/15/30 с и позже: только PersistentManagers+Gameplay, _isLoading True, игрока нет, состояние Gameplay; меню читов открывается, но локацию не грузит. Нужен перезапуск Play.",
+   "module": "M08",
+   "level": "L1"
   }
  ]
 }

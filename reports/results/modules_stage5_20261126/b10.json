@@ -1,0 +1,39 @@
+{
+ "s": 1.5,
+ "after": {
+  "t": "16:35:45",
+  "label": "ToForest после",
+  "count": 0,
+  "state": "Gameplay",
+  "scenes": [
+   "Forest"
+  ],
+  "hp": 50,
+  "pos": [
+   -53.63,
+   2.98,
+   20.39
+  ]
+ },
+ "log": {
+  "lines": 523,
+  "exceptions": 0,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": []
+ },
+ "entr": [
+  [
+   "LocationEntrance",
+   [
+    -53.62,
+    2.94,
+    20.39
+   ],
+   "InnerTown_Forest"
+  ]
+ ],
+ "exc": 0
+}

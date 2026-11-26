@@ -1,0 +1,144 @@
+{
+ "exits": [
+  {
+   "name": "LocationExit_ToInnerTown_Slope",
+   "to": "Town_Inner",
+   "min": [
+    -0.89,
+    19.72,
+    49.81
+   ],
+   "max": [
+    11.43,
+    27.78,
+    56.09
+   ]
+  },
+  {
+   "name": "LocationExit_ToInnerTown_FallDown",
+   "to": "Town_Inner",
+   "min": [
+    -22.86,
+    21.04,
+    8.17
+   ],
+   "max": [
+    5.06,
+    25.25,
+    47.23
+   ]
+  },
+  {
+   "name": "LocationExit_ToInnerTown_FallDown (1)",
+   "to": "Town_Inner",
+   "min": [
+    -11.24,
+    21.04,
+    5.8
+   ],
+   "max": [
+    28.8,
+    25.25,
+    53.66
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown",
+   "to": "Town_Market",
+   "min": [
+    23.14,
+    21.04,
+    14.43
+   ],
+   "max": [
+    84.26,
+    25.25,
+    53.97
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown (1)",
+   "to": "Town_Market",
+   "min": [
+    72.95,
+    21.04,
+    8.71
+   ],
+   "max": [
+    107.07,
+    25.25,
+    39.11
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown (2)",
+   "to": "Town_Market",
+   "min": [
+    18.64,
+    27.82,
+    36.22
+   ],
+   "max": [
+    44.5,
+    38.27,
+    41.46
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown (3)",
+   "to": "Town_Market",
+   "min": [
+    -37.82,
+    21.04,
+    -29.09
+   ],
+   "max": [
+    -6.14,
+    25.25,
+    -2.41
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown (4)",
+   "to": "Town_Market",
+   "min": [
+    -20.25,
+    21.04,
+    -32.56
+   ],
+   "max": [
+    29.29,
+    25.25,
+    12.2
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown (5)",
+   "to": "Town_Market",
+   "min": [
+    11.05,
+    21.04,
+    -9.55
+   ],
+   "max": [
+    53.57,
+    24.64,
+    33.35
+   ]
+  },
+  {
+   "name": "LocationExit_ToForestEntrance_FallDown",
+   "to": "None",
+   "min": [
+    -53.91,
+    21.04,
+    -15.56
+   ],
+   "max": [
+    -14.49,
+    25.25,
+    44.16
+   ]
+  }
+ ]
+}

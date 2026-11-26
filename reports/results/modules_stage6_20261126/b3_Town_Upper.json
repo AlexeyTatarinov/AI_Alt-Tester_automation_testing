@@ -1,0 +1,420 @@
+{
+ "exits": [
+  {
+   "name": "LocationExit_ToInnerTown_Slope",
+   "id": -438152,
+   "pos": [
+    5.27,
+    19.72,
+    52.95
+   ],
+   "min": [
+    -0.89,
+    19.72,
+    49.81
+   ],
+   "max": [
+    11.43,
+    27.78,
+    56.09
+   ],
+   "to": "Town_Inner",
+   "path": "InnerTown_UpperTown_Slope",
+   "center": [
+    0.0,
+    1.5,
+    0.0
+   ],
+   "size": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "euler": [
+    0.0,
+    111.65,
+    0.0
+   ],
+   "scale": [
+    1.78,
+    2.68,
+    4.19
+   ]
+  },
+  {
+   "name": "LocationExit_ToInnerTown_FallDown",
+   "id": -430916,
+   "pos": [
+    -8.9,
+    21.04,
+    27.7
+   ],
+   "min": [
+    -22.86,
+    21.04,
+    8.17
+   ],
+   "max": [
+    5.06,
+    25.25,
+    47.23
+   ],
+   "to": "Town_Inner",
+   "path": "InnerTown_UpperTown_Slope",
+   "center": [
+    0.0,
+    1.5,
+    0.0
+   ],
+   "size": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "euler": [
+    0.0,
+    81.78,
+    0.0
+   ],
+   "scale": [
+    36.14,
+    1.4,
+    7.66
+   ]
+  },
+  {
+   "name": "LocationExit_ToInnerTown_FallDown (1)",
+   "id": -437766,
+   "pos": [
+    8.78,
+    21.04,
+    29.73
+   ],
+   "min": [
+    -11.24,
+    21.04,
+    5.8
+   ],
+   "max": [
+    28.8,
+    25.25,
+    53.66
+   ],
+   "to": "Town_Inner",
+   "path": "InnerTown_UpperTown_Slope",
+   "center": [
+    0.0,
+    1.5,
+    0.0
+   ],
+   "size": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "euler": [
+    0.0,
+    106.64,
+    0.0
+   ],
+   "scale": [
+    41.15,
+    1.4,
+    9.83
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown",
+   "id": -439176,
+   "pos": [
+    53.7,
+    21.04,
+    34.2
+   ],
+   "min": [
+    23.14,
+    21.04,
+    14.43
+   ],
+   "max": [
+    84.26,
+    25.25,
+    53.97
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_BackSide",
+   "center": [
+    0.0,
+    1.5,
+    0.0
+   ],
+   "size": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "euler": [
+    0.0,
+    23.57,
+    0.0
+   ],
+   "scale": [
+    59.13,
+    1.4,
+    5.78
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown (1)",
+   "id": -430626,
+   "pos": [
+    90.01,
+    21.04,
+    23.91
+   ],
+   "min": [
+    72.95,
+    21.04,
+    8.71
+   ],
+   "max": [
+    107.07,
+    25.25,
+    39.11
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_MountainPath",
+   "center": [
+    0.0,
+    1.5,
+    0.0
+   ],
+   "size": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "euler": [
+    0.0,
+    327.57,
+    0.0
+   ],
+   "scale": [
+    29.41,
+    1.4,
+    5.78
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown (2)",
+   "id": -437706,
+   "pos": [
+    31.57,
+    27.82,
+    38.84
+   ],
+   "min": [
+    18.64,
+    27.82,
+    36.22
+   ],
+   "max": [
+    44.5,
+    38.27,
+    41.46
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_BackSide",
+   "center": [
+    0.0,
+    1.5,
+    0.0
+   ],
+   "size": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "euler": [
+    0.0,
+    3.35,
+    0.0
+   ],
+   "scale": [
+    25.69,
+    3.48,
+    1.25
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown (3)",
+   "id": -435430,
+   "pos": [
+    -21.98,
+    21.04,
+    -15.75
+   ],
+   "min": [
+    -37.82,
+    21.04,
+    -29.09
+   ],
+   "max": [
+    -6.14,
+    25.25,
+    -2.41
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_Riverside",
+   "center": [
+    0.0,
+    1.5,
+    0.0
+   ],
+   "size": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "euler": [
+    0.0,
+    23.57,
+    0.0
+   ],
+   "scale": [
+    27.0,
+    1.4,
+    5.78
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown (4)",
+   "id": -439076,
+   "pos": [
+    4.52,
+    21.04,
+    -10.18
+   ],
+   "min": [
+    -20.25,
+    21.04,
+    -32.56
+   ],
+   "max": [
+    29.29,
+    25.25,
+    12.2
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_Riverside",
+   "center": [
+    0.0,
+    1.5,
+    0.0
+   ],
+   "size": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "euler": [
+    0.0,
+    334.63,
+    0.0
+   ],
+   "scale": [
+    40.44,
+    1.4,
+    10.12
+   ]
+  },
+  {
+   "name": "LocationExit_ToMarket_FallDown (5)",
+   "id": -434234,
+   "pos": [
+    32.31,
+    21.04,
+    11.9
+   ],
+   "min": [
+    11.05,
+    21.04,
+    -9.55
+   ],
+   "max": [
+    53.57,
+    24.64,
+    33.35
+   ],
+   "to": "Town_Market",
+   "path": "TownMarket_InnerTown_Riverside",
+   "center": [
+    0.0,
+    1.5,
+    0.0
+   ],
+   "size": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "euler": [
+    0.0,
+    313.29,
+    0.0
+   ],
+   "scale": [
+    34.51,
+    1.2,
+    8.64
+   ]
+  },
+  {
+   "name": "LocationExit_ToForestEntrance_FallDown",
+   "id": -434218,
+   "pos": [
+    -34.2,
+    21.04,
+    14.3
+   ],
+   "min": [
+    -53.91,
+    21.04,
+    -15.56
+   ],
+   "max": [
+    -14.49,
+    25.25,
+    44.16
+   ],
+   "to": "None",
+   "path": "InnerTown_Forest",
+   "center": [
+    0.0,
+    1.5,
+    0.0
+   ],
+   "size": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "euler": [
+    0.0,
+    81.78,
+    0.0
+   ],
+   "scale": [
+    55.75,
+    1.4,
+    10.59
+   ]
+  }
+ ],
+ "catchers": [],
+ "arrive": [
+  33.16729,
+  30.6753368,
+  58.87044
+ ]
+}

@@ -1,0 +1,572 @@
+{
+ "LocationExit_ToInnerTown_FallDown": {
+  "src": "Town_Upper",
+  "exit": "LocationExit_ToInnerTown_FallDown",
+  "to": "Town_Inner",
+  "path": "InnerTown_UpperTown_Slope",
+  "trig_y": [
+   21.04,
+   25.25
+  ],
+  "samples": [
+   {
+    "dt": 0.0,
+    "y": 27.74,
+    "map": true,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.41,
+    "y": 18.07,
+    "map": false,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.84,
+    "err": "AttributeError",
+    "sc": [
+     "Town_Inner"
+    ]
+   }
+  ],
+  "point": {
+   "x": -8.9,
+   "z": 27.7,
+   "y": 28.25,
+   "from_center": 0.0,
+   "margin": 1.0,
+   "center_overlaps": []
+  },
+  "hp0": 50,
+  "left_s": 0.84,
+  "scenes_after": [
+   "Town_Inner"
+  ],
+  "pos_after": [
+   5.51,
+   14.48,
+   38.05
+  ],
+  "state": "Gameplay",
+  "hp": 50,
+  "entrances_same_path": [
+   [
+    "LocationEntrance_FromUpperTown",
+    0.0,
+    "InnerTown_UpperTown_Slope"
+   ]
+  ],
+  "cc67": 0,
+  "exc": 0,
+  "by_type": {},
+  "y_trace": [
+   27.74,
+   18.07,
+   18.07
+  ],
+  "map_off_y": 18.07
+ },
+ "LocationExit_ToInnerTown_FallDown (1)": {
+  "src": "Town_Upper",
+  "exit": "LocationExit_ToInnerTown_FallDown (1)",
+  "to": "Town_Inner",
+  "path": "InnerTown_UpperTown_Slope",
+  "trig_y": [
+   21.04,
+   25.25
+  ],
+  "samples": [
+   {
+    "dt": 0.0,
+    "y": 27.21,
+    "map": true,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.48,
+    "y": 14.83,
+    "map": false,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.93,
+    "err": "AttributeError",
+    "sc": [
+     "Town_Inner"
+    ]
+   }
+  ],
+  "point": {
+   "x": 8.78,
+   "z": 29.73,
+   "y": 28.25,
+   "from_center": 0.0,
+   "margin": 1.0,
+   "center_overlaps": []
+  },
+  "hp0": 50,
+  "left_s": 0.93,
+  "scenes_after": [
+   "Town_Inner"
+  ],
+  "pos_after": [
+   5.51,
+   14.48,
+   38.05
+  ],
+  "state": "Gameplay",
+  "hp": 50,
+  "entrances_same_path": [
+   [
+    "LocationEntrance_FromUpperTown",
+    0.0,
+    "InnerTown_UpperTown_Slope"
+   ]
+  ],
+  "cc67": 0,
+  "exc": 0,
+  "by_type": {},
+  "y_trace": [
+   27.21,
+   14.83,
+   14.83
+  ],
+  "map_off_y": 14.83
+ },
+ "LocationExit_ToMarket_FallDown": {
+  "src": "Town_Upper",
+  "exit": "LocationExit_ToMarket_FallDown",
+  "to": "Town_Market",
+  "path": "TownMarket_InnerTown_BackSide",
+  "trig_y": [
+   21.04,
+   25.25
+  ],
+  "samples": [
+   {
+    "dt": 0.0,
+    "y": 26.76,
+    "map": true,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.35,
+    "y": 19.21,
+    "map": false,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.69,
+    "err": "AttributeError",
+    "sc": [
+     "Town_Market"
+    ]
+   }
+  ],
+  "point": {
+   "x": 53.7,
+   "z": 34.2,
+   "y": 28.25,
+   "from_center": 0.0,
+   "margin": 1.0,
+   "center_overlaps": []
+  },
+  "hp0": 50,
+  "left_s": 0.69,
+  "scenes_after": [
+   "Town_Market"
+  ],
+  "pos_after": [
+   48.4,
+   11.06,
+   37.3
+  ],
+  "state": "Gameplay",
+  "hp": 50,
+  "entrances_same_path": [
+   [
+    "LocationEntrance_FromInnerTown_Backside",
+    0.0,
+    "TownMarket_InnerTown_BackSide"
+   ]
+  ],
+  "cc67": 0,
+  "exc": 0,
+  "by_type": {},
+  "y_trace": [
+   26.76,
+   19.21,
+   19.21
+  ],
+  "map_off_y": 19.21
+ },
+ "LocationExit_ToMarket_FallDown (1)": {
+  "src": "Town_Upper",
+  "exit": "LocationExit_ToMarket_FallDown (1)",
+  "to": "Town_Market",
+  "path": "TownMarket_MountainPath",
+  "trig_y": [
+   21.04,
+   25.25
+  ],
+  "samples": [
+   {
+    "dt": 0.0,
+    "y": 26.96,
+    "map": true,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.38,
+    "y": 17.2,
+    "map": false,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.75,
+    "err": "AttributeError",
+    "sc": [
+     "Town_Market"
+    ]
+   }
+  ],
+  "point": {
+   "x": 90.01,
+   "z": 23.91,
+   "y": 28.25,
+   "from_center": 0.0,
+   "margin": 1.0,
+   "center_overlaps": []
+  },
+  "hp0": 50,
+  "left_s": 0.75,
+  "scenes_after": [
+   "Town_Market"
+  ],
+  "pos_after": [
+   81.49,
+   7.89,
+   20.61
+  ],
+  "state": "Gameplay",
+  "hp": 50,
+  "entrances_same_path": [
+   [
+    "LocationEntrance_FromMountainPath",
+    0.0,
+    "TownMarket_MountainPath"
+   ]
+  ],
+  "cc67": 0,
+  "exc": 0,
+  "by_type": {},
+  "y_trace": [
+   26.96,
+   17.2,
+   17.2
+  ],
+  "map_off_y": 17.2
+ },
+ "LocationExit_ToMarket_FallDown (2)": {
+  "src": "Town_Upper",
+  "exit": "LocationExit_ToMarket_FallDown (2)",
+  "to": "Town_Market",
+  "path": "TownMarket_InnerTown_BackSide",
+  "trig_y": [
+   27.82,
+   38.27
+  ],
+  "samples": [
+   {
+    "dt": 0.0,
+    "y": 40.19,
+    "map": true,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.37,
+    "y": 32.08,
+    "map": false,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.74,
+    "err": "AttributeError",
+    "sc": [
+     "Town_Market"
+    ]
+   }
+  ],
+  "point": {
+   "x": 31.57,
+   "z": 38.84,
+   "y": 41.27,
+   "from_center": 0.0,
+   "margin": 0,
+   "lower_overlap": [
+    "LocationExit_ToMarket_FallDown"
+   ]
+  },
+  "hp0": 50,
+  "left_s": 0.74,
+  "scenes_after": [
+   "Town_Market"
+  ],
+  "pos_after": [
+   48.4,
+   11.06,
+   37.3
+  ],
+  "state": "Gameplay",
+  "hp": 50,
+  "entrances_same_path": [
+   [
+    "LocationEntrance_FromInnerTown_Backside",
+    0.0,
+    "TownMarket_InnerTown_BackSide"
+   ]
+  ],
+  "cc67": 0,
+  "exc": 0,
+  "by_type": {},
+  "y_trace": [
+   40.19,
+   32.08,
+   32.08
+  ],
+  "map_off_y": 32.08
+ },
+ "LocationExit_ToMarket_FallDown (3)": {
+  "src": "Town_Upper",
+  "exit": "LocationExit_ToMarket_FallDown (3)",
+  "to": "Town_Market",
+  "path": "TownMarket_InnerTown_Riverside",
+  "trig_y": [
+   21.04,
+   25.25
+  ],
+  "samples": [
+   {
+    "dt": 0.0,
+    "y": 27.43,
+    "map": true,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.39,
+    "y": 18.51,
+    "map": false,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.8,
+    "err": "AttributeError",
+    "sc": [
+     "Town_Market"
+    ]
+   }
+  ],
+  "point": {
+   "x": -21.98,
+   "z": -15.75,
+   "y": 28.25,
+   "from_center": 0.0,
+   "margin": 1.0,
+   "center_overlaps": []
+  },
+  "hp0": 50,
+  "left_s": 0.8,
+  "scenes_after": [
+   "Town_Market"
+  ],
+  "pos_after": [
+   2.71,
+   11.34,
+   -2.17
+  ],
+  "state": "Gameplay",
+  "hp": 50,
+  "entrances_same_path": [
+   [
+    "LocationEntrance_FromInnerTown_Riverside",
+    0.01,
+    "TownMarket_InnerTown_Riverside"
+   ]
+  ],
+  "cc67": 0,
+  "exc": 0,
+  "by_type": {},
+  "y_trace": [
+   27.43,
+   18.51,
+   18.51
+  ],
+  "map_off_y": 18.51
+ },
+ "LocationExit_ToMarket_FallDown (4)": {
+  "src": "Town_Upper",
+  "exit": "LocationExit_ToMarket_FallDown (4)",
+  "to": "Town_Market",
+  "path": "TownMarket_InnerTown_Riverside",
+  "trig_y": [
+   21.04,
+   25.25
+  ],
+  "samples": [
+   {
+    "dt": 0.0,
+    "y": 27.39,
+    "map": true,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.42,
+    "y": 17.26,
+    "map": false,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.85,
+    "err": "AttributeError",
+    "sc": [
+     "Town_Market"
+    ]
+   }
+  ],
+  "point": {
+   "x": 4.52,
+   "z": -10.18,
+   "y": 28.25,
+   "from_center": 0.0,
+   "margin": 1.0,
+   "center_overlaps": []
+  },
+  "hp0": 50,
+  "left_s": 0.85,
+  "scenes_after": [
+   "Town_Market"
+  ],
+  "pos_after": [
+   2.71,
+   11.34,
+   -2.17
+  ],
+  "state": "Gameplay",
+  "hp": 50,
+  "entrances_same_path": [
+   [
+    "LocationEntrance_FromInnerTown_Riverside",
+    0.01,
+    "TownMarket_InnerTown_Riverside"
+   ]
+  ],
+  "cc67": 0,
+  "exc": 0,
+  "by_type": {},
+  "y_trace": [
+   27.39,
+   17.26,
+   17.26
+  ],
+  "map_off_y": 17.26
+ },
+ "LocationExit_ToMarket_FallDown (5)": {
+  "src": "Town_Upper",
+  "exit": "LocationExit_ToMarket_FallDown (5)",
+  "to": "Town_Market",
+  "path": "TownMarket_InnerTown_Riverside",
+  "trig_y": [
+   21.04,
+   24.64
+  ],
+  "samples": [
+   {
+    "dt": 0.0,
+    "y": 26.91,
+    "map": true,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.53,
+    "y": 15.62,
+    "map": false,
+    "sc": [
+     "Town_Upper"
+    ]
+   },
+   {
+    "dt": 0.98,
+    "err": "AttributeError",
+    "sc": [
+     "Town_Market"
+    ]
+   }
+  ],
+  "point": {
+   "x": 32.31,
+   "z": 11.9,
+   "y": 27.64,
+   "from_center": 0.0,
+   "margin": 1.0,
+   "center_overlaps": []
+  },
+  "hp0": 50,
+  "left_s": 0.98,
+  "scenes_after": [
+   "Town_Market"
+  ],
+  "pos_after": [
+   2.71,
+   11.34,
+   -2.17
+  ],
+  "state": "Gameplay",
+  "hp": 50,
+  "entrances_same_path": [
+   [
+    "LocationEntrance_FromInnerTown_Riverside",
+    0.01,
+    "TownMarket_InnerTown_Riverside"
+   ]
+  ],
+  "cc67": 0,
+  "exc": 0,
+  "by_type": {},
+  "y_trace": [
+   26.91,
+   15.62,
+   15.62
+  ],
+  "map_off_y": 15.62
+ }
+}

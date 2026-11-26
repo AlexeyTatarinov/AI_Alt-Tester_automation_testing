@@ -1,0 +1,47 @@
+{
+ "window_restores": 2,
+ "preflight": {
+  "time": "20:00:52",
+  "label": "goto_Town_Market",
+  "port_13000": true,
+  "window": {
+   "pid": 4492,
+   "cpu_delta_1_5s": 2.984,
+   "foreground": false,
+   "title": "UOP1_Project - PersistentManagers - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
+   "responding": true,
+   "found": true,
+   "shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/modules_stage6_20261126\\shots\\preflight_goto_Town_Market.png",
+   "iconic": false
+  },
+  "consoleFlags": 7683,
+  "consoleFlags_note": "прочиталось (assembly UnityEditor.CoreModule)",
+  "error_pause": false,
+  "play": [
+   true,
+   "isPlaying прочитан"
+  ],
+  "log_offset": 570808620,
+  "log_last_lines": [
+   "  \"assembly\": \"UnityEditor.CoreModule\",",
+   "  \"maxDepth\": 2,",
+   "  \"driverId\": \"a6c79dcb37b84be5a7a9c3ae8974a911\"",
+   "}",
+   "2026-11-26 20:00:54.5690|AltTester|DEBUG|response sent: {\"messageId\":\"557547\",\"driverId\":\"a6c79dcb37b84be5a7a9c3ae8974a911\",\"commandName\":\"getObjectComponentProperty\",\"error\":null,\"data\":\"true\",\"isNot"
+  ],
+  "alive": true,
+  "alive_detail": "frameCount 157335 -> 157653",
+  "game_pause_menu": false
+ },
+ "guard_offset": 570808620,
+ "unpause_attempts": 0,
+ "risky_checkpoint": {
+  "time": "19:37:45",
+  "step": "b1",
+  "log_size": 565998164,
+  "save_hashes": {
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
+   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079"
+  }
+ }
+}

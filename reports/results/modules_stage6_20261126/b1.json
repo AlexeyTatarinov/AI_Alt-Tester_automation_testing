@@ -1,0 +1,238 @@
+{
+ "cycles": [
+  {
+   "n": 1,
+   "t": "19:38:38",
+   "respawn_s": 5.1,
+   "pos": [
+    18.1,
+    3.3,
+    -30.6
+   ],
+   "hp": 50,
+   "state": "Gameplay",
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   },
+   "log": [
+    "NullReferenceException: Object reference not set to an instance of an object"
+   ]
+  },
+  {
+   "n": 2,
+   "t": "19:38:48",
+   "respawn_s": 5.1,
+   "pos": [
+    18.1,
+    3.3,
+    -30.6
+   ],
+   "hp": 50,
+   "state": "Gameplay",
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   },
+   "log": [
+    "NullReferenceException: Object reference not set to an instance of an object"
+   ]
+  },
+  {
+   "n": 3,
+   "t": "19:38:57",
+   "respawn_s": 5.1,
+   "pos": [
+    18.1,
+    3.3,
+    -30.6
+   ],
+   "hp": 50,
+   "state": "Gameplay",
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   },
+   "log": [
+    "NullReferenceException: Object reference not set to an instance of an object"
+   ]
+  },
+  {
+   "n": 4,
+   "t": "19:39:06",
+   "respawn_s": 5.1,
+   "pos": [
+    18.1,
+    3.3,
+    -30.6
+   ],
+   "hp": 50,
+   "state": "Gameplay",
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   },
+   "log": [
+    "NullReferenceException: Object reference not set to an instance of an object"
+   ]
+  },
+  {
+   "n": 5,
+   "t": "19:39:16",
+   "respawn_s": 5.1,
+   "pos": [
+    18.1,
+    3.3,
+    -30.6
+   ],
+   "hp": 50,
+   "state": "Gameplay",
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   },
+   "log": [
+    "NullReferenceException: Object reference not set to an instance of an object"
+   ]
+  },
+  {
+   "n": 6,
+   "t": "19:39:25",
+   "respawn_s": 5.1,
+   "pos": [
+    18.1,
+    3.3,
+    -30.6
+   ],
+   "hp": 50,
+   "state": "Gameplay",
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   },
+   "log": [
+    "NullReferenceException: Object reference not set to an instance of an object"
+   ]
+  },
+  {
+   "n": 7,
+   "t": "19:39:35",
+   "respawn_s": 5.1,
+   "pos": [
+    18.1,
+    3.3,
+    -30.6
+   ],
+   "hp": 50,
+   "state": "Gameplay",
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   },
+   "log": [
+    "NullReferenceException: Object reference not set to an instance of an object"
+   ]
+  },
+  {
+   "n": 8,
+   "t": "19:39:44",
+   "respawn_s": 5.1,
+   "pos": [
+    18.1,
+    3.3,
+    -30.6
+   ],
+   "hp": 50,
+   "state": "Gameplay",
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   },
+   "log": [
+    "NullReferenceException: Object reference not set to an instance of an object"
+   ]
+  },
+  {
+   "n": 9,
+   "t": "19:39:54",
+   "respawn_s": 5.1,
+   "pos": [
+    18.1,
+    3.3,
+    -30.6
+   ],
+   "hp": 50,
+   "state": "Gameplay",
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   },
+   "log": [
+    "NullReferenceException: Object reference not set to an instance of an object"
+   ]
+  },
+  {
+   "n": 10,
+   "t": "19:40:03",
+   "respawn_s": 5.1,
+   "pos": [
+    18.1,
+    3.3,
+    -30.6
+   ],
+   "hp": 50,
+   "state": "Gameplay",
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   },
+   "log": [
+    "NullReferenceException: Object reference not set to an instance of an object"
+   ]
+  }
+ ],
+ "frameCount0": 3527,
+ "hygiene": {
+  "b1": {
+   "clear": "(True, None)",
+   "stack": "{'log': (True, None), 'warning': (True, None)}",
+   "count": "0"
+  }
+ },
+ "off": 566418307,
+ "zone": [
+  2.11,
+  -4.15,
+  -24.7
+ ],
+ "zone_hits_exit": [],
+ "stack": {
+  "NullReferenceException": [
+   "NullReferenceException: Object reference not set to an instance of an object",
+   "  at FallCatcher.OnTriggerEnter (UnityEngine.Collider other) [0x0001e] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\SceneManagement\\FallCatcher.cs:14 ",
+   "",
+   "(Filename: Assets/Scripts/SceneManagement/FallCatcher.cs Line: 14)",
+   "",
+   "  \"commandName\": \"gameFindObjects\",",
+   "  \"messageId\": \"612928\","
+  ]
+ },
+ "cycles_with_nre": 10,
+ "exc": {
+  "by_type": {
+   "NullReferenceException": 10
+  },
+  "total": 10,
+  "first_stacks": {
+   "NullReferenceException": [
+    "NullReferenceException: Object reference not set to an instance of an object",
+    "  at FallCatcher.OnTriggerEnter (UnityEngine.Collider other) [0x0001e] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\SceneManagement\\FallCatcher.cs:14 ",
+    "",
+    "(Filename: Assets/Scripts/SceneManagement/FallCatcher.cs Line: 14)",
+    "",
+    "  \"commandName\": \"gameFindObjects\",",
+    "  \"messageId\": \"612928\","
+   ]
+  }
+ }
+}

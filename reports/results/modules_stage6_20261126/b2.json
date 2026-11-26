@@ -1,0 +1,151 @@
+{
+ "hits": [
+  {
+   "n": 1,
+   "t": "19:40:41",
+   "hp": [
+    50,
+    35
+   ],
+   "death": false,
+   "exc": 0,
+   "by_type": {}
+  },
+  {
+   "n": 2,
+   "t": "19:40:44",
+   "hp": [
+    35,
+    20
+   ],
+   "death": false,
+   "exc": 0,
+   "by_type": {}
+  },
+  {
+   "n": 3,
+   "t": "19:40:46",
+   "hp": [
+    20,
+    5
+   ],
+   "death": false,
+   "exc": 0,
+   "by_type": {}
+  },
+  {
+   "n": 4,
+   "t": "19:40:48",
+   "hp": [
+    5,
+    50
+   ],
+   "death": true,
+   "exc": 0,
+   "by_type": {},
+   "exc_respawn": 0
+  },
+  {
+   "n": 5,
+   "t": "19:40:57",
+   "hp": [
+    50,
+    35
+   ],
+   "death": false,
+   "exc": 0,
+   "by_type": {}
+  },
+  {
+   "n": 6,
+   "t": "19:40:59",
+   "hp": [
+    35,
+    20
+   ],
+   "death": false,
+   "exc": 0,
+   "by_type": {}
+  },
+  {
+   "n": 7,
+   "t": "19:41:01",
+   "hp": [
+    20,
+    5
+   ],
+   "death": false,
+   "exc": 0,
+   "by_type": {}
+  },
+  {
+   "n": 8,
+   "t": "19:41:03",
+   "hp": [
+    5,
+    50
+   ],
+   "death": true,
+   "exc": 0,
+   "by_type": {},
+   "exc_respawn": 0
+  },
+  {
+   "n": 9,
+   "t": "19:41:14",
+   "hp": [
+    50,
+    35
+   ],
+   "death": false,
+   "exc": 0,
+   "by_type": {}
+  },
+  {
+   "n": 10,
+   "t": "19:41:16",
+   "hp": [
+    35,
+    20
+   ],
+   "death": false,
+   "exc": 0,
+   "by_type": {}
+  }
+ ],
+ "tp": 3,
+ "hygiene_ticks": [
+  {
+   "t": "19:40:19",
+   "tag": "b2",
+   "cleared": true,
+   "count_before": 3,
+   "count_after": 0
+  }
+ ],
+ "enemy": "Klipper",
+ "n_hits": 10,
+ "hits_with_nre": 0,
+ "exc": {
+  "by_type": {
+   "NullReferenceException": 10
+  },
+  "total": 10,
+  "first_stacks": {
+   "NullReferenceException": [
+    "NullReferenceException: Object reference not set to an instance of an object",
+    "  at FallCatcher.OnTriggerEnter (UnityEngine.Collider other) [0x0001e] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\SceneManagement\\FallCatcher.cs:14 ",
+    "",
+    "(Filename: Assets/Scripts/SceneManagement/FallCatcher.cs Line: 14)",
+    "",
+    "  \"commandName\": \"gameFindObjects\",",
+    "  \"messageId\": \"612928\","
+   ]
+  }
+ },
+ "end": {
+  "state": "Combat",
+  "count": 1,
+  "hp": 20
+ }
+}

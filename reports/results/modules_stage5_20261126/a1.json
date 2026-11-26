@@ -1,0 +1,165 @@
+{
+ "samples": [
+  {
+   "tag": "0s",
+   "dt": 0.0,
+   "t": "16:19:56",
+   "directors": [],
+   "state": "Gameplay",
+   "_activePlayableDirector": "None"
+  },
+  {
+   "tag": "2s",
+   "dt": 2.07,
+   "t": "16:19:58",
+   "directors": [
+    {
+     "name": "CutscenePlayableDirector",
+     "id": -41548,
+     "go_enabled": true,
+     "state": 0,
+     "time": 0.0,
+     "playableAsset.name": "BeachCandyCutscene",
+     "duration": 75.033333333333,
+     "playOnAwake": false
+    },
+    {
+     "name": "CutscenePlayableDirector",
+     "id": -43828,
+     "go_enabled": true,
+     "state": 1,
+     "time": 1.6942264959216118,
+     "playableAsset.name": "BeachIntroCutscene",
+     "duration": 15.066666666666,
+     "playOnAwake": false
+    }
+   ],
+   "state": "Gameplay",
+   "_activePlayableDirector": "None"
+  },
+  {
+   "tag": "5s",
+   "dt": 5.04,
+   "t": "16:20:01",
+   "directors": [
+    {
+     "name": "CutscenePlayableDirector",
+     "id": -41548,
+     "go_enabled": true,
+     "state": 0,
+     "time": 0.0,
+     "playableAsset.name": "BeachCandyCutscene",
+     "duration": 75.033333333333,
+     "playOnAwake": false
+    },
+    {
+     "name": "CutscenePlayableDirector",
+     "id": -43828,
+     "go_enabled": true,
+     "state": 1,
+     "time": 4.6662551974877715,
+     "playableAsset.name": "BeachIntroCutscene",
+     "duration": 15.066666666666,
+     "playOnAwake": false
+    }
+   ],
+   "state": "Gameplay",
+   "_activePlayableDirector": "None"
+  },
+  {
+   "tag": "10s",
+   "dt": 10.05,
+   "t": "16:20:06",
+   "directors": [
+    {
+     "name": "CutscenePlayableDirector",
+     "id": -41548,
+     "go_enabled": true,
+     "state": 0,
+     "time": 0.0,
+     "playableAsset.name": "BeachCandyCutscene",
+     "duration": 75.033333333333,
+     "playOnAwake": false
+    },
+    {
+     "name": "CutscenePlayableDirector",
+     "id": -43828,
+     "go_enabled": true,
+     "state": 1,
+     "time": 9.691267013549805,
+     "playableAsset.name": "BeachIntroCutscene",
+     "duration": 15.066666666666,
+     "playOnAwake": false
+    }
+   ],
+   "state": "Gameplay",
+   "_activePlayableDirector": "None"
+  }
+ ],
+ "frameCount0": 1570,
+ "save_before": {
+  "hash": "33c38933a6cb735c",
+  "finished": [
+   "7b43c62a4fa974bbc82d5af43cc173ca",
+   "2419d670f41b60f45939ba1637631315",
+   "2187c1f18f6f9ae4bbd10f33a1871d8e",
+   "a025a2dfd3ab26844a62c94ac3899db6",
+   "081f946471c1cce4da8b7d99e82e7b40"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 17,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1,
+   "be909b": 1,
+   "a1dd90": 1,
+   "edcc6c": 1
+  }
+ },
+ "save_before_hash": {
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "c9dde7118826c1bd",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+ },
+ "save_equals_backup": true,
+ "hygiene": {
+  "a1": {
+   "clear": "(True, None)",
+   "stack": "{'log': (True, None), 'warning': (True, None)}",
+   "count": "0"
+  }
+ },
+ "off": 14126164,
+ "it01": {
+  "save": {
+   "hash": "628fab9eef30a455",
+   "finished": [],
+   "stacks": {
+    "540c35": 1,
+    "42396f": 20,
+    "1c53a3": 20,
+    "7a6557": 20,
+    "f14caf": 20,
+    "3e3538": 1
+   }
+  },
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "quest": {
+   "line": 0,
+   "step": 0,
+   "step_name": "None",
+   "step_type": "None",
+   "actor": "None",
+   "item": "None",
+   "quest_name": "None"
+  }
+ }
+}

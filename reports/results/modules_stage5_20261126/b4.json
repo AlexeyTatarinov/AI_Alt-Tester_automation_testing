@@ -1,0 +1,73 @@
+{
+ "under": [
+  {
+   "from": [
+    5.27,
+    17.8,
+    52.95
+   ],
+   "land": [
+    5.27,
+    13.01,
+    52.95
+   ],
+   "grounded": true
+  },
+  {
+   "from": [
+    8.99,
+    17.8,
+    51.47
+   ],
+   "land": [
+    8.99,
+    13.12,
+    51.47
+   ],
+   "grounded": true
+  },
+  {
+   "from": [
+    1.55,
+    17.8,
+    54.43
+   ],
+   "land": [
+    1.55,
+    12.89,
+    54.43
+   ],
+   "grounded": true
+  }
+ ],
+ "around": [
+  {
+   "from": [
+    4.35,
+    29.0,
+    50.62
+   ],
+   "scene_changed": [
+    [
+     "Town_Upper"
+    ],
+    [
+     "Town_Inner"
+    ],
+    3.3
+   ]
+  }
+ ],
+ "line": [],
+ "home": [
+  33.16729,
+  30.6753368,
+  58.87044
+ ],
+ "scenes": [
+  "PersistentManagers",
+  "Gameplay",
+  "Town_Inner"
+ ],
+ "exc": 0
+}

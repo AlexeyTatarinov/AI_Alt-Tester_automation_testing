@@ -1,0 +1,99 @@
+{
+ "it01": {
+  "save": {
+   "hash": "628fab9eef30a455",
+   "finished": [],
+   "stacks": {
+    "540c35": 1,
+    "42396f": 20,
+    "1c53a3": 20,
+    "7a6557": 20,
+    "f14caf": 20,
+    "3e3538": 1
+   }
+  },
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "quest": {
+   "line": 0,
+   "step": 0,
+   "step_name": "None",
+   "step_type": "None",
+   "actor": "None",
+   "item": "None",
+   "quest_name": "None"
+  },
+  "pig_count": 1,
+  "pig": [
+   [
+    -195.58,
+    -9.5,
+    -376.9
+   ]
+  ],
+  "pig_active_find": 1,
+  "spawnsystem_children": [
+   [
+    "DefaultSpawnLocation",
+    [
+     -195.58,
+     -9.42,
+     -376.9
+    ]
+   ]
+  ],
+  "entrances": [
+   [
+    "LocationEntrance",
+    [
+     -58.27,
+     -5.32,
+     -369.79
+    ],
+    "Beach_FieldsHill"
+   ]
+  ],
+  "lastPathTaken": "None",
+  "log": {
+   "lines": 3862,
+   "exceptions": 0,
+   "errors": 0,
+   "cc_inactive_warnings": 0,
+   "cc67_locationentry": 1,
+   "warnings_other": 104,
+   "samples": []
+  },
+  "exc": {
+   "by_type": {},
+   "total": 0,
+   "first_stacks": {}
+  },
+  "alert_count": 0
+ },
+ "directors": [
+  {
+   "name": "CutscenePlayableDirector",
+   "id": -41548,
+   "go_enabled": true,
+   "state": 0,
+   "time": 0.0,
+   "playableAsset.name": "BeachCandyCutscene",
+   "duration": 75.033333333333,
+   "playOnAwake": false
+  },
+  {
+   "name": "CutscenePlayableDirector",
+   "id": -43828,
+   "go_enabled": true,
+   "state": 0,
+   "time": 0.0,
+   "playableAsset.name": "BeachIntroCutscene",
+   "duration": 15.066666666666,
+   "playOnAwake": false
+  }
+ ]
+}

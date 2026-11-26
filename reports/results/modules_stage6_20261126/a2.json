@@ -1,0 +1,761 @@
+{
+ "samples": [
+  {
+   "tag": "0s",
+   "dt": 0.2,
+   "t": "19:31:36",
+   "state": "Dialogue",
+   "directors": [
+    {
+     "name": "Ciro Farmer",
+     "id": -362134,
+     "go_active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "state": 1,
+     "time": 33.2757861004211,
+     "duration": 71.516666666666,
+     "playableAsset.name": "FarmingAnimation"
+    },
+    {
+     "name": "CutscenePlayableDirector (1)",
+     "id": -355656,
+     "go_active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "state": 1,
+     "time": 1.7941439975984395,
+     "duration": 26.116666666666,
+     "playableAsset.name": "SlimeCutscene"
+    }
+   ],
+   "_activePlayableDirector": "CutscenePlayableDirector (1)",
+   "glue": [
+    {
+     "name": "Gluecose_FarmAttack",
+     "id": -360676,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      37.91,
+      2.71,
+      -152.37
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "Gluecose_FarmAttack (1)",
+     "id": -360784,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      44.07,
+      2.23,
+      -143.18
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "Gluecose_FarmAttack (2)",
+     "id": -360892,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      45.25,
+      2.36,
+      -127.53
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356526,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      45.25,
+      2.36,
+      -127.53
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356634,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      44.07,
+      2.22,
+      -143.18
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356742,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      37.91,
+      2.71,
+      -152.37
+     ],
+     "critter": true,
+     "alert": false
+    }
+   ],
+   "count": 0,
+   "dlg": true,
+   "dt_end": 1.26
+  },
+  {
+   "tag": "5s",
+   "dt": 5.16,
+   "t": "19:31:41",
+   "state": "Dialogue",
+   "directors": [
+    {
+     "name": "Ciro Farmer",
+     "id": -362134,
+     "go_active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "state": 1,
+     "time": 38.291357604786754,
+     "duration": 71.516666666666,
+     "playableAsset.name": "FarmingAnimation"
+    },
+    {
+     "name": "CutscenePlayableDirector (1)",
+     "id": -355656,
+     "go_active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "state": 1,
+     "time": 6.82792919036001,
+     "duration": 26.116666666666,
+     "playableAsset.name": "SlimeCutscene"
+    }
+   ],
+   "_activePlayableDirector": "CutscenePlayableDirector (1)",
+   "glue": [
+    {
+     "name": "Gluecose_FarmAttack",
+     "id": -360676,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      37.91,
+      2.71,
+      -152.37
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "Gluecose_FarmAttack (1)",
+     "id": -360784,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      44.07,
+      2.23,
+      -143.18
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "Gluecose_FarmAttack (2)",
+     "id": -360892,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      45.25,
+      2.36,
+      -127.53
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356526,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      45.25,
+      2.36,
+      -127.53
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356634,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      44.07,
+      2.22,
+      -143.18
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356742,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      37.91,
+      2.71,
+      -152.37
+     ],
+     "critter": true,
+     "alert": false
+    }
+   ],
+   "count": 0,
+   "dlg": false,
+   "dt_end": 6.42
+  },
+  {
+   "tag": "10s",
+   "dt": 10.06,
+   "t": "19:31:45",
+   "state": "Dialogue",
+   "directors": [
+    {
+     "name": "Ciro Farmer",
+     "id": -362134,
+     "go_active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "state": 1,
+     "time": 43.16126579558477,
+     "duration": 71.516666666666,
+     "playableAsset.name": "FarmingAnimation"
+    },
+    {
+     "name": "CutscenePlayableDirector (1)",
+     "id": -355656,
+     "go_active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "state": 1,
+     "time": 11.711873686406761,
+     "duration": 26.116666666666,
+     "playableAsset.name": "SlimeCutscene"
+    }
+   ],
+   "_activePlayableDirector": "CutscenePlayableDirector (1)",
+   "glue": [
+    {
+     "name": "Gluecose_FarmAttack",
+     "id": -360676,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      37.91,
+      2.71,
+      -152.37
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "Gluecose_FarmAttack (1)",
+     "id": -360784,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      44.07,
+      2.23,
+      -143.18
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "Gluecose_FarmAttack (2)",
+     "id": -360892,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      45.25,
+      2.36,
+      -127.53
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356526,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      45.25,
+      2.36,
+      -127.53
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356634,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      44.07,
+      2.22,
+      -143.18
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356742,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      38.09,
+      2.71,
+      -152.53
+     ],
+     "critter": true,
+     "alert": false
+    }
+   ],
+   "count": 0,
+   "dlg": false,
+   "dt_end": 11.13
+  },
+  {
+   "tag": "20s",
+   "dt": 20.0,
+   "t": "19:31:55",
+   "state": "Dialogue",
+   "directors": [
+    {
+     "name": "Ciro Farmer",
+     "id": -362134,
+     "go_active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "state": 1,
+     "time": 53.14880720572546,
+     "duration": 71.516666666666,
+     "playableAsset.name": "FarmingAnimation"
+    },
+    {
+     "name": "CutscenePlayableDirector (1)",
+     "id": -355656,
+     "go_active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "state": 1,
+     "time": 21.677866003010422,
+     "duration": 26.116666666666,
+     "playableAsset.name": "SlimeCutscene"
+    }
+   ],
+   "_activePlayableDirector": "CutscenePlayableDirector (1)",
+   "glue": [
+    {
+     "name": "Gluecose_FarmAttack",
+     "id": -360676,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      37.91,
+      2.71,
+      -152.37
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "Gluecose_FarmAttack (1)",
+     "id": -360784,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      44.07,
+      2.23,
+      -143.18
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "Gluecose_FarmAttack (2)",
+     "id": -360892,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      45.25,
+      2.36,
+      -127.53
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356526,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      45.25,
+      2.36,
+      -127.53
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356634,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      44.07,
+      2.22,
+      -143.18
+     ],
+     "critter": true,
+     "alert": false
+    },
+    {
+     "name": "CutGluecose_FarmAttack",
+     "id": -356742,
+     "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+     "pos": [
+      38.52,
+      2.71,
+      -152.9
+     ],
+     "critter": true,
+     "alert": false
+    }
+   ],
+   "count": 0,
+   "dlg": true,
+   "dt_end": 21.2
+  }
+ ],
+ "poll": [
+  [
+   0.1,
+   "Dialogue",
+   5,
+   0,
+   true
+  ],
+  [
+   1.6,
+   "Dialogue",
+   5,
+   0,
+   true
+  ],
+  [
+   3.1,
+   "Dialogue",
+   5,
+   0,
+   true
+  ],
+  [
+   4.6,
+   "Dialogue",
+   5,
+   0,
+   true
+  ],
+  [
+   6.1,
+   "Dialogue",
+   5,
+   0,
+   true
+  ],
+  [
+   7.7,
+   "Dialogue",
+   5,
+   0,
+   true
+  ],
+  [
+   9.2,
+   "Dialogue",
+   5,
+   0,
+   true
+  ],
+  [
+   10.7,
+   "Dialogue",
+   5,
+   0,
+   true
+  ],
+  [
+   12.1,
+   "Dialogue",
+   5,
+   0,
+   true
+  ],
+  [
+   13.6,
+   "Dialogue",
+   5,
+   0,
+   true
+  ],
+  [
+   15.1,
+   "Dialogue",
+   6,
+   1,
+   false
+  ]
+ ],
+ "off": 560182438,
+ "hygiene_ticks": [
+  {
+   "t": "19:30:54",
+   "tag": "a2",
+   "cleared": true,
+   "count_before": 0,
+   "count_after": 0
+  }
+ ],
+ "exits": [
+  {
+   "name": "LocationExit_ToHill",
+   "id": -355340,
+   "pos": [
+    -16.88,
+    -0.61,
+    -264.18
+   ],
+   "min": [
+    -26.85,
+    -0.61,
+    -275.15
+   ],
+   "max": [
+    -6.91,
+    17.22,
+    -253.21
+   ],
+   "to": "Field_Hill",
+   "path": "FieldsHill_FieldsFarms"
+  },
+  {
+   "name": "LocationExit_ToTownMarket",
+   "id": -367176,
+   "pos": [
+    64.22,
+    6.62,
+    -24.44
+   ],
+   "min": [
+    59.58,
+    6.62,
+    -27.08
+   ],
+   "max": [
+    68.86,
+    13.67,
+    -21.8
+   ],
+   "to": "Town_Market",
+   "path": "FieldsFarms_TownMarket"
+  }
+ ],
+ "glue_before": [
+  {
+   "name": "Gluecose_FarmAttack",
+   "id": -360676,
+   "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+   "pos": [
+    37.91,
+    2.71,
+    -152.37
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "Gluecose_FarmAttack (1)",
+   "id": -360784,
+   "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+   "pos": [
+    44.07,
+    2.22,
+    -143.18
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "Gluecose_FarmAttack (2)",
+   "id": -360892,
+   "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+   "pos": [
+    45.25,
+    2.36,
+    -127.53
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "CutGluecose_FarmAttack",
+   "id": -356526,
+   "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+   "pos": [
+    45.25,
+    2.36,
+    -127.53
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "CutGluecose_FarmAttack",
+   "id": -356634,
+   "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+   "pos": [
+    44.07,
+    2.22,
+    -143.18
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "CutGluecose_FarmAttack",
+   "id": -356742,
+   "active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+   "pos": [
+    37.91,
+    2.71,
+    -152.37
+   ],
+   "critter": true,
+   "alert": false
+  }
+ ],
+ "directors_before": [
+  {
+   "name": "Ciro Farmer",
+   "id": -362134,
+   "go_active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+   "state": 1,
+   "time": 10.89944860432297,
+   "duration": 71.516666666666,
+   "playableAsset.name": "FarmingAnimation"
+  },
+  {
+   "name": "CutscenePlayableDirector (1)",
+   "id": -355656,
+   "go_active": "ERR UnknownErrorException: GetComponent requires that the requested component 'GameObject' derives from ",
+   "state": 0,
+   "time": 0.0,
+   "duration": 26.116666666666,
+   "playableAsset.name": "SlimeCutscene"
+  }
+ ],
+ "ayud": [
+  75.3577652,
+  1.66381693,
+  -149.835251
+ ],
+ "exit_hits_near_ayud": [
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "q_before": {
+  "line": 1,
+  "step": 2,
+  "step_name": "None",
+  "step_type": "None",
+  "actor": "None",
+  "item": "None",
+  "quest_name": "None"
+ },
+ "before": {
+  "label": "S1-Q1-QL2 до",
+  "t": "19:31:14",
+  "scenes": [
+   "Field_Farms"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 16,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1,
+   "RockCandy_Recipe": 1
+  },
+  "quest": {
+   "line": 1,
+   "step": 2
+  },
+  "save_hash": "3548e3280f3a6946",
+  "save_finished": 5,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "hint": true,
+ "fin0": 5,
+ "seq": [
+  "Hi friend! Are you new around here?",
+  "Hey. I am, I'm visiting the island to check the cooking festival.",
+  "Oh, are you here for the contest?",
+  "Not really, but you're not the first one to ask.",
+  "Maybe you're scared of chef Comb? He does look scary.",
+  "I haven't even met him yet. But he sounds like an interesting person.",
+  "He's the judge of the contest, so if you want to meet him your best chance is to enter the competition.",
+  "Maybe I should.",
+  "I heard from the sister of the uncle of Comb's neighbour that this year a sure way to impress him would be to cook something savoury.",
+  "Oh, thanks! Sounds like a reliable source. "
+ ],
+ "space": 10,
+ "step": [
+  2,
+  1
+ ],
+ "fin": [
+  5,
+  6
+ ],
+ "q_after": {
+  "line": 1,
+  "step": 1,
+  "step_name": "S2-Q1-QL2",
+  "step_type": "2",
+  "actor": "Ayud",
+  "item": "SpecialSpoon",
+  "quest_name": "Q1-QL2"
+ },
+ "after": {
+  "label": "S1-Q1-QL2 после",
+  "t": "19:31:57",
+  "scenes": [
+   "Field_Farms"
+  ],
+  "state": "Dialogue",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 16,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1,
+   "SweetCream_Recipe": 1,
+   "SweetCream_Dish": 1,
+   "RockCandy_Recipe": 1
+  },
+  "quest": {
+   "line": 1,
+   "step": 1
+  },
+  "save_hash": "7197c61fff76df22",
+  "save_finished": 6,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

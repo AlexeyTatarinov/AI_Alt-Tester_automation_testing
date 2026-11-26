@@ -1,0 +1,85 @@
+{
+ "frames_3s": 256,
+ "time_3s": 3.05,
+ "timeScale": 1.0,
+ "state": "Gameplay",
+ "pig": [
+  56.36,
+  7.95,
+  -15.75
+ ],
+ "talkingTo": {
+  "Felfel": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_F": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_M": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_M (1)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_M (2)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_F (1)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_F (2)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_F (3)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_F (4)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_F (5)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_M (3)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_M (4)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_M (5)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_M (6)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_M (7)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_M (8)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_M (9)": [
+   "0",
+   "False"
+  ],
+  "Townsfolk_F (6)": [
+   "0",
+   "False"
+  ]
+ }
+}

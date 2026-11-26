@@ -1,0 +1,131 @@
+{
+ "before": {
+  "t": "16:28:57",
+  "pos": [
+   42.33,
+   7.53,
+   -15.73
+  ],
+  "npcState": "0",
+  "isInDialogue": "False",
+  "sm": "Idle"
+ },
+ "hint": true,
+ "tries": [
+  [
+   1.3,
+   1.3,
+   false
+  ],
+  [
+   1.3,
+   1.19,
+   false
+  ],
+  [
+   1.3,
+   1.03,
+   false
+  ],
+  [
+   1.3,
+   0.84,
+   true
+  ]
+ ],
+ "opened": true,
+ "line": "That cave is so dangerous...",
+ "during": [
+  {
+   "t": "16:29:06",
+   "pos": [
+    42.33,
+    7.53,
+    -15.73
+   ],
+   "npcState": "0",
+   "isInDialogue": "True",
+   "sm": "TalkToProtagonist"
+  },
+  {
+   "t": "16:29:07",
+   "pos": [
+    42.33,
+    7.53,
+    -15.73
+   ],
+   "npcState": "0",
+   "isInDialogue": "True",
+   "sm": "TalkToProtagonist"
+  },
+  {
+   "t": "16:29:09",
+   "pos": [
+    42.33,
+    7.53,
+    -15.73
+   ],
+   "npcState": "0",
+   "isInDialogue": "True",
+   "sm": "ListenToProtagonist"
+  }
+ ],
+ "state_during": "Dialogue",
+ "closed": true,
+ "space": 1,
+ "seq": [
+  "That cave is so dangerous..."
+ ],
+ "after": [
+  {
+   "t": "16:29:18",
+   "pos": [
+    42.33,
+    7.53,
+    -15.73
+   ],
+   "npcState": "0",
+   "isInDialogue": "False",
+   "sm": "Idle"
+  },
+  {
+   "t": "16:29:21",
+   "pos": [
+    42.33,
+    7.53,
+    -15.73
+   ],
+   "npcState": "0",
+   "isInDialogue": "False",
+   "sm": "Idle"
+  },
+  {
+   "t": "16:29:24",
+   "pos": [
+    42.33,
+    7.53,
+    -15.73
+   ],
+   "npcState": "0",
+   "isInDialogue": "False",
+   "sm": "Idle"
+  },
+  {
+   "t": "16:29:27",
+   "pos": [
+    42.33,
+    7.53,
+    -15.73
+   ],
+   "npcState": "0",
+   "isInDialogue": "False",
+   "sm": "Idle"
+  }
+ ],
+ "state_end": "Gameplay",
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

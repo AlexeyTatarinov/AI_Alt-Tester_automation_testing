@@ -1,0 +1,402 @@
+{
+ "LocationExit_ToInnerTown_Slope": {
+  "pos": [
+   5.27,
+   19.7226486,
+   52.95
+  ],
+  "euler": [
+   0.0,
+   111.650108,
+   0.0
+  ],
+  "scale": [
+   1.77750015,
+   2.68477726,
+   4.186748
+  ],
+  "c": [
+   0.0,
+   1.5,
+   0.0
+  ],
+  "s": [
+   1.0,
+   3.0,
+   3.0
+  ],
+  "comps": [
+   "UnityEngine.BoxCollider"
+  ],
+  "center_point": {
+   "gap_x": -0.89,
+   "gap_z": -6.28,
+   "overlaps_xz": true
+  },
+  "probe_point_4.35_50.62": {
+   "gap_x": 1.62,
+   "gap_z": -6.28,
+   "overlaps_xz": false
+  }
+ },
+ "LocationExit_ToInnerTown_FallDown": {
+  "pos": [
+   -8.9,
+   21.04,
+   27.7
+  ],
+  "euler": [
+   0.0,
+   81.77704,
+   0.0
+  ],
+  "scale": [
+   36.1351128,
+   1.40490222,
+   7.65988541
+  ],
+  "c": [
+   0.0,
+   1.5,
+   0.0
+  ],
+  "s": [
+   1.0,
+   3.0,
+   3.0
+  ],
+  "comps": [
+   "UnityEngine.BoxCollider"
+  ],
+  "center_point": {
+   "gap_x": 4.9,
+   "gap_z": 6.15,
+   "overlaps_xz": false
+  },
+  "probe_point_4.35_50.62": {
+   "gap_x": 2.72,
+   "gap_z": 4.9,
+   "overlaps_xz": false
+  }
+ },
+ "LocationExit_ToInnerTown_FallDown (1)": {
+  "pos": [
+   8.78,
+   21.04,
+   29.73
+  ],
+  "euler": [
+   0.0,
+   106.63755,
+   0.0
+  ],
+  "scale": [
+   41.1470451,
+   1.40490222,
+   9.831073
+  ],
+  "c": [
+   0.0,
+   1.5,
+   0.0
+  ],
+  "s": [
+   1.0,
+   3.0,
+   3.0
+  ],
+  "comps": [
+   "UnityEngine.BoxCollider"
+  ],
+  "center_point": {
+   "gap_x": 0.67,
+   "gap_z": -4.74,
+   "overlaps_xz": false
+  },
+  "probe_point_4.35_50.62": {
+   "gap_x": -1.83,
+   "gap_z": -4.52,
+   "overlaps_xz": true
+  }
+ },
+ "LocationExit_ToMarket_FallDown": {
+  "pos": [
+   53.7,
+   21.04,
+   34.2
+  ],
+  "euler": [
+   0.0,
+   23.5687714,
+   0.0
+  ],
+  "scale": [
+   59.1251,
+   1.40490222,
+   5.779728
+  ],
+  "c": [
+   0.0,
+   1.5,
+   0.0
+  ],
+  "s": [
+   1.0,
+   3.0,
+   3.0
+  ],
+  "comps": [
+   "UnityEngine.BoxCollider"
+  ],
+  "center_point": {
+   "gap_x": 22.32,
+   "gap_z": -6.49,
+   "overlaps_xz": false
+  },
+  "probe_point_4.35_50.62": {
+   "gap_x": 22.24,
+   "gap_z": -3.99,
+   "overlaps_xz": false
+  }
+ },
+ "LocationExit_ToMarket_FallDown (1)": {
+  "pos": [
+   90.01,
+   21.04,
+   23.91
+  ],
+  "euler": [
+   0.0,
+   327.573,
+   0.0
+  ],
+  "scale": [
+   29.4070473,
+   1.40490222,
+   5.779729
+  ],
+  "c": [
+   0.0,
+   1.5,
+   0.0
+  ],
+  "s": [
+   1.0,
+   3.0,
+   3.0
+  ],
+  "comps": [
+   "UnityEngine.BoxCollider"
+  ],
+  "center_point": {
+   "gap_x": 41.25,
+   "gap_z": 61.28,
+   "overlaps_xz": false
+  },
+  "probe_point_4.35_50.62": {
+   "gap_x": 43.28,
+   "gap_z": 59.81,
+   "overlaps_xz": false
+  }
+ },
+ "LocationExit_ToMarket_FallDown (2)": {
+  "pos": [
+   31.57,
+   27.82,
+   38.84
+  ],
+  "euler": [
+   0.0,
+   3.35008264,
+   0.0
+  ],
+  "scale": [
+   25.6926022,
+   3.48322654,
+   1.249404
+  ],
+  "c": [
+   0.0,
+   1.5,
+   0.0
+  ],
+  "s": [
+   1.0,
+   3.0,
+   3.0
+  ],
+  "comps": [
+   "UnityEngine.BoxCollider"
+  ],
+  "center_point": {
+   "gap_x": 14.23,
+   "gap_z": 10.67,
+   "overlaps_xz": false
+  },
+  "probe_point_4.35_50.62": {
+   "gap_x": 15.02,
+   "gap_z": 8.3,
+   "overlaps_xz": false
+  }
+ },
+ "LocationExit_ToMarket_FallDown (3)": {
+  "pos": [
+   -21.98,
+   21.04,
+   -15.75
+  ],
+  "euler": [
+   0.0,
+   23.5687714,
+   0.0
+  ],
+  "scale": [
+   26.99711,
+   1.40490222,
+   5.779728
+  ],
+  "c": [
+   0.0,
+   1.5,
+   0.0
+  ],
+  "s": [
+   1.0,
+   3.0,
+   3.0
+  ],
+  "comps": [
+   "UnityEngine.BoxCollider"
+  ],
+  "center_point": {
+   "gap_x": -11.01,
+   "gap_z": 65.2,
+   "overlaps_xz": false
+  },
+  "probe_point_4.35_50.62": {
+   "gap_x": -11.09,
+   "gap_z": 62.69,
+   "overlaps_xz": false
+  }
+ },
+ "LocationExit_ToMarket_FallDown (4)": {
+  "pos": [
+   4.52,
+   21.04,
+   -10.18
+  ],
+  "euler": [
+   0.0,
+   334.63208,
+   0.0
+  ],
+  "scale": [
+   40.43627,
+   1.40490222,
+   10.1231995
+  ],
+  "c": [
+   0.0,
+   1.5,
+   0.0
+  ],
+  "s": [
+   1.0,
+   3.0,
+   3.0
+  ],
+  "comps": [
+   "UnityEngine.BoxCollider"
+  ],
+  "center_point": {
+   "gap_x": 7.51,
+   "gap_z": 41.54,
+   "overlaps_xz": false
+  },
+  "probe_point_4.35_50.62": {
+   "gap_x": 5.68,
+   "gap_z": 39.83,
+   "overlaps_xz": false
+  }
+ },
+ "LocationExit_ToMarket_FallDown (5)": {
+  "pos": [
+   32.31,
+   21.04,
+   11.9
+  ],
+  "euler": [
+   0.0,
+   313.288666,
+   0.0
+  ],
+  "scale": [
+   34.50953,
+   1.1989857,
+   8.639442
+  ],
+  "c": [
+   0.0,
+   1.5,
+   0.0
+  ],
+  "s": [
+   1.0,
+   3.0,
+   3.0
+  ],
+  "comps": [
+   "UnityEngine.BoxCollider"
+  ],
+  "center_point": {
+   "gap_x": -5.91,
+   "gap_z": 34.87,
+   "overlaps_xz": false
+  },
+  "probe_point_4.35_50.62": {
+   "gap_x": -8.24,
+   "gap_z": 33.94,
+   "overlaps_xz": false
+  }
+ },
+ "LocationExit_ToForestEntrance_FallDown": {
+  "pos": [
+   -34.2,
+   21.04,
+   14.3
+  ],
+  "euler": [
+   0.0,
+   81.77704,
+   0.0
+  ],
+  "scale": [
+   55.7492332,
+   1.40490222,
+   10.5890265
+  ],
+  "c": [
+   0.0,
+   1.5,
+   0.0
+  ],
+  "s": [
+   1.0,
+   3.0,
+   3.0
+  ],
+  "comps": [
+   "UnityEngine.BoxCollider"
+  ],
+  "center_point": {
+   "gap_x": 4.73,
+   "gap_z": 28.71,
+   "overlaps_xz": false
+  },
+  "probe_point_4.35_50.62": {
+   "gap_x": 2.56,
+   "gap_z": 27.46,
+   "overlaps_xz": false
+  }
+ }
+}

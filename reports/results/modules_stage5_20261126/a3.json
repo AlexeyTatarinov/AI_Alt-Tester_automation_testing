@@ -1,0 +1,89 @@
+{
+ "now": {
+  "label": "после talk1",
+  "t": "16:25:33",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 8,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 1
+  },
+  "save_hash": "5464587aa83f3c03",
+  "save_finished": 1,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "q": {
+  "line": 0,
+  "step": 1,
+  "step_name": "S2-Q1-QL1",
+  "step_type": "1",
+  "actor": "BardHare",
+  "item": "Seed",
+  "quest_name": "Q1-QL1"
+ },
+ "dlg": true,
+ "choices": false,
+ "line": "They are the key ingredient in my grandma's recipe for an amazing sweet cream.",
+ "now5": {
+  "label": "через 5 с без ввода",
+  "t": "16:25:39",
+  "scenes": [
+   "Beach"
+  ],
+  "state": "Gameplay",
+  "inv": {
+   "PhoenixChick": 1,
+   "Seed": 8,
+   "SlimeCritterEgg": 20,
+   "GoldenEgg": 20,
+   "RockCritterEgg": 20,
+   "SpecialSpoon": 1
+  },
+  "quest": {
+   "line": 0,
+   "step": 1
+  },
+  "save_hash": "5464587aa83f3c03",
+  "save_finished": 1,
+  "exc": 0,
+  "exc_types": {},
+  "alert_count": 0
+ },
+ "dlg5": true,
+ "line5": "They are the key ingredient in my grandma's recipe for an amazing sweet cream.",
+ "menu_scenes": [
+  "PersistentManagers",
+  "MainMenu"
+ ],
+ "save": {
+  "hash": "5464587aa83f3c03",
+  "finished": [
+   "2187c1f18f6f9ae4bbd10f33a1871d8e"
+  ],
+  "stacks": {
+   "540c35": 1,
+   "42396f": 8,
+   "1c53a3": 20,
+   "7a6557": 20,
+   "f14caf": 20,
+   "3e3538": 1
+  }
+ },
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

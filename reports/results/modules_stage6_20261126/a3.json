@@ -1,0 +1,306 @@
+{
+ "trace": [
+  {
+   "label": "начало",
+   "t": "19:32:16",
+   "state": "Gameplay",
+   "dlg": false,
+   "director": {
+    "state": 0,
+    "time": 0.0
+   },
+   "count": 0,
+   "active_pd": "CutscenePlayableDirector (1)",
+   "glue_active": [
+    [
+     "Gluecose_FarmAttack",
+     -360676,
+     true,
+     false
+    ],
+    [
+     "Gluecose_FarmAttack (1)",
+     -360784,
+     true,
+     false
+    ],
+    [
+     "Gluecose_FarmAttack (2)",
+     -360892,
+     true,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356526,
+     false,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356634,
+     false,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356742,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "label": "после катсцены",
+   "t": "19:32:20",
+   "state": "Gameplay",
+   "dlg": false,
+   "director": {
+    "state": 0,
+    "time": 0.0
+   },
+   "count": 0,
+   "active_pd": "CutscenePlayableDirector (1)",
+   "glue_active": [
+    [
+     "Gluecose_FarmAttack",
+     -360676,
+     true,
+     false
+    ],
+    [
+     "Gluecose_FarmAttack (1)",
+     -360784,
+     true,
+     false
+    ],
+    [
+     "Gluecose_FarmAttack (2)",
+     -360892,
+     true,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356526,
+     false,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356634,
+     false,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356742,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "label": "после +3 с",
+   "t": "19:32:24",
+   "state": "Gameplay",
+   "dlg": false,
+   "director": {
+    "state": 0,
+    "time": 0.0
+   },
+   "count": 0,
+   "active_pd": "CutscenePlayableDirector (1)",
+   "glue_active": [
+    [
+     "Gluecose_FarmAttack",
+     -360676,
+     true,
+     false
+    ],
+    [
+     "Gluecose_FarmAttack (1)",
+     -360784,
+     true,
+     false
+    ],
+    [
+     "Gluecose_FarmAttack (2)",
+     -360892,
+     true,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356526,
+     false,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356634,
+     false,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356742,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "label": "конец",
+   "t": "19:32:30",
+   "state": "Gameplay",
+   "dlg": false,
+   "director": {
+    "state": 0,
+    "time": 0.0
+   },
+   "count": 0,
+   "active_pd": "CutscenePlayableDirector (1)",
+   "glue_active": [
+    [
+     "Gluecose_FarmAttack",
+     -360676,
+     true,
+     false
+    ],
+    [
+     "Gluecose_FarmAttack (1)",
+     -360784,
+     true,
+     false
+    ],
+    [
+     "Gluecose_FarmAttack (2)",
+     -360892,
+     true,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356526,
+     false,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356634,
+     false,
+     false
+    ],
+    [
+     "CutGluecose_FarmAttack",
+     -356742,
+     false,
+     false
+    ]
+   ]
+  }
+ ],
+ "seq": [],
+ "space": 0,
+ "waited_s": 2.8,
+ "panels": {
+  "pause": false,
+  "inventory": false,
+  "cheat": false,
+  "dialogue": false,
+  "hint": true
+ },
+ "tab_opens": true,
+ "state_tab": "Inventory",
+ "w_moved": 0.32,
+ "pos": [
+  74.37,
+  1.69,
+  -149.93
+ ],
+ "maps": {
+  "Gameplay": true,
+  "Menus": false,
+  "Dialogues": false
+ },
+ "glue_end": [
+  {
+   "name": "Gluecose_FarmAttack",
+   "id": -360676,
+   "active": true,
+   "pos": [
+    21.61,
+    2.42,
+    -153.36
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "Gluecose_FarmAttack (1)",
+   "id": -360784,
+   "active": true,
+   "pos": [
+    37.76,
+    2.44,
+    -141.93
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "Gluecose_FarmAttack (2)",
+   "id": -360892,
+   "active": true,
+   "pos": [
+    48.26,
+    1.97,
+    -137.65
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "CutGluecose_FarmAttack",
+   "id": -356526,
+   "active": false,
+   "pos": [
+    45.25,
+    2.36,
+    -127.53
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "CutGluecose_FarmAttack",
+   "id": -356634,
+   "active": false,
+   "pos": [
+    44.07,
+    2.22,
+    -143.18
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "CutGluecose_FarmAttack",
+   "id": -356742,
+   "active": false,
+   "pos": [
+    38.52,
+    2.71,
+    -152.9
+   ],
+   "critter": true,
+   "alert": false
+  }
+ ],
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

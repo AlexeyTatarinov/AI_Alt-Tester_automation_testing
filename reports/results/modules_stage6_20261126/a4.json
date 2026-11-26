@@ -1,0 +1,403 @@
+{
+ "trace": [
+  {
+   "label": "до",
+   "t": "19:32:55",
+   "state": "Gameplay",
+   "count": 0,
+   "hp": 50,
+   "pos": [
+    74.37,
+    1.69,
+    -149.93
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 37.74,
+   "alert": false,
+   "attack": false,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "тревога 1.0",
+   "t": "19:32:57",
+   "state": "Combat",
+   "count": 1,
+   "hp": 50,
+   "pos": [
+    40.03,
+    2.55,
+    -155.23
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 3.0,
+   "alert": true,
+   "attack": true,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "атака 1.1",
+   "t": "19:32:59",
+   "state": "Combat",
+   "count": 1,
+   "hp": 50,
+   "pos": [
+    37.91,
+    2.68,
+    -155.52
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 0.86,
+   "alert": true,
+   "attack": true,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "атака 3.0",
+   "t": "19:33:01",
+   "state": "Combat",
+   "count": 1,
+   "hp": 35,
+   "pos": [
+    37.91,
+    2.68,
+    -155.52
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 0.86,
+   "alert": true,
+   "attack": true,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "удар 1",
+   "t": "19:33:04",
+   "state": "Combat",
+   "count": 1,
+   "hp": 20,
+   "pos": [
+    36.91,
+    2.74,
+    -155.81
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 0.2,
+   "alert": true,
+   "attack": true,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "удар 2",
+   "t": "19:33:07",
+   "state": "Combat",
+   "count": 1,
+   "hp": 50,
+   "pos": [
+    37.48,
+    2.71,
+    -155.58
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 0.43,
+   "alert": false,
+   "attack": false,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "удар 3",
+   "t": "19:33:10",
+   "state": "Gameplay",
+   "count": 0,
+   "hp": 50,
+   "pos": [
+    37.48,
+    2.71,
+    -155.58
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 0.43,
+   "alert": false,
+   "attack": false,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "удар 4",
+   "t": "19:33:13",
+   "state": "Gameplay",
+   "count": 0,
+   "hp": 50,
+   "pos": [
+    -14.13,
+    1.54,
+    -259.57
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 115.81,
+   "alert": false,
+   "attack": false,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "удар 5",
+   "t": "19:33:17",
+   "state": "Combat",
+   "count": 1,
+   "hp": 50,
+   "pos": [
+    36.62,
+    2.75,
+    -156.63
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 1.04,
+   "alert": true,
+   "attack": true,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "удар 6",
+   "t": "19:33:20",
+   "state": "Combat",
+   "count": 1,
+   "hp": 35,
+   "pos": [
+    37.19,
+    2.71,
+    -156.77
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 1.08,
+   "alert": true,
+   "attack": true,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "удар 7",
+   "t": "19:33:23",
+   "state": "Combat",
+   "count": 1,
+   "hp": 20,
+   "pos": [
+    38.27,
+    2.63,
+    -156.81
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 1.64,
+   "alert": true,
+   "attack": true,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "удар 8",
+   "t": "19:33:27",
+   "state": "Combat",
+   "count": 1,
+   "hp": 50,
+   "pos": [
+    37.82,
+    2.95,
+    -156.31
+   ],
+   "enemy": [
+    37.07,
+    2.72,
+    -155.69
+   ],
+   "dist": 0.97,
+   "alert": false,
+   "attack": false,
+   "ehp": 0,
+   "edead": false
+  },
+  {
+   "label": "через 5 с",
+   "t": "19:33:33",
+   "state": "Gameplay",
+   "count": 0,
+   "hp": 50,
+   "pos": [
+    -14.16,
+    1.54,
+    -259.62
+   ]
+  }
+ ],
+ "hits": [
+  [
+   1,
+   0,
+   false,
+   20
+  ],
+  [
+   2,
+   0,
+   false,
+   50
+  ],
+  [
+   3,
+   0,
+   false,
+   50
+  ],
+  [
+   4,
+   0,
+   false,
+   50
+  ],
+  [
+   5,
+   0,
+   false,
+   50
+  ],
+  [
+   6,
+   0,
+   false,
+   35
+  ],
+  [
+   7,
+   0,
+   false,
+   20
+  ],
+  [
+   8,
+   0,
+   false,
+   50
+  ]
+ ],
+ "hygiene_ticks": [
+  {
+   "t": "19:32:54",
+   "tag": "a4",
+   "cleared": true,
+   "count_before": 0,
+   "count_after": 0
+  }
+ ],
+ "live": [
+  {
+   "name": "Gluecose_FarmAttack",
+   "id": -360676,
+   "active": true,
+   "pos": [
+    37.06,
+    2.72,
+    -155.68
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "Gluecose_FarmAttack (2)",
+   "id": -360892,
+   "active": true,
+   "pos": [
+    41.77,
+    2.41,
+    -123.87
+   ],
+   "critter": true,
+   "alert": false
+  },
+  {
+   "name": "Gluecose_FarmAttack (1)",
+   "id": -360784,
+   "active": true,
+   "pos": [
+    25.46,
+    0.18,
+    -129.16
+   ],
+   "critter": true,
+   "alert": false
+  }
+ ],
+ "target": {
+  "name": "Gluecose_FarmAttack",
+  "id": -360676,
+  "active": true,
+  "pos": [
+   37.06,
+   2.72,
+   -155.68
+  ],
+  "critter": true,
+  "alert": false
+ },
+ "alert_s": 1.8,
+ "hp_before_attack": 50,
+ "damaged_s": 3.8,
+ "hp_after_attack": 35,
+ "items_before": {},
+ "n_hits": 8,
+ "dead": false,
+ "enemy_present": true,
+ "new_items": [],
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

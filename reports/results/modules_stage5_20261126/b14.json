@@ -1,0 +1,477 @@
+{
+ "trace": [
+  {
+   "label": "прибытие",
+   "t": "16:41:31",
+   "scenes": [
+    "Mountain_Cave"
+   ],
+   "count": 0,
+   "state": "Gameplay",
+   "pigs": [
+    [
+     -325128,
+     [
+      96.94,
+      36.41,
+      116.33
+     ]
+    ]
+   ],
+   "hp": 50,
+   "isDead": "False",
+   "cam_d": 9.0
+  },
+  {
+   "label": "бой 0.9",
+   "t": "16:41:34",
+   "scenes": [
+    "Mountain_Cave"
+   ],
+   "count": 1,
+   "state": "Combat",
+   "pigs": [
+    [
+     -325128,
+     [
+      92.95,
+      27.64,
+      105.57
+     ]
+    ]
+   ],
+   "hp": 50,
+   "isDead": "False",
+   "cam_d": 8.49
+  },
+  {
+   "label": "бой 2.9",
+   "t": "16:41:36",
+   "scenes": [
+    "Mountain_Cave"
+   ],
+   "count": 1,
+   "state": "Combat",
+   "pigs": [
+    [
+     -325128,
+     [
+      92.33,
+      27.64,
+      105.49
+     ]
+    ]
+   ],
+   "hp": 35,
+   "isDead": "False",
+   "cam_d": 8.44
+  },
+  {
+   "label": "бой 5.7",
+   "t": "16:41:39",
+   "scenes": [
+    "Mountain_Cave"
+   ],
+   "count": 1,
+   "state": "Combat",
+   "pigs": [
+    [
+     -325128,
+     [
+      92.29,
+      27.64,
+      105.49
+     ]
+    ]
+   ],
+   "hp": 5,
+   "isDead": "False",
+   "cam_d": 8.45
+  },
+  {
+   "label": "бой 7.6",
+   "t": "16:41:41",
+   "scenes": [
+    "Mountain_Cave"
+   ],
+   "count": 1,
+   "state": "Combat",
+   "pigs": [
+    [
+     -325128,
+     [
+      92.0,
+      27.64,
+      105.97
+     ]
+    ]
+   ],
+   "hp": 50,
+   "isDead": "True",
+   "cam_d": 9.85
+  },
+  {
+   "label": "после смерти 1.0",
+   "t": "16:41:43",
+   "scenes": [
+    "Mountain_Cave"
+   ],
+   "count": 0,
+   "state": "Gameplay",
+   "pigs": [
+    [
+     -325128,
+     [
+      92.0,
+      27.64,
+      105.97
+     ]
+    ]
+   ],
+   "hp": 50,
+   "isDead": "True",
+   "cam_d": 9.85
+  },
+  {
+   "label": "после смерти 2.9",
+   "t": "16:41:45",
+   "scenes": [
+    "Mountain_Cave"
+   ],
+   "count": 0,
+   "state": "Gameplay",
+   "pigs": [
+    [
+     -325128,
+     [
+      92.0,
+      27.64,
+      105.97
+     ]
+    ]
+   ],
+   "hp": 50,
+   "isDead": "ERR NotFoundException: Object not found",
+   "cam_d": 10.66
+  },
+  {
+   "label": "после смерти 4.9",
+   "t": "16:41:47",
+   "scenes": [
+    "Mountain_Cave"
+   ],
+   "count": 0,
+   "state": "Gameplay",
+   "pigs": [
+    [
+     -326146,
+     [
+      96.94,
+      36.41,
+      116.33
+     ]
+    ]
+   ],
+   "hp": 50,
+   "isDead": "False",
+   "cam_d": 9.85
+  },
+  {
+   "label": "респавн +2",
+   "t": "16:41:50",
+   "scenes": [
+    "Mountain_Cave"
+   ],
+   "count": 0,
+   "state": "Gameplay",
+   "pigs": [
+    [
+     -326146,
+     [
+      96.94,
+      36.41,
+      116.33
+     ]
+    ]
+   ],
+   "hp": 50,
+   "isDead": "False",
+   "cam_d": 9.85
+  },
+  {
+   "label": "респавн +5",
+   "t": "16:41:54",
+   "scenes": [
+    "Mountain_Cave"
+   ],
+   "count": 0,
+   "state": "Gameplay",
+   "pigs": [
+    [
+     -326146,
+     [
+      96.94,
+      36.41,
+      116.33
+     ]
+    ]
+   ],
+   "hp": 50,
+   "isDead": "False",
+   "cam_d": 9.85
+  },
+  {
+   "label": "конец",
+   "t": "16:42:02",
+   "scenes": [
+    "Mountain_Cave"
+   ],
+   "count": 0,
+   "state": "Gameplay",
+   "pigs": [
+    [
+     -326146,
+     [
+      97.02,
+      35.99,
+      117.45
+     ]
+    ]
+   ],
+   "hp": 50,
+   "isDead": "False",
+   "cam_d": 9.85
+  }
+ ],
+ "hygiene_ticks": [
+  {
+   "t": "16:41:07",
+   "tag": "b14",
+   "cleared": true,
+   "count_before": 2,
+   "count_after": 0
+  }
+ ],
+ "before": {
+  "label": "прибытие",
+  "t": "16:41:31",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "count": 0,
+  "state": "Gameplay",
+  "pigs": [
+   [
+    -325128,
+    [
+     96.94,
+     36.41,
+     116.33
+    ]
+   ]
+  ],
+  "hp": 50,
+  "isDead": "False",
+  "cam_d": 9.0
+ },
+ "hud_before": {
+  "hearts": [
+   [
+    "Heart (5)",
+    1.0
+   ],
+   [
+    "Heart (6)",
+    1.0
+   ],
+   [
+    "Heart (7)",
+    1.0
+   ],
+   [
+    "Heart (8)",
+    1.0
+   ],
+   [
+    "Heart (9)",
+    1.0
+   ]
+  ],
+  "so_cur": 50,
+  "so_max": 50,
+  "bars_active": 5
+ },
+ "klipper": [
+  "Klipper",
+  -324034
+ ],
+ "tp_count": 1,
+ "hud_mid": {
+  "hearts": [
+   [
+    "Heart (5)",
+    1.0
+   ],
+   [
+    "Heart (6)",
+    1.0
+   ],
+   [
+    "Heart (7)",
+    0.0
+   ],
+   [
+    "Heart (8)",
+    0.0
+   ],
+   [
+    "Heart (9)",
+    0.0
+   ]
+  ],
+  "so_cur": 20,
+  "so_max": 50,
+  "bars_active": 5
+ },
+ "hud_mid_hp": 35,
+ "died_s": 8.7,
+ "last_hp_seen": 5,
+ "respawn_s": 5.8,
+ "d2": {
+  "label": "респавн +2",
+  "t": "16:41:50",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "count": 0,
+  "state": "Gameplay",
+  "pigs": [
+   [
+    -326146,
+    [
+     96.94,
+     36.41,
+     116.33
+    ]
+   ]
+  ],
+  "hp": 50,
+  "isDead": "False",
+  "cam_d": 9.85
+ },
+ "hud_after2": {
+  "hearts": [
+   [
+    "Heart (5)",
+    1.0
+   ],
+   [
+    "Heart (6)",
+    1.0
+   ],
+   [
+    "Heart (7)",
+    1.0
+   ],
+   [
+    "Heart (8)",
+    1.0
+   ],
+   [
+    "Heart (9)",
+    1.0
+   ]
+  ],
+  "so_cur": 50,
+  "so_max": 50,
+  "bars_active": 5
+ },
+ "d5": {
+  "label": "респавн +5",
+  "t": "16:41:54",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "count": 0,
+  "state": "Gameplay",
+  "pigs": [
+   [
+    -326146,
+    [
+     96.94,
+     36.41,
+     116.33
+    ]
+   ]
+  ],
+  "hp": 50,
+  "isDead": "False",
+  "cam_d": 9.85
+ },
+ "hud_after5": {
+  "hearts": [
+   [
+    "Heart (5)",
+    1.0
+   ],
+   [
+    "Heart (6)",
+    1.0
+   ],
+   [
+    "Heart (7)",
+    1.0
+   ],
+   [
+    "Heart (8)",
+    1.0
+   ],
+   [
+    "Heart (9)",
+    1.0
+   ]
+  ],
+  "so_cur": 50,
+  "so_max": 50,
+  "bars_active": 5
+ },
+ "tab_opens": true,
+ "state_tab": "Inventory",
+ "w_moved": 1.13,
+ "end": {
+  "label": "конец",
+  "t": "16:42:02",
+  "scenes": [
+   "Mountain_Cave"
+  ],
+  "count": 0,
+  "state": "Gameplay",
+  "pigs": [
+   [
+    -326146,
+    [
+     97.02,
+     35.99,
+     117.45
+    ]
+   ]
+  ],
+  "hp": 50,
+  "isDead": "False",
+  "cam_d": 9.85
+ },
+ "log": {
+  "lines": 4398,
+  "exceptions": 0,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": []
+ },
+ "exc": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ }
+}

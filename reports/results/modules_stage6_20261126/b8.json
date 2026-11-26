@@ -1,0 +1,170 @@
+{
+ "after": [
+  {
+   "label": "5 с",
+   "t": "20:00:25",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay"
+   ],
+   "_isLoading": true,
+   "state": "Gameplay",
+   "pigs": 0,
+   "pigs_active": 0,
+   "pig_pos": null,
+   "maps": null,
+   "frame": 147932,
+   "timeScale": 1.0,
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   }
+  },
+  {
+   "label": "15 с",
+   "t": "20:00:35",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay"
+   ],
+   "_isLoading": true,
+   "state": "Gameplay",
+   "pigs": 0,
+   "pigs_active": 0,
+   "pig_pos": null,
+   "maps": null,
+   "frame": 151208,
+   "timeScale": 1.0,
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   }
+  },
+  {
+   "label": "30 с",
+   "t": "20:00:50",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay"
+   ],
+   "_isLoading": true,
+   "state": "Gameplay",
+   "pigs": 0,
+   "pigs_active": 0,
+   "pig_pos": null,
+   "maps": null,
+   "frame": 156150,
+   "timeScale": 1.0,
+   "exc": 1,
+   "by_type": {
+    "NullReferenceException": 1
+   }
+  }
+ ],
+ "hygiene_ticks": [
+  {
+   "t": "20:00:00",
+   "tag": "b8",
+   "cleared": true,
+   "count_before": 2,
+   "count_after": 0
+  }
+ ],
+ "point": [
+  -34.2,
+  24.04,
+  14.3
+ ],
+ "covers": [
+  "LocationExit_ToForestEntrance_FallDown"
+ ],
+ "before": {
+  "label": "до",
+  "t": "20:00:19",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Upper"
+  ],
+  "_isLoading": false,
+  "state": "Gameplay",
+  "pigs": 1,
+  "pigs_active": 1,
+  "pig_pos": [
+   33.17,
+   30.68,
+   58.87
+  ],
+  "maps": {
+   "Gameplay": true,
+   "Menus": false,
+   "Dialogues": false
+  },
+  "frame": 147148,
+  "timeScale": 1.0
+ },
+ "log_len_before": 569528102,
+ "stack": {
+  "NullReferenceException": [
+   "NullReferenceException: Object reference not set to an instance of an object",
+   "  at SceneLoader.LoadNewScene () [0x00014] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\SceneManagement\\SceneLoader.cs:171 ",
+   "  at SceneLoader+<UnloadPreviousScene>d__22.MoveNext () [0x000b1] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\SceneManagement\\SceneLoader.cs:158 ",
+   "  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <de88af24691e4d5d8139304fcf46f698>:0 ",
+   "",
+   "(Filename: Assets/Scripts/SceneManagement/SceneLoader.cs Line: 171)",
+   ""
+  ]
+ },
+ "exits_loaded": [],
+ "normal_try": "обычных выходов нет в загруженных сценах (0) или нет игрока; попытка: меню читов (C) -> Town_Market",
+ "cheat_opens": true,
+ "cheat_goto_err": "cheat_go failed: Town_Market scenes=['PersistentManagers', 'Gameplay']",
+ "after_try": {
+  "label": "после попытки",
+  "t": "20:01:56",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay"
+  ],
+  "_isLoading": true,
+  "state": "Gameplay",
+  "pigs": 0,
+  "pigs_active": 0,
+  "pig_pos": null,
+  "maps": null,
+  "frame": 176818,
+  "timeScale": 1.0,
+  "exc": 1,
+  "by_type": {
+   "NullReferenceException": 1
+  }
+ },
+ "log": {
+  "lines": 37764,
+  "exceptions": 1,
+  "errors": 0,
+  "cc_inactive_warnings": 0,
+  "cc67_locationentry": 0,
+  "warnings_other": 0,
+  "samples": [
+   "NullReferenceException: Object reference not set to an instance of an object"
+  ]
+ },
+ "exc": {
+  "by_type": {
+   "NullReferenceException": 1
+  },
+  "total": 1,
+  "first_stacks": {
+   "NullReferenceException": [
+    "NullReferenceException: Object reference not set to an instance of an object",
+    "  at SceneLoader.LoadNewScene () [0x00014] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\SceneManagement\\SceneLoader.cs:171 ",
+    "  at SceneLoader+<UnloadPreviousScene>d__22.MoveNext () [0x000b1] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\SceneManagement\\SceneLoader.cs:158 ",
+    "  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <de88af24691e4d5d8139304fcf46f698>:0 ",
+    "",
+    "(Filename: Assets/Scripts/SceneManagement/SceneLoader.cs Line: 171)",
+    ""
+   ]
+  }
+ }
+}

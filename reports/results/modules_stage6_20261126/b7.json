@@ -1,0 +1,289 @@
+{
+ "samples": [
+  {
+   "dt": 0.0,
+   "sc": [
+    "Field_Hill"
+   ],
+   "pig_found": 1,
+   "pig_active": 1,
+   "pig": [
+    -71.0,
+    3.49,
+    -300.7
+   ],
+   "state": "Gameplay"
+  },
+  {
+   "dt": 1.9,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 0,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     1,
+     1.73
+    ]
+   }
+  },
+  {
+   "dt": 4.2,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 0,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     1,
+     3.86
+    ]
+   }
+  },
+  {
+   "dt": 6.5,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 0,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     1,
+     6.07
+    ]
+   }
+  },
+  {
+   "dt": 8.7,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 0,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     1,
+     8.19
+    ]
+   }
+  },
+  {
+   "dt": 10.9,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 0,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     1,
+     10.44
+    ]
+   }
+  },
+  {
+   "dt": 13.2,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 0,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     1,
+     12.6
+    ]
+   }
+  },
+  {
+   "dt": 15.6,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 0,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     1,
+     14.86
+    ]
+   }
+  },
+  {
+   "dt": 18.0,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 1,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     0,
+     0.0
+    ]
+   }
+  },
+  {
+   "dt": 20.8,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 1,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     0,
+     0.0
+    ]
+   }
+  },
+  {
+   "dt": 23.2,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 1,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     0,
+     0.0
+    ]
+   }
+  },
+  {
+   "dt": 25.4,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 1,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     0,
+     0.0
+    ]
+   }
+  },
+  {
+   "dt": 27.6,
+   "sc": [
+    "Beach"
+   ],
+   "pig_found": 1,
+   "pig_active": 1,
+   "pig": [
+    -58.27,
+    -5.23,
+    -369.8
+   ],
+   "state": "Gameplay",
+   "dirs": {
+    "CutscenePlayableDirector": [
+     0,
+     0.0
+    ]
+   }
+  }
+ ],
+ "point": {
+  "x": -71.0,
+  "z": -300.7,
+  "y": 6.52,
+  "from_center": 0.0,
+  "margin": 1.0,
+  "center_overlaps": []
+ },
+ "hp0": 50,
+ "q": {
+  "line": 0,
+  "step": 0
+ },
+ "save_finished": 0,
+ "pos_after": [
+  -58.27,
+  -5.23,
+  -369.8
+ ],
+ "hp": 50,
+ "state": "Gameplay",
+ "entrances": [
+  [
+   "LocationEntrance",
+   0.01,
+   "Beach_FieldsHill"
+  ]
+ ],
+ "w_moved": 1.08,
+ "cc67": 0,
+ "exc": 0
+}
