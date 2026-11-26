@@ -62,8 +62,8 @@
 
 | № | Название | Severity | Priority |
 |---|---|---|---|
-| #519 | Character stuck inside the tree | S3 | P2 |
-| #504 | First quest area to Field Hill can be missed | S3 | P2 |
+| #519 | Character stuck inside the tree | S2 | P2 |
+| #504 | First quest area to Field Hill can be missed | S2 | P2 |
 | #483 | 'E' to talk does nothing in conversations | S3 | P2 |
 | #505 | No collider on oven | S4 | P3 |
 | #502 | Jumping into wall adds excessive speed | S4 | P3 |
@@ -71,6 +71,8 @@
 | #518 | Loading screen does not support 21:9 screens | S5 | P4 |
 
 Остальные известные баги оцениваются после воспроизведения.
+
+26.11.2026: #519 и #504 подняты с S3 до S2 решением владельца (перепроверка по шкале 1.1, severity_recheck_20261126.md).
 
 ## История версий
 - 1.0 (12.11.2026): 4 уровня, S1 Critical … S4 Trivial.

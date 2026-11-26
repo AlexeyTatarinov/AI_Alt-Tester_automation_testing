@@ -1,6 +1,6 @@
 # Re-check of approved known-bug assessments against scale v1.1 (26 Nov 2026)
 
-Proposal only. Jira and Confluence were not changed; a human decides.
+Approved by the owner on 26 Nov: #519 and #504 raised to S2 / P2; applied to CC-46, CC-47, Confluence 66036 and the local scale.
 Basis: bug titles from `known_bugs_chopchop.csv` and the definitions and examples in `severity_priority_chopchop.md`. The bugs were not re-reproduced for this check.
 
 | Issue | Title | Approved | Proposed | Why |
