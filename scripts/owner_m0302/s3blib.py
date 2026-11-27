@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os, sys, json, time
-os.environ["MOD_OUT"] = "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/owner_m0302_20261126"
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\modules")
+os.environ["MOD_OUT"] = "Test_Ai/Reports_2026-11-21/results/owner_m0302_20261126"
+sys.path.insert(0, r"Test_Ai\scripts\modules")
 from elib import *
 import elib
 R2 = OUT
@@ -131,7 +131,7 @@ def conv_yes(off, tag, maxsp=40):
     return r
 
 # ---- stage3b: гигиена и шторм
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\play_control")
+sys.path.insert(0, r"Test_Ai\scripts\play_control")
 import housekeeping as hk
 class Storm(Exception): pass
 _exc_hist = []

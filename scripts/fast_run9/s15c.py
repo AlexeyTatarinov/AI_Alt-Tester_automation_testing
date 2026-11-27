@@ -1,5 +1,5 @@
 import os, sys, json
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run7")
+sys.path.insert(0, r"Test_Ai\scripts\fast_run7")
 from r4lib import *
 d = connect()
 kids = d.find_objects(By.PATH, "//Audio_Panel//*", enabled=True)

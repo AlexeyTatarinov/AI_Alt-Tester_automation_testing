@@ -62,10 +62,10 @@
     "Reset"
    ],
    "hash_before_ng": {
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "572a5bd3d94c1951",
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "572a5bd3d94c1951",
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+    "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "572a5bd3d94c1951",
+    "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "572a5bd3d94c1951",
+    "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+    "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
    },
    "hash_equal_backup": false,
    "restored_ok": true,
@@ -176,10 +176,10 @@
    ],
    "menu_text_bad": [],
    "hash_before_ng": {
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "572a5bd3d94c1951",
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "572a5bd3d94c1951",
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+    "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "572a5bd3d94c1951",
+    "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "572a5bd3d94c1951",
+    "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+    "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
    },
    "hash_equal_backup": false,
    "new_game_s": 1.7,
@@ -293,10 +293,10 @@
    ],
    "menu_text_bad": [],
    "hash_before_ng": {
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "572a5bd3d94c1951",
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "572a5bd3d94c1951",
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
-    "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+    "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "572a5bd3d94c1951",
+    "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "572a5bd3d94c1951",
+    "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+    "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
    },
    "hash_equal_backup": false,
    "new_game_s": 1.5,
@@ -375,10 +375,10 @@
  ],
  "checkpoint": {
   "save": {
-   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "572a5bd3d94c1951",
-   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "572a5bd3d94c1951",
-   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
-   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+   "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "572a5bd3d94c1951",
+   "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "572a5bd3d94c1951",
+   "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+   "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
   },
   "log": 54212509
  }

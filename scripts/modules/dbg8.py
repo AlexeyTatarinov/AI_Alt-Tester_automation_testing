@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\modules")
+import sys; sys.path.insert(0, r"Test_Ai\scripts\modules")
 from elib import *
 for i in range(8):
     print(i, gstate(), scenes()); time.sleep(2)

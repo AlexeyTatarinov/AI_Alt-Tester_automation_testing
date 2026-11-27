@@ -1,5 +1,5 @@
 import json
-P = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\opus_review_20261124\cases_state.json"
+P = r"Test_Ai\Reports_2026-11-21\results\opus_review_20261124\cases_state.json"
 j = json.load(open(P, encoding="utf-8"))
 SRC = "Reports_2026-11-21/results/modules_stage2_20261125/report.md"
 U = {

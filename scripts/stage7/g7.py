@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # общие функции stage7
 import os, sys, json, time, statistics
-os.environ["MOD_OUT"] = "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/modules_stage7_20261126"
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\stage6")
+os.environ["MOD_OUT"] = "Test_Ai/Reports_2026-11-21/results/modules_stage7_20261126"
+sys.path.insert(0, r"Test_Ai\scripts\stage6")
 from s3blib import *
 
 R7 = OUT
@@ -110,7 +110,7 @@ def log_len():
 
 
 # s3blib перезаписывает MOD_OUT на папку stage6: вернуть все пути на stage7
-R7 = "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/modules_stage7_20261126"
+R7 = "Test_Ai/Reports_2026-11-21/results/modules_stage7_20261126"
 OUT = R7
 guard.RES = R7; guard.STATE_F = os.path.join(R7, "run_state.json"); guard.STALL_F = os.path.join(R7, "stall_report.json")
 guard.TAILS = os.path.join(R7, "log_tails"); guard.SHOTS = os.path.join(R7, "shots"); guard.WIN_LOG = os.path.join(R7, "window_restores.txt")

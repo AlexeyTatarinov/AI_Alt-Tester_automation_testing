@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 # d01 этапы 1-2: New Game, первый разговор (Space 0.1/пауза 1.0 до закрытия), второй разговор, Yes.
 import os, sys, json
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run7")
+sys.path.insert(0, r"Test_Ai\scripts\fast_run7")
 from r4lib import *
 d = connect()
-OUT = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\run8_d01_20261124"; os.makedirs(OUT, exist_ok=True)
+OUT = r"Test_Ai\Reports_2026-11-21\results\run8_d01_20261124"; os.makedirs(OUT, exist_ok=True)
 R = {}
 print("restore_window", guard.restore_window("d01 A"))
 pre = preflight("d01a")

@@ -9,12 +9,12 @@
  },
  "editor_log_offset0": 31507182,
  "editor_log_last_line": "AltTester.AltTesterUnitySDK.Commands.AltRunner:Update ()\r",
- "backup_dir": "C:\\Users\\Aotat\\Desktop\\Test_Ai\\Reports_2026-11-21\\evidence\\save_backup\\20261122_122526",
+ "backup_dir": "Test_Ai\\Reports_2026-11-21\\evidence\\save_backup\\20261122_122526",
  "saves_hash_before": {
-  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
-  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "c9dde7118826c1bd",
-  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
-  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+  "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "33c38933a6cb735c",
+  "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "c9dde7118826c1bd",
+  "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
  },
  "back_to_menu": {
   "ok": true,
@@ -43,7 +43,7 @@
    "title": "UOP1_Project - MainMenu - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
    "responding": true,
    "found": true,
-   "shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\run2_shots\\preflight_run2b_start2.png",
+   "shot": "Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\run2_shots\\preflight_run2b_start2.png",
    "iconic": false
   },
   "consoleFlags": 7683,
@@ -71,8 +71,8 @@
   "step": "LOC-03 Forest (NavMesh Stop, CC-?)",
   "log_size": 42481293,
   "save_hashes": {
-   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "a3aa0c2883cfee20",
-   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079"
+   "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "a3aa0c2883cfee20",
+   "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079"
   }
  },
  "heartbeat": {
@@ -80,7 +80,7 @@
   "ts": 1795428516.485887,
   "case": "block:B-final",
   "status": "end",
-  "note": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\log_tails\\110836_block_B-final.txt"
+  "note": "Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\log_tails\\110836_block_B-final.txt"
  },
  "heartbeats": [
   {
@@ -179,7 +179,7 @@
    "ts": 1795428516.485887,
    "case": "block:B-final",
    "status": "end",
-   "note": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\log_tails\\110836_block_B-final.txt"
+   "note": "Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\log_tails\\110836_block_B-final.txt"
   }
  ]
 }

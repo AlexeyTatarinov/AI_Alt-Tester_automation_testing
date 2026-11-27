@@ -3,7 +3,7 @@ import os, sys, json, shutil
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from l10n_lib import *
 d = connect(); R = {"cycles": []}
-BK = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\evidence\save_backup\20261122_122526"
+BK = r"Test_Ai\Reports_2026-11-21\evidence\save_backup\20261122_122526"
 MAP = {"Unity_Technologies": SAVE_DIRS[0], "Unity_Open_Projects": SAVE_DIRS[1]}
 def bk_hashes():
     out = {}

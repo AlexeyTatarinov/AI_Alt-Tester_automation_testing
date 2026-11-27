@@ -13,13 +13,12 @@ Automated testing of a real Unity game (**Chop Chop**, Unity Open Project #1) dr
 | `scripts/` | Python test scripts per run (`fast_run1` ... `fast_run9`), the new module-level suite (`modules`), the guard and helper libraries (`fast_run7/guard.py`, `fastlib.py`, `r4lib.py`), the scripted Stop/Play tool (`play_control`), the file-queue watcher (`queue/watcher.ps1`) |
 | `reports/` | Run reports (Markdown), numeric results (JSON), selected screenshots, bug reports, the metrics summary |
 | `cases/cases_state.json` | The ledger: one record per test case with verdict, run, source report, method version and a "do not repeat until" condition (50 cases) |
-| `docs/` | Severity and priority scale, known game behaviours, test-case design, the module decomposition and the AltTester capability notes, audit and analysis notes |
-| `task-prompts/`, `queue-task-drafts/` | The task files that were given to the AI test runner |
+| `docs/` | Severity and priority scale, test-case design, the module decomposition and the AltTester capability notes, audit and analysis notes |
 | `data/` | List of known upstream bugs (benchmark), collision inventory of the Beach scene |
 
 ## How it works
 
-1. A human (or a reviewer model) writes a task file; a PowerShell watcher started by Windows Task Scheduler picks it up and runs Claude Code in the background (`claude -p`), then writes `result.json` and a log.
+1. A human (or a reviewer model) writes a task file (not published here); a PowerShell watcher started by Windows Task Scheduler picks it up and runs Claude Code in the background (`claude -p`), then writes `result.json` and a log.
 2. The runner reads data from the running game through the AltTester Python SDK (about 22 ms per call), presses keys, teleports the player (`Physics.autoSyncTransforms` + `Transform.position`), and compares numbers against written criteria.
 3. A **guard** runs before every step: editor not paused (Console Error Pause bit read through `LogEntries.consoleFlags`), window alive, game answering, in-game pause menu closed.
 4. The game save is restored from a hash-checked backup after every run.
@@ -47,7 +46,7 @@ Automated testing of a real Unity game (**Chop Chop**, Unity Open Project #1) dr
 
 ## Requirements to run (not included)
 
-Unity 6000.3 with the Chop Chop project, AltTester Desktop 2.4.x with the Unity SDK, Python 3.14 with the `AltTester-Driver` package (2.4.1), Windows 11. The scripts use local absolute paths (`C:\Users\...\Test_Ai`) and a local save backup; adjust them before running.
+Unity 6000.3 with the Chop Chop project, AltTester Desktop 2.4.x with the Unity SDK, Python 3.14 with the `AltTester-Driver` package (2.4.1), Windows 11. Paths in the scripts were shortened to `Test_Ai\...` for publication and there is no save backup here; set your own paths before running.
 
 ## Notes
 

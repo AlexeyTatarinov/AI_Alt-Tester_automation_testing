@@ -4,7 +4,7 @@
 Все команды драйвера ограничены 20 вызовами/с (патч `WebsocketConnection.send`). Реально упирается в FPS редактора (в stage7 около 6 вызовов/с).
 
 ```
-cd C:\Users\Aotat\Desktop\Test_Ai\scripts\stage8
+cd Test_Ai\scripts\stage8
 ..\sdk_smoke\.venv\Scripts\python.exe collect.py --probe                # 1–3 мин, текущая сцена, без навигации -> probe.json
 ..\sdk_smoke\.venv\Scripts\python.exe collect.py                        # все 10 локаций, продолжает с места остановки
 ..\sdk_smoke\.venv\Scripts\python.exe collect.py --location Forest      # одна (или несколько через запятую)

@@ -2,7 +2,7 @@
 """Уход за консолью Unity во время прогонов (25.11.2026). Причина: каждая команда AltTester пишет в Console/Editor.log запись со стеком,
 консоль росла до сотен тысяч записей, Editor.log до ~180 МБ, редактор зависал. Только вызовы через AltTester, проект не меняется; сбрасывается каждым Play.
 Использование (из своих скриптов, драйвер уже открыт):
-    import sys; sys.path.insert(0, r"C:\\Users\\Aotat\\Desktop\\Test_Ai\\scripts\\play_control")
+    import sys; sys.path.insert(0, r"Test_Ai\\scripts\\play_control")
     import housekeeping as hk
     hk.setup(d)            # в начале Play: стек у Log отключить, Warning = ScriptOnly, очистить консоль
     hk.tick(d)             # раз в ~10 минут и перед тяжёлой серией: очистить консоль, если записей > 20000

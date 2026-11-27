@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import re, shutil
-B = r"C:\Users\Aotat\Desktop\Test_Ai"
+B = r"Test_Ai"
 OUT = B + r"\Reports_2026-11-21\results\modules_stage1_20261125"
 CAP = B + r"\alttester-capabilities-2026-11-25.md"
 MOD = B + r"\modules-decomposition-2026-11-25.md"

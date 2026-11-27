@@ -11,7 +11,7 @@
    "title": "UOP1_Project - Beach - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.28f1) <DX11>",
    "responding": true,
    "found": true,
-   "shot": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/modules_stage3_20261125\\shots\\preflight_a1.png",
+   "shot": "Test_Ai/Reports_2026-11-21/results/modules_stage3_20261125\\shots\\preflight_a1.png",
    "iconic": false
   },
   "consoleFlags": 7683,
@@ -40,8 +40,8 @@
   "step": "a2 back to menu",
   "log_size": 156213277,
   "save_hashes": {
-   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "8fbdd41da168d6b7",
-   "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079"
+   "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "8fbdd41da168d6b7",
+   "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079"
   }
  }
 }

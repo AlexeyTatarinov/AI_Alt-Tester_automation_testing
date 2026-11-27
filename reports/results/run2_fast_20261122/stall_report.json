@@ -18,7 +18,7 @@
    "responding": true,
    "cpu_delta_1_5s": 3
   },
-  "log_tail_copy": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\log_tails\\104836_stall_INT-03.txt",
+  "log_tail_copy": "Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\log_tails\\104836_stall_INT-03.txt",
   "unpause_attempts_used": 0
  },
  {
@@ -40,7 +40,7 @@
    "responding": true,
    "cpu_delta_1_5s": 2.969
   },
-  "log_tail_copy": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\log_tails\\105028_stall_INT-03.txt",
+  "log_tail_copy": "Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\log_tails\\105028_stall_INT-03.txt",
   "unpause_attempts_used": 0
  }
 ]

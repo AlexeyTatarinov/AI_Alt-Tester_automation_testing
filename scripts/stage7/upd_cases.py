@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import json, shutil, os
-B = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\opus_review_20261124"
+B = r"Test_Ai\Reports_2026-11-21\results\opus_review_20261124"
 F = B + r"\cases_state.json"
 BEFORE = B + r"\cases_state.before_stage7.json"
 if not os.path.exists(BEFORE):

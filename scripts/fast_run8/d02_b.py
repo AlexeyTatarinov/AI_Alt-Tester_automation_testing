@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # d02 этап 2: повторить второй разговор после No; если Yes/No снова - нажать Yes
 import os, sys, json
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run7")
+sys.path.insert(0, r"Test_Ai\scripts\fast_run7")
 from r4lib import *
-OUT = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\run8_d02_20261124"
+OUT = r"Test_Ai\Reports_2026-11-21\results\run8_d02_20261124"
 d = connect(); pre = preflight("d02b"); R = {"start": now()}
 d.set_static_property("UnityEngine.Physics","autoSyncTransforms",PHYS,True)
 def seeds(): return save_info().get("stacks", {}).get("42396f")

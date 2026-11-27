@@ -8,12 +8,12 @@
  },
  "editor_log_offset0": 283713179,
  "editor_log_last_line": "AltTester.AltTesterUnitySDK.Commands.AltRunner:Update ()\r",
- "backup_dir": "C:\\Users\\Aotat\\Desktop\\Test_Ai\\Reports_2026-11-21\\evidence\\save_backup\\20261122_114746",
+ "backup_dir": "Test_Ai\\Reports_2026-11-21\\evidence\\save_backup\\20261122_114746",
  "saves_hash_before": {
-  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "628fab9eef30a455",
-  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "628fab9eef30a455",
-  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
-  "C:\\Users\\Aotat\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
+  "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop": "628fab9eef30a455",
+  "~\\AppData\\LocalLow\\Unity Technologies\\Chop Chop\\save.chop.bak": "628fab9eef30a455",
+  "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop": "aa50702879c37079",
+  "~\\AppData\\LocalLow\\Unity Open Projects\\Chop Chop\\save.chop.bak": "e3b0c44298fc1c14"
  },
  "new_game": {
   "load_s": "не измерено (первый запуск stage0 прервался после клика)",

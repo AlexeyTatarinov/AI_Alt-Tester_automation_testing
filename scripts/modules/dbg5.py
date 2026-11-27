@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\modules")
+import sys; sys.path.insert(0, r"Test_Ai\scripts\modules")
 from elib import *
 print("start", gstate(), pause_open())
 key("Escape",0.1); time.sleep(1.5); print("after esc", gstate(), pause_open())

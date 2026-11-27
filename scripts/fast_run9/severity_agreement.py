@@ -2,7 +2,7 @@
 """Считает согласие серьёзности и приоритета: человек против ИИ (CC-31). Запуск: python severity_agreement.py answers.json
 Оценки ИИ читаются только ПОСЛЕ получения ответов человека; хеш проверяется, чтобы убедиться, что их не меняли."""
 import json, sys, hashlib, os
-D = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\severity_blind_20261124"
+D = r"Test_Ai\Reports_2026-11-21\severity_blind_20261124"
 raw = open(os.path.join(D, "AI_SEALED_ratings.json"), encoding="utf-8").read()
 assert hashlib.sha256(raw.encode()).hexdigest() == open(os.path.join(D, "AI_SEALED_ratings.sha256")).read().strip(), "оценки ИИ изменены после запечатывания"
 ai = {i["id"]: i for i in json.loads(raw)["items"]}

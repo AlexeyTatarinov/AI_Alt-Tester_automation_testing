@@ -1,5 +1,5 @@
 import json, re
-B=r"C:\Users\Aotat\Desktop\Test_Ai"
+B=r"Test_Ai"
 OUT=B+r"\Reports_2026-11-21\results\modules_stage1_20261125"
 P=B+r"\Reports_2026-11-21\results\opus_review_20261124\cases_state.json"
 RP="Reports_2026-11-21/results/modules_stage1_20261125/report.md"

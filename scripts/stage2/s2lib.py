@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os, sys, json, time
-os.environ["MOD_OUT"] = "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/modules_stage2_20261125"
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\modules")
+os.environ["MOD_OUT"] = "Test_Ai/Reports_2026-11-21/results/modules_stage2_20261125"
+sys.path.insert(0, r"Test_Ai\scripts\modules")
 from elib import *
 import elib
 R2 = OUT

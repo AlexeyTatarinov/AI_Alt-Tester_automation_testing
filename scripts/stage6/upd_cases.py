@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
-B = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\opus_review_20261124"
+B = r"Test_Ai\Reports_2026-11-21\results\opus_review_20261124"
 F = B + r"\cases_state.json"
 raw = open(F, "rb").read(); bom = raw.startswith(b"\xef\xbb\xbf"); crlf = b"\r\n" in raw
 data = json.loads(raw.decode("utf-8-sig"))

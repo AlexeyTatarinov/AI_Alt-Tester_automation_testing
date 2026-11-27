@@ -13,7 +13,7 @@
    "found": null,
    "error": "AttributeError: 'NoneType' object has no attribute 'strip'"
   },
-  "log_tail_copy": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run3_new1_20261123\\log_tails\\120329_stall_MENU-08_круг_1.txt",
+  "log_tail_copy": "Test_Ai/Reports_2026-11-21/results/run3_new1_20261123\\log_tails\\120329_stall_MENU-08_круг_1.txt",
   "unpause_attempts_used": 0
  },
  {
@@ -30,7 +30,7 @@
    "found": null,
    "error": "AttributeError: 'NoneType' object has no attribute 'strip'"
   },
-  "log_tail_copy": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run3_new1_20261123\\log_tails\\120419_stall_MENU-08_круг_1.txt",
+  "log_tail_copy": "Test_Ai/Reports_2026-11-21/results/run3_new1_20261123\\log_tails\\120419_stall_MENU-08_круг_1.txt",
   "unpause_attempts_used": 0
  }
 ]

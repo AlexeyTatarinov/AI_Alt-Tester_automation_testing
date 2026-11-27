@@ -1,5 +1,5 @@
 import sys, json
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run7")
+sys.path.insert(0, r"Test_Ai\scripts\fast_run7")
 from r4lib import *
 d=connect(); print("rw", guard.restore_window("d")); preflight("d01d")
 d.set_static_property("UnityEngine.Physics","autoSyncTransforms",PHYS,True)
@@ -30,6 +30,6 @@ try:
         if choices(): R["choices"]=True; break
     time.sleep(2); R.update(N=n, closed=not dlg(), seq=seq, exc=exc_summary(off))
     print(json.dumps(R, ensure_ascii=False)[:3000])
-    json.dump(R, open(r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\run8_d01_20261124\d01_d.json","w",encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(R, open(r"Test_Ai\Reports_2026-11-21\results\run8_d01_20261124\d01_d.json","w",encoding="utf-8"), ensure_ascii=False, indent=1)
 finally:
     d.set_static_property("UnityEngine.Physics","autoSyncTransforms",PHYS,False)

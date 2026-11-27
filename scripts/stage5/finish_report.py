@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-P = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\modules_stage5_20261126\report.md"
+P = r"Test_Ai\Reports_2026-11-21\results\modules_stage5_20261126\report.md"
 t = open(P, encoding="utf-8").read()
 for a, b in (("### 2.1. M19-01", "### 2.1а. M19-01"), ("### 2.2. M19-02", "### 2.1б. M19-02"), ("### 2.3 (задания). M08-01c", "### 2.2. M08-01c"), ("### 2.4 (задания). IT-08", "### 2.3. IT-08"),
              ("у 16 объектов Townsfolk", "у всех 17 объектов Townsfolk"), (" (поиск был ограничен 10 файлами-совпадениями)", " (в других префабах, сценах и ассетах не найдены)")):

@@ -1,6 +1,6 @@
 ﻿# Наблюдатель очереди заданий Test_Ai. Только PowerShell, без внешних модулей.
 $ErrorActionPreference = "Continue"
-$Root   = "C:\Users\Aotat\Desktop\Test_Ai"
+$Root   = "Test_Ai"
 $Q      = Join-Path $Root "queue"
 $Inbox  = Join-Path $Q "inbox"; $Run = Join-Path $Q "running"; $Done = Join-Path $Q "done"; $Fail = Join-Path $Q "failed"; $Logs = Join-Path $Q "logs"
 $Lock   = Join-Path $Q "watcher.lock"

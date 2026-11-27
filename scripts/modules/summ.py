@@ -1,5 +1,5 @@
 import json,sys
-O=r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\modules_stage1_20261125"
+O=r"Test_Ai\Reports_2026-11-21\results\modules_stage1_20261125"
 for s in ("MainMenu","Beach","Field_Hill","Town_Market"):
     S=json.load(open(O+"/module_snapshot_%s.json"%s,encoding="utf-8"))
     print("=====",s,S["loaded_scenes"])

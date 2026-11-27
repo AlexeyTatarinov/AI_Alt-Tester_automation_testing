@@ -2,7 +2,7 @@
 import os, sys, json, shutil, re
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from inv_lib import *
-BK = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\evidence\save_backup\20261122_122526"
+BK = r"Test_Ai\Reports_2026-11-21\evidence\save_backup\20261122_122526"
 MAP = {"Unity_Technologies": SAVE_DIRS[0], "Unity_Open_Projects": SAVE_DIRS[1]}
 def bk_hashes():
     return {os.path.join(dst, f): sha(os.path.join(BK, sub, f)) for sub, dst in MAP.items() for f in ("save.chop", "save.chop.bak")}

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import sys; sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\modules")
+import sys; sys.path.insert(0, r"Test_Ai\scripts\modules")
 from mlib import *
 import module_snapshot as ms
 from module_snapshot import cheat_go, close_pause, first, rd

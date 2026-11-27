@@ -1,5 +1,5 @@
 import json,sys
-P=r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\opus_review_20261124\cases_state.json"
+P=r"Test_Ai\Reports_2026-11-21\results\opus_review_20261124\cases_state.json"
 j=json.load(open(P,encoding="utf-8"))
 M={"TP-00":("T01","L1"),"TP-01":("T01","L1"),"TP-02":("M07","L1"),"CON-01":("M01","L1"),
 "INT-01":("M11","L1"),"INT-02":("M11","L1"),"INT-03":("M14","L2"),"INT-04":("M11","L1"),"INT-05":("M11","L1"),

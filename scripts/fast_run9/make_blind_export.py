@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Готовит слепой экспорт для CC-31: форма для человека (без оценок ИИ и без Jira-ключей) и запечатанные оценки ИИ с хешем."""
 import json, hashlib, html, os
-D = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\severity_blind_20261124"
+D = r"Test_Ai\Reports_2026-11-21\severity_blind_20261124"
 os.makedirs(D, exist_ok=True)
 bugs = [
  ("CC-67", "New Game writes a console warning \"The player tried to spawn in an LocationEntry that doesn't exist, returning the default one.\" on every start (3 times per session).",

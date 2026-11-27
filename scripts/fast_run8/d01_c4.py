@@ -1,5 +1,5 @@
 import sys, json
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run7")
+sys.path.insert(0, r"Test_Ai\scripts\fast_run7")
 from r4lib import *
 d=connect(); guard.restore_window("c4"); preflight("d01c4")
 d.set_static_property("UnityEngine.Physics","autoSyncTransforms",PHYS,True)

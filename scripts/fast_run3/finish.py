@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from l10n_lib import *
 d = connect()
 pre = guard.preflight("finish"); print("preflight", {k: pre[k] for k in ("consoleFlags","error_pause","play","alive")}, "iconic", pre["window"].get("iconic"))
-BK = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\evidence\save_backup\20261122_122526"
+BK = r"Test_Ai\Reports_2026-11-21\evidence\save_backup\20261122_122526"
 MAP = {"Unity_Technologies": SAVE_DIRS[0], "Unity_Open_Projects": SAVE_DIRS[1]}
 print("до возврата:", save_hashes())
 for sub, dst in MAP.items():

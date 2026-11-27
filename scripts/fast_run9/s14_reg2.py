@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """Регрессия известных багов (CC-27), часть 2: #499 (камень южнее зайца), #502 (прыжок в стену), #426 (слизень), #262b (отзывчивость после загрузки через меню читов)."""
 import os, sys, json, math
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run7")
+sys.path.insert(0, r"Test_Ai\scripts\fast_run7")
 from r4lib import *
 from alttester import AltKeyCode
 
-OUT = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\run11_reg_20261124"
+OUT = r"Test_Ai\Reports_2026-11-21\results\run11_reg_20261124"
 R = {"started": now()}
 def save(): json.dump(R, open(os.path.join(OUT, "s14_result.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 def fwd():

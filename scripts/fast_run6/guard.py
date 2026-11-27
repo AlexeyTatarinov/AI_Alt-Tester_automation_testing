@@ -6,8 +6,8 @@ Ctrl+Shift+P из этого модуля НЕ отправляется: зап�
 Подключение: `import time, guard` (fastlib.case() уже вызывает before_case / after_case)."""
 import os, re, json, time, socket, subprocess, datetime, shutil
 
-EDLOG = r"C:\Users\Aotat\AppData\Local\Unity\Editor\Editor.log"
-RES = "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run6_new4_20261123"
+EDLOG = r"~\AppData\Local\Unity\Editor\Editor.log"
+RES = "Test_Ai/Reports_2026-11-21/results/run6_new4_20261123"
 STATE_F = os.path.join(RES, "run6_state.json")
 STALL_F = os.path.join(RES, "stall_report.json")
 TAILS = os.path.join(RES, "log_tails")
@@ -273,7 +273,7 @@ def risky(name):
     """перед рисковым шагом (ошибки: Q, Space в диалоге, Forest, MainMenu): чекпойнт состояния"""
     import hashlib
     st = _state(); h = {}
-    for sd in (r"C:\Users\Aotat\AppData\LocalLow\Unity Technologies\Chop Chop", r"C:\Users\Aotat\AppData\LocalLow\Unity Open Projects\Chop Chop"):
+    for sd in (r"~\AppData\LocalLow\Unity Technologies\Chop Chop", r"~\AppData\LocalLow\Unity Open Projects\Chop Chop"):
         p = os.path.join(sd, "save.chop")
         h[p] = hashlib.sha256(open(p, "rb").read()).hexdigest()[:16] if os.path.exists(p) else None
     st["risky_checkpoint"] = {"time": now(), "step": name, "log_size": log_mark(), "save_hashes": h}

@@ -15,10 +15,10 @@
 """
 import os, sys, json, time, math, re, argparse, statistics, traceback, collections
 
-RES = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\stage8_levels"
+RES = r"Test_Ai\Reports_2026-11-21\results\stage8_levels"
 OUT_F = os.path.join(RES, "levels.json")
 PROBE_F = os.path.join(RES, "probe.json")
-MODULES = r"C:\Users\Aotat\Desktop\Test_Ai\scripts\modules"
+MODULES = r"Test_Ai\scripts\modules"
 ASSETS = r"C:\Games\ChopChop\UOP1_Project\Assets"
 GLOBAL_SCENE_FILES = (r"Scenes\Managers\PersistentManagers.unity", r"Scenes\Managers\Gameplay.unity")
 

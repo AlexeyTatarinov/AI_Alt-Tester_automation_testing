@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import os, sys, json
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run7")
+sys.path.insert(0, r"Test_Ai\scripts\fast_run7")
 from r4lib import *
-OUT = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\run8_d02_20261124"
+OUT = r"Test_Ai\Reports_2026-11-21\results\run8_d02_20261124"
 d = connect()
 R = {"before": save_hashes()}
 R["restore_equal"] = restore(); R["after"] = save_hashes(); R["backup"] = bk_hashes()

@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0,r"C:\Users\Aotat\Desktop\Test_Ai\scripts\modules")
+import sys; sys.path.insert(0,r"Test_Ai\scripts\modules")
 from mlib import *
 print("hash_eq_backup", save_hashes()==bk_hashes())
 try: d.set_static_property("UnityEngine.Application","runInBackground",CORE,True)

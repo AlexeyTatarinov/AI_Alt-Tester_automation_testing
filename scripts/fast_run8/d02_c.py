@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # d02 этап 3: restore save -> Back to menu -> CONTINUE
 import os, sys, json
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run7")
+sys.path.insert(0, r"Test_Ai\scripts\fast_run7")
 from r4lib import *
-OUT = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\run8_d02_20261124"
+OUT = r"Test_Ai\Reports_2026-11-21\results\run8_d02_20261124"
 d = connect(); pre = preflight("d02c"); R = {"start": now()}
 def dump(): json.dump(R, open(os.path.join(OUT, "d02_c.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1, default=str)
 assert not dlg()

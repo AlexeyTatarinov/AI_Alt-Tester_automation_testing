@@ -5,10 +5,10 @@ import os, sys, time, json, re, shutil, hashlib, datetime, math, traceback
 
 from alttester import AltDriver, By, AltKeyCode
 
-REPO_RES = "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run3_new1_20261123"
-TESTAI = r"C:\Users\Aotat\Desktop\Test_Ai"
-EDLOG = r"C:\Users\Aotat\AppData\Local\Unity\Editor\Editor.log"
-SAVE_DIRS = [r"C:\Users\Aotat\AppData\LocalLow\Unity Technologies\Chop Chop", r"C:\Users\Aotat\AppData\LocalLow\Unity Open Projects\Chop Chop"]
+REPO_RES = "Test_Ai/Reports_2026-11-21/results/run3_new1_20261123"
+TESTAI = r"Test_Ai"
+EDLOG = r"~\AppData\Local\Unity\Editor\Editor.log"
+SAVE_DIRS = [r"~\AppData\LocalLow\Unity Technologies\Chop Chop", r"~\AppData\LocalLow\Unity Open Projects\Chop Chop"]
 STATE_F = os.path.join(REPO_RES, "run3_state.json")
 RES_F = os.path.join(REPO_RES, "run3_results.json")
 SHOTS = os.path.join(REPO_RES, "shots")

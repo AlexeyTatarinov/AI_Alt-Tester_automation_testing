@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from s3lib import *
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run3")
+sys.path.insert(0, r"Test_Ai\scripts\fast_run3")
 R = {"steps": []}
 def dump(): jdump(os.path.join(R2, "a2.json"), R)
 def vol():

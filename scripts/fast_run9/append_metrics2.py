@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-p = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\metrics_cc31_32_33_20261124.md"
+p = r"Test_Ai\Reports_2026-11-21\metrics_cc31_32_33_20261124.md"
 s = open(p, encoding="utf-8").read()
 s += """
 

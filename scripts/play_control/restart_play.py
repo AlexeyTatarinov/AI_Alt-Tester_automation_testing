@@ -14,10 +14,10 @@
 import sys, os, time, json, socket, subprocess, hashlib, shutil, ctypes, datetime
 from ctypes import wintypes
 
-TESTAI = r"C:\Users\Aotat\Desktop\Test_Ai"
+TESTAI = r"Test_Ai"
 BK = os.path.join(TESTAI, r"Reports_2026-11-21\evidence\save_backup\20261122_122526")
-SAVE_DIRS = {"Unity_Technologies": r"C:\Users\Aotat\AppData\LocalLow\Unity Technologies\Chop Chop",
-             "Unity_Open_Projects": r"C:\Users\Aotat\AppData\LocalLow\Unity Open Projects\Chop Chop"}
+SAVE_DIRS = {"Unity_Technologies": r"~\AppData\LocalLow\Unity Technologies\Chop Chop",
+             "Unity_Open_Projects": r"~\AppData\LocalLow\Unity Open Projects\Chop Chop"}
 LOGF = os.path.join(TESTAI, r"scripts\play_control\restart_play_last.json")
 MAX_FRAMES = 3000          # «чистый» Play: счётчик кадров после старта мал (7b: чистый Play = frame < 700 при подключении)
 EDITOR_ASM = ["UnityEditor.CoreModule", "UnityEditor"]

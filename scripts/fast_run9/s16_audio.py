@@ -1,7 +1,7 @@
 import os, sys, json
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run7")
+sys.path.insert(0, r"Test_Ai\scripts\fast_run7")
 from r4lib import *
-OUT = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\run11_reg_20261124"
+OUT = r"Test_Ai\Reports_2026-11-21\results\run11_reg_20261124"
 d = connect(); preflight("s16"); R = {}
 phase = sys.argv[1] if len(sys.argv) > 1 else "set"
 def vals(): return [o.get_text() for o in d.find_objects(By.PATH, "//Audio_Panel//CurrentOption", enabled=True)]

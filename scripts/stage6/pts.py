@@ -1,7 +1,7 @@
 # точки сброса: центр выхода или ближайшая к центру точка внутри его контура и вне всех прочих (OBB по x/z)
 import json, math, sys
 import os
-O = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\modules_stage6_20261126"
+O = r"Test_Ai\Reports_2026-11-21\results\modules_stage6_20261126"
 def F(name): return os.path.join(O, name)
 def local(e, x, z):
     t = math.radians(e["euler"][1]); dx, dz = x - e["pos"][0], z - e["pos"][2]

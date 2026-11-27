@@ -2,10 +2,10 @@
 """Проверка известных upstream-багов из бенчмарка CC-45 / CC-32: #483 (E в диалоге), #505 (коллайдер у печи Town_Market), #484 (townsfolk проходят сквозь BardHare).
 Запуск: на чистом Play (после restart_play.py). Игру и проект не меняет. Результат: steps в JSON рядом с отчётом."""
 import os, sys, json, math
-sys.path.insert(0, r"C:\Users\Aotat\Desktop\Test_Ai\scripts\fast_run7")
+sys.path.insert(0, r"Test_Ai\scripts\fast_run7")
 from r4lib import *
 
-OUT = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\run10_upstream_20261124"
+OUT = r"Test_Ai\Reports_2026-11-21\results\run10_upstream_20261124"
 os.makedirs(OUT, exist_ok=True)
 R = {"started": now()}
 

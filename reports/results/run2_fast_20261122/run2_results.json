@@ -63,7 +63,7 @@
   "id": "INT-03",
   "verdict": "Не пройдено",
   "numbers": "диалог открылся за 0.04 с; N = 40 нажатий Space до закрытия (выбор Yes/No на нажатии None, действие: None); закрылся=False; управление вернулось (подсказка у зайца, диалога нет) через None с (до 60); шаг 0.99 м; save.chop изменился=True; исключений 0, ошибок 0. База N для DLG-10 от состояния после ручной игры владельца",
-  "evidence": "C:/Users/Aotat/Desktop/Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\run2_shots\\INT-03_fail.png"
+  "evidence": "Test_Ai/Reports_2026-11-21/results/run2_fast_20261122\\run2_shots\\INT-03_fail.png"
  },
  {
   "id": "LOC-03 Forest_Entrance",

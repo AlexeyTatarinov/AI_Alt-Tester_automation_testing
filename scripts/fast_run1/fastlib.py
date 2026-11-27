@@ -6,9 +6,9 @@ import os, sys, time, json, re, shutil, hashlib, datetime, math, traceback
 from alttester import AltDriver, By, AltKeyCode
 
 REPO_RES = r"C:\Games\ChopChop\UOP1_Project\.claude\worktrees\alttester-cli-connection-9050ce\Reports\results"
-TESTAI = r"C:\Users\Aotat\Desktop\Test_Ai"
-EDLOG = r"C:\Users\Aotat\AppData\Local\Unity\Editor\Editor.log"
-SAVE_DIRS = [r"C:\Users\Aotat\AppData\LocalLow\Unity Technologies\Chop Chop", r"C:\Users\Aotat\AppData\LocalLow\Unity Open Projects\Chop Chop"]
+TESTAI = r"Test_Ai"
+EDLOG = r"~\AppData\Local\Unity\Editor\Editor.log"
+SAVE_DIRS = [r"~\AppData\LocalLow\Unity Technologies\Chop Chop", r"~\AppData\LocalLow\Unity Open Projects\Chop Chop"]
 STATE_F = os.path.join(REPO_RES, "run1_state.json")
 RES_F = os.path.join(REPO_RES, "run1_results.json")
 SHOTS = os.path.join(REPO_RES, "run1_shots")

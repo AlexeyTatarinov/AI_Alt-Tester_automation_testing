@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import json, os
-R = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\results\modules_stage7_20261126"
+R = r"Test_Ai\Reports_2026-11-21\results\modules_stage7_20261126"
 for f in ("perf", "mesh", "soak", "ui_text", "cc94_save"):
     json.load(open(os.path.join(R, f + ".json"), encoding="utf-8")); print(f, "ok")
 

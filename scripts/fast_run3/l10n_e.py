@@ -3,7 +3,7 @@ import os, sys, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from l10n_lib import *
 d = connect(); R = {}
-LOG0 = log_mark(); BK = r"C:\Users\Aotat\Desktop\Test_Ai\Reports_2026-11-21\evidence\save_backup\20261122_122526\Unity_Technologies\save.chop"
+LOG0 = log_mark(); BK = r"Test_Ai\Reports_2026-11-21\evidence\save_backup\20261122_122526\Unity_Technologies\save.chop"
 # Settings в MainMenu: язык
 d.find_object(By.NAME, "Button Settings ", enabled=False).click(); time.sleep(1.5)
 R["menu_settings_texts"] = read_texts(); print("MENU settings:", [t for n, t in R["menu_settings_texts"]]); shot("l10n_menu_settings")
@@ -15,7 +15,7 @@ try: d.find_object(By.NAME, "Button Close", enabled=True).click(); time.sleep(1.
 except Exception as e: print("close err", type(e).__name__)
 print("settings closed:", not any(True for _ in d.find_objects(By.NAME, "Settings_Panel_PR", enabled=True)))
 # New Game
-R["hash_before_newgame"] = sha(r"C:\Users\Aotat\AppData\LocalLow\Unity Technologies\Chop Chop\save.chop"); R["hash_backup"] = sha(BK)
+R["hash_before_newgame"] = sha(r"~\AppData\LocalLow\Unity Technologies\Chop Chop\save.chop"); R["hash_backup"] = sha(BK)
 print("хеш save.chop перед New Game", R["hash_before_newgame"], "копия", R["hash_backup"], "равны:", R["hash_before_newgame"] == R["hash_backup"], "(отличие ожидаемо: Save языка + Back to menu)")
 t0 = time.time(); d.find_object(By.NAME, "Button New Game", enabled=False).click()
 for _ in range(15):
