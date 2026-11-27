@@ -1,0 +1,775 @@
+{
+ "note": "редактор Unity (Play in Editor), не сборка",
+ "locations": [
+  {
+   "name": "Field_Hill",
+   "scene": "Field_Hill",
+   "load": {
+    "from": [
+     "Beach"
+    ],
+    "to": "Field_Hill",
+    "ok": true,
+    "load_s": 2.07,
+    "poll_errors": 0,
+    "button": "Field_Hill via Beach_FieldsHill"
+   },
+   "load_tries": [
+    {
+     "from": [
+      "Beach"
+     ],
+     "to": "Field_Hill",
+     "ok": true,
+     "load_s": 2.07,
+     "poll_errors": 0,
+     "button": "Field_Hill via Beach_FieldsHill"
+    }
+   ],
+   "frames": 197,
+   "seconds": 10.156,
+   "avg_fps": 19.4,
+   "unscaledDeltaTime": [
+    0.0293574054,
+    0.4375362,
+    0.0437137969,
+    0.1465975,
+    0.1899564,
+    0.1988078,
+    0.0121147037,
+    0.0134761976,
+    0.0230110977,
+    0.0170493983
+   ],
+   "dt_median_ms": 36.54,
+   "dt_max_ms": 437.54,
+   "render": {
+    "probe_batches": 705,
+    "drawCalls": 705,
+    "setPassCalls": 170,
+    "triangles": 639028,
+    "vertices": 607678
+   },
+   "memory": {
+    "total_allocated": 940561597,
+    "mono_used": 805761024
+   },
+   "window": {
+    "isFocused": false,
+    "iconic": false
+   },
+   "pig_active": true,
+   "state": "Gameplay",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Field_Hill"
+   ],
+   "exceptions_total": 0
+  },
+  {
+   "name": "Field_Farms",
+   "scene": "Field_Farms",
+   "load": {
+    "from": [
+     "Field_Hill"
+    ],
+    "to": "Field_Farms",
+    "ok": true,
+    "load_s": 3.57,
+    "poll_errors": 0,
+    "button": "Field_Farms via FieldsHill_FieldsFarms"
+   },
+   "load_tries": [
+    {
+     "from": [
+      "Field_Hill"
+     ],
+     "to": "Field_Farms",
+     "ok": true,
+     "load_s": 3.57,
+     "poll_errors": 0,
+     "button": "Field_Farms via FieldsHill_FieldsFarms"
+    }
+   ],
+   "frames": 71,
+   "seconds": 10.259,
+   "avg_fps": 6.9,
+   "unscaledDeltaTime": [
+    0.3546535,
+    0.4314621,
+    0.3298689,
+    0.2068717,
+    0.200602,
+    0.1271443,
+    0.1693658,
+    0.2101792,
+    0.2724099,
+    0.0716593
+   ],
+   "dt_median_ms": 208.53,
+   "dt_max_ms": 431.46,
+   "render": {
+    "probe_batches": 1273,
+    "drawCalls": 1279,
+    "setPassCalls": 149,
+    "triangles": 842680,
+    "vertices": 785687
+   },
+   "memory": {
+    "total_allocated": 1113070648,
+    "mono_used": 759939072
+   },
+   "window": {
+    "isFocused": false,
+    "iconic": false
+   },
+   "pig_active": true,
+   "state": "Gameplay",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Field_Farms"
+   ],
+   "exceptions_total": 0
+  },
+  {
+   "name": "Town_Market",
+   "scene": "Town_Market",
+   "load": {
+    "from": [
+     "Field_Farms"
+    ],
+    "to": "Town_Market",
+    "ok": true,
+    "load_s": 3.25,
+    "poll_errors": 0,
+    "button": "Town_Market via FieldsFarms_TownMarket"
+   },
+   "load_tries": [
+    {
+     "from": [
+      "Field_Farms"
+     ],
+     "to": "Town_Market",
+     "ok": true,
+     "load_s": 3.25,
+     "poll_errors": 0,
+     "button": "Town_Market via FieldsFarms_TownMarket"
+    }
+   ],
+   "frames": 84,
+   "seconds": 10.062,
+   "avg_fps": 8.3,
+   "unscaledDeltaTime": [
+    0.0457268,
+    0.0938136,
+    0.1224103,
+    0.0876359,
+    0.2731438,
+    0.1891375,
+    0.2416401,
+    0.2117086,
+    0.136584491,
+    0.165870309
+   ],
+   "dt_median_ms": 151.23,
+   "dt_max_ms": 273.14,
+   "render": {
+    "probe_batches": 712,
+    "drawCalls": 712,
+    "setPassCalls": 167,
+    "triangles": 708321,
+    "vertices": 586920
+   },
+   "memory": {
+    "total_allocated": 1330253877,
+    "mono_used": 773824512
+   },
+   "window": {
+    "isFocused": false,
+    "iconic": false
+   },
+   "pig_active": true,
+   "state": "Gameplay",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Town_Market"
+   ],
+   "exceptions_total": 0
+  },
+  {
+   "name": "Town_Upper",
+   "scene": "Town_Upper",
+   "load": {
+    "from": [
+     "Town_Market"
+    ],
+    "to": "Town_Upper",
+    "ok": true,
+    "load_s": 3.84,
+    "poll_errors": 0,
+    "button": "Town_Upper via InnerTown_UpperTown_Slope"
+   },
+   "load_tries": [
+    {
+     "from": [
+      "Town_Market"
+     ],
+     "to": "Town_Upper",
+     "ok": true,
+     "load_s": 3.84,
+     "poll_errors": 0,
+     "button": "Town_Upper via InnerTown_UpperTown_Slope"
+    }
+   ],
+   "frames": 113,
+   "seconds": 10.104,
+   "avg_fps": 11.2,
+   "unscaledDeltaTime": [
+    0.1380125,
+    0.176878408,
+    0.115879007,
+    0.200649709,
+    0.628071,
+    0.0459116,
+    0.1658777,
+    0.116932295,
+    0.3553519,
+    0.208875492
+   ],
+   "dt_median_ms": 171.38,
+   "dt_max_ms": 628.07,
+   "render": {
+    "probe_batches": 230,
+    "drawCalls": 230,
+    "setPassCalls": 54,
+    "triangles": 175032,
+    "vertices": 155611
+   },
+   "memory": {
+    "total_allocated": 1517673948,
+    "mono_used": 802336768
+   },
+   "window": {
+    "isFocused": false,
+    "iconic": false
+   },
+   "pig_active": true,
+   "state": "Gameplay",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Town_Upper"
+   ],
+   "exceptions_total": 0
+  },
+  {
+   "name": "Town_Inner",
+   "scene": "Town_Inner",
+   "load": {
+    "from": [
+     "Town_Upper"
+    ],
+    "to": "Town_Inner",
+    "ok": true,
+    "load_s": 5.77,
+    "poll_errors": 0,
+    "button": "Town_Inner via InnerTown_Forest"
+   },
+   "load_tries": [
+    {
+     "from": [
+      "Town_Upper"
+     ],
+     "to": "Town_Inner",
+     "ok": true,
+     "load_s": 5.77,
+     "poll_errors": 0,
+     "button": "Town_Inner via InnerTown_Forest"
+    }
+   ],
+   "frames": 95,
+   "seconds": 10.158,
+   "avg_fps": 9.4,
+   "unscaledDeltaTime": [
+    0.1562205,
+    0.115124606,
+    0.1604595,
+    0.0707424954,
+    0.112143,
+    0.1076793,
+    0.06504501,
+    0.314789,
+    0.2135475,
+    0.1469412
+   ],
+   "dt_median_ms": 131.03,
+   "dt_max_ms": 314.79,
+   "render": {
+    "probe_batches": 216,
+    "drawCalls": 216,
+    "setPassCalls": 65,
+    "triangles": 197714,
+    "vertices": 183744
+   },
+   "memory": {
+    "total_allocated": 1578503207,
+    "mono_used": 770506752
+   },
+   "window": {
+    "isFocused": false,
+    "iconic": false
+   },
+   "pig_active": true,
+   "state": "Gameplay",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Town_Inner"
+   ],
+   "exceptions_total": 0
+  },
+  {
+   "name": "Forest",
+   "scene": "Forest",
+   "load": {
+    "from": [
+     "Town_Inner"
+    ],
+    "to": "Forest",
+    "ok": true,
+    "load_s": 1.6,
+    "poll_errors": 0,
+    "button": "Forest via InnerTown_Forest"
+   },
+   "load_tries": [
+    {
+     "from": [
+      "Town_Inner"
+     ],
+     "to": "Forest",
+     "ok": true,
+     "load_s": 1.6,
+     "poll_errors": 0,
+     "button": "Forest via InnerTown_Forest"
+    }
+   ],
+   "frames": 80,
+   "seconds": 10.298,
+   "avg_fps": 7.8,
+   "unscaledDeltaTime": [
+    0.0964757,
+    0.0645248,
+    0.1514241,
+    0.2346689,
+    0.169698909,
+    0.1571215,
+    0.1130966,
+    0.1663655,
+    0.111733,
+    0.143433392
+   ],
+   "dt_median_ms": 147.43,
+   "dt_max_ms": 234.67,
+   "render": {
+    "probe_batches": 383,
+    "drawCalls": 383,
+    "setPassCalls": 90,
+    "triangles": 448348,
+    "vertices": 432172
+   },
+   "memory": {
+    "total_allocated": 1687300835,
+    "mono_used": 790036480
+   },
+   "window": {
+    "isFocused": false,
+    "iconic": false
+   },
+   "pig_active": true,
+   "state": "Gameplay",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Forest"
+   ],
+   "exceptions_total": 0
+  },
+  {
+   "name": "Mountain_Path_bottom",
+   "scene": "Mountain_Path",
+   "load": {
+    "from": [
+     "Forest"
+    ],
+    "to": "Mountain_Path_bottom",
+    "ok": true,
+    "load_s": 1.54,
+    "poll_errors": 0,
+    "button": "Mountain_Path via MountainCave_MountainPath_BottomExit"
+   },
+   "load_tries": [
+    {
+     "from": [
+      "Forest"
+     ],
+     "to": "Mountain_Path_bottom",
+     "ok": true,
+     "load_s": 1.54,
+     "poll_errors": 0,
+     "button": "Mountain_Path via MountainCave_MountainPath_BottomExit"
+    }
+   ],
+   "frames": 142,
+   "seconds": 10.113,
+   "avg_fps": 14.0,
+   "unscaledDeltaTime": [
+    0.0472427,
+    0.0158258,
+    0.1293943,
+    0.125060111,
+    0.08839,
+    0.0935598,
+    0.0751784,
+    0.0470735,
+    0.1218457,
+    0.1380274
+   ],
+   "dt_median_ms": 90.97,
+   "dt_max_ms": 138.03,
+   "render": {
+    "probe_batches": 99,
+    "drawCalls": 99,
+    "setPassCalls": 47,
+    "triangles": 81586,
+    "vertices": 65566
+   },
+   "memory": {
+    "total_allocated": 1811396323,
+    "mono_used": 808919040
+   },
+   "window": {
+    "isFocused": false,
+    "iconic": false
+   },
+   "pig_active": true,
+   "state": "Gameplay",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Mountain_Path"
+   ],
+   "exceptions_total": 0
+  },
+  {
+   "name": "Mountain_Cave",
+   "scene": "Mountain_Cave",
+   "load": {
+    "from": [
+     "Mountain_Path"
+    ],
+    "to": "Mountain_Cave",
+    "ok": true,
+    "load_s": 1.25,
+    "poll_errors": 0,
+    "button": "Mountain_Cave via MountainPath_MountainCave_Shaft"
+   },
+   "load_tries": [
+    {
+     "from": [
+      "Mountain_Path"
+     ],
+     "to": "Mountain_Cave",
+     "ok": true,
+     "load_s": 1.25,
+     "poll_errors": 0,
+     "button": "Mountain_Cave via MountainPath_MountainCave_Shaft"
+    }
+   ],
+   "frames": 392,
+   "seconds": 10.241,
+   "avg_fps": 38.3,
+   "unscaledDeltaTime": [
+    0.3850446,
+    0.0123452023,
+    0.0248749014,
+    0.0113773029,
+    0.0578582,
+    0.0106170988,
+    0.080873,
+    0.0457527,
+    0.0175827034,
+    0.0253486037
+   ],
+   "dt_median_ms": 25.11,
+   "dt_max_ms": 385.04,
+   "render": {
+    "probe_batches": 640,
+    "drawCalls": 640,
+    "setPassCalls": 53,
+    "triangles": 435608,
+    "vertices": 351447
+   },
+   "memory": {
+    "total_allocated": 1813227291,
+    "mono_used": 776728576
+   },
+   "window": {
+    "isFocused": false,
+    "iconic": false
+   },
+   "pig_active": true,
+   "state": "Gameplay",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Mountain_Cave"
+   ],
+   "exceptions_total": 0
+  },
+  {
+   "name": "Mountain_Path_shaft",
+   "scene": "Mountain_Path",
+   "load": {
+    "from": [
+     "Mountain_Cave"
+    ],
+    "to": "Mountain_Path_shaft",
+    "ok": true,
+    "load_s": 1.6,
+    "poll_errors": 0,
+    "button": "Mountain_Path via MountainPath_MountainCave_Shaft"
+   },
+   "load_tries": [
+    {
+     "from": [
+      "Mountain_Cave"
+     ],
+     "to": "Mountain_Path_shaft",
+     "ok": true,
+     "load_s": 1.6,
+     "poll_errors": 0,
+     "button": "Mountain_Path via MountainPath_MountainCave_Shaft"
+    }
+   ],
+   "frames": 116,
+   "seconds": 10.29,
+   "avg_fps": 11.3,
+   "unscaledDeltaTime": [
+    0.032671202,
+    0.1913981,
+    0.214912191,
+    0.0130980015,
+    0.0141006019,
+    0.1371138,
+    0.1301824,
+    0.113490306,
+    0.1125153,
+    0.1567549
+   ],
+   "dt_median_ms": 121.84,
+   "dt_max_ms": 214.91,
+   "render": {
+    "probe_batches": 232,
+    "drawCalls": 234,
+    "setPassCalls": 47,
+    "triangles": 175880,
+    "vertices": 140916
+   },
+   "memory": {
+    "total_allocated": 1816898931,
+    "mono_used": 787492864
+   },
+   "window": {
+    "isFocused": false,
+    "iconic": false
+   },
+   "pig_active": true,
+   "state": "Gameplay",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Mountain_Path"
+   ],
+   "exceptions_total": 0
+  },
+  {
+   "name": "Beach",
+   "scene": "Beach",
+   "load": {
+    "from": [
+     "Mountain_Path"
+    ],
+    "to": "Beach",
+    "ok": true,
+    "load_s": 2.3,
+    "poll_errors": 0,
+    "button": "Beach via Beach_FieldsHill"
+   },
+   "load_tries": [
+    {
+     "from": [
+      "Mountain_Path"
+     ],
+     "to": "Beach",
+     "ok": true,
+     "load_s": 2.3,
+     "poll_errors": 0,
+     "button": "Beach via Beach_FieldsHill"
+    }
+   ],
+   "wait_intro_s": 28.1,
+   "frames": 106,
+   "seconds": 10.136,
+   "avg_fps": 10.5,
+   "unscaledDeltaTime": [
+    0.2272344,
+    0.19109869,
+    0.078335,
+    0.154865,
+    0.1078508,
+    0.2063394,
+    0.123798296,
+    0.0465006,
+    0.0921026,
+    0.1528656
+   ],
+   "dt_median_ms": 138.33,
+   "dt_max_ms": 227.23,
+   "render": {
+    "probe_batches": 359,
+    "drawCalls": 359,
+    "setPassCalls": 86,
+    "triangles": 700566,
+    "vertices": 738166
+   },
+   "memory": {
+    "total_allocated": 1829893837,
+    "mono_used": 814567424
+   },
+   "window": {
+    "isFocused": false,
+    "iconic": false
+   },
+   "pig_active": true,
+   "state": "Gameplay",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "exceptions_total": 0
+  }
+ ],
+ "log_offset_playA": 1295356324,
+ "hygiene": {
+  "a1": {
+   "clear": "(True, None)",
+   "stack": "{'log': (True, None), 'warning': (True, None)}",
+   "count": "0"
+  }
+ },
+ "env_menu": {
+  "targetFrameRate": -1,
+  "vSyncCount": 1,
+  "screen": [
+   980,
+   379
+  ],
+  "isFocused": false,
+  "iconic": false,
+  "runInBackground": true
+ },
+ "new_game_s": 9.9,
+ "env": {
+  "targetFrameRate": -1,
+  "vSyncCount": 1,
+  "screen": [
+   980,
+   379
+  ],
+  "isFocused": false,
+  "iconic": false,
+  "runInBackground": true
+ },
+ "hygiene_ticks": [
+  {
+   "t": "23:27:18",
+   "tag": "Field_Hill",
+   "cleared": false,
+   "count_before": 0,
+   "count_after": 0
+  },
+  {
+   "t": "23:28:07",
+   "tag": "Field_Farms",
+   "cleared": false,
+   "count_before": 0,
+   "count_after": 0
+  },
+  {
+   "t": "23:28:55",
+   "tag": "Town_Market",
+   "cleared": false,
+   "count_before": 0,
+   "count_after": 0
+  },
+  {
+   "t": "23:29:42",
+   "tag": "Town_Upper",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:30:30",
+   "tag": "Town_Inner",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:31:16",
+   "tag": "Forest",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:31:58",
+   "tag": "Mountain_Path_bottom",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:32:39",
+   "tag": "Mountain_Cave",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:33:23",
+   "tag": "Mountain_Path_shaft",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:34:06",
+   "tag": "Beach",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  }
+ ],
+ "exceptions": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "log_growth_bytes": 538682
+}

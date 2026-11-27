@@ -1,0 +1,891 @@
+{
+ "note": "редактор Unity",
+ "transitions": [
+  {
+   "cycle": 1,
+   "legs": [
+    {
+     "from": [
+      "Town_Market"
+     ],
+     "to": "Field_Hill",
+     "ok": true,
+     "load_s": 1.48,
+     "poll_errors": 0,
+     "button": "Field_Hill via Beach_FieldsHill",
+     "via_intermediate": 3
+    },
+    {
+     "from": [
+      "Field_Hill"
+     ],
+     "to": "Beach",
+     "ok": true,
+     "load_s": 1.45,
+     "poll_errors": 0,
+     "button": "Beach via Beach_FieldsHill"
+    }
+   ],
+   "wait_ready_s": 12.2,
+   "label": "переход 1",
+   "t": "23:55:25",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1795032568,
+    "mono_used": 871706624
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1302498566,
+   "exceptions": 0
+  },
+  {
+   "cycle": 2,
+   "legs": [
+    {
+     "from": [
+      "Beach"
+     ],
+     "to": "Field_Hill",
+     "ok": true,
+     "load_s": 1.47,
+     "poll_errors": 0,
+     "button": "Field_Hill via Beach_FieldsHill"
+    },
+    {
+     "from": [
+      "Field_Hill"
+     ],
+     "to": "Beach",
+     "ok": true,
+     "load_s": 1.43,
+     "poll_errors": 0,
+     "button": "Beach via Beach_FieldsHill"
+    }
+   ],
+   "wait_ready_s": 12.0,
+   "label": "переход 2",
+   "t": "23:55:57",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1802031558,
+    "mono_used": 880803840
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1302561736,
+   "exceptions": 0
+  },
+  {
+   "cycle": 3,
+   "legs": [
+    {
+     "from": [
+      "Beach"
+     ],
+     "to": "Field_Hill",
+     "ok": true,
+     "load_s": 1.52,
+     "poll_errors": 0,
+     "button": "Field_Hill via Beach_FieldsHill"
+    },
+    {
+     "from": [
+      "Field_Hill"
+     ],
+     "to": "Beach",
+     "ok": true,
+     "load_s": 1.68,
+     "poll_errors": 0,
+     "button": "Beach via Beach_FieldsHill"
+    }
+   ],
+   "wait_ready_s": 12.4,
+   "label": "переход 3",
+   "t": "23:56:30",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1812101424,
+    "mono_used": 915136512
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1302624267,
+   "exceptions": 0
+  },
+  {
+   "cycle": 4,
+   "legs": [
+    {
+     "from": [
+      "Beach"
+     ],
+     "to": "Field_Hill",
+     "ok": true,
+     "load_s": 1.5,
+     "poll_errors": 0,
+     "button": "Field_Hill via Beach_FieldsHill"
+    },
+    {
+     "from": [
+      "Field_Hill"
+     ],
+     "to": "Beach",
+     "ok": true,
+     "load_s": 1.46,
+     "poll_errors": 0,
+     "button": "Beach via Beach_FieldsHill"
+    }
+   ],
+   "wait_ready_s": 11.2,
+   "label": "переход 4",
+   "t": "23:57:02",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1819674680,
+    "mono_used": 901320704
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1302686184,
+   "exceptions": 0
+  },
+  {
+   "cycle": 5,
+   "legs": [
+    {
+     "from": [
+      "Beach"
+     ],
+     "to": "Field_Hill",
+     "ok": true,
+     "load_s": 1.45,
+     "poll_errors": 0,
+     "button": "Field_Hill via Beach_FieldsHill"
+    },
+    {
+     "from": [
+      "Field_Hill"
+     ],
+     "to": "Beach",
+     "ok": true,
+     "load_s": 1.48,
+     "poll_errors": 0,
+     "button": "Beach via Beach_FieldsHill"
+    }
+   ],
+   "wait_ready_s": 11.9,
+   "label": "переход 5",
+   "t": "23:57:34",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1826944578,
+    "mono_used": 893992960
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1302749691,
+   "exceptions": 0
+  },
+  {
+   "cycle": 6,
+   "legs": [
+    {
+     "from": [
+      "Beach"
+     ],
+     "to": "Field_Hill",
+     "ok": true,
+     "load_s": 1.44,
+     "poll_errors": 0,
+     "button": "Field_Hill via Beach_FieldsHill"
+    },
+    {
+     "from": [
+      "Field_Hill"
+     ],
+     "to": "Beach",
+     "ok": true,
+     "load_s": 1.36,
+     "poll_errors": 0,
+     "button": "Beach via Beach_FieldsHill"
+    }
+   ],
+   "wait_ready_s": 11.6,
+   "label": "переход 6",
+   "t": "23:58:04",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1837520393,
+    "mono_used": 945942528
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1302813649,
+   "exceptions": 0
+  },
+  {
+   "cycle": 7,
+   "legs": [
+    {
+     "from": [
+      "Beach"
+     ],
+     "to": "Field_Hill",
+     "ok": true,
+     "load_s": 1.43,
+     "poll_errors": 0,
+     "button": "Field_Hill via Beach_FieldsHill"
+    },
+    {
+     "from": [
+      "Field_Hill"
+     ],
+     "to": "Beach",
+     "ok": true,
+     "load_s": 1.44,
+     "poll_errors": 0,
+     "button": "Beach via Beach_FieldsHill"
+    }
+   ],
+   "wait_ready_s": 11.9,
+   "label": "переход 7",
+   "t": "23:58:36",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1844701256,
+    "mono_used": 922157056
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1302875499,
+   "exceptions": 0
+  },
+  {
+   "cycle": 8,
+   "legs": [
+    {
+     "from": [
+      "Beach"
+     ],
+     "to": "Field_Hill",
+     "ok": true,
+     "load_s": 1.43,
+     "poll_errors": 0,
+     "button": "Field_Hill via Beach_FieldsHill"
+    },
+    {
+     "from": [
+      "Field_Hill"
+     ],
+     "to": "Beach",
+     "ok": true,
+     "load_s": 1.46,
+     "poll_errors": 0,
+     "button": "Beach via Beach_FieldsHill"
+    }
+   ],
+   "wait_ready_s": 13.6,
+   "label": "переход 8",
+   "t": "23:59:10",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1851553984,
+    "mono_used": 827981824
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1302936204,
+   "exceptions": 0
+  },
+  {
+   "cycle": 9,
+   "legs": [
+    {
+     "from": [
+      "Beach"
+     ],
+     "to": "Field_Hill",
+     "ok": true,
+     "load_s": 1.48,
+     "poll_errors": 0,
+     "button": "Field_Hill via Beach_FieldsHill"
+    },
+    {
+     "from": [
+      "Field_Hill"
+     ],
+     "to": "Beach",
+     "ok": true,
+     "load_s": 1.61,
+     "poll_errors": 0,
+     "button": "Beach via Beach_FieldsHill"
+    }
+   ],
+   "wait_ready_s": 11.2,
+   "label": "переход 9",
+   "t": "23:59:44",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1861390101,
+    "mono_used": 831897600
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1302997235,
+   "exceptions": 0
+  },
+  {
+   "cycle": 10,
+   "legs": [
+    {
+     "from": [
+      "Beach"
+     ],
+     "to": "Field_Hill",
+     "ok": true,
+     "load_s": 1.14,
+     "poll_errors": 0,
+     "button": "Field_Hill via Beach_FieldsHill"
+    },
+    {
+     "from": [
+      "Field_Hill"
+     ],
+     "to": "Beach",
+     "ok": true,
+     "load_s": 1.1,
+     "poll_errors": 0,
+     "button": "Beach via Beach_FieldsHill"
+    }
+   ],
+   "wait_ready_s": 10.6,
+   "label": "переход 10",
+   "t": "00:00:10",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1868762173,
+    "mono_used": 869306368
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1303060510,
+   "exceptions": 0
+  }
+ ],
+ "menu": [
+  {
+   "cycle": 1,
+   "to_menu_s": 0.6,
+   "in_menu": {
+    "label": "меню 1: MainMenu",
+    "t": "00:00:17",
+    "scenes": [
+     "PersistentManagers",
+     "MainMenu"
+    ],
+    "memory": {
+     "total_allocated": 1875166488,
+     "mono_used": 850440192
+    },
+    "counts": {
+     "AudioListener": 1,
+     "Camera": 1,
+     "EventSystem": 1,
+     "InventoryManager": 0,
+     "UIManager": 0,
+     "Protagonist": 0
+    },
+    "editor_log_len": 1303089653,
+    "exceptions": 0
+   },
+   "new_game_s": 1.5,
+   "wait_ready_s": 12.7,
+   "label": "меню 1: после New Game",
+   "t": "00:00:36",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1884804345,
+    "mono_used": 882880512
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1303133219,
+   "exceptions": 0
+  },
+  {
+   "cycle": 2,
+   "to_menu_s": 0.6,
+   "in_menu": {
+    "label": "меню 2: MainMenu",
+    "t": "00:00:43",
+    "scenes": [
+     "PersistentManagers",
+     "MainMenu"
+    ],
+    "memory": {
+     "total_allocated": 1890132915,
+     "mono_used": 849403904
+    },
+    "counts": {
+     "AudioListener": 1,
+     "Camera": 1,
+     "EventSystem": 1,
+     "InventoryManager": 0,
+     "UIManager": 0,
+     "Protagonist": 0
+    },
+    "editor_log_len": 1303152228,
+    "exceptions": 0
+   },
+   "new_game_s": 1.5,
+   "wait_ready_s": 12.9,
+   "label": "меню 2: после New Game",
+   "t": "00:01:03",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1899379320,
+    "mono_used": 874991616
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1303196748,
+   "exceptions": 0
+  },
+  {
+   "cycle": 3,
+   "to_menu_s": 0.6,
+   "in_menu": {
+    "label": "меню 3: MainMenu",
+    "t": "00:01:09",
+    "scenes": [
+     "PersistentManagers",
+     "MainMenu"
+    ],
+    "memory": {
+     "total_allocated": 1904812170,
+     "mono_used": 853331968
+    },
+    "counts": {
+     "AudioListener": 1,
+     "Camera": 1,
+     "EventSystem": 1,
+     "InventoryManager": 0,
+     "UIManager": 0,
+     "Protagonist": 0
+    },
+    "editor_log_len": 1303215875,
+    "exceptions": 0
+   },
+   "new_game_s": 1.5,
+   "wait_ready_s": 12.7,
+   "label": "меню 3: после New Game",
+   "t": "00:01:29",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1914051475,
+    "mono_used": 873279488
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1303260390,
+   "exceptions": 0
+  },
+  {
+   "cycle": 4,
+   "to_menu_s": 0.6,
+   "in_menu": {
+    "label": "меню 4: MainMenu",
+    "t": "00:01:35",
+    "scenes": [
+     "PersistentManagers",
+     "MainMenu"
+    ],
+    "memory": {
+     "total_allocated": 1921521667,
+     "mono_used": 905629696
+    },
+    "counts": {
+     "AudioListener": 1,
+     "Camera": 1,
+     "EventSystem": 1,
+     "InventoryManager": 0,
+     "UIManager": 0,
+     "Protagonist": 0
+    },
+    "editor_log_len": 1303279407,
+    "exceptions": 0
+   },
+   "new_game_s": 1.5,
+   "wait_ready_s": 12.6,
+   "label": "меню 4: после New Game",
+   "t": "00:01:54",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1928595782,
+    "mono_used": 869773312
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1303323898,
+   "exceptions": 0
+  },
+  {
+   "cycle": 5,
+   "to_menu_s": 0.6,
+   "in_menu": {
+    "label": "меню 5: MainMenu",
+    "t": "00:02:01",
+    "scenes": [
+     "PersistentManagers",
+     "MainMenu"
+    ],
+    "memory": {
+     "total_allocated": 1936125105,
+     "mono_used": 897728512
+    },
+    "counts": {
+     "AudioListener": 1,
+     "Camera": 1,
+     "EventSystem": 1,
+     "InventoryManager": 0,
+     "UIManager": 0,
+     "Protagonist": 0
+    },
+    "editor_log_len": 1303343025,
+    "exceptions": 0
+   },
+   "new_game_s": 1.5,
+   "wait_ready_s": 12.6,
+   "label": "меню 5: после New Game",
+   "t": "00:02:20",
+   "scenes": [
+    "PersistentManagers",
+    "Gameplay",
+    "Beach"
+   ],
+   "memory": {
+    "total_allocated": 1943194930,
+    "mono_used": 867037184
+   },
+   "counts": {
+    "AudioListener": 5,
+    "Camera": 2,
+    "EventSystem": 1,
+    "InventoryManager": 1,
+    "UIManager": 1,
+    "Protagonist": 1
+   },
+   "editor_log_len": 1303386623,
+   "exceptions": 0
+  }
+ ],
+ "log_offset": 1302272327,
+ "hygiene_ticks": [
+  {
+   "t": "23:52:54",
+   "tag": "a3",
+   "cleared": true,
+   "count_before": 0,
+   "count_after": 0
+  },
+  {
+   "t": "23:55:27",
+   "tag": "t1",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:55:59",
+   "tag": "t2",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:56:33",
+   "tag": "t3",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:57:04",
+   "tag": "t4",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:57:36",
+   "tag": "t5",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:58:07",
+   "tag": "t6",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:58:38",
+   "tag": "t7",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:59:14",
+   "tag": "t8",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "23:59:45",
+   "tag": "t9",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "00:00:11",
+   "tag": "t10",
+   "cleared": false,
+   "count_before": 2,
+   "count_after": 2
+  },
+  {
+   "t": "00:00:37",
+   "tag": "m1",
+   "cleared": false,
+   "count_before": 7,
+   "count_after": 7
+  },
+  {
+   "t": "00:01:03",
+   "tag": "m2",
+   "cleared": false,
+   "count_before": 11,
+   "count_after": 11
+  },
+  {
+   "t": "00:01:29",
+   "tag": "m3",
+   "cleared": false,
+   "count_before": 15,
+   "count_after": 15
+  },
+  {
+   "t": "00:01:55",
+   "tag": "m4",
+   "cleared": false,
+   "count_before": 19,
+   "count_after": 19
+  },
+  {
+   "t": "00:02:21",
+   "tag": "m5",
+   "cleared": false,
+   "count_before": 23,
+   "count_after": 23
+  }
+ ],
+ "baseline": {
+  "label": "база Beach",
+  "t": "23:52:57",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Beach"
+  ],
+  "memory": {
+   "total_allocated": 1777413366,
+   "mono_used": 880377856
+  },
+  "counts": {
+   "AudioListener": 5,
+   "Camera": 2,
+   "EventSystem": 1,
+   "InventoryManager": 1,
+   "UIManager": 1,
+   "Protagonist": 1
+  },
+  "editor_log_len": 1302287626,
+  "exceptions": 0
+ },
+ "menu_baseline": {
+  "label": "база перед меню",
+  "t": "00:00:11",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Beach"
+  ],
+  "memory": {
+   "total_allocated": 1868888744,
+   "mono_used": 886550528
+  },
+  "counts": {
+   "AudioListener": 5,
+   "Camera": 2,
+   "EventSystem": 1,
+   "InventoryManager": 1,
+   "UIManager": 1,
+   "Protagonist": 1
+  },
+  "editor_log_len": 1303071572,
+  "exceptions": 0
+ },
+ "exc_summary": {
+  "by_type": {},
+  "total": 0,
+  "first_stacks": {}
+ },
+ "log_growth_bytes": 1115428,
+ "seconds": 567
+}

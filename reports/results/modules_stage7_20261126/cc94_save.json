@@ -1,0 +1,257 @@
+{
+ "hygiene_ticks": [
+  {
+   "t": "00:09:03",
+   "tag": "b3",
+   "cleared": true,
+   "count_before": 13,
+   "count_after": 0
+  }
+ ],
+ "new_game_s": 1.6,
+ "ready_s": 12.8,
+ "goto": [
+  {
+   "from": [
+    "Beach"
+   ],
+   "to": "Town_Upper",
+   "ok": true,
+   "load_s": 1.65,
+   "poll_errors": 0,
+   "button": "Town_Upper via InnerTown_UpperTown_Slope"
+  }
+ ],
+ "game_before": {
+  "t": "00:09:31",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Upper"
+  ],
+  "_isLoading": false,
+  "state": "Gameplay",
+  "pigs": 1,
+  "memory_locationId": null
+ },
+ "before": {
+  "t": "00:09:32",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay",
+   "Town_Upper"
+  ],
+  "save.chop": {
+   "sha": "4a79e77c59ccffc4",
+   "size": 643,
+   "mtime": "00:09:24",
+   "json_ok": true,
+   "locationId": "0d5b48391ae82cb4aaeea96320eecaad",
+   "location_asset": "/ScriptableObjects/SceneData/Locations/Town_Upper.asset",
+   "inventory": {
+    "PhoenixChick.asset": 1,
+    "Seed.asset": 20,
+    "SlimeCritterEgg.asset": 20,
+    "GoldenEgg.asset": 20,
+    "RockCritterEgg.asset": 20,
+    "SpecialSpoon.asset": 1
+   },
+   "finished_steps": [],
+   "keys": [
+    "_antiAliasingIndex",
+    "_currentLocale",
+    "_finishedQuestlineItemsGUIds",
+    "_isFullscreen",
+    "_itemStacks",
+    "_locationId",
+    "_masterVolume",
+    "_musicVolume",
+    "_resolutionsIndex",
+    "_sfxVolume",
+    "_shadowDistance"
+   ]
+  },
+  "save.chop.bak": {
+   "sha": "572a5bd3d94c1951",
+   "size": 643,
+   "mtime": "00:09:05",
+   "json_ok": true,
+   "locationId": "2f386bbc670c05145834a0f9c7d55798",
+   "location_asset": "/ScriptableObjects/SceneData/Locations/Beach.asset",
+   "inventory": {
+    "PhoenixChick.asset": 1,
+    "Seed.asset": 20,
+    "SlimeCritterEgg.asset": 20,
+    "GoldenEgg.asset": 20,
+    "RockCritterEgg.asset": 20,
+    "SpecialSpoon.asset": 1
+   },
+   "finished_steps": [],
+   "keys": [
+    "_antiAliasingIndex",
+    "_currentLocale",
+    "_finishedQuestlineItemsGUIds",
+    "_isFullscreen",
+    "_itemStacks",
+    "_locationId",
+    "_masterVolume",
+    "_musicVolume",
+    "_resolutionsIndex",
+    "_sfxVolume",
+    "_shadowDistance"
+   ]
+  }
+ },
+ "game_after": {
+  "t": "00:10:02",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay"
+  ],
+  "_isLoading": true,
+  "state": "Gameplay",
+  "pigs": 0,
+  "memory_locationId": null,
+  "exc": 1,
+  "by_type": {
+   "NullReferenceException": 1
+  },
+  "stacks": {
+   "NullReferenceException": [
+    "NullReferenceException: Object reference not set to an instance of an object",
+    "  at SceneLoader.LoadNewScene () [0x00014] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\SceneManagement\\SceneLoader.cs:171 ",
+    "  at SceneLoader+<UnloadPreviousScene>d__22.MoveNext () [0x000b1] in C:\\Games\\ChopChop\\UOP1_Project\\Assets\\Scripts\\SceneManagement\\SceneLoader.cs:158 ",
+    "  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <de88af24691e4d5d8139304fcf46f698>:0 ",
+    "",
+    "(Filename: Assets/Scripts/SceneManagement/SceneLoader.cs Line: 171)",
+    ""
+   ]
+  }
+ },
+ "after": {
+  "t": "00:10:02",
+  "scenes": [
+   "PersistentManagers",
+   "Gameplay"
+  ],
+  "save.chop": {
+   "sha": "4a79e77c59ccffc4",
+   "size": 643,
+   "mtime": "00:09:32",
+   "json_ok": true,
+   "locationId": "0d5b48391ae82cb4aaeea96320eecaad",
+   "location_asset": "/ScriptableObjects/SceneData/Locations/Town_Upper.asset",
+   "inventory": {
+    "PhoenixChick.asset": 1,
+    "Seed.asset": 20,
+    "SlimeCritterEgg.asset": 20,
+    "GoldenEgg.asset": 20,
+    "RockCritterEgg.asset": 20,
+    "SpecialSpoon.asset": 1
+   },
+   "finished_steps": [],
+   "keys": [
+    "_antiAliasingIndex",
+    "_currentLocale",
+    "_finishedQuestlineItemsGUIds",
+    "_isFullscreen",
+    "_itemStacks",
+    "_locationId",
+    "_masterVolume",
+    "_musicVolume",
+    "_resolutionsIndex",
+    "_sfxVolume",
+    "_shadowDistance"
+   ]
+  },
+  "save.chop.bak": {
+   "sha": "4a79e77c59ccffc4",
+   "size": 643,
+   "mtime": "00:09:24",
+   "json_ok": true,
+   "locationId": "0d5b48391ae82cb4aaeea96320eecaad",
+   "location_asset": "/ScriptableObjects/SceneData/Locations/Town_Upper.asset",
+   "inventory": {
+    "PhoenixChick.asset": 1,
+    "Seed.asset": 20,
+    "SlimeCritterEgg.asset": 20,
+    "GoldenEgg.asset": 20,
+    "RockCritterEgg.asset": 20,
+    "SpecialSpoon.asset": 1
+   },
+   "finished_steps": [],
+   "keys": [
+    "_antiAliasingIndex",
+    "_currentLocale",
+    "_finishedQuestlineItemsGUIds",
+    "_isFullscreen",
+    "_itemStacks",
+    "_locationId",
+    "_masterVolume",
+    "_musicVolume",
+    "_resolutionsIndex",
+    "_sfxVolume",
+    "_shadowDistance"
+   ]
+  }
+ },
+ "autoSyncTransforms": false,
+ "compare": {
+  "sha": [
+   "4a79e77c59ccffc4",
+   "4a79e77c59ccffc4"
+  ],
+  "size": [
+   643,
+   643
+  ],
+  "mtime": [
+   "00:09:24",
+   "00:09:32"
+  ],
+  "json_ok": [
+   true,
+   true
+  ],
+  "locationId": [
+   "0d5b48391ae82cb4aaeea96320eecaad",
+   "0d5b48391ae82cb4aaeea96320eecaad"
+  ],
+  "location_asset": [
+   "/ScriptableObjects/SceneData/Locations/Town_Upper.asset",
+   "/ScriptableObjects/SceneData/Locations/Town_Upper.asset"
+  ],
+  "inventory": [
+   {
+    "PhoenixChick.asset": 1,
+    "Seed.asset": 20,
+    "SlimeCritterEgg.asset": 20,
+    "GoldenEgg.asset": 20,
+    "RockCritterEgg.asset": 20,
+    "SpecialSpoon.asset": 1
+   },
+   {
+    "PhoenixChick.asset": 1,
+    "Seed.asset": 20,
+    "SlimeCritterEgg.asset": 20,
+    "GoldenEgg.asset": 20,
+    "RockCritterEgg.asset": 20,
+    "SpecialSpoon.asset": 1
+   }
+  ],
+  "finished_steps": [
+   [],
+   []
+  ]
+ },
+ "compare_equal": {
+  "sha": true,
+  "size": true,
+  "mtime": false,
+  "json_ok": true,
+  "locationId": true,
+  "location_asset": true,
+  "inventory": true,
+  "finished_steps": true
+ }
+}

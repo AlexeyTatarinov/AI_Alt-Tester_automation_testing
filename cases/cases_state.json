@@ -1399,6 +1399,98 @@
    "notes": "1 из 1. ToForestEntrance_FallDown: NRE SceneLoader.cs:171; на 5/15/30 с и позже: только PersistentManagers+Gameplay, _isLoading True, игрока нет, состояние Gameplay; меню читов открывается, но локацию не грузит. Нужен перезапуск Play.",
    "module": "M08",
    "level": "L1"
+  },
+  {
+   "id": "PERF-LEAK-01",
+   "verdict": "PASS",
+   "date": "2026-11-27",
+   "run": "modules_stage7",
+   "source": "Reports_2026-11-21/results/modules_stage7_20261126/report.md",
+   "method": "меню читов, 10 циклов Beach<->Field_Hill; счёт объектов",
+   "needs_clean_play": false,
+   "depends_on": [],
+   "do_not_repeat_until": "изменения загрузки сцен",
+   "jira": null,
+   "notes": "Редактор. Число AudioListener/Camera/EventSystem(по имени)/InventoryManager/UIManager/Protagonist постоянно 10 из 10. Total allocated 1695->1782 МБ (монотонно), Mono 840->829 МБ; по памяти вердикта нет. Исключений 0.",
+   "module": "M01",
+   "level": "L2"
+  },
+  {
+   "id": "PERF-LEAK-02",
+   "verdict": "PASS",
+   "date": "2026-11-27",
+   "run": "modules_stage7",
+   "source": "Reports_2026-11-21/results/modules_stage7_20261126/report.md",
+   "method": "5 циклов пауза -> Back to menu -> New Game; счёт объектов",
+   "needs_clean_play": false,
+   "depends_on": [],
+   "do_not_repeat_until": "изменения меню/загрузки",
+   "jira": null,
+   "notes": "Редактор. Число объектов не растёт 5 из 5. Total allocated 1782->1853 МБ (монотонно), Mono 845->827 МБ; по памяти вердикта нет. Исключений 0.",
+   "module": "M02",
+   "level": "L2"
+  },
+  {
+   "id": "UI-TXT-en",
+   "verdict": "FAIL",
+   "date": "2026-11-27",
+   "run": "modules_stage7",
+   "source": "Reports_2026-11-21/results/modules_stage7_20261126/report.md",
+   "method": "все активные TMP: isTextOverflowing/Truncated/No translation; 6 экранов",
+   "needs_clean_play": true,
+   "depends_on": [],
+   "do_not_repeat_until": "изменения UI или таблиц локализации",
+   "jira": null,
+   "notes": "Редактор 980x379. 1 переполненный по флагу (инвентарь, ItemName 'Phoenix Chick'), на скриншоте видимого дефекта нет. Обрезанных 0, отсутствующих переводов 0.",
+   "module": "M17",
+   "level": "L1"
+  },
+  {
+   "id": "UI-TXT-fr",
+   "verdict": "FAIL",
+   "date": "2026-11-27",
+   "run": "modules_stage7",
+   "source": "Reports_2026-11-21/results/modules_stage7_20261126/report.md",
+   "method": "как UI-TXT-en",
+   "needs_clean_play": true,
+   "depends_on": [],
+   "do_not_repeat_until": "изменения UI или таблиц локализации",
+   "jira": null,
+   "notes": "4 отсутствующих ключа (Volume_Master, ShadowDistance_Optimal, Phoenix name/description); 3 переполнения, в Graphics видно наложение на соседнюю строку. Обрезанных 0.",
+   "module": "M17",
+   "level": "L1"
+  },
+  {
+   "id": "UI-TXT-it",
+   "verdict": "FAIL",
+   "date": "2026-11-27",
+   "run": "modules_stage7",
+   "source": "Reports_2026-11-21/results/modules_stage7_20261126/report.md",
+   "method": "как UI-TXT-en",
+   "needs_clean_play": true,
+   "depends_on": [],
+   "do_not_repeat_until": "изменения UI или таблиц локализации",
+   "jira": null,
+   "notes": "25 отсутствующих ключей (23 UI Misc + Phoenix name/description); переполнения на 5 из 6 экранов, все на заглушках. Обрезанных 0.",
+   "module": "M17",
+   "level": "L1"
+  },
+  {
+   "id": "CC94-SAVE",
+   "verdict": "PASS",
+   "date": "2026-11-27",
+   "run": "modules_stage7",
+   "source": "Reports_2026-11-21/results/modules_stage7_20261126/report.md",
+   "method": "New Game, Town_Upper, T1 в ToForestEntrance_FallDown, 30 с; сравнение save.chop",
+   "needs_clean_play": false,
+   "depends_on": [
+    "M08-02"
+   ],
+   "do_not_repeat_until": "исправление CC-94 или SaveSystem",
+   "jira": null,
+   "notes": "1 из 1. Зависание воспроизведено (NRE SceneLoader.cs:171, _isLoading True, игрока нет). save.chop читается, тот же хэш и размер (643), _locationId = Town_Upper, инвентарь и шаги (пусто) не изменились; файл при переходе перезаписан (mtime). Continue из этого сейва не проверялся.",
+   "module": "M04",
+   "level": "L2"
   }
  ]
 }
